@@ -2,7 +2,7 @@ import * as React from "react"
 // import { Link } from "gatsby"
 // import Layout from "../components/layout"
 // import SEO from "../components/seo"
-import LandingPage from './LandingPage'
+import LandingPage from './landingPage'
 
 // let contents;
 
@@ -31,7 +31,6 @@ import LandingPage from './LandingPage'
 const IndexPage = () => (
   <>
   <LandingPage></LandingPage>
-  
   </>
 )
 
