@@ -9,7 +9,7 @@ const LandingPage = () => (
 <br/>
 
 <section>
-  <div style={{fontSize: 30}}>Eldona grupo por literaturo en Esperanto</div>
+  <div style={{fontSize: 30, color: "green"}}>Eldona grupo por literaturo en Esperanto</div>
   <nav>
     <ul class="menuItems">
       <li><a href='/landingPage/' data-item='Home' rel="noreferrer">Home</a></li>
