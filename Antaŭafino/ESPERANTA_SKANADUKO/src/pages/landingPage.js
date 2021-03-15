@@ -1,23 +1,22 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import '../components/CSS/landingPage.css'
 
 const LandingPage = () => (
   <>
-<div>Filling the text on hover</div>
-<p data-item='Rohit'>Rohit</p>
+<p data-item='Esperanto'> Esperanto </p>
+<br/>
+<p data-item='Skanaduko'> Skanaduko </p>
+<br/>
 
 <section>
-  <div>Real time example, Navbar:</div>
+  <div style={{fontSize: 30}}>Eldona grupo por literaturo en Esperanto</div>
   <nav>
     <ul class="menuItems">
-      <li><a href='#' data-item='Home'>Home</a></li>
-      <li><a href='#' data-item='About'>About</a></li>
-      <li><a href='#' data-item='Projects'>Projects</a></li>
-      <li><a href='#' data-item='Blog'>Blog</a></li>
-      <li><a href='#' data-item='Contact'>Contact</a></li>
+      <li><a href='/landingPage/' data-item='Home' rel="noreferrer">Home</a></li>
+      {/* <li><a href='#' data-item='About' rel="noreferrer">About</a></li> */}
+      <li><a href='https://github.com/Esperanta-Skanaduko' data-item='Projects' rel="noreferrer">Projects</a></li>
+      <li><a href='https://mangadex.org/group/18541/esperanta-skanaduko' target="_blank" data-item='Manga' rel="noreferrer">Manga</a></li>
+      <li><a href='mailto:esperantaSkanaduko@gmail.com/' data-item='Contact' rel="noreferrer">Contact</a></li>
     </ul>
   </nav>
 
@@ -25,8 +24,8 @@ const LandingPage = () => (
 
 <footer>
 
-  <div class="footer-copyright text-center">&copy; Developed with ❤️ by
-    <a href="https://grohit.com/" class="white-text" target="_blank">G Rohit</a>. <a href="https://codepen.io/grohit/" target="_blank">Check my other pens </a>
+  <div class="footer-copyright text-center">&copy; Developed with <span role='img' aria-label="heart">❤️</span> by
+    <a href="https://vaporjawn.dev/" class="white-text" target="_blank" rel="noreferrer">Vaporjawn</a>. <a href="https://github.com/vaporjawn/" target="_blank" rel="noreferrer">Check out my Github </a>
   </div>
 
 </footer>

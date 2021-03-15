@@ -11,6 +11,7 @@
     position: relative;
     min-height: 100vh;
     font-family: Hack, monospace;
+    background-color: black;
   }
   
   div {
@@ -30,7 +31,7 @@
   p::before {
     content: attr(data-item);
     transition: all 1s ease-in-out;
-    color: #8254ff;
+    color: darkgreen;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -67,7 +68,7 @@
   nav .menuItems li a::before {
     content: attr(data-item);
     transition: 0.5s;
-    color: #8254ff;
+    color: green;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -82,7 +83,7 @@
   }
   
   footer {
-    position: absolute;
+    position: relative;
     font-size: 12px;
     bottom: 0;
     width: 100%;
