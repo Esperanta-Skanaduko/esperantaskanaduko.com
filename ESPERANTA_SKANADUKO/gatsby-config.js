@@ -3,6 +3,7 @@ module.exports = {
     title: `Esperanta Skanaduko`,
     description: `Eldona grupo por literaturo en Esperanto`,
     author: `@vaporjawn`,
+    pathPrefix: "/esperantaskanaduko.com",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
