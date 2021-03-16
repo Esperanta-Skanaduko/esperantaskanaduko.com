@@ -3,7 +3,7 @@ import '../components/CSS/landingPage.css'
 
 const LandingPage = () => (
   <>
-<p data-item='Esperanto'> Esperanto </p>
+<p data-item='Esperanta'> Esperanta </p>
 <br/>
 <p data-item='Skanaduko'> Skanaduko </p>
 <br/>

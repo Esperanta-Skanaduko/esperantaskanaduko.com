@@ -22,7 +22,7 @@
   p {
     margin: 16px;
     font-size: 96px;
-    color: #ccc;
+    color: white;
     text-transform: uppercase;
     font-weight: 600;
     transition: all 1s ease-in-out;
@@ -46,7 +46,7 @@
   
   nav {
     margin: 25px;
-    background: #f9f9f9;
+    background: #121415;
     padding: 16px;
   }
   nav .menuItems {
@@ -90,7 +90,7 @@
     height: 60px;
     line-height: 60px;
     font-size: 14px;
-    background-color: #f1f1f1;
+    background-color: #121415;
     color: #000000;
     text-align: center;
   }
