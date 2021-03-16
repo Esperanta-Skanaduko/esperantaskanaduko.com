@@ -7,3 +7,5 @@
 <https://github.com/RyanFitzgerald/devblog>
 
 <https://github.com/jsdom/jsdom>
+
+<https://www.gatsbyjs.com/docs/how-to/previews-deploys-hosting/how-gatsby-works-with-github-pages/>
