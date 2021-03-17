@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://esperanta-skanaduko/./src/pages/releases.js"],"names":[],"mappings":"mJAQA,UALiB,kBACf","file":"component---src-pages-releases-js-47bf0b2d728fc90ba814.js","sourcesContent":["import * as React from \"react\"\n\n\nconst Releases = () => (\n  <>\n  </>\n)\n\nexport default Releases\n"],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://esperanta-skanaduko/./src/pages/about.js"],"names":[],"mappings":"oJAQA,UALc,kBACZ","file":"component---src-pages-about-js-4f9b67b73ab33412f937.js","sourcesContent":["import * as React from \"react\"\n\n\nconst About = () => (\n  <>\n  </>\n)\n\nexport default About\n"],"sourceRoot":""}
