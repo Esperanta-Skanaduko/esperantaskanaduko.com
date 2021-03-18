@@ -1,5 +1,6 @@
 import * as React from "react"
 import '../components/CSS/landingPage.css'
+// import Skanadukoj from '../components/skanadukoj';
 // import login from '../components/api/login'
 
 const LandingPage = () => (
@@ -14,10 +15,11 @@ const LandingPage = () => (
   <nav>
     <ul class="menuItems">
       <li><a href='/landingPage/' data-item='Home' rel="noreferrer">Home</a></li>
-      {/* <li><a href='#' data-item='About' rel="noreferrer">About</a></li> */}
-      <li><a href='https://github.com/Esperanta-Skanaduko' data-item='Projects' rel="noreferrer">Projects</a></li>
-      <li><a href='https://mangadex.org/group/18541/esperanta-skanaduko' target="_blank" data-item='Manga' rel="noreferrer">Manga</a></li>
-      <li><a href='mailto:esperantaSkanaduko@gmail.com/' data-item='Contact' rel="noreferrer">Contact</a></li>
+      {/* <li><a href='/about/' data-item='About' rel="noreferrer">About</a></li> */}
+      {/* <li><a href='/releases/' data-item='Projects' rel="noreferrer">Releases</a></li> */}
+      <li><a href='https://mangadex.org/group/18541/esperanta-skanaduko' target="_blank" data-item='MangaDex' rel="noreferrer">MangaDex</a></li>
+      <li><a href='https://twitter.com/Skanaduko' data-item='Twitter' target="_blank" rel="noreferrer">Twitter</a></li>
+      <li><a href='mailto:esperantaSkanaduko@gmail.com/' data-item='Contact' target="_blank" rel="noreferrer">Contact</a></li>
     </ul>
   </nav>
 
