@@ -16,7 +16,7 @@ const LandingPage = () => (
     <ul className="menuItems">
       <li><a href='/landingPage/' data-item='Hejmo' rel="noreferrer">Hejmo</a></li>
       {/* <li><a href='/about/' data-item='Pri Ni' rel="noreferrer">Pri Ni</a></li> */}
-      {/* <li><a href='/releases/' data-item='Eldonoj' rel="noreferrer">Eldonoj</a></li> */}
+      <li><a href='/releases/' data-item='Eldonoj' rel="noreferrer">Eldonoj</a></li>
       <li><a href='https://mangadex.org/group/18541/esperanta-skanaduko' target="_blank" data-item='MangaDex' rel="noreferrer">MangaDex</a></li>
       <li><a href='https://twitter.com/Skanaduko' data-item='Twitter' target="_blank" rel="noreferrer">Twitter</a></li>
       <li><a href='https://www.paypal.com/donate?business=FSQHDN6NA2AJA&item_name=financado+por+Esperanta+Skanaduko&currency_code=USD' data-item='Donaci' target="_blank"  rel="noreferrer">Donaci</a></li>
