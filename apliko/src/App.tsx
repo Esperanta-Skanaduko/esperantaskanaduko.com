@@ -1,11 +1,30 @@
 import React from 'react';
+import {  BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import LandingPage from './Paĝoj/landingPage/landingPage'
+import Eldonoj from './Paĝoj/eldonoj/eldonoj';
+
+
 
 function App() {
   return (
 
     <>
-    <LandingPage></LandingPage>
+    <Router>
+
+      
+
+    <Switch>
+    <Route  exact path="/" component={LandingPage}>
+      <LandingPage />
+    </Route>
+
+    <Route exact path="/eldonoj" component={Eldonoj}>
+      <Eldonoj />
+    </Route>
+    
+  </Switch>
+
+    </Router>
     </>
   //   <div className="App">
   //     <header className="App-header">
