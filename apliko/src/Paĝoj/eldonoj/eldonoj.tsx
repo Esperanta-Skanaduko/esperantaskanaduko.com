@@ -4,12 +4,14 @@ import { BrowserRouter as Button, Link } from "react-router-dom";
 // import Skanadukoj from '../components/skanadukoj';
 // import login from '../components/api/login'
 
-PDFViewer('../../../Assets//Chapter 1.pdf');
+PDFViewer('../../../Assets/Chapter 1.pdf');
 
 const eldonoj = () => (
   <>
-
-  <li><Link to='../PDFPage/PDFPage'><Button>Click</Button></Link></li>
+    <p data-item='Eldonoj'> Eldonoj </p>
+    <br/>
+ 
+    <li><Link to='/PDFPage'><Button>Click</Button></Link></li>
   </>
 )
 

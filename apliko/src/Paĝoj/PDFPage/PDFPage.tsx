@@ -1,17 +1,13 @@
 import * as React from "react"
-import './landingPage.css'
 import PDFViewer from '../../Komponantoj/PDFViewer/PDFViewer';
-import { BrowserRouter as Button, Route, Link, BrowserRouter } from "react-router-dom";
-// import Skanadukoj from '../components/skanadukoj';
 // import login from '../components/api/login'
 
-PDFViewer('../../../Assets//Chapter 1.pdf');
+// PDFViewer('../../../Assets//Chapter 1.pdf');
 
-const eldonoj = () => (
+const PDFPage = () => (
   <>
-  <li><Link to='../PDFPage/PDFPage'><Button></Button></Link></li>
-  {PDFViewer}
+  {PDFViewer('../../../public/Assets/Chapter 1.pdf')}
   </>
 )
 
-export default eldonoj
+export default PDFPage

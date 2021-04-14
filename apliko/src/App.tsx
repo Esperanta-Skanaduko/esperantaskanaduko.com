@@ -2,16 +2,14 @@ import React from 'react';
 import {  BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import LandingPage from './Paĝoj/landingPage/landingPage'
 import Eldonoj from './Paĝoj/eldonoj/eldonoj';
+import PDFPage from './Paĝoj/PDFPage/PDFPage';
 
 
 
 function App() {
   return (
-
     <>
     <Router>
-
-      
 
     <Switch>
     <Route  exact path="/" component={LandingPage}>
@@ -22,8 +20,11 @@ function App() {
       <Eldonoj />
     </Route>
     
+    <Route exact path="/PDFPage" component={PDFPage}>
+      <PDFPage />
+    </Route>
+    
   </Switch>
-
     </Router>
     </>
   //   <div className="App">
