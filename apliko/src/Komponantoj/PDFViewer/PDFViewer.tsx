@@ -2,9 +2,10 @@ import Viewer from 'pdf-viewer-reactjs';
 import '@react-pdf-viewer/core/lib/styles/index.css';
 import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 import '../../Paĝoj/landingPage/landingPage.css';
+// import  pdfjs from "pdfjs";
 // import { useState } from "react";
 
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+// pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const PDFViewer = (filename: String) => {
     // const [numPages, setNumPages] = useState(null);
