@@ -1,2 +1,0 @@
-(self.webpackChunkesperanta_skanaduko=self.webpackChunkesperanta_skanaduko||[]).push([[682],{5518:function(e,a,n){"use strict";n.r(a);var t=n(7294);a.default=function(){return t.createElement(t.Fragment,null)}}}]);
-//# sourceMappingURL=component---src-pages-about-js-4f9b67b73ab33412f937.js.map
