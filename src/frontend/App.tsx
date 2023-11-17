@@ -1,10 +1,14 @@
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import Homepage from './pages/homePage';
+import Routes from './routes/routes';
+
 
 const App = () => {
 
   return (
-    <Homepage />
+    <BrowserRouter>
+        <Routes />
+      </BrowserRouter>
   );
 };
 
