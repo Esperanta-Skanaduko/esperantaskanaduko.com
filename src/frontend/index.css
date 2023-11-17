@@ -5,7 +5,8 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: black;
+  background-color: #000000;
+  background: linear-gradient(45deg, #000000 35%, #00ff0042 50%, #000000 65%);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,12 +16,13 @@
 }
 
 a {
-  font-weight: 500;
   color: #646cff;
-  text-decoration: inherit;
+  text-decoration: none;
+  transition: color 0.25s;
 }
+
 a:hover {
-  color: #535bf2;
+  color: green;
 }
 
 body {

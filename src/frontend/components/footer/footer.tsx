@@ -1,4 +1,4 @@
-import GitHubLink from './gitHubLink';
+import GitHubLink from './gitHubLink/gitHubLink';
 
 const Footer = () => {
   return (

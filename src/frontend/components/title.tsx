@@ -7,6 +7,7 @@ const Title = () => {
       fontFamily: 'Copperplate',
       lineHeight: '.85',
       textTransform: 'uppercase',
+      textShadow: '2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000'
     }}>Esperanta <br /> Skanaduko</h1>
   );
 };

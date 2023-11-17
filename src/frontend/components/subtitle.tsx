@@ -8,6 +8,8 @@ const Subtitle = () => {
       marginTop: '-20px',
       fontFamily: 'Courier New',
       textTransform: 'uppercase',
+      textShadow: '0 0 2px white',
+      textRendering: 'optimizeLegibility',
     }}>Eldona grupo por literaturo en Esperanto</h2>
   );
 };
