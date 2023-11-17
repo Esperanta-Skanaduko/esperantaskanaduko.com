@@ -14,8 +14,17 @@ const App = () => {
       height: '100%',
       width: '100%',
     }}>
+      <div style={{
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        height: '100%',
+        width: '100%',
+      }}>
       <Title />
       <Subtitle />
+      </div>
       <Footer />
     </div>
   );
