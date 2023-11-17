@@ -1,5 +1,12 @@
 # Esperanta Skanaduko
-[![Build](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/node.js.yml/badge.svg)](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/node.js.yml)
+[![Installation](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/install.js.yml/badge.svg)](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/install.js.yml)
+[![Build](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/build.js.yml/badge.svg)](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/build.js.yml)
+[![Linting](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/lint.js.yml/badge.svg)](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/lint.js.yml)
+[![Tests](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/tests.js.yml/badge.svg)](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/tests.js.yml)
+[![Security Scan](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/securityScan.yml/badge.svg)](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/securityScan.yml)
+[![Deployment](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/deploy.js.yml/badge.svg)](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/deploy.js.yml)
+
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
