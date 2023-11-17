@@ -1,4 +1,5 @@
-# React + TypeScript + Vite
+# Esperanta Skanaduko
+[![Build](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/node.js.yml/badge.svg)](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/node.js.yml)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
