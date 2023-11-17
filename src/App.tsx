@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './App.css';
 import Subtitle from './components/subtitle';
 import Title from './components/title';
