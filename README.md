@@ -4,7 +4,6 @@
 [![Linting](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/lint.js.yml/badge.svg)](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/lint.js.yml)
 [![Tests](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/tests.js.yml/badge.svg)](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/tests.js.yml)
 [![Security Scan](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/securityScan.yml/badge.svg)](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/securityScan.yml)
-[![Deployment](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/deploy.js.yml/badge.svg)](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/deploy.js.yml)
 
 
 
