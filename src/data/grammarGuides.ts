@@ -1,0 +1,233 @@
+import { GrammarGuide } from './types';
+
+/**
+ * Grammar guides for Esperanto language rules
+ * Focus on accusative case (-n ending) and other essential grammar
+ */
+export const grammarGuides: GrammarGuide[] = [
+  {
+    id: 'when-to-use-accusative',
+    title: 'When to Use the Accusative -n',
+    titleEo: 'Kiam uzi la akuzativon -n',
+    category: 'accusative',
+    rules: [
+      {
+        rule: 'Direct Object: Use -n on the noun receiving the action of a transitive verb',
+        ruleEo: 'Rekta objekto: Uzu -n sur la substantivo ricevanta la agon de transitiva verbo',
+        examples: [
+          {
+            esperanto: 'Mi vidas hundon.',
+            english: 'I see a dog.',
+          },
+          {
+            esperanto: 'Ŝi legas libron.',
+            english: 'She reads a book.',
+          },
+        ],
+      },
+      {
+        rule: 'Describing a Direct Object: Use -n on adjectives and determiners that describe the direct object',
+        ruleEo: 'Priskribante rektan objekton: Uzu -n sur adjektivoj kaj determiniloj priskribi la rektan objekton',
+        examples: [
+          {
+            esperanto: 'Mi vidas belan hundon.',
+            english: 'I see a beautiful dog.',
+          },
+          {
+            esperanto: 'Ŝi legas interesan libron.',
+            english: 'She reads an interesting book.',
+          },
+        ],
+      },
+      {
+        rule: 'Motion Towards: Use -n to indicate movement toward a location (answers "where to?")',
+        ruleEo: 'Movo al: Uzu -n por indiki movon al loko (respondas "kien?")',
+        examples: [
+          {
+            esperanto: 'Mi iras hejmen.',
+            english: 'I go home (homeward).',
+          },
+          {
+            esperanto: 'Ili veturas Londonon.',
+            english: 'They travel to London.',
+          },
+          {
+            esperanto: 'La kato kuras en la ĝardenon.',
+            english: 'The cat runs into the garden.',
+          },
+        ],
+      },
+      {
+        rule: 'Duration of Time: Use -n to show how long something lasts',
+        ruleEo: 'Daŭro de tempo: Uzu -n por montri kiom longe io daŭras',
+        examples: [
+          {
+            esperanto: 'Mi laboris tutan tagon.',
+            english: 'I worked (for) the whole day.',
+          },
+          {
+            esperanto: 'Ŝi studis du horojn.',
+            english: 'She studied (for) two hours.',
+          },
+        ],
+      },
+      {
+        rule: 'Length, Quantities, Price, Distance, Measures: Use -n for measurements and quantities',
+        ruleEo: 'Longo, kvantoj, prezo, distanco, mezuroj: Uzu -n por mezuroj kaj kvantoj',
+        examples: [
+          {
+            esperanto: 'La tablo estas du metrojn longa.',
+            english: 'The table is two meters long.',
+          },
+          {
+            esperanto: 'Ĝi kostas dek eŭrojn.',
+            english: 'It costs ten euros.',
+          },
+        ],
+      },
+      {
+        rule: 'Greetings, Thanks, Wishes: Use -n in common expressions',
+        ruleEo: 'Salutoj, dankoj, deziroj: Uzu -n en oftaj esprimoj',
+        examples: [
+          {
+            esperanto: 'Bonan matenon!',
+            english: 'Good morning!',
+          },
+          {
+            esperanto: 'Dankon!',
+            english: 'Thank you!',
+          },
+          {
+            esperanto: 'Bonan apetiton!',
+            english: 'Bon appétit! / Enjoy your meal!',
+          },
+          {
+            esperanto: 'Gratulon!',
+            english: 'Congratulations!',
+          },
+        ],
+      },
+      {
+        rule: 'Replace Prepositions for Clarity: Use -n instead of a preposition when the meaning is clear',
+        ruleEo: 'Anstataŭigi prepoziciojn por klareco: Uzu -n anstataŭ prepozicio kiam la signifo estas klara',
+        examples: [
+          {
+            esperanto: 'Mi iras la laboron. (instead of "al la laboro")',
+            english: 'I go to work.',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'when-not-to-use-accusative',
+    title: 'When NOT to Use the Accusative -n',
+    titleEo: 'Kiam NE uzi la akuzativon -n',
+    category: 'accusative',
+    rules: [
+      {
+        rule: 'Subject: Never use -n on the subject of a sentence',
+        ruleEo: 'Subjekto: Neniam uzu -n sur la subjekto de frazo',
+        examples: [
+          {
+            esperanto: 'La hundo vidas min. (NOT: La hundon vidas min)',
+            english: 'The dog sees me.',
+          },
+        ],
+      },
+      {
+        rule: 'After "esti" (to be) or "fariĝi" (to become): These linking verbs take nominative, not accusative',
+        ruleEo: 'Post "esti" aŭ "fariĝi": Ĉi tiuj ligaj verboj prenas nominativon, ne akuzativon',
+        examples: [
+          {
+            esperanto: 'Mi estas instruisto. (NOT: instruiston)',
+            english: 'I am a teacher.',
+          },
+          {
+            esperanto: 'Ŝi fariĝis kuracisto. (NOT: kuraciston)',
+            english: 'She became a doctor.',
+          },
+        ],
+      },
+      {
+        rule: 'On "la": The article "la" never takes -n (only the noun it modifies)',
+        ruleEo: 'Sur "la": La artikolo "la" neniam prenas -n (nur la substantivo kiun ĝi modifas)',
+        examples: [
+          {
+            esperanto: 'Mi vidas la hundon. (NOT: lan hundon)',
+            english: 'I see the dog.',
+          },
+        ],
+      },
+      {
+        rule: 'On Numbers (when not nouns): Numbers functioning as adjectives don\'t take -n',
+        ruleEo: 'Sur nombroj (kiam ne substantivoj): Nombroj funkciigantaj kiel adjektivoj ne prenas -n',
+        examples: [
+          {
+            esperanto: 'Mi havas tri librojn. (NOT: trin librojn)',
+            english: 'I have three books.',
+          },
+        ],
+      },
+      {
+        rule: 'Vocative Case (Direct Address): When calling someone\'s name or title',
+        ruleEo: 'Vokativo (rekta alparolo): Kiam oni vokas iun nomon aŭ titolon',
+        examples: [
+          {
+            esperanto: 'Saluton, amiko! (NOT: amikon)',
+            english: 'Hello, friend!',
+          },
+          {
+            esperanto: 'Pardonu, sinjoro!',
+            english: 'Excuse me, sir!',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'never-use-n-after-prepositions',
+    title: 'NEVER Use -n After These Prepositions',
+    titleEo: 'NENIAM uzu -n post ĉi tiuj prepozicioj',
+    category: 'prepositions',
+    rules: [
+      {
+        rule: 'These prepositions already express their meaning completely, so -n is never needed after them',
+        ruleEo: 'Ĉi tiuj prepozicioj jam esprimas sian signifon tute, do -n neniam necesas post ili',
+      },
+    ],
+    exceptions: [
+      'al (to, toward)',
+      'antaŭ (before, in front of)',
+      'anstataŭ (instead of)',
+      'apud (beside, next to)',
+      'ĉe (at, by)',
+      'ĉirkaŭ (around)',
+      'da (of - for quantities)',
+      'de (of, from)',
+      'ekster (outside)',
+      'el (out of, from)',
+      'en (in) - EXCEPT when showing motion INTO',
+      'ĝis (until, up to)',
+      'inter (between, among)',
+      'kontraŭ (against)',
+      'krom (except, besides)',
+      'kun (with)',
+      'laŭ (according to, along)',
+      'malgraŭ (despite)',
+      'per (by means of, with)',
+      'po (at the rate of)',
+      'por (for, in order to)',
+      'post (after, behind)',
+      'preter (past)',
+      'pri (about, concerning)',
+      'pro (because of)',
+      'sen (without)',
+      'sub (under) - EXCEPT when showing motion under',
+      'super (above, over)',
+      'sur (on) - EXCEPT when showing motion onto',
+      'tra (through)',
+      'trans (across)',
+    ],
+  },
+];

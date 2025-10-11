@@ -21,12 +21,58 @@ import { Search as SearchIcon, MenuBook, Download } from '@mui/icons-material';
 import { useTranslation } from 'react-i18next';
 import { esperantoBooks, type Book } from '../../../data/libraryData';
 import { SEO } from '../../../components/SEO';
-import { NavBar } from '../../components/navBar/navBar';
 
-export default function LibraryPage() {
-  const { i18n } = useTranslation();
+const LibraryPage = () => {
+  const { t, i18n } = useTranslation();
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
+
+  // Structured data for library page
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: t('seo.pages.library.title', 'Esperanto Library - Books & Reading Materials'),
+    description: t('seo.pages.library.description', 'Browse our curated collection of Esperanto books'),
+    url: 'https://esperantaskanaduko.com/library',
+    inLanguage: ['en', 'eo'],
+    mainEntity: {
+      '@type': 'ItemList',
+      name: 'Esperanto Books Collection',
+      numberOfItems: esperantoBooks.length,
+      itemListElement: esperantoBooks.slice(0, 5).map((book, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        item: {
+          '@type': 'Book',
+          name: book.title,
+          author: {
+            '@type': 'Person',
+            name: book.author,
+          },
+          inLanguage: 'eo',
+          bookFormat: 'EBook',
+          isAccessibleForFree: true,
+        },
+      })),
+    },
+    breadcrumb: {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        {
+          '@type': 'ListItem',
+          position: 1,
+          name: 'Home',
+          item: 'https://esperantaskanaduko.com',
+        },
+        {
+          '@type': 'ListItem',
+          position: 2,
+          name: 'Library',
+          item: 'https://esperantaskanaduko.com/library',
+        },
+      ],
+    },
+  };
 
   // Get unique categories
   const categories = useMemo<string[]>(() => {
@@ -80,16 +126,27 @@ export default function LibraryPage() {
       }}
     >
       <SEO
-        title={isEsperanto ? 'Biblioteko - Esperanta Skanaduko' : 'Library - Esperanta Skanaduko'}
-        description={
-          isEsperanto
-            ? 'Esploru nian ampleksan kolekton de senpagaj Esperantaj libroj, de klasikaĵoj ĝis modernaj verkoj.'
-            : 'Explore our comprehensive collection of free Esperanto books, from classics to modern works.'
-        }
-        keywords={['Esperanto', 'library', 'books', 'free ebooks', 'Esperanto literature', 'learning resources', 'biblioteko', 'libroj']}
+        title={t('seo.pages.library.title', 'Esperanto Library - Books & Reading Materials')}
+        description={t('seo.pages.library.description', 'Browse our curated collection of Esperanto books, novels, and reading materials. Perfect for learners at all levels.')}
+        keywords={[
+          'Esperanto books',
+          'Esperanto library',
+          'Esperanto reading',
+          'Esperanto literature',
+          'learn Esperanto reading',
+          'free Esperanto ebooks',
+          'Esperanto classics',
+          'biblioteko',
+          'esperantaj libroj',
+          'free language books',
+        ]}
+        canonical="https://esperantaskanaduko.com/library"
+        type="website"
       />
+      <script type="application/ld+json">
+        {JSON.stringify(structuredData)}
+      </script>
 
-      <NavBar />
       <Container maxWidth="xl">
         {/* Page Header */}
         <Box sx={{ textAlign: 'center', marginBottom: '3rem', animation: 'scaleIn 0.8s ease-out both' }}>
@@ -372,4 +429,6 @@ export default function LibraryPage() {
       </Container>
     </Box>
   );
-}
+};
+
+export default LibraryPage;

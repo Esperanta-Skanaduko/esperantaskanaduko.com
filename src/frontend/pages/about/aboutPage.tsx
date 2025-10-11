@@ -1,7 +1,6 @@
 import { Box, Typography, Paper, Container } from '@mui/material';
 import { SEO } from '../../../components/SEO';
 import { useTranslation } from 'react-i18next';
-import { NavBar } from '../../components/navBar/navBar';
 
 const AboutPage = () => {
   const { i18n } = useTranslation();
@@ -17,7 +16,6 @@ const AboutPage = () => {
         }
         keywords={['Esperanto library', 'public domain texts', 'Esperanto literature', 'translated texts', 'biblioteko', 'esperanto']}
       />
-      <NavBar />
       <Box
         sx={{
           minHeight: '100vh',
@@ -76,8 +74,7 @@ const AboutPage = () => {
               >
                 {isEsperanto
                   ? 'Bonvenon al Esperanta Skanaduko, nova reta esperanta biblioteko. La celo de ĉi tiu projekto estas provizi bone organizitan bibliotekon de originalaj kaj tradukitaj tekstoj.'
-                  : 'Welcome to Esperanta Skanaduko, a new online Esperanto library. This project\'s goal is to provide a well-organized library of original and translated texts.'
-                }
+                  : 'Welcome to Esperanta Skanaduko, a new online Esperanto library. This project\'s goal is to provide a well-organized library of original and translated texts.'}
               </Typography>
 
               <Typography
@@ -106,8 +103,7 @@ const AboutPage = () => {
               >
                 {isEsperanto
                   ? 'Multaj tekstoj estas sufiĉe malnovaj por aŭtomate esti en la publika domajno, multaj estas en la publika domajno en iuj landoj dum ankoraŭ kopirajtataj en aliaj. Ĉi tiu retejo publikigas verkojn por kiuj la internacia minimumo de 50 jaroj post la morto de la aŭtoro estas kontentita. Estas la respondeco de la leganto koni la kopirajt-leĝojn de sia lando.'
-                  : 'Many texts are old enough to automatically be in the public domain, many are in the public domain in some countries while copyrighted in others. This website publishes works for which the international minimum of 50 years after the author\'s death is satisfied. It is the reader\'s responsibility to know his or her country\'s copyright laws.'
-                }
+                  : 'Many texts are old enough to automatically be in the public domain, many are in the public domain in some countries while copyrighted in others. This website publishes works for which the international minimum of 50 years after the author\'s death is satisfied. It is the reader\'s responsibility to know his or her country\'s copyright laws.'}
               </Typography>
 
               {/* Mission Statement */}
@@ -137,8 +133,7 @@ const AboutPage = () => {
               >
                 {isEsperanto
                   ? 'Ni klopodas fari Esperanton pli alirebla al ĉiuj, provizante liberan kaj ampleksan kolekton de literaturo. Ĉu vi estas komencanto aŭ sperta Esperanto-parolanto, ĉi tiu biblioteko ofertas ion por ĉiuj.'
-                  : 'We strive to make Esperanto more accessible to everyone by providing a free and comprehensive collection of literature. Whether you are a beginner or an experienced Esperanto speaker, this library offers something for everyone.'
-                }
+                  : 'We strive to make Esperanto more accessible to everyone by providing a free and comprehensive collection of literature. Whether you are a beginner or an experienced Esperanto speaker, this library offers something for everyone.'}
               </Typography>
             </Paper>
           </Box>

@@ -14,7 +14,7 @@ const Subtitle = ({ subtitle }: { subtitle?: string }) => {
         textRendering: 'optimizeLegibility',
       }}
     >
-      {subtitle ?? t('common.tagline')}
+      {subtitle ?? t('common.site.tagline')}
     </Typography>
   );
 };

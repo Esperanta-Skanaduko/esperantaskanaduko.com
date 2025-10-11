@@ -4,14 +4,36 @@ import Footer from '../components/footer/footer';
 import Subtitle from '../components/subtitle';
 import Title from '../components/title';
 import { SEO } from '../../components/SEO';
-import { NavBar } from '../components/navBar/navBar';
+import { useTranslation } from 'react-i18next';
 
 const Homepage = () => {
+  const { t } = useTranslation();
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
     setLoaded(true);
   }, []);
+
+  // Structured data for homepage
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Esperanta Skanaduko',
+    alternateName: 'Esperanto Learning Platform',
+    url: 'https://esperantaskanaduko.com',
+    description: t('seo.pages.home.description', 'Your comprehensive hub for learning Esperanto'),
+    inLanguage: ['en', 'eo'],
+    about: {
+      '@type': 'Language',
+      name: 'Esperanto',
+      alternateName: 'International Language',
+    },
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: 'https://esperantaskanaduko.com/resources?q={search_term_string}',
+      'query-input': 'required name=search_term_string',
+    },
+  };
 
   // Create floating particles effect
   const createParticles = () => {
@@ -37,11 +59,26 @@ const Homepage = () => {
   return (
     <>
       <SEO
-        title='Home'
-        description='Learn Esperanto through an engaging digital experience. Free resources and tools for learning the international language.'
-        keywords={['Esperanto homepage', 'start learning Esperanto', 'Esperanto resources']}
+        title={t('seo.pages.home.title', 'Esperanta Skanaduko - Learn Esperanto Online')}
+        description={t('seo.pages.home.description', 'Your comprehensive hub for learning Esperanto. Access resources, books, music, community connections, and interactive tools to master the international language.')}
+        keywords={[
+          'learn Esperanto',
+          'Esperanto learning',
+          'international language',
+          'constructed language',
+          'language learning platform',
+          'Esperanto resources',
+          'Esperanto books',
+          'Esperanto music',
+          'Esperanto community',
+          'free language learning',
+        ]}
+        canonical="https://esperantaskanaduko.com"
+        type="website"
       />
-      <NavBar />
+      <script type="application/ld+json">
+        {JSON.stringify(structuredData)}
+      </script>
       {/* Floating particles background */}
       <div className="particles">
         {createParticles()}

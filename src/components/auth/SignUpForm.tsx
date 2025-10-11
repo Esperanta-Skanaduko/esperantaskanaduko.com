@@ -47,12 +47,12 @@ export const SignUpForm: React.FC<SignUpFormProps> = ({ onSwitchToLogIn, onSucce
 
   const validateEmail = (email: string): boolean => {
     if (!email) {
-      setEmailError(t('auth.errors.emailRequired'));
+      setEmailError(t('auth.errors.validation.emailRequired'));
       return false;
     }
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
-      setEmailError(t('auth.errors.emailInvalid'));
+      setEmailError(t('auth.errors.validation.emailInvalid'));
       return false;
     }
     setEmailError('');
@@ -61,11 +61,11 @@ export const SignUpForm: React.FC<SignUpFormProps> = ({ onSwitchToLogIn, onSucce
 
   const validatePassword = (password: string): boolean => {
     if (!password) {
-      setPasswordError(t('auth.errors.passwordRequired'));
+      setPasswordError(t('auth.errors.validation.passwordRequired'));
       return false;
     }
     if (password.length < 6) {
-      setPasswordError(t('auth.errors.passwordTooShort'));
+      setPasswordError(t('auth.errors.validation.passwordTooShort'));
       return false;
     }
     setPasswordError('');
@@ -74,7 +74,7 @@ export const SignUpForm: React.FC<SignUpFormProps> = ({ onSwitchToLogIn, onSucce
 
   const validateConfirmPassword = (password: string, confirmPassword: string): boolean => {
     if (password !== confirmPassword) {
-      setConfirmPasswordError(t('auth.errors.passwordsNoMatch'));
+      setConfirmPasswordError(t('auth.errors.validation.passwordsNoMatch'));
       return false;
     }
     setConfirmPasswordError('');
@@ -112,19 +112,19 @@ export const SignUpForm: React.FC<SignUpFormProps> = ({ onSwitchToLogIn, onSucce
       // Handle Firebase specific errors
       switch (firebaseError.code) {
         case 'auth/email-already-in-use':
-          setError(t('auth.errors.emailInUse'));
+          setError(t('auth.errors.firebase.emailInUse'));
           break;
         case 'auth/invalid-email':
-          setError(t('auth.errors.emailInvalid'));
+          setError(t('auth.errors.firebase.emailInvalid'));
           break;
         case 'auth/weak-password':
-          setError(t('auth.errors.passwordTooShort'));
+          setError(t('auth.errors.firebase.passwordTooShort'));
           break;
         case 'auth/network-request-failed':
-          setError(t('auth.errors.networkError'));
+          setError(t('auth.errors.firebase.networkError'));
           break;
         default:
-          setError(t('auth.errors.unknownError'));
+          setError(t('auth.errors.firebase.unknownError'));
       }
     } finally {
       setLoading(false);
@@ -132,7 +132,7 @@ export const SignUpForm: React.FC<SignUpFormProps> = ({ onSwitchToLogIn, onSucce
   };
 
   if (loading) {
-    return <Loading variant='fullscreen' message={t('auth.createAccount')} />;
+    return <Loading variant='fullscreen' message={t('auth.status.creatingAccount')} />;
   }
 
   return (
@@ -149,10 +149,10 @@ export const SignUpForm: React.FC<SignUpFormProps> = ({ onSwitchToLogIn, onSucce
       >
         <PersonAdd sx={{ fontSize: 48, color: 'primary.main', mb: 2 }} />
         <Typography variant='h4' component='h1' gutterBottom>
-          {t('auth.getStarted')}
+          {t('auth.status.getStarted')}
         </Typography>
         <Typography variant='body2' color='text.secondary' sx={{ mb: 3 }}>
-          {t('auth.createAccount')}
+          {t('auth.status.creatingAccount')}
         </Typography>
 
         {error && (
@@ -170,7 +170,7 @@ export const SignUpForm: React.FC<SignUpFormProps> = ({ onSwitchToLogIn, onSucce
         <Box component='form' onSubmit={handleSubmit} sx={{ width: '100%' }}>
           <Stack spacing={2}>
             <TextField
-              label={t('auth.email')}
+              label={t('auth.fields.email')}
               type='email'
               value={email}
               onChange={(e) => {
@@ -186,7 +186,7 @@ export const SignUpForm: React.FC<SignUpFormProps> = ({ onSwitchToLogIn, onSucce
             />
 
             <TextField
-              label={t('auth.password')}
+              label={t('auth.fields.password')}
               type={showPassword ? 'text' : 'password'}
               value={password}
               onChange={(e) => {
@@ -214,7 +214,7 @@ export const SignUpForm: React.FC<SignUpFormProps> = ({ onSwitchToLogIn, onSucce
             />
 
             <TextField
-              label={t('auth.confirmPassword')}
+              label={t('auth.fields.confirmPassword')}
               type={showConfirmPassword ? 'text' : 'password'}
               value={confirmPassword}
               onChange={(e) => {
@@ -248,21 +248,21 @@ export const SignUpForm: React.FC<SignUpFormProps> = ({ onSwitchToLogIn, onSucce
               fullWidth
               sx={{ mt: 2 }}
             >
-              {t('auth.signUp')}
+              {t('auth.actions.signUp')}
             </Button>
           </Stack>
         </Box>
 
         <Box sx={{ mt: 3, textAlign: 'center' }}>
           <Typography variant='body2' color='text.secondary'>
-            {t('auth.alreadyHaveAccount')}{' '}
+            {t('auth.links.alreadyHaveAccount')}{' '}
             <Link
               component='button'
               variant='body2'
               onClick={onSwitchToLogIn}
               sx={{ cursor: 'pointer' }}
             >
-              {t('auth.logIn')}
+              {t('auth.actions.logIn')}
             </Link>
           </Typography>
         </Box>

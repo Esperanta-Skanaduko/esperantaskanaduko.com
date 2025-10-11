@@ -65,7 +65,7 @@ export const UserMenu: React.FC = () => {
           onClick={handleNavigateToAuth}
           size='small'
         >
-          {t('auth.logIn')}
+          {t('auth.actions.logIn')}
         </Button>
         <Button
           variant='contained'
@@ -73,7 +73,7 @@ export const UserMenu: React.FC = () => {
           onClick={handleNavigateToAuth}
           size='small'
         >
-          {t('auth.signUp')}
+          {t('auth.actions.signUp')}
         </Button>
       </Box>
     );
@@ -115,7 +115,7 @@ export const UserMenu: React.FC = () => {
       >
         <Box sx={{ px: 2, py: 1 }}>
           <Typography variant='subtitle2' color='text.secondary'>
-            {t('auth.welcomeBack')}
+            {t('auth.status.welcomeBack')}
           </Typography>
           <Typography variant='body2' sx={{ fontWeight: 600 }}>
             {currentUser.email}
@@ -128,7 +128,7 @@ export const UserMenu: React.FC = () => {
           <ListItemIcon>
             <LogoutIcon fontSize='small' />
           </ListItemIcon>
-          <Typography variant='body2'>{t('auth.signOut')}</Typography>
+          <Typography variant='body2'>{t('auth.actions.signOut')}</Typography>
         </MenuItem>
       </Menu>
     </Box>

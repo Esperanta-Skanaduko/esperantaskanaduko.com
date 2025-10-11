@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Box, Button, Popover, Paper } from '@mui/material';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { ArrowDropDown, ArrowDropUp } from '@mui/icons-material';
 import { useQueryClient } from '@tanstack/react-query';
 
@@ -16,11 +16,27 @@ interface DesktopNavProps {
 
 export const DesktopNav: React.FC<DesktopNavProps> = ({ navItems }) => {
   const queryClient = useQueryClient();
+  const location = useLocation();
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const [openMenu, setOpenMenu] = useState<null | string>(null);
   const timeoutRef = React.useRef<number | null>(null);
+  const clickedRef = React.useRef<boolean>(false);
+
+  // Close dropdown when route changes
+  useEffect(() => {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+    }
+    setAnchorEl(null);
+    setOpenMenu(null);
+  }, [location.pathname]);
 
   const handleMenuOpen = (event: React.MouseEvent<HTMLElement>, text: string) => {
+    // Don't open if user just clicked
+    if (clickedRef.current) {
+      return;
+    }
+
     if (timeoutRef.current) {
       clearTimeout(timeoutRef.current);
     }
@@ -32,7 +48,7 @@ export const DesktopNav: React.FC<DesktopNavProps> = ({ navItems }) => {
     timeoutRef.current = window.setTimeout(() => {
       setAnchorEl(null);
       setOpenMenu(null);
-    }, 200);
+    }, 150);
   };
 
   const prefetchData = (link: string) => {
@@ -53,6 +69,21 @@ export const DesktopNav: React.FC<DesktopNavProps> = ({ navItems }) => {
   const handlePopoverLeave = () => {
     setAnchorEl(null);
     setOpenMenu(null);
+  };
+
+  const handleItemClick = () => {
+    // Immediately close popover on click
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+    }
+    setAnchorEl(null);
+    setOpenMenu(null);
+
+    // Prevent hover from reopening immediately after click
+    clickedRef.current = true;
+    setTimeout(() => {
+      clickedRef.current = false;
+    }, 300);
   };
 
   return (
@@ -99,7 +130,7 @@ export const DesktopNav: React.FC<DesktopNavProps> = ({ navItems }) => {
                     key={child.text}
                     component={Link}
                     to={child.link || '#'}
-                    onClick={handlePopoverLeave}
+                    onClick={handleItemClick}
                     sx={{ display: 'block', width: '100%', color: 'white', textTransform: 'none', padding: '10px 20px' }}
                   >
                     {child.text}

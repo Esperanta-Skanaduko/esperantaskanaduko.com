@@ -36,7 +36,7 @@ const Footer = () => {
               letterSpacing: '0.5px',
             }}
           >
-            {t('footer.socialLinks')}
+            {t('footer.social.title')}
           </Typography>
           <Box sx={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
             <Link
@@ -79,7 +79,7 @@ const Footer = () => {
               letterSpacing: '0.5px',
             }}
           >
-            {t('footer.relatedProjects')}
+            {t('footer.projects.title')}
           </Typography>
           <Link
             href="https://www.npmjs.com/package/esperanto-analyzer"
@@ -94,10 +94,10 @@ const Footer = () => {
             }}
           >
             <Typography sx={{ fontWeight: 500, marginBottom: '0.25rem' }}>
-              {t('footer.esperantoAnalyzer')}
+              {t('footer.projects.esperantoAnalyzer.title')}
             </Typography>
             <Typography sx={{ fontSize: '0.85rem', fontStyle: 'italic' }}>
-              {t('footer.analyzerDescription')}
+              {t('footer.projects.esperantoAnalyzer.description')}
             </Typography>
           </Link>
         </Box>
@@ -172,7 +172,7 @@ const Footer = () => {
           fontSize: '0.9rem',
         }}
       >
-        {t('footer.developedBy')} <GitHubLink />
+        {t('footer.legal.developedBy')} <GitHubLink />
       </Typography>
       <Typography
         component="p"
@@ -183,7 +183,7 @@ const Footer = () => {
           marginTop: '0.5rem',
         }}
       >
-        © {new Date().getFullYear()} Esperanta Skanaduko · {t('footer.copyright')}
+        © {new Date().getFullYear()} Esperanta Skanaduko · {t('footer.legal.copyright')}
       </Typography>
     </Box>
   );

@@ -1,33 +1,80 @@
 {
   "common": {
-    "siteName": "Esperanta\nSkanaduko",
-    "tagline": "Ampleksa retejo por lerni Esperanton",
-    "home": "Hejmo",
-    "about": "Pri Ni",
-    "library": "Biblioteko",
-    "loading": "Ŝarĝante...",
-    "error": "Eraro",
-    "language": "Lingvo",
-    "switchLanguage": "Ŝanĝi Lingvon"
+    "site": {
+      "name": "Esperanta\nSkanaduko",
+      "tagline": "Ampleksa Esperanta lerna kaj rimeda retejo",
+      "description": "Lernu Esperanton per ampleksaj rimedoj, interagaj iloj kaj komunumaj konektoj. Aliru 200+ kuracitajn lernmaterialojn, librojn, muzikon, videojn kaj pli."
+    },
+    "navigation": {
+      "home": "Hejmo",
+      "about": "Pri Ni",
+      "library": "Biblioteko"
+    },
+    "ui": {
+      "loading": "Ŝarĝante...",
+      "error": "Eraro",
+      "language": "Lingvo",
+      "switchLanguage": "Ŝanĝi Lingvon"
+    }
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Esperanta Skanaduko - Lernu Esperanton Rete",
+        "description": "Via ampleksa centro por lerni Esperanton. Aliru rimedojn, librojn, muzikon, komunumajn konektojn kaj interagajn ilojn por majstri la internacian lingvon.",
+        "keywords": "lerni Esperanton, Esperanta lernado, internacia lingvo, konstruita lingvo, lingvolerna platformo"
+      },
+      "resources": {
+        "title": "Esperantaj Rimedoj - Lernmaterialoj kaj Iloj",
+        "description": "Malkovru 200+ ampleksajn Esperantajn lernrimedojn inkluzive gramatikajn gvidilojn, muzikon, podkastojn, videojn, komunumajn mapojn, kursojn kaj ilojn. Senpagaj rimedoj por komencantoj ĝis altnivelajn lernantojn.",
+        "keywords": "Esperantaj lernrimedoj, lerni Esperanton, Esperanta gramatiko, Esperanta muziko, Esperantaj podkastoj, Esperanta komunumo, Esperantaj kursoj, Esperantaj iloj, lingvolernado"
+      },
+      "library": {
+        "title": "Esperanta Biblioteko - Libroj kaj Legmaterialoj",
+        "description": "Foliumu nian kuracitan kolekton de Esperantaj libroj, romanoj kaj legmaterialoj. Perfekta por lernantoj ĉe ĉiuj niveloj.",
+        "keywords": "Esperantaj libroj, Esperanta biblioteko, Esperanta legado, Esperanta literaturo, lerni Esperantan legadon"
+      },
+      "concerts": {
+        "title": "Esperantaj Rekta Koncertaj Videoj",
+        "description": "Spektu rektajn prezentojn de Esperantaj muzikistoj tutmonde. Malkovru la viglan muzikan kulturon en la Esperanta komunumo.",
+        "keywords": "Esperanta muziko, Esperantaj koncertoj, Esperantaj muzikistoj, Esperanta kulturo, rekta muziko"
+      }
+    }
   },
   "navigation": {
-    "home": "Hejmo",
-    "library": "Biblioteko",
-    "about": "Pri Ni",
-    "contact": "Kontakto",
-    "donate": "Donaci",
-    "analyzer": "Analizilo",
-    "resources": "Rimedoj"
+    "main": {
+      "home": "Hejmo",
+      "library": "Biblioteko",
+      "about": "Pri Ni",
+      "resources": "Rimedoj"
+    },
+    "secondary": {
+      "contact": "Kontakto",
+      "donate": "Donaci",
+      "analyzer": "Analizilo"
+    }
   },
   "donate": {
-    "title": "Subtenu Nian Mision",
-    "subtitle": "Helpu nin konservi Esperanta Skanaduko senpaga kaj alirebla por lernantoj tutmonde. Via subteno ebligas al ni daŭrigi la platformon, krei novan enhavon kaj kreskigi la komunumon.",
-    "choosMethod": "Elektu Vian Prefereetan Metodon",
-    "impact": "Via Efiko",
-    "impactDescription": "Ĉiu donaco, sendepende de la grandeco, helpas nin daŭrigi nian mision. Jen kiel via subteno faras diferencon:",
-    "thankYou": "Dankon! Thank You!",
-    "thankYouMessage": "Via generozeco helpas konservi kaj dividi la belecon de Esperanto kun lernantoj tra la tuta mondo. Kune, ni konstruas pontojn inter kulturoj kaj lingvoj.",
-    "donateNow": "Donaci Nun",
+    "hero": {
+      "title": "Subtenu Nian Mision",
+      "subtitle": "Helpu nin konservi Esperanta Skanaduko senpaga kaj alirebla por lernantoj tutmonde. Via subteno ebligas al ni daŭrigi la platformon, krei novan enhavon kaj kreskigi la komunumon."
+    },
+    "sections": {
+      "methods": {
+        "title": "Elektu Vian Prefereetan Metodon"
+      },
+      "impact": {
+        "title": "Via Efiko",
+        "description": "Ĉiu donaco, sendepende de la grandeco, helpas nin daŭrigi nian mision. Jen kiel via subteno faras diferencon:"
+      },
+      "thankYou": {
+        "title": "Dankon! Thank You!",
+        "message": "Via generozeco helpas konservi kaj dividi la belecon de Esperanto kun lernantoj tra la tuta mondo. Kune, ni konstruas pontojn inter kulturoj kaj lingvoj."
+      }
+    },
+    "actions": {
+      "donateNow": "Donaci Nun"
+    },
     "methods": {
       "paypal": {
         "title": "PayPal",
@@ -66,59 +113,85 @@
     }
   },
   "home": {
-    "welcome": "Bonvenon al Esperanta Skanduko",
-    "description": "Malkovru la belecon de Esperanto per nia ampleksa kolekto de lerniloj, libroj kaj interaktivaj iloj.",
-    "getStarted": "Komenci",
-    "learnMore": "Lerni Pli",
+    "hero": {
+      "welcome": "Bonvenon al Esperanta Skanduko",
+      "description": "Malkovru la belecon de Esperanto per nia ampleksa kolekto de lerniloj, libroj kaj interaktivaj iloj."
+    },
+    "actions": {
+      "getStarted": "Komenci",
+      "learnMore": "Lerni Pli"
+    },
     "features": {
       "title": "Trajtoj",
-      "library": {
-        "title": "Ampleksa Biblioteko",
-        "description": "Aliru milojn da Esperantaj libroj, artikoloj kaj lernmaterialoj"
-      },
-      "interactive": {
-        "title": "Interaktiva Lernado",
-        "description": "Partoprenu kun interaktivaj iloj kaj ekzercoj por plibonigi viajn kapablojn"
-      },
-      "community": {
-        "title": "Tutmonda Komunumo",
-        "description": "Konektiĝu kun Esperanto-lernantoj kaj parolantoj el la tuta mondo"
+      "items": {
+        "library": {
+          "title": "Ampleksa Biblioteko",
+          "description": "Aliru milojn da Esperantaj libroj, artikoloj kaj lernmaterialoj"
+        },
+        "interactive": {
+          "title": "Interaktiva Lernado",
+          "description": "Partoprenu kun interaktivaj iloj kaj ekzercoj por plibonigi viajn kapablojn"
+        },
+        "community": {
+          "title": "Tutmonda Komunumo",
+          "description": "Konektiĝu kun Esperanto-lernantoj kaj parolantoj el la tuta mondo"
+        }
       }
     }
   },
   "about": {
-    "title": "Pri Esperanta Skanduko",
-    "description": "Esperanta Skanduko dediĉiĝas fari Esperanto-lernadon alirebla kaj engaĝa por ĉiuj.",
-    "mission": {
-      "title": "Nia Misio",
-      "description": "Konservi kaj dividi Esperantan literaturon, lernmaterialojn kaj kulturajn rimedojn kun la mondo."
+    "page": {
+      "title": "Pri Esperanta Skanduko",
+      "description": "Esperanta Skanduko dediĉiĝas fari Esperanto-lernadon alirebla kaj engaĝa por ĉiuj."
     },
-    "esperanto": {
-      "title": "Kio estas Esperanto?",
-      "description": "Esperanto estas internacia helplingvo dizajnita por facila lernado kaj internacia komunikado."
+    "sections": {
+      "mission": {
+        "title": "Nia Misio",
+        "description": "Konservi kaj dividi Esperantan literaturon, lernmaterialojn kaj kulturajn rimedojn kun la mondo."
+      },
+      "esperanto": {
+        "title": "Kio estas Esperanto?",
+        "description": "Esperanto estas internacia helplingvo dizajnita por facila lernado kaj internacia komunikado."
+      }
     }
   },
   "library": {
-    "title": "Biblioteko",
-    "searchPlaceholder": "Serĉi librojn...",
-    "categories": "Kategorioj",
-    "allBooks": "Ĉiuj Libroj",
-    "noResults": "Neniuj libroj trovitaj",
-    "booksFound": "libroj trovitaj"
+    "page": {
+      "title": "Biblioteko"
+    },
+    "search": {
+      "placeholder": "Serĉi librojn..."
+    },
+    "filters": {
+      "categories": "Kategorioj",
+      "allBooks": "Ĉiuj Libroj"
+    },
+    "results": {
+      "noResults": "Neniuj libroj trovitaj",
+      "booksFound": "libroj trovitaj"
+    }
   },
   "footer": {
-    "copyright": "Ĉiuj rajtoj rezervitaj",
-    "madeWith": "Farita kun",
-    "forCommunity": "por la Esperanta komunumo",
-    "developedBy": "Evoluigita kun ❤️ de",
-    "relatedProjects": "Rilataj Projektoj",
-    "esperantoAnalyzer": "Esperanto-Analizilo",
-    "analyzerDescription": "NPM-pakaĵo por Esperanta teksta analizo",
-    "socialLinks": "Konektiĝu",
-    "links": {
-      "github": "GitHub",
-      "issues": "Raporti Problemon",
-      "contribute": "Kontribui"
+    "legal": {
+      "copyright": "Ĉiuj rajtoj rezervitaj",
+      "madeWith": "Farita kun",
+      "forCommunity": "por la Esperanta komunumo",
+      "developedBy": "Evoluigita kun ❤️ de"
+    },
+    "projects": {
+      "title": "Rilataj Projektoj",
+      "esperantoAnalyzer": {
+        "title": "Esperanto-Analizilo",
+        "description": "NPM-pakaĵo por Esperanta teksta analizo"
+      }
+    },
+    "social": {
+      "title": "Konektiĝu",
+      "links": {
+        "github": "GitHub",
+        "issues": "Raporti Problemon",
+        "contribute": "Kontribui"
+      }
     },
     "acknowledgments": {
       "title": "Dankoj",
@@ -126,41 +199,122 @@
     }
   },
   "errors": {
-    "pageNotFound": "Paĝo Ne Trovita",
-    "goHome": "Iri Hejmen",
-    "somethingWrong": "Io misfunkciis",
-    "tryAgain": "Provu Denove"
+    "notFound": {
+      "title": "Paĝo Ne Trovita",
+      "action": "Iri Hejmen"
+    },
+    "general": {
+      "title": "Io misfunkciis",
+      "action": "Provu Denove"
+    }
   },
   "auth": {
-    "signUp": "Registriĝi",
-    "logIn": "Ensaluti",
-    "signOut": "Elsaluti",
-    "email": "Retpoŝto",
-    "password": "Pasvorto",
-    "confirmPassword": "Konfirmi Pasvorton",
-    "forgotPassword": "Ĉu vi forgesis pasvorton?",
-    "alreadyHaveAccount": "Ĉu vi jam havas konton?",
-    "noAccount": "Ĉu vi ne havas konton?",
-    "createAccount": "Kreante vian konton...",
-    "welcomeBack": "Bonvenon Reen",
-    "getStarted": "Komenci",
+    "actions": {
+      "signUp": "Registriĝi",
+      "logIn": "Ensaluti",
+      "signOut": "Elsaluti"
+    },
+    "fields": {
+      "email": "Retpoŝto",
+      "password": "Pasvorto",
+      "confirmPassword": "Konfirmi Pasvorton"
+    },
+    "links": {
+      "forgotPassword": "Ĉu vi forgesis pasvorton?",
+      "alreadyHaveAccount": "Ĉu vi jam havas konton?",
+      "noAccount": "Ĉu vi ne havas konton?"
+    },
+    "status": {
+      "creatingAccount": "Kreante vian konton...",
+      "welcomeBack": "Bonvenon Reen",
+      "getStarted": "Komenci"
+    },
     "errors": {
-      "emailRequired": "Retpoŝto estas bezonata",
-      "emailInvalid": "Bonvolu enigi validan retpoŝtadreson",
-      "passwordRequired": "Pasvorto estas bezonata",
-      "passwordTooShort": "Pasvorto devas esti almenaŭ 6 signoj",
-      "passwordsNoMatch": "Pasvortoj ne kongruas",
-      "emailInUse": "Ĉi tiu retpoŝtadreso jam estas uzata",
-      "userNotFound": "Neniu konto trovita kun ĉi tiu retpoŝtadreso",
-      "wrongPassword": "Malĝusta pasvorto",
-      "tooManyAttempts": "Tro multaj malsukcesaj provoj. Bonvolu reprovi poste",
-      "networkError": "Reta eraro. Bonvolu kontroli vian konekton",
-      "unknownError": "Neatendita eraro okazis. Bonvolu reprovi"
+      "validation": {
+        "emailRequired": "Retpoŝto estas bezonata",
+        "emailInvalid": "Bonvolu enigi validan retpoŝtadreson",
+        "passwordRequired": "Pasvorto estas bezonata",
+        "passwordTooShort": "Pasvorto devas esti almenaŭ 6 signoj",
+        "passwordsNoMatch": "Pasvortoj ne kongruas"
+      },
+      "firebase": {
+        "emailInUse": "Ĉi tiu retpoŝtadreso jam estas uzata",
+        "userNotFound": "Neniu konto trovita kun ĉi tiu retpoŝtadreso",
+        "wrongPassword": "Malĝusta pasvorto",
+        "tooManyAttempts": "Tro multaj malsukcesaj provoj. Bonvolu reprovi poste",
+        "networkError": "Reta eraro. Bonvolu kontroli vian konekton",
+        "unknownError": "Neatendita eraro okazis. Bonvolu reprovi"
+      }
     },
     "success": {
       "accountCreated": "Konto kreita sukcese!",
       "signedIn": "Bonvenon reen!",
       "signedOut": "Elsalutita sukcese"
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "Esperantaj Rimedoj",
+      "subtitle": "Ampleksa kolekto de lernmaterialoj, iloj kaj komunumaj rimedoj"
+    },
+    "search": {
+      "label": "Serĉi rimedojn...",
+      "placeholder": "Serĉi laŭ titolo, priskribo, aŭ etikedoj..."
+    },
+    "filters": {
+      "filterBy": "Filtri laŭ kategorio",
+      "clearAll": "Forigi Ĉiujn Filtrojn"
+    },
+    "sections": {
+      "featured": "Elstarigitaj Rimedoj",
+      "total": "Tutaj Rimedoj",
+      "concertVideos": {
+        "title": "Esperantaj Rekta Koncertaj Videoj",
+        "description": "Spektu prezentojn de Esperantaj muzikistoj tutmonde"
+      }
+    },
+    "results": {
+      "showing": "Montras {{count}} rimedojn",
+      "noResults": "Neniuj rimedoj trovitaj",
+      "noResultsDescription": "Provu ĝustigi viajn serĉajn aŭ filtrajn kriteriojn"
+    },
+    "categories": {
+      "all": "Ĉiuj Rimedoj",
+      "learning": "Lernaj Rimedoj",
+      "grammar": "Gramatikaj Gvidiloj",
+      "tools": "Iloj kaj Klavaroj",
+      "music": "Muziko kaj Artistoj",
+      "audio": "Aŭdaĵoj kaj Podkastoj",
+      "video": "Videaj Rimedoj",
+      "community": "Komunumo kaj Mapoj",
+      "events": "Eventoj kaj Kursoj",
+      "organizations": "Organizoj",
+      "culture": "Kulturo kaj Historio",
+      "news": "Novaĵoj kaj Literaturo",
+      "books": "Libroj kaj Legaĵoj"
+    },
+    "difficulty": {
+      "beginner": "Komencanto",
+      "intermediate": "Meza",
+      "advanced": "Altnivela",
+      "allLevels": "Ĉiuj Niveloj"
+    },
+    "labels": {
+      "free": "Senpaga",
+      "paid": "Paga",
+      "freemium": "Parte Senpaga",
+      "requiresAccount": "Konto Bezonata",
+      "external": "Ekstera Ligilo",
+      "featured": "Elstarigita",
+      "new": "Nova",
+      "popular": "Populara"
+    },
+    "actions": {
+      "visitSite": "Viziti Retejon",
+      "learnMore": "Lerni Pli",
+      "download": "Elŝuti",
+      "register": "Registriĝi",
+      "viewDetails": "Vidi Detalojn"
     }
   }
 }

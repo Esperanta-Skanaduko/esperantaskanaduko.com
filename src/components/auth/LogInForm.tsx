@@ -44,12 +44,12 @@ export const LogInForm: React.FC<LogInFormProps> = ({ onSwitchToSignUp, onSucces
 
   const validateEmail = (email: string): boolean => {
     if (!email) {
-      setEmailError(t('auth.errors.emailRequired'));
+      setEmailError(t('auth.errors.validation.emailRequired'));
       return false;
     }
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
-      setEmailError(t('auth.errors.emailInvalid'));
+      setEmailError(t('auth.errors.validation.emailInvalid'));
       return false;
     }
     setEmailError('');
@@ -58,7 +58,7 @@ export const LogInForm: React.FC<LogInFormProps> = ({ onSwitchToSignUp, onSucces
 
   const validatePassword = (password: string): boolean => {
     if (!password) {
-      setPasswordError(t('auth.errors.passwordRequired'));
+      setPasswordError(t('auth.errors.validation.passwordRequired'));
       return false;
     }
     setPasswordError('');
@@ -81,7 +81,7 @@ export const LogInForm: React.FC<LogInFormProps> = ({ onSwitchToSignUp, onSucces
     try {
       setLoading(true);
       await logIn(email, password);
-      setSuccess(t('auth.success.signedIn'));
+      setSuccess(t('auth.status.signedIn'));
 
       // Call success callback after short delay
       setTimeout(() => {
@@ -95,22 +95,22 @@ export const LogInForm: React.FC<LogInFormProps> = ({ onSwitchToSignUp, onSucces
       // Handle Firebase specific errors
       switch (firebaseError.code) {
         case 'auth/user-not-found':
-          setError(t('auth.errors.userNotFound'));
+          setError(t('auth.errors.firebase.userNotFound'));
           break;
         case 'auth/wrong-password':
-          setError(t('auth.errors.wrongPassword'));
+          setError(t('auth.errors.firebase.wrongPassword'));
           break;
         case 'auth/invalid-email':
-          setError(t('auth.errors.emailInvalid'));
+          setError(t('auth.errors.validation.emailInvalid'));
           break;
         case 'auth/too-many-requests':
-          setError(t('auth.errors.tooManyAttempts'));
+          setError(t('auth.errors.firebase.tooManyAttempts'));
           break;
         case 'auth/network-request-failed':
-          setError(t('auth.errors.networkError'));
+          setError(t('auth.errors.firebase.networkError'));
           break;
         default:
-          setError(t('auth.errors.unknownError'));
+          setError(t('auth.errors.firebase.unknownError'));
       }
     } finally {
       setLoading(false);
@@ -118,7 +118,7 @@ export const LogInForm: React.FC<LogInFormProps> = ({ onSwitchToSignUp, onSucces
   };
 
   if (loading) {
-    return <Loading variant='fullscreen' message={t('auth.logIn')} />;
+    return <Loading variant='fullscreen' message={t('auth.status.loggingIn')} />;
   }
 
   return (
@@ -135,10 +135,10 @@ export const LogInForm: React.FC<LogInFormProps> = ({ onSwitchToSignUp, onSucces
       >
         <LoginIcon sx={{ fontSize: 48, color: 'primary.main', mb: 2 }} />
         <Typography variant='h4' component='h1' gutterBottom>
-          {t('auth.welcomeBack')}
+          {t('auth.status.welcomeBack')}
         </Typography>
         <Typography variant='body2' color='text.secondary' sx={{ mb: 3 }}>
-          {t('auth.logIn')}
+          {t('auth.actions.logIn')}
         </Typography>
 
         {error && (
@@ -156,7 +156,7 @@ export const LogInForm: React.FC<LogInFormProps> = ({ onSwitchToSignUp, onSucces
         <Box component='form' onSubmit={handleSubmit} sx={{ width: '100%' }}>
           <Stack spacing={2}>
             <TextField
-              label={t('auth.email')}
+              label={t('auth.fields.email')}
               type='email'
               value={email}
               onChange={(e) => {
@@ -172,7 +172,7 @@ export const LogInForm: React.FC<LogInFormProps> = ({ onSwitchToSignUp, onSucces
             />
 
             <TextField
-              label={t('auth.password')}
+              label={t('auth.fields.password')}
               type={showPassword ? 'text' : 'password'}
               value={password}
               onChange={(e) => {
@@ -206,21 +206,21 @@ export const LogInForm: React.FC<LogInFormProps> = ({ onSwitchToSignUp, onSucces
               fullWidth
               sx={{ mt: 2 }}
             >
-              {t('auth.logIn')}
+              {t('auth.actions.logIn')}
             </Button>
           </Stack>
         </Box>
 
         <Box sx={{ mt: 3, textAlign: 'center' }}>
           <Typography variant='body2' color='text.secondary'>
-            {t('auth.noAccount')}{' '}
+            {t('auth.links.noAccount')}{' '}
             <Link
               component='button'
               variant='body2'
               onClick={onSwitchToSignUp}
               sx={{ cursor: 'pointer' }}
             >
-              {t('auth.signUp')}
+              {t('auth.actions.signUp')}
             </Link>
           </Typography>
         </Box>

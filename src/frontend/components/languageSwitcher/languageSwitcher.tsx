@@ -40,12 +40,12 @@ export const LanguageSwitcher = () => {
         }}
         size="small"
       >
-        <InputLabel id="language-select-label">{t('common.language')}</InputLabel>
+        <InputLabel id="language-select-label">{t('common.ui.language')}</InputLabel>
         <Select
           labelId="language-select-label"
           id="language-select"
           value={i18n.language}
-          label={t('common.language')}
+          label={t('common.ui.language')}
           onChange={handleLanguageChange}
         >
           {Object.entries(SUPPORTED_LANGUAGES).map(([code, name]) => (

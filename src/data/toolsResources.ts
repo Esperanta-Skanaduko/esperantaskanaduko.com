@@ -1,0 +1,49 @@
+import { Resource } from './types';
+
+/**
+ * Tools and keyboard resources for typing Esperanto
+ * Includes keyboard layouts, typing guides, and technical resources
+ */
+export const toolsResources: Resource[] = [
+  {
+    id: 'esperanto-keyboard-info',
+    title: 'Esperanto Keyboard Information',
+    titleEo: 'Informoj pri Esperanto-klavaro',
+    url: 'https://en.wikipedia.org/wiki/Esperanto_keyboard_layout',
+    description: 'Comprehensive guide to Esperanto keyboard layouts and typing methods.',
+    descriptionEo: 'Ampleksa gvidilo pri Esperanto-klavaraj aranĝoj kaj tajpmetodoj.',
+    category: 'tools',
+    tags: ['keyboard', 'typing', 'technical'],
+    difficulty: 'All Levels',
+    cost: 'Free',
+    featured: true,
+    external: true,
+  },
+  {
+    id: 'x-system-typing',
+    title: 'X-system for Typing Esperanto',
+    titleEo: 'X-sistemo por tajpi Esperanton',
+    url: 'https://en.wikipedia.org/wiki/Esperanto_orthography#Computer_encoding',
+    description: 'Learn the X-system convention for typing Esperanto characters (cx, gx, hx, jx, sx, ux).',
+    descriptionEo: 'Lernu la X-sisteman konvencion por tajpi Esperanto-signojn (cx, gx, hx, jx, sx, ux).',
+    category: 'tools',
+    tags: ['keyboard', 'typing', 'x-system', 'encoding'],
+    difficulty: 'Beginner',
+    cost: 'Free',
+    external: true,
+  },
+  {
+    id: 'how-to-type-esperanto-characters',
+    title: 'How to Type Esperanto Characters',
+    titleEo: 'Kiel tajpi Esperanto-signojn',
+    url: 'https://learn.esperanto.com/en/keyboard/',
+    description: 'Step-by-step guide for typing Esperanto special characters (ĉ, ĝ, ĥ, ĵ, ŝ, ŭ) on various platforms.',
+    descriptionEo: 'Paŝo-post-paŝa gvidilo por tajpi Esperanto-specialajn signojn (ĉ, ĝ, ĥ, ĵ, ŝ, ŭ) sur diversaj platformoj.',
+    category: 'tools',
+    tags: ['keyboard', 'typing', 'tutorial', 'characters'],
+    difficulty: 'Beginner',
+    cost: 'Free',
+    featured: true,
+    external: true,
+  },
+];

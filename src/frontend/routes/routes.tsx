@@ -1,7 +1,8 @@
 import React, { Suspense } from 'react';
 import { Routes as Router, Route } from 'react-router-dom';
-import { Loading } from '../../components/Loading';
+import { LoadingFallback } from '../../components/LoadingFallback';
 import { ErrorBoundary } from '../../components/ErrorBoundary';
+import { Layout } from '../components/Layout';
 
 /**
  * Lazy-loaded page components with automatic code splitting
@@ -20,10 +21,12 @@ const ResourcePage = React.lazy(() => import('../pages/resources/ResourcePage'))
 
 /**
  * Route Wrapper Component
- * Wraps each route with error boundary for isolated error handling
+ * Wraps each route with layout and error boundary for consistent experience
  */
 const RouteWrapper: React.FC<{ children: React.ReactNode }> = ({ children }) => (
-  <ErrorBoundary>{children}</ErrorBoundary>
+  <ErrorBoundary>
+    <Layout>{children}</Layout>
+  </ErrorBoundary>
 );
 
 /**
@@ -34,7 +37,7 @@ const RouteWrapper: React.FC<{ children: React.ReactNode }> = ({ children }) => 
  */
 const Routes = () => {
   return (
-    <Suspense fallback={<Loading variant="fullscreen" message="Ŝarĝante..." />}>
+    <Suspense fallback={<LoadingFallback />}>
       <Router>
         <Route
           path="/"

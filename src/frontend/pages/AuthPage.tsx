@@ -25,8 +25,8 @@ const AuthPage: React.FC = () => {
   return (
     <>
       <SEO
-        title={showSignUp ? t('auth.signUp') : t('auth.logIn')}
-        description={t('common.description')}
+        title={showSignUp ? t('auth.actions.signUp') : t('auth.actions.logIn')}
+        description={t('common.site.description')}
       />
 
       {/* Navigation Header */}
@@ -49,7 +49,7 @@ const AuthPage: React.FC = () => {
                 backgroundColor: 'rgba(0, 255, 0, 0.1)',
               },
             }}
-            aria-label={t('navigation.home')}
+            aria-label={t('navigation.main.home')}
           >
             <ArrowBack />
           </IconButton>
@@ -65,7 +65,7 @@ const AuthPage: React.FC = () => {
             }}
             onClick={() => navigate('/')}
           >
-            {t('navigation.home')}
+            {t('navigation.main.home')}
           </Typography>
         </Box>
 

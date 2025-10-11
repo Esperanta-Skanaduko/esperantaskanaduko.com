@@ -3,7 +3,7 @@ import { Typography } from '@mui/material';
 
 const Title = ({ title }: { title?: string }) => {
   const { t } = useTranslation();
-  const titleText = title ?? t('common.siteName');
+  const titleText = title ?? t('common.site.name');
   const titleParts = titleText.split('\n');
 
   return (

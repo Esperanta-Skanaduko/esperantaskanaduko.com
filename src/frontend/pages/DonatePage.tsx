@@ -4,8 +4,10 @@ import { SEO } from '../../components/SEO';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import CoffeeIcon from '@mui/icons-material/LocalCafe';
 import PaymentIcon from '@mui/icons-material/Payment';
+import { useTranslation } from 'react-i18next';
 
 const DonatePage = () => {
+  const { t } = useTranslation();
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
@@ -14,24 +16,24 @@ const DonatePage = () => {
 
   const donationOptions = [
     {
-      title: 'PayPal',
-      description: 'Secure one-time or recurring donations',
+      title: t('donate.methods.paypal.title', 'PayPal'),
+      description: t('donate.methods.paypal.description', 'Secure one-time or recurring donations'),
       icon: <PaymentIcon sx={{ fontSize: 40, color: '#00ff00' }} />,
       url: 'https://www.paypal.com/donate?business=FSQHDN6NA2AJA&item_name=financado+por+Esperanta+Skanaduko&currency_code=USD',
       color: 'rgba(0, 80, 255, 0.1)',
       borderColor: 'rgba(0, 80, 255, 0.3)',
     },
     {
-      title: 'Buy Me a Coffee',
-      description: 'Support with a coffee donation',
+      title: t('donate.methods.coffee.title', 'Buy Me a Coffee'),
+      description: t('donate.methods.coffee.description', 'Support with a coffee donation'),
       icon: <CoffeeIcon sx={{ fontSize: 40, color: '#00ff00' }} />,
       url: 'https://buymeacoffee.com/Vaporjawn',
       color: 'rgba(255, 221, 0, 0.1)',
       borderColor: 'rgba(255, 221, 0, 0.3)',
     },
     {
-      title: 'Patreon',
-      description: 'Monthly support for ongoing development',
+      title: t('donate.methods.patreon.title', 'Patreon'),
+      description: t('donate.methods.patreon.description', 'Monthly support for ongoing development'),
       icon: <FavoriteIcon sx={{ fontSize: 40, color: '#00ff00' }} />,
       url: 'https://www.patreon.com/c/u64402381',
       color: 'rgba(255, 98, 54, 0.1)',
@@ -41,32 +43,32 @@ const DonatePage = () => {
 
   const impactAreas = [
     {
-      title: 'Server Hosting',
-      description: 'Keep the website running 24/7 for global access',
-      amount: '$10/month',
+      title: t('donate.impact.hosting.title', 'Server Hosting'),
+      description: t('donate.impact.hosting.description', 'Keep the website running 24/7 for global access'),
+      amount: t('donate.impact.hosting.amount', '$10/month'),
     },
     {
-      title: 'Content Creation',
-      description: 'Develop new learning materials and resources',
-      amount: '$25/month',
+      title: t('donate.impact.content.title', 'Content Creation'),
+      description: t('donate.impact.content.description', 'Develop new learning materials and resources'),
+      amount: t('donate.impact.content.amount', '$25/month'),
     },
     {
-      title: 'Development Tools',
-      description: 'Maintain and improve the platform features',
-      amount: '$15/month',
+      title: t('donate.impact.development.title', 'Development Tools'),
+      description: t('donate.impact.development.description', 'Maintain and improve the platform features'),
+      amount: t('donate.impact.development.amount', '$15/month'),
     },
     {
-      title: 'Community Support',
-      description: 'Moderate and support the Esperanto community',
-      amount: '$20/month',
+      title: t('donate.impact.community.title', 'Community Support'),
+      description: t('donate.impact.community.description', 'Moderate and support the Esperanto community'),
+      amount: t('donate.impact.community.amount', '$20/month'),
     },
   ];
 
   return (
     <>
       <SEO
-        title="Donate - Support Esperanta Skanaduko"
-        description="Support the development and maintenance of Esperanta Skanaduko. Help us continue providing free Esperanto resources to learners worldwide."
+        title={t('seo.pages.donate.title', 'Donate - Support Esperanta Skanaduko')}
+        description={t('seo.pages.donate.description', 'Support the development and maintenance of Esperanta Skanaduko. Help us continue providing free Esperanto resources to learners worldwide.')}
         keywords={['donate', 'support Esperanto', 'Esperanta Skanaduko donation', 'contribute']}
       />
 
@@ -94,7 +96,7 @@ const DonatePage = () => {
                     textShadow: '0 0 20px rgba(0, 255, 0, 0.3)',
                   }}
                 >
-                  Support Our Mission
+                  {t('donate.hero.title', 'Support Our Mission')}
                 </Typography>
               </Box>
               <Typography
@@ -107,8 +109,7 @@ const DonatePage = () => {
                   lineHeight: 1.6,
                 }}
               >
-                Help us keep Esperanta Skanaduko free and accessible to learners worldwide.
-                Your support enables us to maintain the platform, create new content, and grow the community.
+                {t('donate.hero.subtitle', 'Help us keep Esperanta Skanaduko free and accessible to learners worldwide. Your support enables us to maintain the platform, create new content, and grow the community.')}
               </Typography>
             </Box>
           </Fade>
@@ -126,7 +127,7 @@ const DonatePage = () => {
                   textShadow: '0 0 10px rgba(0, 255, 0, 0.3)',
                 }}
               >
-                Choose Your Preferred Method
+                {t('donate.sections.methods.title', 'Choose Your Preferred Method')}
               </Typography>
               <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 3, justifyContent: 'center' }}>
                 {donationOptions.map((option, index) => (
@@ -185,7 +186,7 @@ const DonatePage = () => {
                               },
                             }}
                           >
-                            Donate Now
+                            {t('donate.actions.donateNow', 'Donate Now')}
                           </Button>
                         </CardContent>
                       </Card>
@@ -209,7 +210,7 @@ const DonatePage = () => {
                   textShadow: '0 0 10px rgba(0, 255, 0, 0.3)',
                 }}
               >
-                Your Impact
+                {t('donate.sections.impact.title', 'Your Impact')}
               </Typography>
               <Typography
                 variant="body1"
@@ -223,8 +224,7 @@ const DonatePage = () => {
                   lineHeight: 1.6,
                 }}
               >
-                Every donation, no matter the size, helps us continue our mission.
-                Here&apos;s how your support makes a difference:
+                {t('donate.sections.impact.description', 'Every donation, no matter the size, helps us continue our mission. Here\'s how your support makes a difference:')}
               </Typography>
               <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 3, justifyContent: 'center' }}>
                 {impactAreas.map((area, index) => (
@@ -304,7 +304,7 @@ const DonatePage = () => {
                   textShadow: '0 0 10px rgba(0, 255, 0, 0.3)',
                 }}
               >
-                Dankon! Thank You!
+                {t('donate.sections.thankYou.title', 'Dankon! Thank You!')}
               </Typography>
               <Typography
                 variant="body1"
@@ -316,8 +316,7 @@ const DonatePage = () => {
                   fontSize: '1.1rem',
                 }}
               >
-                Your generosity helps preserve and share the beauty of Esperanto with learners around the world.
-                Together, we&apos;re building bridges across cultures and languages.
+                {t('donate.sections.thankYou.message', 'Your generosity helps preserve and share the beauty of Esperanto with learners around the world. Together, we\'re building bridges across cultures and languages.')}
               </Typography>
               <Box sx={{ marginTop: 3 }}>
                 <FavoriteIcon sx={{ fontSize: 32, color: '#ff6b6b', animation: 'pulse 2s infinite' }} />

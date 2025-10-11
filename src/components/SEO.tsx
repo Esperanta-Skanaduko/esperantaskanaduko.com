@@ -85,7 +85,7 @@ export const SEO: React.FC<SEOProps> = ({
   const { t, i18n } = useTranslation();
 
   // Default values from translations
-  const siteName = t('common.siteName', 'Esperanta Skanaduko');
+  const siteName = t('common.site.name', 'Esperanta Skanaduko');
   const defaultDescription = t(
     'common.description',
     'Learn Esperanto through an engaging digital experience'

@@ -1,7 +1,85 @@
+// Resource categories for better organization and filtering
+export type ResourceCategory =
+  | 'learning'
+  | 'books'
+  | 'music'
+  | 'audio'
+  | 'video'
+  | 'community'
+  | 'events'
+  | 'organizations'
+  | 'culture'
+  | 'grammar'
+  | 'tools'
+  | 'news';
+
+// Enhanced Resource interface with categorization and metadata
 export interface Resource {
+  id?: string;
   title: string;
+  titleEo?: string; // Esperanto translation of title
   url: string;
   description: string;
+  descriptionEo?: string; // Esperanto translation of description
+  category: ResourceCategory;
+  tags?: string[];
+  difficulty?: 'Beginner' | 'Intermediate' | 'Advanced' | 'All Levels';
+  featured?: boolean; // Highlight as featured resource
+  external?: boolean; // Indicates external link
+  requiresAccount?: boolean; // Requires user account/registration
+  cost?: 'Free' | 'Paid' | 'Freemium';
+}
+
+// Event resource for conferences, courses, and cultural events
+export interface EventResource extends Resource {
+  eventType: 'conference' | 'course' | 'workshop' | 'meetup' | 'cultural' | 'other';
+  location?: string;
+  frequency?: 'annual' | 'monthly' | 'weekly' | 'one-time' | 'ongoing';
+  ageGroup?: string; // e.g., "Youth", "All Ages"
+  requiresRegistration?: boolean;
+}
+
+// Organization resource for Esperanto associations and groups
+export interface OrganizationResource extends Resource {
+  organizationType: 'international' | 'national' | 'regional' | 'special-interest';
+  country?: string; // ISO country code or name
+  membershipRequired?: boolean;
+  membershipUrl?: string;
+}
+
+// Music/Artist resource for Esperanto musicians and bands
+export interface MusicResource {
+  id: string;
+  name: string;
+  genre?: string;
+  description?: string;
+  descriptionEo?: string;
+  links: {
+    youtube?: string;
+    spotify?: string;
+    bandcamp?: string;
+    website?: string;
+    other?: string;
+  };
+  featured?: boolean;
+}
+
+// Grammar guide for language learning rules and explanations
+export interface GrammarGuide {
+  id: string;
+  title: string;
+  titleEo?: string;
+  category: 'accusative' | 'pronouns' | 'verbs' | 'prepositions' | 'general';
+  rules: Array<{
+    rule: string;
+    ruleEo?: string;
+    examples?: Array<{
+      esperanto: string;
+      english: string;
+    }>;
+  }>;
+  exceptions?: string[];
+  externalUrl?: string;
 }
 
 export interface YouTubeMeta {
