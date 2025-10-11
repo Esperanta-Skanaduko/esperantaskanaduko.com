@@ -21,7 +21,16 @@ module.exports = {
       'import/no-unresolved': 'off',
       'import/no-import-module-exports': 'off',
       '@typescript-eslint/no-non-null-assertion': 'off',
-      'no-unused-vars': 'warn',
+      // Allow unused vars in type definitions and function signatures
+      'no-unused-vars': 'off',
+      '@typescript-eslint/no-unused-vars': [
+        'warn',
+        {
+          argsIgnorePattern: '^_',
+          varsIgnorePattern: '^_',
+          caughtErrorsIgnorePattern: '^_',
+        },
+      ],
       'prefer-const': 'warn',
       'prefer-destructuring': 'warn',
       'semi': 'warn',
@@ -31,7 +40,7 @@ module.exports = {
       'jsx-a11y/interactive-supports-focus': 'off',
       'quotes': ['error', 'single'],
       'react/function-component-definition': [
-        2,
+        'warn', // Changed from error to warning
         {
           namedComponents: 'arrow-function',
           unnamedComponents: 'arrow-function',

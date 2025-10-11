@@ -72,7 +72,6 @@ export const resetPassword = async (email: string): Promise<void> => {
  * @returns Unsubscribe function
  */
 export const onAuthChange = (callback: (user: User | null) => void) => {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   return onAuthStateChanged(auth, callback);
 };
 
