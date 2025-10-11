@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { Box, IconButton, Drawer, List, ListItem, ListItemText, Collapse, ListItemButton } from '@mui/material';
+import { Box, IconButton, Drawer, List, ListItemText, Collapse, ListItemButton } from '@mui/material';
 import { Menu as MenuIcon, ExpandLess, ExpandMore } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
+import { useQueryClient } from '@tanstack/react-query';
 
 interface NavItem {
   text: string;
@@ -16,6 +17,7 @@ interface MobileNavProps {
 export const MobileNav: React.FC<MobileNavProps> = ({ navItems }) => {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [openSubMenu, setOpenSubMenu] = useState<string | null>(null);
+  const queryClient = useQueryClient();
 
   const toggleDrawer = (open: boolean) => (event: React.KeyboardEvent | React.MouseEvent) => {
     if (
@@ -27,8 +29,21 @@ export const MobileNav: React.FC<MobileNavProps> = ({ navItems }) => {
     setDrawerOpen(open);
   };
 
-  const handleSubMenuClick = (text: string) => {
-    setOpenSubMenu(openSubMenu === text ? null : text);
+  const prefetchData = (link: string) => {
+    if (link === '/library/esperanto-live-concert-videos') {
+      queryClient.prefetchQuery({
+        queryKey: ['esperantoLiveConcertVideos'],
+        queryFn: () => import('../../../data/esperantoLiveConcertVideos').then(mod => mod.listicleDB),
+      });
+    }
+  };
+
+  const handleSubMenuClick = (item: NavItem) => {
+    const newOpenSubMenu = openSubMenu === item.text ? null : item.text;
+    setOpenSubMenu(newOpenSubMenu);
+    if (newOpenSubMenu && item.children) {
+      item.children.forEach(child => prefetchData(child.link || ''));
+    }
   };
 
   const list = () => (
@@ -41,7 +56,7 @@ export const MobileNav: React.FC<MobileNavProps> = ({ navItems }) => {
         {navItems.map((item) =>
           item.children ? (
             <React.Fragment key={item.text}>
-              <ListItemButton onClick={() => handleSubMenuClick(item.text)}>
+              <ListItemButton onClick={() => handleSubMenuClick(item)}>
                 <ListItemText primary={item.text} />
                 {openSubMenu === item.text ? <ExpandLess /> : <ExpandMore />}
               </ListItemButton>
@@ -56,7 +71,7 @@ export const MobileNav: React.FC<MobileNavProps> = ({ navItems }) => {
               </Collapse>
             </React.Fragment>
           ) : (
-            <ListItemButton key={item.text} component={Link} to={item.link || '#'} onClick={toggleDrawer(false)}>
+            <ListItemButton key={item.text} component={Link} to={item.link || '#'} onClick={toggleDrawer(false)} onMouseEnter={() => prefetchData(item.link || '')}>
               <ListItemText primary={item.text} />
             </ListItemButton>
           )

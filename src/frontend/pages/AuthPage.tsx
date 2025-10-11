@@ -12,7 +12,7 @@ import { LanguageSwitcher } from '../components/languageSwitcher/languageSwitche
  * Authentication Page
  * Combines Sign Up and Log In forms with toggle functionality
  */
-export const AuthPage: React.FC = () => {
+const AuthPage: React.FC = () => {
   const { t } = useTranslation();
   const navigate = useNavigate();
   const [showSignUp, setShowSignUp] = useState(true);
@@ -88,3 +88,5 @@ export const AuthPage: React.FC = () => {
     </>
   );
 };
+
+export default AuthPage;

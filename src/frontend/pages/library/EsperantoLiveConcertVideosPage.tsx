@@ -1,9 +1,24 @@
-import { listicleDB } from '../../../data/esperantoLiveConcertVideos';
+import { useEsperantoLiveConcertVideos } from '../../hooks/useEsperantoLiveConcertVideos';
 import { ListicleItem } from '../../../data/types';
 import Subtitle from '../../components/subtitle';
 import Title from '../../components/title';
+import { Loading } from '../../../components/Loading';
 
 const EsperantoLiveConcertVideosPage = () => {
+  const { data: listicleDB, isLoading, error } = useEsperantoLiveConcertVideos();
+
+  if (isLoading) {
+    return <Loading variant="skeleton" />;
+  }
+
+  if (error) {
+    return <div>Error loading data</div>;
+  }
+
+  if (!listicleDB) {
+    return <div>No data available</div>;
+  }
+
   return (
     <div>
       <Title title={listicleDB.title} />

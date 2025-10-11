@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Box, Button, Popover, Paper } from '@mui/material';
 import { Link } from 'react-router-dom';
 import { ArrowDropDown, ArrowDropUp } from '@mui/icons-material';
+import { useQueryClient } from '@tanstack/react-query';
 
 interface NavItem {
   text: string;
@@ -14,6 +15,7 @@ interface DesktopNavProps {
 }
 
 export const DesktopNav: React.FC<DesktopNavProps> = ({ navItems }) => {
+  const queryClient = useQueryClient();
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const [openMenu, setOpenMenu] = useState<null | string>(null);
   const timeoutRef = React.useRef<number | null>(null);
@@ -31,6 +33,15 @@ export const DesktopNav: React.FC<DesktopNavProps> = ({ navItems }) => {
       setAnchorEl(null);
       setOpenMenu(null);
     }, 200);
+  };
+
+  const prefetchData = (link: string) => {
+    if (link === '/library/esperanto-live-concert-videos') {
+      queryClient.prefetchQuery({
+        queryKey: ['esperantoLiveConcertVideos'],
+        queryFn: () => import('../../../data/esperantoLiveConcertVideos').then(mod => mod.listicleDB),
+      });
+    }
   };
 
   const handlePopoverEnter = () => {
@@ -58,6 +69,7 @@ export const DesktopNav: React.FC<DesktopNavProps> = ({ navItems }) => {
               aria-haspopup="true"
               sx={{ color: 'white', textTransform: 'none', fontSize: '1rem' }}
               endIcon={openMenu === item.text ? <ArrowDropUp /> : <ArrowDropDown />}
+              onMouseEnter={() => item.children?.forEach(child => prefetchData(child.link || ''))}
             >
               {item.text}
             </Button>
@@ -102,6 +114,7 @@ export const DesktopNav: React.FC<DesktopNavProps> = ({ navItems }) => {
             component={Link}
             to={item.link || '#'}
             sx={{ color: 'white', textTransform: 'none', fontSize: '1rem' }}
+            onMouseEnter={() => prefetchData(item.link || '')}
           >
             {item.text}
           </Button>
