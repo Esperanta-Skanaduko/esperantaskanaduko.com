@@ -1,0 +1,166 @@
+{
+  "common": {
+    "siteName": "Esperanta\nSkanaduko",
+    "tagline": "A comprehensive Esperanto learning and resource website",
+    "home": "Home",
+    "about": "About",
+    "library": "Library",
+    "loading": "Loading...",
+    "error": "Error",
+    "language": "Language",
+    "switchLanguage": "Switch Language"
+  },
+  "navigation": {
+    "home": "Home",
+    "library": "Library",
+    "about": "About",
+    "contact": "Contact",
+    "donate": "Donate",
+    "analyzer": "Analyzer",
+    "resources": "Resources"
+  },
+  "donate": {
+    "title": "Support Our Mission",
+    "subtitle": "Help us keep Esperanta Skanaduko free and accessible to learners worldwide. Your support enables us to maintain the platform, create new content, and grow the community.",
+    "choosMethod": "Choose Your Preferred Method",
+    "impact": "Your Impact",
+    "impactDescription": "Every donation, no matter the size, helps us continue our mission. Here's how your support makes a difference:",
+    "thankYou": "Dankon! Thank You!",
+    "thankYouMessage": "Your generosity helps preserve and share the beauty of Esperanto with learners around the world. Together, we're building bridges across cultures and languages.",
+    "donateNow": "Donate Now",
+    "methods": {
+      "paypal": {
+        "title": "PayPal",
+        "description": "Secure one-time or recurring donations"
+      },
+      "buymeacoffee": {
+        "title": "Buy Me a Coffee",
+        "description": "Support with a coffee donation"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "description": "Monthly support for ongoing development"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "title": "Server Hosting",
+        "description": "Keep the website running 24/7 for global access",
+        "amount": "$10/month"
+      },
+      "content": {
+        "title": "Content Creation",
+        "description": "Develop new learning materials and resources",
+        "amount": "$25/month"
+      },
+      "development": {
+        "title": "Development Tools",
+        "description": "Maintain and improve the platform features",
+        "amount": "$15/month"
+      },
+      "community": {
+        "title": "Community Support",
+        "description": "Moderate and support the Esperanto community",
+        "amount": "$20/month"
+      }
+    }
+  },
+  "home": {
+    "welcome": "Welcome to Esperanta Skanduko",
+    "description": "Discover the beauty of Esperanto through our comprehensive collection of learning resources, books, and interactive tools.",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More",
+    "features": {
+      "title": "Features",
+      "library": {
+        "title": "Comprehensive Library",
+        "description": "Access thousands of Esperanto books, articles, and learning materials"
+      },
+      "interactive": {
+        "title": "Interactive Learning",
+        "description": "Engage with interactive tools and exercises to improve your skills"
+      },
+      "community": {
+        "title": "Global Community",
+        "description": "Connect with Esperanto learners and speakers from around the world"
+      }
+    }
+  },
+  "about": {
+    "title": "About Esperanta Skanduko",
+    "description": "Esperanta Skanduko is dedicated to making Esperanto learning accessible and engaging for everyone.",
+    "mission": {
+      "title": "Our Mission",
+      "description": "To preserve and share Esperanto literature, learning materials, and cultural resources with the world."
+    },
+    "esperanto": {
+      "title": "What is Esperanto?",
+      "description": "Esperanto is an international auxiliary language designed for ease of learning and international communication."
+    }
+  },
+  "library": {
+    "title": "Library",
+    "searchPlaceholder": "Search books...",
+    "categories": "Categories",
+    "allBooks": "All Books",
+    "noResults": "No books found",
+    "booksFound": "books found"
+  },
+  "footer": {
+    "copyright": "All rights reserved",
+    "madeWith": "Made with",
+    "forCommunity": "for the Esperanto community",
+    "developedBy": "Developed with ❤️ by",
+    "relatedProjects": "Related Projects",
+    "esperantoAnalyzer": "Esperanto Analyzer",
+    "analyzerDescription": "NPM package for Esperanto text analysis",
+    "socialLinks": "Connect",
+    "links": {
+      "github": "GitHub",
+      "issues": "Report Issue",
+      "contribute": "Contribute"
+    },
+    "acknowledgments": {
+      "title": "Acknowledgments",
+      "gutenberg": "Special thanks to Project Gutenberg for providing free Esperanto books"
+    }
+  },
+  "errors": {
+    "pageNotFound": "Page Not Found",
+    "goHome": "Go Home",
+    "somethingWrong": "Something went wrong",
+    "tryAgain": "Try Again"
+  },
+  "auth": {
+    "signUp": "Sign Up",
+    "logIn": "Log In",
+    "signOut": "Sign Out",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgot Password?",
+    "alreadyHaveAccount": "Already have an account?",
+    "noAccount": "Don't have an account?",
+    "createAccount": "Creating your account...",
+    "welcomeBack": "Welcome Back",
+    "getStarted": "Get Started",
+    "errors": {
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "passwordRequired": "Password is required",
+      "passwordTooShort": "Password must be at least 6 characters",
+      "passwordsNoMatch": "Passwords do not match",
+      "emailInUse": "This email is already in use",
+      "userNotFound": "No account found with this email",
+      "wrongPassword": "Incorrect password",
+      "tooManyAttempts": "Too many failed attempts. Please try again later",
+      "networkError": "Network error. Please check your connection",
+      "unknownError": "An unexpected error occurred. Please try again"
+    },
+    "success": {
+      "accountCreated": "Account created successfully!",
+      "signedIn": "Welcome back!",
+      "signedOut": "Signed out successfully"
+    }
+  }
+}

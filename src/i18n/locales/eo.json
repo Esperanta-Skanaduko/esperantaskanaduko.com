@@ -1,0 +1,166 @@
+{
+  "common": {
+    "siteName": "Esperanta\nSkanaduko",
+    "tagline": "Ampleksa retejo por lerni Esperanton",
+    "home": "Hejmo",
+    "about": "Pri Ni",
+    "library": "Biblioteko",
+    "loading": "Ŝarĝante...",
+    "error": "Eraro",
+    "language": "Lingvo",
+    "switchLanguage": "Ŝanĝi Lingvon"
+  },
+  "navigation": {
+    "home": "Hejmo",
+    "library": "Biblioteko",
+    "about": "Pri Ni",
+    "contact": "Kontakto",
+    "donate": "Donaci",
+    "analyzer": "Analizilo",
+    "resources": "Rimedoj"
+  },
+  "donate": {
+    "title": "Subtenu Nian Mision",
+    "subtitle": "Helpu nin konservi Esperanta Skanaduko senpaga kaj alirebla por lernantoj tutmonde. Via subteno ebligas al ni daŭrigi la platformon, krei novan enhavon kaj kreskigi la komunumon.",
+    "choosMethod": "Elektu Vian Prefereetan Metodon",
+    "impact": "Via Efiko",
+    "impactDescription": "Ĉiu donaco, sendepende de la grandeco, helpas nin daŭrigi nian mision. Jen kiel via subteno faras diferencon:",
+    "thankYou": "Dankon! Thank You!",
+    "thankYouMessage": "Via generozeco helpas konservi kaj dividi la belecon de Esperanto kun lernantoj tra la tuta mondo. Kune, ni konstruas pontojn inter kulturoj kaj lingvoj.",
+    "donateNow": "Donaci Nun",
+    "methods": {
+      "paypal": {
+        "title": "PayPal",
+        "description": "Sekuraj unufojaj aŭ ripetitaj donacoj"
+      },
+      "buymeacoffee": {
+        "title": "Aĉetu al mi kafon",
+        "description": "Subtenu per kafa donaco"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "description": "Monata subteno por daŭra evoluo"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "title": "Servila Gastigo",
+        "description": "Konservu la retejon funkcianta 24/7 por tutmonda aliro",
+        "amount": "$10/monato"
+      },
+      "content": {
+        "title": "Enhava Kreado",
+        "description": "Evoluigi novajn lernmaterialojn kaj rimedojn",
+        "amount": "$25/monato"
+      },
+      "development": {
+        "title": "Evoluaj Iloj",
+        "description": "Konservi kaj plibonigi la platformajn funkciojn",
+        "amount": "$15/monato"
+      },
+      "community": {
+        "title": "Komunuma Subteno",
+        "description": "Moderi kaj subteni la Esperantan komunumon",
+        "amount": "$20/monato"
+      }
+    }
+  },
+  "home": {
+    "welcome": "Bonvenon al Esperanta Skanduko",
+    "description": "Malkovru la belecon de Esperanto per nia ampleksa kolekto de lerniloj, libroj kaj interaktivaj iloj.",
+    "getStarted": "Komenci",
+    "learnMore": "Lerni Pli",
+    "features": {
+      "title": "Trajtoj",
+      "library": {
+        "title": "Ampleksa Biblioteko",
+        "description": "Aliru milojn da Esperantaj libroj, artikoloj kaj lernmaterialoj"
+      },
+      "interactive": {
+        "title": "Interaktiva Lernado",
+        "description": "Partoprenu kun interaktivaj iloj kaj ekzercoj por plibonigi viajn kapablojn"
+      },
+      "community": {
+        "title": "Tutmonda Komunumo",
+        "description": "Konektiĝu kun Esperanto-lernantoj kaj parolantoj el la tuta mondo"
+      }
+    }
+  },
+  "about": {
+    "title": "Pri Esperanta Skanduko",
+    "description": "Esperanta Skanduko dediĉiĝas fari Esperanto-lernadon alirebla kaj engaĝa por ĉiuj.",
+    "mission": {
+      "title": "Nia Misio",
+      "description": "Konservi kaj dividi Esperantan literaturon, lernmaterialojn kaj kulturajn rimedojn kun la mondo."
+    },
+    "esperanto": {
+      "title": "Kio estas Esperanto?",
+      "description": "Esperanto estas internacia helplingvo dizajnita por facila lernado kaj internacia komunikado."
+    }
+  },
+  "library": {
+    "title": "Biblioteko",
+    "searchPlaceholder": "Serĉi librojn...",
+    "categories": "Kategorioj",
+    "allBooks": "Ĉiuj Libroj",
+    "noResults": "Neniuj libroj trovitaj",
+    "booksFound": "libroj trovitaj"
+  },
+  "footer": {
+    "copyright": "Ĉiuj rajtoj rezervitaj",
+    "madeWith": "Farita kun",
+    "forCommunity": "por la Esperanta komunumo",
+    "developedBy": "Evoluigita kun ❤️ de",
+    "relatedProjects": "Rilataj Projektoj",
+    "esperantoAnalyzer": "Esperanto-Analizilo",
+    "analyzerDescription": "NPM-pakaĵo por Esperanta teksta analizo",
+    "socialLinks": "Konektiĝu",
+    "links": {
+      "github": "GitHub",
+      "issues": "Raporti Problemon",
+      "contribute": "Kontribui"
+    },
+    "acknowledgments": {
+      "title": "Dankoj",
+      "gutenberg": "Speciala danko al Project Gutenberg por provizado de senpagaj Esperantaj libroj"
+    }
+  },
+  "errors": {
+    "pageNotFound": "Paĝo Ne Trovita",
+    "goHome": "Iri Hejmen",
+    "somethingWrong": "Io misfunkciis",
+    "tryAgain": "Provu Denove"
+  },
+  "auth": {
+    "signUp": "Registriĝi",
+    "logIn": "Ensaluti",
+    "signOut": "Elsaluti",
+    "email": "Retpoŝto",
+    "password": "Pasvorto",
+    "confirmPassword": "Konfirmi Pasvorton",
+    "forgotPassword": "Ĉu vi forgesis pasvorton?",
+    "alreadyHaveAccount": "Ĉu vi jam havas konton?",
+    "noAccount": "Ĉu vi ne havas konton?",
+    "createAccount": "Kreante vian konton...",
+    "welcomeBack": "Bonvenon Reen",
+    "getStarted": "Komenci",
+    "errors": {
+      "emailRequired": "Retpoŝto estas bezonata",
+      "emailInvalid": "Bonvolu enigi validan retpoŝtadreson",
+      "passwordRequired": "Pasvorto estas bezonata",
+      "passwordTooShort": "Pasvorto devas esti almenaŭ 6 signoj",
+      "passwordsNoMatch": "Pasvortoj ne kongruas",
+      "emailInUse": "Ĉi tiu retpoŝtadreso jam estas uzata",
+      "userNotFound": "Neniu konto trovita kun ĉi tiu retpoŝtadreso",
+      "wrongPassword": "Malĝusta pasvorto",
+      "tooManyAttempts": "Tro multaj malsukcesaj provoj. Bonvolu reprovi poste",
+      "networkError": "Reta eraro. Bonvolu kontroli vian konekton",
+      "unknownError": "Neatendita eraro okazis. Bonvolu reprovi"
+    },
+    "success": {
+      "accountCreated": "Konto kreita sukcese!",
+      "signedIn": "Bonvenon reen!",
+      "signedOut": "Elsalutita sukcese"
+    }
+  }
+}

@@ -1,15 +1,185 @@
-<h1 align="center"><img src='./src/frontend/assets/Flag_of_Esperanto.png' width='50' height='30' align='center' alt='Esperanto Flag' />
-Esperanta Skanaduko
-<img src='./src/frontend/assets/Flag_of_Esperanto.png' width='50' height='30' align='center' alt='Esperanto Flag' />
+<h1 align="center">
+  <img src='./src/frontend/assets/Flag_of_Esperanto.png' width='50' height='30' align='center' alt='Esperanto Flag' />
+  Esperanta Skanduko
+  <img src='./src/frontend/assets/Flag_of_Esperanto.png' width='50' height='30' align='center' alt='Esperanto Flag' />
 </h1>
 
-[![Installation](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/install.js.yml/badge.svg)](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/install.js.yml)
-[![Build](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/build.js.yml/badge.svg)](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/build.js.yml)
-[![Linting](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/lint.js.yml/badge.svg)](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/lint.js.yml)
-[![Tests](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/tests.js.yml/badge.svg)](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/tests.js.yml)
-[![Security Scan](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/securityScan.yml/badge.svg)](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/actions/workflows/securityScan.yml)
+<p align="center">
+  <strong>A comprehensive Esperanto learning and resource website</strong>
+</p>
 
-[![GitHub repo forks](https://img.shields.io/github/forks/Esperanta-Skanaduko/esperantaskanaduko.com?style=flat&logo=github&logoColor=whitesmoke&label=Forks)](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/network)&#160;[![GitHub repo stars](https://img.shields.io/github/stars/Esperanta-Skanaduko/esperantaskanaduko.com?style=flat&logo=github&logoColor=whitesmoke&label=Stars)](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/stargazers)&#160;[![GitHub repo contributors](https://img.shields.io/github/contributors-anon/Esperanta-Skanaduko/esperantaskanaduko.com?style=flat&logo=github&logoColor=whitesmoke&label=Contributors)](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/graphs/contributors)[![GitHub org sponsors](https://img.shields.io/github/sponsors/Esperanta-Skanaduko?style=flat&logo=github&logoColor=whitesmoke&label=Sponsors)](https://github.com/sponsors/Esperanta-Skanaduko)&#160;[![GitHub repo watchers](https://img.shields.io/github/watchers/Esperanta-Skanaduko/esperantaskanaduko.com?style=flat&logo=github&logoColor=whitesmoke&label=Watchers)](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/watchers)&#160;[![GitHub repo size](https://img.shields.io/github/repo-size/Esperanta-Skanaduko/esperantaskanaduko.com?style=flat&logo=github&logoColor=whitesmoke&label=Repo%20Size)](https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/archive/refs/heads/main.zip)
+<p align="center">
+  <a href="https://esperantaskanaduko.com">🌐 Live Website</a> •
+  <a href="#-features">Features</a> •
+  <a href="#-getting-started">Getting Started</a> •
+  <a href="#-contributing">Contributing</a>
+</p>
+
+<div align="center">
+
+[![GitHub Forks](https://img.shields.io/github/forks/Vaporjawn/esperantaskanaduko.com?style=for-the-badge&logo=github&logoColor=white&labelColor=black&color=blue)](https://github.com/Vaporjawn/esperantaskanaduko.com/network)
+[![GitHub Stars](https://img.shields.io/github/stars/Vaporjawn/esperantaskanaduko.com?style=for-the-badge&logo=github&logoColor=white&labelColor=black&color=yellow)](https://github.com/Vaporjawn/esperantaskanaduko.com/stargazers)
+[![Contributors](https://img.shields.io/github/contributors-anon/Vaporjawn/esperantaskanaduko.com?style=for-the-badge&logo=github&logoColor=white&labelColor=black&color=green)](https://github.com/Vaporjawn/esperantaskanaduko.com/graphs/contributors)
+[![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=black)](./LICENSE)
+
+</div>
+
+---
+
+## 📖 About
+
+Esperanta Skanduko is a modern, comprehensive web platform dedicated to making Esperanto learning accessible and engaging. Built with cutting-edge web technologies, this project provides learners with a rich collection of resources, interactive tools, and educational materials.
+
+### What is Esperanto?
+
+Esperanto is an international auxiliary language designed for ease of learning and international communication. This platform aims to preserve and share Esperanto literature, learning materials, and cultural resources.
+
+## ✨ Features
+
+- 🌍 **Comprehensive Resource Library** - Access to Esperanto books, articles, and learning materials
+- 🔥 **Firebase Integration** - Real-time database and authentication for personalized learning
+- 🎨 **Material UI Design System** - Beautiful, accessible components with custom theming
+- 🌐 **Internationalization (i18n)** - Full English/Esperanto language support with react-i18next
+- ⚡ **Lightning Fast** - Powered by Vite and SWC for optimal performance
+- 📱 **Responsive Design** - Works seamlessly on desktop, tablet, and mobile devices
+- 🔍 **Easy Navigation** - Intuitive routing with React Router
+- ♿ **Accessibility First** - WCAG compliant with built-in MUI accessibility features
+- 🧪 **Well Tested** - Comprehensive test coverage with Jest
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+![TypeScript](https://img.shields.io/badge/typescript-%233178C6.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Material UI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![i18next](https://img.shields.io/badge/i18next-26A69A?style=for-the-badge&logo=i18next&logoColor=white)
+
+</div>
+
+### Core Technologies
+
+- **Frontend Framework:** React 18.3.1 with TypeScript 5.9.3
+- **UI Library:** Material UI (MUI) 6.3.2 with custom theming
+- **Internationalization:** react-i18next 15.2.3 with English/Esperanto support
+- **Build Tool:** Vite 4.5.14 with SWC for ultra-fast compilation
+- **Backend:** Firebase 10.14.1 (Authentication, Realtime Database, Firestore)
+- **Routing:** React Router DOM 6.30.1
+- **Testing:** Jest 29.7.0 with comprehensive test coverage
+- **Code Quality:** ESLint, Prettier, TypeScript strict mode
+- **Deployment:** GitHub Pages
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- **Node.js** >= 18.0.0
+- **npm** >= 9.0.0
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Vaporjawn/esperantaskanaduko.com.git
+   cd esperantaskanaduko.com
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Configure Firebase** (if needed)
+   - Copy your Firebase configuration to `src/backend/firebase/firebaseConfig.ts`
+
+### Development
+
+Start the development server with hot module replacement:
+
+```bash
+npm run dev
+```
+
+Or with network access:
+
+```bash
+npm start
+```
+
+The application will be available at `http://localhost:5173`
+
+### Building for Production
+
+Create an optimized production build:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## 🧪 Testing
+
+Run the test suite:
+
+```bash
+npm test
+```
+
+Watch mode for development:
+
+```bash
+npm run test:watch
+```
+
+Generate coverage report:
+
+```bash
+npm run test:coverage
+```
+
+## 📝 Available Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start development server |
+| `npm start` | Start development server with network access |
+| `npm run build` | Build for production |
+| `npm run preview` | Preview production build |
+| `npm test` | Run tests |
+| `npm run test:watch` | Run tests in watch mode |
+| `npm run test:coverage` | Generate test coverage report |
+| `npm run lint` | Lint code with ESLint |
+| `npm run format` | Format code with Prettier |
+| `npm run check` | Run all checks (install, build, lint, test) |
+| `npm run deploy` | Deploy to GitHub Pages |
+
+## 📁 Project Structure
+
+```
+esperantaskanaduko.com/
+├── src/
+│   ├── backend/           # Backend services and Firebase integration
+│   │   ├── firebase/      # Firebase configuration and services
+│   │   ├── translations/  # Internationalization
+│   │   └── types/         # TypeScript type definitions
+│   ├── frontend/          # Frontend components and pages
+│   │   ├── components/    # Reusable React components
+│   │   ├── pages/         # Page components
+│   │   └── routes/        # Routing configuration
+│   ├── config/            # Application configuration
+│   └── main.tsx           # Application entry point
+├── public/                # Static assets
+├── coverage/              # Test coverage reports
+└── dist/                  # Production build output
+```
 
   Using [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
@@ -18,7 +188,81 @@ Esperanta Skanaduko
 
 <img alt="TypeScript" src="https://img.shields.io/badge/typescript-%233178C6.svg?style=for-the-badge&logo=typescript&logoColor=white"/><img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/><img alt="Vite" src="https://img.shields.io/badge/vite-%23007ACC.svg?style=for-the-badge&logo=vite&logoColor=white"/><img alt="SWC" src="https://img.shields.io/badge/swc-%23F7B93E.svg?style=for-the-badge&logo=swc&logoColor=white"/><img alt="React router" src="https://img.shields.io/badge/reactrouter-%230671D5.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/><img alt="CodeCov" src="https://img.shields.io/badge/codecov-%23ff0077.svg?style=for-the-badge&logo=codecov&logoColor=white"/><img alt="Prettier" src="https://img.shields.io/badge/prettier-%23F7B93E.svg?style=for-the-badge&logo=prettier&logoColor=white"/><img alt="ESLint" src="https://img.shields.io/badge/eslint-%234B32C3.svg?style=for-the-badge&logo=eslint&logoColor=white"/><img alt="Jest" src="https://img.shields.io/badge/jest-%23C21325.svg?style=for-the-badge&logo=jest&logoColor=white"/><img alt="GitHub Pages" src="https://img.shields.io/badge/githubpages-%23181717.svg?style=for-the-badge&logo=github&logoColor=white"/>
 
-<div style={{marginLeft: 'auto', marginRight: 'auto'}}><img width="1726" alt="Screenshot 2023-11-17 at 1 27 17 PM" src="https://github.com/Esperanta-Skanaduko/esperantaskanaduko.com/assets/15694665/aa737f0d-2a01-4ffe-834b-04fd757ace69"></div>
+
+## 🤝 Contributing
+
+We welcome contributions from developers of all skill levels! Whether you're fixing bugs, adding features, improving documentation, or translating content, your help is appreciated.
+
+### How to Contribute
+
+1. **Fork the repository**
+2. **Create a feature branch** (`git checkout -b feature/AmazingFeature`)
+3. **Commit your changes** (`git commit -m 'Add some AmazingFeature'`)
+4. **Push to the branch** (`git push origin feature/AmazingFeature`)
+5. **Open a Pull Request**
+
+### Contribution Guidelines
+
+- Follow the existing code style and conventions
+- Write meaningful commit messages
+- Add tests for new features
+- Update documentation as needed
+- Ensure all tests pass before submitting PR
+
+For detailed guidelines, please read [CONTRIBUTING.md](./CODE_OF_CONDUCT.md)
+
+### Code of Conduct
+
+Please note that this project is released with a [Contributor Code of Conduct](./CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+
+<div align="center">
+
+[![GitHub repo Issues](https://img.shields.io/github/issues/Vaporjawn/esperantaskanaduko.com?style=flat&logo=github&logoColor=red&label=Issues)](https://github.com/Vaporjawn/esperantaskanaduko.com/issues)
+[![GitHub repo Good Issues for newbies](https://img.shields.io/github/issues/Vaporjawn/esperantaskanaduko.com/good%20first%20issue?style=flat&logo=github&logoColor=green&label=Good%20First%20Issues)](https://github.com/Vaporjawn/esperantaskanaduko.com/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
+[![GitHub Help Wanted issues](https://img.shields.io/github/issues/Vaporjawn/esperantaskanaduko.com/help%20wanted?style=flat&logo=github&logoColor=b545d1&label=Help%20Wanted)](https://github.com/Vaporjawn/esperantaskanaduko.com/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22)
+[![GitHub repo PRs](https://img.shields.io/github/issues-pr/Vaporjawn/esperantaskanaduko.com?style=flat&logo=github&logoColor=orange&label=PRs)](https://github.com/Vaporjawn/esperantaskanaduko.com/pulls)
+
+</div>
+
+## 👥 Contributors
+
+Thanks to all the amazing people who have contributed to this project!
+
+[![Contributors](https://contrib.rocks/image?repo=Vaporjawn/esperantaskanaduko.com)](https://github.com/Vaporjawn/esperantaskanaduko.com/graphs/contributors)
+
+## 🙏 Acknowledgments
+
+- **[Project Gutenberg](https://www.gutenberg.org/)** - For providing free access to Esperanto literature and books
+- **The Esperanto Community** - For keeping the language alive and thriving
+- **All Contributors** - For their valuable contributions to this project
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
+## 💬 Contact
+
+**Victor Williams** - [@Vaporjawn](https://github.com/Vaporjawn)
+
+- 📧 Email: victor.williams.dev@gmail.com
+- 🐛 Issues: [GitHub Issues](https://github.com/Vaporjawn/esperantaskanaduko.com/issues)
+- 💡 Discussions: [GitHub Discussions](https://github.com/Vaporjawn/esperantaskanaduko.com/discussions)
+
+## ⭐ Support
+
+If you find this project helpful, please consider giving it a star! It helps the project grow and reach more people interested in learning Esperanto.
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Vaporjawn/esperantaskanaduko.com&type=Date)](https://star-history.com/#Vaporjawn/esperantaskanaduko.com&Date)
+
+---
+
+<div align="center">
+
+**[⬆ Back to Top](#)**
+
+Made with ❤️ for the Esperanto community
+
+</div>
 
 ## Installation
 

@@ -1,0 +1,216 @@
+import React from 'react';
+import { Helmet } from 'react-helmet-async';
+import { useTranslation } from 'react-i18next';
+
+interface SEOProps {
+  /**
+   * Page title (will be appended with site name)
+   */
+  title?: string;
+
+  /**
+   * Page description for meta tags
+   */
+  description?: string;
+
+  /**
+   * Keywords for SEO
+   */
+  keywords?: string[];
+
+  /**
+   * Canonical URL for the page
+   */
+  canonical?: string;
+
+  /**
+   * Open Graph image URL
+   */
+  image?: string;
+
+  /**
+   * Page type for Open Graph (website, article, etc.)
+   */
+  type?: 'website' | 'article' | 'profile';
+
+  /**
+   * Article-specific metadata
+   */
+  article?: {
+    publishedTime?: string;
+    modifiedTime?: string;
+    author?: string;
+    section?: string;
+    tags?: string[];
+  };
+
+  /**
+   * Twitter card type
+   */
+  twitterCard?: 'summary' | 'summary_large_image' | 'app' | 'player';
+
+  /**
+   * Additional meta tags
+   */
+  meta?: Array<{
+    name?: string;
+    property?: string;
+    content: string;
+  }>;
+
+  /**
+   * Language override (defaults to current i18n language)
+   */
+  lang?: string;
+}
+
+/**
+ * SEO Component
+ * Dynamic meta tags for better search engine discoverability
+ * Implements Open Graph and Twitter Card protocols
+ * Uses react-helmet-async for SSR compatibility
+ */
+export const SEO: React.FC<SEOProps> = ({
+  title,
+  description,
+  keywords = [],
+  canonical,
+  image,
+  type = 'website',
+  article,
+  twitterCard = 'summary_large_image',
+  meta = [],
+  lang,
+}) => {
+  const { t, i18n } = useTranslation();
+
+  // Default values from translations
+  const siteName = t('common.siteName', 'Esperanta Skanaduko');
+  const defaultDescription = t(
+    'common.description',
+    'Learn Esperanto through an engaging digital experience'
+  );
+  const siteUrl = 'https://esperantaskanaduko.com';
+
+  // Construct full title
+  const fullTitle = title ? `${title} | ${siteName}` : siteName;
+  const metaDescription = description || defaultDescription;
+  const currentLang = lang || i18n.language || 'en';
+  const pageUrl = canonical || siteUrl;
+  const ogImage = image || `${siteUrl}/og-image.png`;
+
+  // Default keywords
+  const defaultKeywords = [
+    'Esperanto',
+    'learn Esperanto',
+    'Esperanto learning',
+    'language learning',
+    'constructed language',
+    'international language',
+  ];
+
+  const allKeywords = [...defaultKeywords, ...keywords].join(', ');
+
+  return (
+    <Helmet>
+      {/* Primary Meta Tags */}
+      <html lang={currentLang} />
+      <title>{fullTitle}</title>
+      <meta name="title" content={fullTitle} />
+      <meta name="description" content={metaDescription} />
+      <meta name="keywords" content={allKeywords} />
+
+      {/* Canonical URL */}
+      {canonical && <link rel="canonical" href={canonical} />}
+
+      {/* Open Graph / Facebook */}
+      <meta property="og:type" content={type} />
+      <meta property="og:url" content={pageUrl} />
+      <meta property="og:title" content={fullTitle} />
+      <meta property="og:description" content={metaDescription} />
+      <meta property="og:image" content={ogImage} />
+      <meta property="og:site_name" content={siteName} />
+      <meta property="og:locale" content={currentLang === 'eo' ? 'eo' : 'en_US'} />
+
+      {/* Article-specific Open Graph tags */}
+      {type === 'article' && article && (
+        <>
+          {article.publishedTime && (
+            <meta property="article:published_time" content={article.publishedTime} />
+          )}
+          {article.modifiedTime && (
+            <meta property="article:modified_time" content={article.modifiedTime} />
+          )}
+          {article.author && (
+            <meta property="article:author" content={article.author} />
+          )}
+          {article.section && (
+            <meta property="article:section" content={article.section} />
+          )}
+          {article.tags?.map((tag) => (
+            <meta key={tag} property="article:tag" content={tag} />
+          ))}
+        </>
+      )}
+
+      {/* Twitter Card */}
+      <meta name="twitter:card" content={twitterCard} />
+      <meta name="twitter:url" content={pageUrl} />
+      <meta name="twitter:title" content={fullTitle} />
+      <meta name="twitter:description" content={metaDescription} />
+      <meta name="twitter:image" content={ogImage} />
+      <meta name="twitter:creator" content="@Vaporjawn" />
+
+      {/* Additional Meta Tags */}
+      <meta name="robots" content="index, follow" />
+      <meta name="googlebot" content="index, follow" />
+      <meta name="author" content="Victor Williams" />
+      <meta name="theme-color" content="#00ff00" />
+
+      {/* Viewport for responsive design */}
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      {/* Additional custom meta tags */}
+      {meta.map((tag, index) => (
+        <meta
+          key={index}
+          {...(tag.name ? { name: tag.name } : {})}
+          {...(tag.property ? { property: tag.property } : {})}
+          content={tag.content}
+        />
+      ))}
+
+      {/* JSON-LD Structured Data */}
+      <script type="application/ld+json">
+        {JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'WebSite',
+          name: siteName,
+          description: metaDescription,
+          url: siteUrl,
+          inLanguage: currentLang,
+          author: {
+            '@type': 'Person',
+            name: 'Victor Williams',
+            url: 'https://github.com/Vaporjawn',
+          },
+        })}
+      </script>
+    </Helmet>
+  );
+};
+
+/**
+ * Default SEO Component
+ * Applies site-wide default SEO tags
+ */
+export const DefaultSEO: React.FC = () => (
+  <SEO
+    keywords={[
+      'Esperanto resources',
+      'Esperanto community',
+      'Esperanto tools',
+      'multilingual learning',
+    ]}
+  />
+);

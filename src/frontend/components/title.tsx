@@ -1,18 +1,20 @@
-const Title = () => {
+import { useTranslation } from 'react-i18next';
+import { Typography } from '@mui/material';
+
+const Title = ({ title }: { title?: string }) => {
+  const { t } = useTranslation();
+  const titleText = title ?? t('common.siteName');
+  const titleParts = titleText.split('\n');
+
   return (
-    <h1
-      style={{
-        color: 'white',
-        fontSize: '90px',
-        textAlign: 'center',
-        fontFamily: 'Copperplate',
-        lineHeight: '.85',
-        textTransform: 'uppercase',
-        textShadow: '2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000',
-      }}
-    >
-      Esperanta <br /> Skanaduko
-    </h1>
+    <Typography variant="h1" component="h1" sx={{ textAlign: 'center' }}>
+      {titleParts.map((part, index) => (
+        <span key={index}>
+          {part}
+          {index < titleParts.length - 1 && <br />}
+        </span>
+      ))}
+    </Typography>
   );
 };
 
