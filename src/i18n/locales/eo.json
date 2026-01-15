@@ -293,6 +293,44 @@
       "news": "Novaĵoj kaj Literaturo",
       "books": "Libroj kaj Legaĵoj"
     },
+    "pages": {
+      "learning": {
+        "description": "Ampleksaj kursoj, lecionoj kaj materialoj por lerni Esperanton ĉe ĉiuj niveloj"
+      },
+      "grammar": {
+        "description": "Ampleksaj gramatikaj gvidiloj kaj referencoj por majstri Esperantan gramatikon"
+      },
+      "tools": {
+        "description": "Esencaj iloj, klavaroj, vortaroj kaj utilaĵoj por labori kun Esperanto"
+      },
+      "books": {
+        "description": "Foliumu nian kolekton de Esperantaj libroj, romanoj kaj legaĵoj por ĉiuj niveloj"
+      },
+      "music": {
+        "description": "Malkovru Esperantajn muzikistojn, bandojn kaj muzikon el la tuta mondo"
+      },
+      "audio": {
+        "description": "Aŭskultu Esperantajn podkastojn, radiajn programojn kaj aŭdajn lecionojn"
+      },
+      "video": {
+        "description": "Rigardu Esperantajn videojn, lernilojn, YouTube-kanalojn kaj videajn lecionojn"
+      },
+      "community": {
+        "description": "Konektu kun Esperantaj parolantoj tutmonde per komunumoj, forumoj kaj interaktivaj mapoj"
+      },
+      "events": {
+        "description": "Trovu Esperantajn eventojn, kursojn, kongresojn kaj renkontiĝojn tutmonde"
+      },
+      "organizations": {
+        "description": "Esploru Esperantajn organizojn, asociojn kaj instituciojn tutmonde"
+      },
+      "culture": {
+        "description": "Lernu pri Esperanta kulturo, historio, tradicioj kaj la tutmonda Esperanta movado"
+      },
+      "news": {
+        "description": "Legu Esperantajn novaĵojn, revuojn, ĵurnalojn kaj literaturajn eldonojn"
+      }
+    },
     "difficulty": {
       "beginner": "Komencanto",
       "intermediate": "Meza",

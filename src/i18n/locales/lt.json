@@ -1,0 +1,326 @@
+{
+  "_meta": {
+    "language": "Lietuvių kalba",
+    "code": "lt",
+    "translationStatus": "complete",
+    "note": "Pilnas vertimas lietuvių kalba - Lietuva ir lietuvių bendruomenės"
+  },
+  "common": {
+    "site": {
+      "name": "Esperanta\nSkanaduko",
+      "tagline": "Visapusiška esperanto mokymosi ir šaltinių svetainė",
+      "description": "Mokykis esperanto per visapusiškus išteklius, interaktyvius įrankius ir bendruomenės ryšius. Prieiga prie virš 200 atrinktių mokymosi medžiagų, knygų, muzikos, vaizdo įrašų ir dar daugiau."
+    },
+    "navigation": {
+      "home": "Pagrindinis",
+      "about": "Apie mus",
+      "library": "Biblioteka"
+    },
+    "ui": {
+      "loading": "Kraunama...",
+      "error": "Klaida",
+      "language": "Kalba",
+      "switchLanguage": "Pakeisti kalbą"
+    }
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Esperanta Skanaduko - Mokykis esperanto internetu",
+        "description": "Jūsų visapusiškas centras esperanto mokymui. Prieiga prie išteklių, knygų, muzikos, bendruomenės ryšių ir interaktyvių įrankių, kad įvaldytumėte tarptautinę kalbą.",
+        "keywords": "mokytis esperanto, esperanto mokymasis, tarptautinė kalba, konstruota kalba, kalbos mokymosi platforma"
+      },
+      "resources": {
+        "title": "Esperanto šaltiniai - Mokomosios medžiagos ir įrankiai",
+        "description": "Atraskite virš 200 visapusiškų esperanto mokymosi šaltinių, įskaitant gramatikos gidus, muziką, podkastus, vaizdo įrašus, bendruomenės žemėlapius, kursus ir įrankius. Nemokami ištekliai nuo pradedantiesiems iki pažengusių besimokantių.",
+        "keywords": "esperanto mokymosi šaltiniai, mokytis esperanto, esperanto gramatika, esperanto muzika, esperanto podkastai, esperanto bendruomenė, esperanto kursai, esperanto įrankiai, kalbos mokymasis"
+      },
+      "library": {
+        "title": "Esperanto biblioteka - Knygos ir skaitymo medžiagos",
+        "description": "Naršykite mūsų atrinktą esperanto knygų, romanų ir skaitymo medžiagų kolekciją. Puikiai tinka visiems lygiams.",
+        "keywords": "esperanto knygos, esperanto biblioteka, esperanto skaitymas, esperanto literatūra, mokytis esperanto skaitymo"
+      },
+      "concerts": {
+        "title": "Esperanto gyvų koncertų vaizdo įrašai",
+        "description": "Žiūrėkite gyvų pasirodymų iš esperanto muzikantų visame pasaulyje. Atraskite gyvą muzikos kultūrą esperanto bendruomenėje.",
+        "keywords": "esperanto muzika, esperanto koncertai, esperanto muzikantai, esperanto kultūra, gyva muzika"
+      }
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "Pagrindinis",
+      "library": "Biblioteka",
+      "about": "Apie mus",
+      "resources": "Šaltiniai"
+    },
+    "secondary": {
+      "contact": "Kontaktai",
+      "donate": "Paremti",
+      "analyzer": "Analizatorius"
+    }
+  },
+  "donate": {
+    "hero": {
+      "title": "Paremkite mūsų misiją",
+      "subtitle": "Padėkite mums išlaikyti Esperanta Skanaduko nemokamą ir prieinamą besimokiantiesiems visame pasaulyje. Jūsų palaikymas leidžia mums prižiūrėti platformą, kurti naują turinį ir auginti bendruomenę."
+    },
+    "sections": {
+      "methods": {
+        "title": "Pasirinkite savo pageidaujamą metodą"
+      },
+      "impact": {
+        "title": "Jūsų įtaka",
+        "description": "Kiekviena auka, nesvarbu kaip didelė, padeda mums tęsti mūsų misiją. Štai kaip jūsų palaikymas daro skirtumą:"
+      },
+      "thankYou": {
+        "title": "Dankon! Ačiū!",
+        "message": "Jūsų dosnumas padeda išsaugoti ir dalintis esperanto grožiu su besimokančiaisiais visame pasaulyje. Kartu mes statome tiltus per kultūras ir kalbas."
+      }
+    },
+    "actions": {
+      "donateNow": "Paremti dabar"
+    },
+    "methods": {
+      "paypal": {
+        "title": "PayPal",
+        "description": "Saugios vienkartinės arba pasikartojančios aukos"
+      },
+      "buymeacoffee": {
+        "title": "Buy Me a Coffee",
+        "description": "Palaikymas su kavos auka"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "description": "Mėnesinis palaikymas nuolatinei plėtrai"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "title": "Serverio talpinimas",
+        "description": "Išlaikyti svetainę veikiančią 24/7 globaliai prieigai",
+        "amount": "€10/mėn."
+      },
+      "content": {
+        "title": "Turinio kūrimas",
+        "description": "Kurti naujas mokymo medžiagas ir išteklius",
+        "amount": "€25/mėn."
+      },
+      "development": {
+        "title": "Plėtros įrankiai",
+        "description": "Prižiūrėti ir tobulinti platformos funkcijas",
+        "amount": "€15/mėn."
+      },
+      "community": {
+        "title": "Bendruomenės palaikymas",
+        "description": "Moderuoti ir palaikyti esperanto bendruomenę",
+        "amount": "€20/mėn."
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "welcome": "Sveiki atvykę į Esperanta Skanduko",
+      "description": "Atraskite esperanto grožį per mūsų visapusišką mokymosi išteklių, knygų ir interaktyvių įrankių kolekciją."
+    },
+    "actions": {
+      "getStarted": "Pradėti",
+      "learnMore": "Sužinoti daugiau"
+    },
+    "features": {
+      "title": "Funkcijos",
+      "items": {
+        "library": {
+          "title": "Visapusiška biblioteka",
+          "description": "Prieiga prie tūkstančių esperanto knygų, straipsnių ir mokymosi medžiagų"
+        },
+        "interactive": {
+          "title": "Interaktyvus mokymasis",
+          "description": "Dalyvaukite su interaktyviais įrankiais ir pratimais, kad pagerintų savo įgūdžius"
+        },
+        "community": {
+          "title": "Globalinė bendruomenė",
+          "description": "Susisiekite su esperanto besimokantiųjų ir kalbantųjų iš viso pasaulio"
+        }
+      }
+    }
+  },
+  "about": {
+    "page": {
+      "title": "Apie Esperanta Skanduko",
+      "description": "Esperanta Skanduko yra paskirtas esperanto mokymui padaryti prieinamą ir patrauklią visiems."
+    },
+    "sections": {
+      "mission": {
+        "title": "Mūsų misija",
+        "description": "Išsaugoti ir dalintis esperanto literatūra, mokymosi medžiagomis ir kultūriniais ištekliais su pasauliu."
+      },
+      "esperanto": {
+        "title": "Kas yra esperanto?",
+        "description": "Esperanto yra tarptautinė pagalbinė kalba, sukurta lengvam mokymuisi ir tarptautinei komunikacijai."
+      }
+    }
+  },
+  "library": {
+    "page": {
+      "title": "Biblioteka"
+    },
+    "search": {
+      "placeholder": "Ieškoti knygų..."
+    },
+    "filters": {
+      "categories": "Kategorijos",
+      "allBooks": "Visos knygos"
+    },
+    "results": {
+      "noResults": "Knygų nerasta",
+      "booksFound": "knygos rasta"
+    }
+  },
+  "footer": {
+    "legal": {
+      "copyright": "Visos teisės saugomos",
+      "madeWith": "Pagaminta su",
+      "forCommunity": "esperanto bendruomenei",
+      "developedBy": "Sukurta su ❤️ iš"
+    },
+    "projects": {
+      "title": "Susiję projektai",
+      "esperantoAnalyzer": {
+        "title": "Esperanto Analyzer",
+        "description": "NPM paketas esperanto teksto analizei"
+      }
+    },
+    "social": {
+      "title": "Susisiekti",
+      "links": {
+        "github": "GitHub",
+        "issues": "Pranešti apie problemą",
+        "contribute": "Prisidėti"
+      }
+    },
+    "acknowledgments": {
+      "title": "Padėkos",
+      "gutenberg": "Ypatingas ačiū Project Gutenberg už nemokomų esperanto knygų teikimą"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Puslapis nerastas",
+      "action": "Eiti į pradžią"
+    },
+    "general": {
+      "title": "Kaut kas nutiko ne taip",
+      "action": "Bandyti vėl"
+    }
+  },
+  "auth": {
+    "actions": {
+      "signUp": "Užsiregistruoti",
+      "logIn": "Prisijungti",
+      "signOut": "Atsijungti"
+    },
+    "fields": {
+      "email": "El. paštas",
+      "password": "Slaptažodis",
+      "confirmPassword": "Patvirtinti slaptažodį"
+    },
+    "links": {
+      "forgotPassword": "Pamiršote slaptažodį?",
+      "alreadyHaveAccount": "Jau turite paskyrą?",
+      "noAccount": "Neturite paskyros?"
+    },
+    "status": {
+      "creatingAccount": "Kuriama jūsų paskyra...",
+      "welcomeBack": "Sveiki sugrįžę",
+      "getStarted": "Pradėti"
+    },
+    "errors": {
+      "validation": {
+        "emailRequired": "El. paštas būtinas",
+        "emailInvalid": "Prašome įvesti galiojantį el. pašto adresą",
+        "passwordRequired": "Slaptažodis būtinas",
+        "passwordTooShort": "Slaptažodį turi būti bent 6 simbolių",
+        "passwordsNoMatch": "Slaptažodžiai nesutampa"
+      },
+      "firebase": {
+        "emailInUse": "Šis el. paštas jau naudojamas",
+        "userNotFound": "Nėra paskyros su šiuo el. paštu",
+        "wrongPassword": "Neteisingas slaptažodis",
+        "tooManyAttempts": "Per daug nepavykusių mėginimų. Prašome bandyti vėliau",
+        "networkError": "Tinklo klaida. Patikrinkite savo ryšį",
+        "unknownError": "Įvyko netikėta klaida. Prašome bandyti dar kartą"
+      }
+    },
+    "success": {
+      "accountCreated": "Paskyra sėkmingai sukurta!",
+      "signedIn": "Sveiki sugrįžę!",
+      "signedOut": "Sėkmingai atsijungta"
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "Esperanto ištekliai",
+      "subtitle": "Visapusiška mokymosi medžiagų, įrankių ir bendruomenės išteklių kolekcija"
+    },
+    "search": {
+      "label": "Ieškoti išteklių...",
+      "placeholder": "Ieškoti pagal pavadinimą, aprašymą ar žymas..."
+    },
+    "filters": {
+      "filterBy": "Filtruoti pagal kategoriją",
+      "clearAll": "Išvalyti visus filtrus"
+    },
+    "sections": {
+      "featured": "Pasižymėję ištekliai",
+      "total": "Iš viso išteklių",
+      "concertVideos": {
+        "title": "Esperanto gyvų koncertų vaizdo įrašai",
+        "description": "Žiūrėkite pasirodymus iš esperanto muzikantų visame pasaulyje"
+      }
+    },
+    "results": {
+      "showing": "Rodoma {{count}} išteklių",
+      "noResults": "Išteklių nerasta",
+      "noResultsDescription": "Pabandykite pakeisti paieškos arba filtro kriterijus"
+    },
+    "categories": {
+      "all": "Visi ištekliai",
+      "learning": "Mokymosi ištekliai",
+      "grammar": "Gramatikos vadovai",
+      "tools": "Įrankiai ir klaviatūros",
+      "music": "Muzika ir atlikėjai",
+      "audio": "Garso įrašai ir podkastai",
+      "video": "Vaizdo ištekliai",
+      "community": "Bendruomenė ir žemėlapiai",
+      "events": "Renginiai ir kursai",
+      "organizations": "Organizacijos",
+      "culture": "Kultūra ir istorija",
+      "news": "Naujienos ir literatūra",
+      "books": "Knygos ir skaitymas"
+    },
+    "difficulty": {
+      "beginner": "Pradedantysis",
+      "intermediate": "Vidutinis",
+      "advanced": "Pažengusysis",
+      "allLevels": "Visi lygiai"
+    },
+    "labels": {
+      "free": "Nemokama",
+      "paid": "Mokama",
+      "freemium": "Freemium",
+      "requiresAccount": "Reikalinga paskyra",
+      "external": "Išorinė nuoroda",
+      "featured": "Pasižymėję",
+      "new": "Naujas",
+      "popular": "Populiarus"
+    },
+    "actions": {
+      "visitSite": "Aplankyti svetainę",
+      "learnMore": "Sužinoti daugiau",
+      "download": "Atsisiųsti",
+      "register": "Registruotis",
+      "viewDetails": "Peržiūrėti detales"
+    }
+  }
+}

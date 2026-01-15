@@ -1,0 +1,326 @@
+{
+  "_meta": {
+    "language": "Euskara",
+    "code": "eu",
+    "translationStatus": "complete",
+    "note": "Euskarazko itzulpen osoa - Euskal Herria eta euskal komunitateak"
+  },
+  "common": {
+    "site": {
+      "name": "Esperanta\nSkanaduko",
+      "tagline": "Esperanto ikasteko eta baliabideetarako webgune integrala",
+      "description": "Ikasi esperantoa baliabide integralak, tresna interaktiboak eta komunitate-loturak erabiliz. Sartu 200+ ikasteko material hautatuetara, liburuak, musika, bideoak eta gehiago."
+    },
+    "navigation": {
+      "home": "Hasiera",
+      "about": "Guri buruz",
+      "library": "Liburutegia"
+    },
+    "ui": {
+      "loading": "Kargatzen...",
+      "error": "Errorea",
+      "language": "Hizkuntza",
+      "switchLanguage": "Hizkuntza aldatu"
+    }
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Esperanta Skanaduko - Ikasi Esperantoa Linean",
+        "description": "Zure esperanto ikasteko gunea. Sartu baliabideak, liburuak, musika, komunitate-loturak eta tresna interaktiboak nazioarteko hizkuntza menperatzeko.",
+        "keywords": "ikasi esperantoa, esperanto ikasketa, nazioarteko hizkuntza, eraikitako hizkuntza, hizkuntza ikasteko plataforma"
+      },
+      "resources": {
+        "title": "Esperanto Baliabideak - Ikasteko Materialak eta Tresnak",
+        "description": "Aurkitu 200+ esperanto ikasteko baliabide integral gramatika-gidak, musika, podcastak, bideoak, komunitate-mapak, ikastaroak eta tresnak barne. Baliabide doakoak hasiberrientzat eta aurreratuetarako.",
+        "keywords": "esperanto ikasteko baliabideak, ikasi esperantoa, esperanto gramatika, esperanto musika, esperanto podcastak, esperanto komunitatea, esperanto ikastaroak, esperanto tresnak, hizkuntza ikasketa"
+      },
+      "library": {
+        "title": "Esperanto Liburutegia - Liburuak eta Irakurgaiak",
+        "description": "Arakatu gure esperanto liburu, eleberri eta irakurgaien bilduma hautatua. Maila guztietako ikasleentzat egokia.",
+        "keywords": "esperanto liburuak, esperanto liburutegia, esperanto irakurketa, esperanto literatura, ikasi esperanto irakurtzen"
+      },
+      "concerts": {
+        "title": "Esperanto Zuzeneko Kontzertu Bideoak",
+        "description": "Ikusi mundu osoko esperanto musikarien zuzeneko emanaldiak. Aurkitu esperanto komunitatearen kultura musikal bizia.",
+        "keywords": "esperanto musika, esperanto kontzertuak, esperanto musikariak, esperanto kultura, musika zuzena"
+      }
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "Hasiera",
+      "library": "Liburutegia",
+      "about": "Guri buruz",
+      "resources": "Baliabideak"
+    },
+    "secondary": {
+      "contact": "Kontaktua",
+      "donate": "Dohaintza egin",
+      "analyzer": "Analizatzailea"
+    }
+  },
+  "donate": {
+    "hero": {
+      "title": "Lagundu Gure Eginkizunari",
+      "subtitle": "Lagundu Esperanta Skanaduko doakoa eta irisgarria mantentzen mundu osoko ikasleentzat. Zure laguntza plataforma mantentzeko, eduki berria sortzeko eta komunitatea hazteko aukera ematen digu."
+    },
+    "sections": {
+      "methods": {
+        "title": "Aukeratu Zure Metodo Hobetsia"
+      },
+      "impact": {
+        "title": "Zure Eragina",
+        "description": "Dohaintza oro, tamaina edozein dela ere, gure eginkizuna jarraitzen laguntzen digu. Hona hemen zure laguntza nola egiten duen aldea:"
+      },
+      "thankYou": {
+        "title": "Dankon! Eskerrik asko!",
+        "message": "Zure eskuzabaltasunak esperantoaren edertasuna mundu osoko ikasleekin gordetzeko eta partekatzeko laguntzen du. Elkarrekin, kultur eta hizkuntzen artean zubiak eraikitzen ari gara."
+      }
+    },
+    "actions": {
+      "donateNow": "Dohaintza egin orain"
+    },
+    "methods": {
+      "paypal": {
+        "title": "PayPal",
+        "description": "Dohaintza seguruak aldiko edo errepikakorrak"
+      },
+      "buymeacoffee": {
+        "title": "Erosi Kafe Bat",
+        "description": "Lagundu kafe dohaintza batekin"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "description": "Hileko laguntza garapen jarraitua"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "title": "Zerbitzari Ostatua",
+        "description": "Mantendu webgunea 24/7 martxan sarbide globalerako",
+        "amount": "€10/hilabete"
+      },
+      "content": {
+        "title": "Eduki Sorkuntza",
+        "description": "Garatu ikasteko material eta baliabide berriak",
+        "amount": "€25/hilabete"
+      },
+      "development": {
+        "title": "Garapen Tresnak",
+        "description": "Mantendu eta hobetu plataformaren ezaugarriak",
+        "amount": "€15/hilabete"
+      },
+      "community": {
+        "title": "Komunitate Laguntza",
+        "description": "Moderatu eta lagundu esperanto komunitateari",
+        "amount": "€20/hilabete"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "welcome": "Ongi etorri Esperanta Skandukora",
+      "description": "Aurkitu esperantoaren edertasuna gure ikasteko baliabide, liburu eta tresna interaktiboen bilduma integral bidez."
+    },
+    "actions": {
+      "getStarted": "Hasi",
+      "learnMore": "Gehiago ikasi"
+    },
+    "features": {
+      "title": "Ezaugarriak",
+      "items": {
+        "library": {
+          "title": "Liburutegi Integrala",
+          "description": "Sartu esperanto liburu, artikulu eta ikasteko materialetara"
+        },
+        "interactive": {
+          "title": "Ikasketa Interaktiboa",
+          "description": "Jardun tresna eta ariketa interaktiboekin zure trebetasunak hobetzeko"
+        },
+        "community": {
+          "title": "Komunitate Globala",
+          "description": "Konektatu mundu osoko esperanto ikasle eta hiztunekin"
+        }
+      }
+    }
+  },
+  "about": {
+    "page": {
+      "title": "Esperanta Skandukoari buruz",
+      "description": "Esperanta Skanduko esperanto ikasketa guztiontzat irisgarria eta erakargarria egiteari dedikatuta dago."
+    },
+    "sections": {
+      "mission": {
+        "title": "Gure Eginkizuna",
+        "description": "Esperanto literatura, ikasteko materialak eta kultur baliabideak munduarekin gordetzea eta partekatzea."
+      },
+      "esperanto": {
+        "title": "Zer da Esperantoa?",
+        "description": "Esperantoa nazioarteko hizkuntza laguntzailea da, ikasteko erraztasunerako eta nazioarteko komunikaziorako diseinatua."
+      }
+    }
+  },
+  "library": {
+    "page": {
+      "title": "Liburutegia"
+    },
+    "search": {
+      "placeholder": "Bilatu liburuak..."
+    },
+    "filters": {
+      "categories": "Kategoriak",
+      "allBooks": "Liburu guztiak"
+    },
+    "results": {
+      "noResults": "Ez da libururik aurkitu",
+      "booksFound": "liburu aurkituta"
+    }
+  },
+  "footer": {
+    "legal": {
+      "copyright": "Eskubide guztiak gordeta",
+      "madeWith": "Eginikoa",
+      "forCommunity": "esperanto komunitatearentzat",
+      "developedBy": "❤️-z garatua"
+    },
+    "projects": {
+      "title": "Erlazionatutako Proiektuak",
+      "esperantoAnalyzer": {
+        "title": "Esperanto Analizatzailea",
+        "description": "NPM paketea esperanto testuen analisirako"
+      }
+    },
+    "social": {
+      "title": "Konektatu",
+      "links": {
+        "github": "GitHub",
+        "issues": "Arazoa jakinarazi",
+        "contribute": "Lagundu"
+      }
+    },
+    "acknowledgments": {
+      "title": "Eskerrak",
+      "gutenberg": "Esker bereziak Gutenberg Proiektuari esperanto liburu doakoak eskaintzeagatik"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Orrialdea Ez da Aurkitu",
+      "action": "Joan Hasierara"
+    },
+    "general": {
+      "title": "Zerbait gaizki joan da",
+      "action": "Saiatu berriro"
+    }
+  },
+  "auth": {
+    "actions": {
+      "signUp": "Erregistratu",
+      "logIn": "Saioa hasi",
+      "signOut": "Saioa amaitu"
+    },
+    "fields": {
+      "email": "Posta elektronikoa",
+      "password": "Pasahitza",
+      "confirmPassword": "Berretsi pasahitza"
+    },
+    "links": {
+      "forgotPassword": "Pasahitza ahaztu duzu?",
+      "alreadyHaveAccount": "Dagoeneko kontu bat duzu?",
+      "noAccount": "Ez duzu konturik?"
+    },
+    "status": {
+      "creatingAccount": "Zure kontua sortzen...",
+      "welcomeBack": "Ongietorri berriro",
+      "getStarted": "Hasi"
+    },
+    "errors": {
+      "validation": {
+        "emailRequired": "Posta elektronikoa beharrezkoa da",
+        "emailInvalid": "Mesedez sartu baliozko posta elektroniko helbide bat",
+        "passwordRequired": "Pasahitza beharrezkoa da",
+        "passwordTooShort": "Pasahitzak gutxienez 6 karaktere izan behar ditu",
+        "passwordsNoMatch": "Pasahitzak ez datoz bat"
+      },
+      "firebase": {
+        "emailInUse": "Posta elektroniko hau dagoeneko erabilita dago",
+        "userNotFound": "Ez da konturik aurkitu posta elektroniko honekin",
+        "wrongPassword": "Pasahitz okerra",
+        "tooManyAttempts": "Saiakera porrot gehiegi. Mesedez saiatu berriro geroago",
+        "networkError": "Sare errorea. Mesedez egiaztatu zure konexioa",
+        "unknownError": "Ustekabeko errore bat gertatu da. Mesedez saiatu berriro"
+      }
+    },
+    "success": {
+      "accountCreated": "Kontua arrakastaz sortuta!",
+      "signedIn": "Ongietorri berriro!",
+      "signedOut": "Saioa arrakastaz amaituta"
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "Esperanto Baliabideak",
+      "subtitle": "Ikasteko materialen, tresnen eta komunitate baliabideen bilduma integrala"
+    },
+    "search": {
+      "label": "Bilatu baliabideak...",
+      "placeholder": "Bilatu izenburuaren, deskribapena edo etiketen arabera..."
+    },
+    "filters": {
+      "filterBy": "Iragazi kategoriaren arabera",
+      "clearAll": "Garbitu Iragazki Guztiak"
+    },
+    "sections": {
+      "featured": "Nabarmendutako Baliabideak",
+      "total": "Baliabide Guztiak",
+      "concertVideos": {
+        "title": "Esperanto Zuzeneko Kontzertu Bideoak",
+        "description": "Ikusi mundu osoko esperanto musikarien emanaldiak"
+      }
+    },
+    "results": {
+      "showing": "{{count}} baliabide erakusten",
+      "noResults": "Ez da baliabiderik aurkitu",
+      "noResultsDescription": "Saiatu zure bilaketa edo iragazki irizpideak doitzen"
+    },
+    "categories": {
+      "all": "Baliabide Guztiak",
+      "learning": "Ikasteko Baliabideak",
+      "grammar": "Gramatika Gidak",
+      "tools": "Tresnak eta Teklatuak",
+      "music": "Musika eta Artistak",
+      "audio": "Audio eta Podcastak",
+      "video": "Bideo Baliabideak",
+      "community": "Komunitatea eta Mapak",
+      "events": "Ekitaldiak eta Ikastaroak",
+      "organizations": "Erakundeak",
+      "culture": "Kultura eta Historia",
+      "news": "Albisteak eta Literatura",
+      "books": "Liburuak eta Irakurketa"
+    },
+    "difficulty": {
+      "beginner": "Hasiberria",
+      "intermediate": "Tartekoa",
+      "advanced": "Aurreratua",
+      "allLevels": "Maila Guztiak"
+    },
+    "labels": {
+      "free": "Doakoa",
+      "paid": "Ordaindua",
+      "freemium": "Freemium",
+      "requiresAccount": "Kontua Behar da",
+      "external": "Kanpoko Esteka",
+      "featured": "Nabarmenduta",
+      "new": "Berria",
+      "popular": "Ezaguna"
+    },
+    "actions": {
+      "visitSite": "Bisitatu Gunea",
+      "learnMore": "Gehiago ikasi",
+      "download": "Deskargatu",
+      "register": "Erregistratu",
+      "viewDetails": "Ikusi Xehetasunak"
+    }
+  }
+}

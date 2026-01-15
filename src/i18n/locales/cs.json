@@ -1,0 +1,326 @@
+{
+  "_meta": {
+    "language": "Česky",
+    "code": "cs",
+    "translationStatus": "complete",
+    "note": "Professional Czech translation completed"
+  },
+  "common": {
+    "site": {
+      "name": "Esperanta\nSkanaduko",
+      "tagline": "Komplexní webová stránka pro učení Esperanta a zdroje",
+      "description": "Učte se Esperanto prostřednictvím komplexních zdrojů, interaktivních nástrojů a komunitních spojení. Přístup k 200+ vybraným vzdělávacím materiálům, knihám, hudebovým nahrávkám, videím a dalším."
+    },
+    "navigation": {
+      "home": "Domov",
+      "about": "O nás",
+      "library": "Knihovna"
+    },
+    "ui": {
+      "loading": "Načítání...",
+      "error": "Chyba",
+      "language": "Jazyk",
+      "switchLanguage": "Přepínání jazyka"
+    }
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Esperanta Skanaduko - Učte se Esperanto online",
+        "description": "Váš komplexní rozcestník pro učení Esperanta. Přístup ke zdrojům, knihám, hudbě, komunitním spojením a interaktivním nástrojům pro zvládnutí mezinárodního jazyka.",
+        "keywords": "učit se Esperanto, učení Esperanta, mezinárodní jazyk, umoďlý jazyk, platforma pro učení jazyků"
+      },
+      "resources": {
+        "title": "Zdroje Esperanta - vzdělávací materiály a nástroje",
+        "description": "Objevte 200+ komplexních zdrojů pro učení Esperanta včetně gramatických průvodců, hudby, podcastů, videí, komunitních map, kurzů a nástrojů. Bezplatné zdroje pro začátečníky až po pokročilé studenty.",
+        "keywords": "zdroje pro učení Esperanta, učit se Esperanto, gramatika Esperanta, hudba Esperanta, podcasty Esperanta, komunita Esperanta, kurzy Esperanta, nástroje Esperanta, učení jazyků"
+      },
+      "library": {
+        "title": "Knihovna Esperanta - knihy a čtení",
+        "description": "Procházejte naši vybránou sbírku knih, románů a čtecích materiálů v Esperantu. Perfektní pro studenty na všech úrovních.",
+        "keywords": "knihy v Esperantu, knihovna Esperanta, čtení v Esperantu, literatura Esperanta, učit se číst v Esperantu"
+      },
+      "concerts": {
+        "title": "Videa živých koncertů Esperanta",
+        "description": "Sledujte živá vystoupení od esperantských hudebníků z celého světa. Objevte pulzující hudební kulturu v esperantské komunitě.",
+        "keywords": "hudba Esperanta, koncerty Esperanta, hudebníci Esperanta, kultura Esperanta, živá hudba"
+      }
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "Domov",
+      "library": "Knihovna",
+      "about": "O nás",
+      "resources": "Zdroje"
+    },
+    "secondary": {
+      "contact": "Kontakt",
+      "donate": "Podpora",
+      "analyzer": "Analyzátor"
+    }
+  },
+  "donate": {
+    "hero": {
+      "title": "Podpořte naši misi",
+      "subtitle": "Pomůžte nám udržet Esperanta Skanaduko bezplatným a přístupným pro studenty na celém světě. Vaše podpora nám umožňuje udržovat platformu, vytvářet nový obsah a rozvíjet komunitu."
+    },
+    "sections": {
+      "methods": {
+        "title": "Zvolte preferovanou metodu"
+      },
+      "impact": {
+        "title": "Váš dopad",
+        "description": "Každý příspěvek, bez ohledu na velikost, nám pomáhá pokračovat v naší misi. Takto vaše podpora přináší rozdíl:"
+      },
+      "thankYou": {
+        "title": "Dankon! Děkujeme!",
+        "message": "Vaše štědrost pomáhá uchoverat a sdílet krásu Esperanta se studenty po celém světě. Společně budujeme mosty mezi kulturami a jazyky."
+      }
+    },
+    "actions": {
+      "donateNow": "Přispět nyní"
+    },
+    "methods": {
+      "paypal": {
+        "title": "PayPal",
+        "description": "Bezpečné jednorazové nebo opakující se příspěvky"
+      },
+      "buymeacoffee": {
+        "title": "Buy Me a Coffee",
+        "description": "Podpořte nás příspěvkem na kávu"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "description": "Měsíční podpora pro průběžný vývoj"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "title": "Hostování serveru",
+        "description": "Udržujte webovou stránku běžící 24/7 pro globální přístup",
+        "amount": "10 $/měsíc"
+      },
+      "content": {
+        "title": "Vytváření obsahu",
+        "description": "Vytvářejte nové vzdělávací materiály a zdroje",
+        "amount": "25 $/měsíc"
+      },
+      "development": {
+        "title": "Vývojové nástroje",
+        "description": "Udržujte a vylepšujte funkce platformy",
+        "amount": "15 $/měsíc"
+      },
+      "community": {
+        "title": "Podpora komunity",
+        "description": "Moderujte a podporujte esperantskou komunitu",
+        "amount": "20 $/měsíc"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "welcome": "Vítejte v Esperanta Skanduko",
+      "description": "Objevte krásu Esperanta prostřednictvím naší komplexní sbírky vzdělávacích zdrojů, knih a interaktivních nástrojů."
+    },
+    "actions": {
+      "getStarted": "Začít",
+      "learnMore": "Zjistit více"
+    },
+    "features": {
+      "title": "Funkce",
+      "items": {
+        "library": {
+          "title": "Komplexní knihovna",
+          "description": "Přístup k tisícům knih, článků a vzdělávacích materiálů v Esperantu"
+        },
+        "interactive": {
+          "title": "Interaktivní učení",
+          "description": "Zapojte se do interaktivních nástrojů a cvičení pro vylepšení vašich dovedností"
+        },
+        "community": {
+          "title": "Globální komunita",
+          "description": "Spojte se se studenty a mluvčími Esperanta z celého světa"
+        }
+      }
+    }
+  },
+  "about": {
+    "page": {
+      "title": "O Esperanta Skanduko",
+      "description": "Esperanta Skanduko je věnováno tomu, aby bylo učení Esperanta přístupné a zaujímavé pro všechny."
+    },
+    "sections": {
+      "mission": {
+        "title": "Naše mise",
+        "description": "Uchoverat a sdílet literaturu, vzdělávací materiály a kulturní zdroje Esperanta se světem."
+      },
+      "esperanto": {
+        "title": "Co je Esperanto?",
+        "description": "Esperanto je mezinárodní pomocný jazyk navržený pro snadné učení a mezinárodní komunikaci."
+      }
+    }
+  },
+  "library": {
+    "page": {
+      "title": "Knihovna"
+    },
+    "search": {
+      "placeholder": "Hledat knihy..."
+    },
+    "filters": {
+      "categories": "Kategorie",
+      "allBooks": "Všechny knihy"
+    },
+    "results": {
+      "noResults": "Nebyly nalezeny žádné knihy",
+      "booksFound": "nalezených knih"
+    }
+  },
+  "footer": {
+    "legal": {
+      "copyright": "Všechna práva vyhrazena",
+      "madeWith": "Vytvořeno s",
+      "forCommunity": "pro esperantskou komunitu",
+      "developedBy": "Vyvinuto s ❤️"
+    },
+    "projects": {
+      "title": "Příbuzné projekty",
+      "esperantoAnalyzer": {
+        "title": "Analyzátor Esperanta",
+        "description": "NPM balíček pro analýzu textu v Esperantu"
+      }
+    },
+    "social": {
+      "title": "Spojit se",
+      "links": {
+        "github": "GitHub",
+        "issues": "Nahlásit problém",
+        "contribute": "Přispět"
+      }
+    },
+    "acknowledgments": {
+      "title": "Poděkování",
+      "gutenberg": "Zvláštní dík Projektu Gutenberg za poskytnutí bezplatných knih v Esperantu"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Stránka nenalezena",
+      "action": "Domov"
+    },
+    "general": {
+      "title": "Něco se pokazilo",
+      "action": "Zkusit znovu"
+    }
+  },
+  "auth": {
+    "actions": {
+      "signUp": "Registrovat se",
+      "logIn": "Přihlásit se",
+      "signOut": "Odhlásit se"
+    },
+    "fields": {
+      "email": "Email",
+      "password": "Heslo",
+      "confirmPassword": "Potvrdit heslo"
+    },
+    "links": {
+      "forgotPassword": "Zapomněli jste heslo?",
+      "alreadyHaveAccount": "Už máte účet?",
+      "noAccount": "Nemáte účet?"
+    },
+    "status": {
+      "creatingAccount": "Vytváření vašeho účtu...",
+      "welcomeBack": "Vítejte zpět",
+      "getStarted": "Začít"
+    },
+    "errors": {
+      "validation": {
+        "emailRequired": "Email je vyžadován",
+        "emailInvalid": "Prosím zadejte platný email",
+        "passwordRequired": "Heslo je vyžadováno",
+        "passwordTooShort": "Heslo musí mít alespoň 6 znaků",
+        "passwordsNoMatch": "Hesla se neshodují"
+      },
+      "firebase": {
+        "emailInUse": "Tento email již je používán",
+        "userNotFound": "Nebyl nalezen žádný účet s tímto emailem",
+        "wrongPassword": "Nesprávné heslo",
+        "tooManyAttempts": "Příliš mnoho neúspěšných pokusů. Prosím zkuste později",
+        "networkError": "Chyba sítě. Prosím zkontrolujte vaše připojení",
+        "unknownError": "Nastala neočekávaná chyba. Prosím zkuste znovu"
+      }
+    },
+    "success": {
+      "accountCreated": "Účet úspěšně vytvořen!",
+      "signedIn": "Vítejte zpět!",
+      "signedOut": "Úspěšně odhlášeno"
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "Zdroje Esperanta",
+      "subtitle": "Komplexní sbírka vzdělávacích materiálů, nástrojů a komunitních zdrojů"
+    },
+    "search": {
+      "label": "Hledat zdroje...",
+      "placeholder": "Hledat podle názvu, popisu nebo tagů..."
+    },
+    "filters": {
+      "filterBy": "Filtrovat podle kategorie",
+      "clearAll": "Vymazat všechny filtry"
+    },
+    "sections": {
+      "featured": "Vybrané zdroje",
+      "total": "Celkové zdroje",
+      "concertVideos": {
+        "title": "Videa živých koncertů Esperanta",
+        "description": "Sledujte vystoupení esperantských hudebníků z celého světa"
+      }
+    },
+    "results": {
+      "showing": "Zobrazování {{count}} zdrojů",
+      "noResults": "Nebyly nalezeny žádné zdroje",
+      "noResultsDescription": "Zkuste upravit vaše vyhledávání nebo kritéria filtru"
+    },
+    "categories": {
+      "all": "Všechny zdroje",
+      "learning": "Vzdělávací zdroje",
+      "grammar": "Gramatické průvodce",
+      "tools": "Nástroje a klávesnice",
+      "music": "Hudba a umělci",
+      "audio": "Audio a podcasty",
+      "video": "Videozdroje",
+      "community": "Komunita a mapy",
+      "events": "Události a kurzy",
+      "organizations": "Organizace",
+      "culture": "Kultura a historie",
+      "news": "Zprávy a literatura",
+      "books": "Knihy a čtení"
+    },
+    "difficulty": {
+      "beginner": "Začátečník",
+      "intermediate": "Střední",
+      "advanced": "Pokročilý",
+      "allLevels": "Všechny úrovně"
+    },
+    "labels": {
+      "free": "Zdarma",
+      "paid": "Placené",
+      "freemium": "Freemium",
+      "requiresAccount": "Požaduje účet",
+      "external": "Externí odkaz",
+      "featured": "Vybrané",
+      "new": "Nové",
+      "popular": "Populární"
+    },
+    "actions": {
+      "visitSite": "Navštívit web",
+      "learnMore": "Zjistit více",
+      "download": "Stáhnout",
+      "register": "Registrovat",
+      "viewDetails": "Zobrazit podrobnosti"
+    }
+  }
+}

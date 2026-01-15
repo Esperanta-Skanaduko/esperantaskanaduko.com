@@ -1,0 +1,326 @@
+{
+  "_meta": {
+    "language": "Deutsch",
+    "code": "de",
+    "translationStatus": "human-translated",
+    "note": "Vollständige deutsche Übersetzung",
+    "lastUpdated": "2025-10-11",
+    "translator": "AI Assistant",
+    "reviewStatus": "completed"
+  },
+  "common": {
+    "site": {
+      "name": "Esperanta\nSkanaduko",
+      "tagline": "Eine umfassende Esperanto-Lern- und Ressourcenwebseite",
+      "description": "Lernen Sie Esperanto durch umfassende Ressourcen, interaktive Werkzeuge und Gemeinschaftsverbindungen. Greifen Sie auf über 200 kuratierte Lernmaterialien, Bücher, Musik, Videos und mehr zu."
+    },
+    "navigation": {
+      "home": "Startseite",
+      "about": "Über uns",
+      "library": "Bibliothek"
+    },
+    "ui": {
+      "loading": "Lädt...",
+      "error": "Fehler",
+      "language": "Sprache",
+      "switchLanguage": "Sprache wechseln"
+    }
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Esperanta Skanaduko - Esperanto Online Lernen",
+        "description": "Ihr umfassendes Portal zum Esperanto-Lernen. Zugriff auf Ressourcen, Bücher, Musik, Gemeinschaftsverbindungen und interaktive Werkzeuge zur Beherrschung der internationalen Sprache.",
+        "keywords": "Esperanto lernen, Esperanto-Lernen, internationale Sprache, konstruierte Sprache, Sprachlernplattform"
+      },
+      "resources": {
+        "title": "Esperanto-Ressourcen - Lernmaterialien & Werkzeuge",
+        "description": "Entdecken Sie über 200 umfassende Esperanto-Lernressourcen einschließlich Grammatikanleitungen, Musik, Podcasts, Videos, Gemeinschaftskarten, Kurse und Werkzeuge. Kostenlose Ressourcen für Anfänger bis Fortgeschrittene.",
+        "keywords": "Esperanto-Lernressourcen, Esperanto lernen, Esperanto-Grammatik, Esperanto-Musik, Esperanto-Podcasts, Esperanto-Gemeinschaft, Esperanto-Kurse, Esperanto-Werkzeuge, Sprachenlernen"
+      },
+      "library": {
+        "title": "Esperanto-Bibliothek - Bücher & Lesematerialien",
+        "description": "Durchstöbern Sie unsere kuratierte Sammlung von Esperanto-Büchern, Romanen und Lesematerialien. Perfekt für Lernende aller Stufen.",
+        "keywords": "Esperanto-Bücher, Esperanto-Bibliothek, Esperanto-Lesen, Esperanto-Literatur, Esperanto lesen lernen"
+      },
+      "concerts": {
+        "title": "Esperanto Live-Konzertvideos",
+        "description": "Sehen Sie Live-Auftritte von Esperanto-Musikern weltweit. Entdecken Sie die lebendige Musikkultur in der Esperanto-Gemeinschaft.",
+        "keywords": "Esperanto-Musik, Esperanto-Konzerte, Esperanto-Musiker, Esperanto-Kultur, Live-Musik"
+      }
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "Startseite",
+      "library": "Bibliothek",
+      "about": "Über uns",
+      "resources": "Ressourcen"
+    },
+    "secondary": {
+      "contact": "Kontakt",
+      "donate": "Spenden",
+      "analyzer": "Analysator"
+    }
+  },
+  "donate": {
+    "hero": {
+      "title": "Unterstützen Sie Unsere Mission",
+      "subtitle": "Helfen Sie uns, Esperanta Skanaduko kostenlos und für Lernende weltweit zugänglich zu halten. Ihre Unterstützung ermöglicht es uns, die Plattform zu pflegen, neue Inhalte zu erstellen und die Gemeinschaft wachsen zu lassen."
+    },
+    "sections": {
+      "methods": {
+        "title": "Wählen Sie Ihre Bevorzugte Methode"
+      },
+      "impact": {
+        "title": "Ihre Wirkung",
+        "description": "Jede Spende, egal wie groß, hilft uns, unsere Mission fortzusetzen. So macht Ihre Unterstützung einen Unterschied:"
+      },
+      "thankYou": {
+        "title": "Dankon! Vielen Dank!",
+        "message": "Ihre Großzügigkeit hilft, die Schönheit des Esperanto zu bewahren und mit Lernenden auf der ganzen Welt zu teilen. Gemeinsam bauen wir Brücken zwischen Kulturen und Sprachen."
+      }
+    },
+    "actions": {
+      "donateNow": "Jetzt Spenden"
+    },
+    "methods": {
+      "paypal": {
+        "title": "PayPal",
+        "description": "Sichere einmalige oder wiederkehrende Spenden"
+      },
+      "buymeacoffee": {
+        "title": "Buy Me a Coffee",
+        "description": "Unterstützen Sie mit einer Kaffeespende"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "description": "Monatliche Unterstützung für kontinuierliche Entwicklung"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "title": "Server-Hosting",
+        "description": "Halten Sie die Website 24/7 für globalen Zugriff am Laufen",
+        "amount": "10$/Monat"
+      },
+      "content": {
+        "title": "Inhaltserstellung",
+        "description": "Entwickeln Sie neue Lernmaterialien und Ressourcen",
+        "amount": "25$/Monat"
+      },
+      "development": {
+        "title": "Entwicklungswerkzeuge",
+        "description": "Pflegen und verbessern Sie die Plattformfunktionen",
+        "amount": "15$/Monat"
+      },
+      "community": {
+        "title": "Gemeinschaftsunterstützung",
+        "description": "Moderieren und unterstützen Sie die Esperanto-Gemeinschaft",
+        "amount": "20$/Monat"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "welcome": "Willkommen bei Esperanta Skanduko",
+      "description": "Entdecken Sie die Schönheit des Esperanto durch unsere umfassende Sammlung von Lernressourcen, Büchern und interaktiven Werkzeugen."
+    },
+    "actions": {
+      "getStarted": "Loslegen",
+      "learnMore": "Mehr Erfahren"
+    },
+    "features": {
+      "title": "Funktionen",
+      "items": {
+        "library": {
+          "title": "Umfassende Bibliothek",
+          "description": "Zugriff auf Tausende von Esperanto-Büchern, Artikeln und Lernmaterialien"
+        },
+        "interactive": {
+          "title": "Interaktives Lernen",
+          "description": "Interagieren Sie mit interaktiven Werkzeugen und Übungen, um Ihre Fähigkeiten zu verbessern"
+        },
+        "community": {
+          "title": "Globale Gemeinschaft",
+          "description": "Verbinden Sie sich mit Esperanto-Lernenden und Sprechern aus der ganzen Welt"
+        }
+      }
+    }
+  },
+  "about": {
+    "page": {
+      "title": "Über Esperanta Skanduko",
+      "description": "Esperanta Skanduko widmet sich der zugänglichen und ansprechenden Gestaltung des Esperanto-Lernens für alle."
+    },
+    "sections": {
+      "mission": {
+        "title": "Unsere Mission",
+        "description": "Esperanto-Literatur, Lernmaterialien und kulturelle Ressourcen mit der Welt zu bewahren und zu teilen."
+      },
+      "esperanto": {
+        "title": "Was ist Esperanto?",
+        "description": "Esperanto ist eine internationale Hilfssprache, die für Lernleichtigkeit und internationale Kommunikation konzipiert wurde."
+      }
+    }
+  },
+  "library": {
+    "page": {
+      "title": "Bibliothek"
+    },
+    "search": {
+      "placeholder": "Bücher suchen..."
+    },
+    "filters": {
+      "categories": "Kategorien",
+      "allBooks": "Alle Bücher"
+    },
+    "results": {
+      "noResults": "Keine Bücher gefunden",
+      "booksFound": "Bücher gefunden"
+    }
+  },
+  "footer": {
+    "legal": {
+      "copyright": "Alle Rechte vorbehalten",
+      "madeWith": "Hergestellt mit",
+      "forCommunity": "für die Esperanto-Gemeinschaft",
+      "developedBy": "Entwickelt mit ❤️ von"
+    },
+    "projects": {
+      "title": "Verwandte Projekte",
+      "esperantoAnalyzer": {
+        "title": "Esperanto Analyzer",
+        "description": "NPM-Paket für Esperanto-Textanalyse"
+      }
+    },
+    "social": {
+      "title": "Verbinden",
+      "links": {
+        "github": "GitHub",
+        "issues": "Problem Melden",
+        "contribute": "Beitragen"
+      }
+    },
+    "acknowledgments": {
+      "title": "Danksagungen",
+      "gutenberg": "Besonderen Dank an Project Gutenberg für die Bereitstellung kostenloser Esperanto-Bücher"
+    }
+  },
+  "errors": {
+    "pageNotFound": "Seite nicht gefunden",
+    "serverError": "Serverfehler",
+    "unauthorized": "Nicht autorisiert",
+    "forbidden": "Zugriff verboten",
+    "backHome": "Zurück zur Startseite"
+  },
+  "auth": {
+    "actions": {
+      "signUp": "Registrieren",
+      "logIn": "Anmelden",
+      "signOut": "Abmelden"
+    },
+    "fields": {
+      "email": "E-Mail",
+      "password": "Passwort",
+      "confirmPassword": "Passwort Bestätigen"
+    },
+    "links": {
+      "forgotPassword": "Passwort Vergessen?",
+      "alreadyHaveAccount": "Haben Sie bereits ein Konto?",
+      "noAccount": "Noch kein Konto?"
+    },
+    "status": {
+      "creatingAccount": "Ihr Konto wird erstellt...",
+      "welcomeBack": "Willkommen Zurück",
+      "getStarted": "Loslegen"
+    },
+    "errors": {
+      "validation": {
+        "emailRequired": "E-Mail ist erforderlich",
+        "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+        "passwordRequired": "Passwort ist erforderlich",
+        "passwordTooShort": "Passwort muss mindestens 6 Zeichen lang sein",
+        "passwordsNoMatch": "Passwörter stimmen nicht überein"
+      },
+      "firebase": {
+        "emailInUse": "Diese E-Mail wird bereits verwendet",
+        "userNotFound": "Kein Konto mit dieser E-Mail gefunden",
+        "wrongPassword": "Falsches Passwort",
+        "tooManyAttempts": "Zu viele fehlgeschlagene Versuche. Bitte versuchen Sie es später erneut",
+        "networkError": "Netzwerkfehler. Bitte überprüfen Sie Ihre Verbindung",
+        "unknownError": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut"
+      }
+    },
+    "success": {
+      "accountCreated": "Konto erfolgreich erstellt!",
+      "signedIn": "Willkommen zurück!",
+      "signedOut": "Erfolgreich abgemeldet"
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "Esperanto-Ressourcen",
+      "subtitle": "Umfassende Sammlung von Lernmaterialien, Werkzeugen und Gemeinschaftsressourcen"
+    },
+    "search": {
+      "label": "Ressourcen suchen...",
+      "placeholder": "Suchen Sie nach Titel, Beschreibung oder Tags..."
+    },
+    "filters": {
+      "filterBy": "Nach Kategorie filtern",
+      "clearAll": "Alle Filter Löschen"
+    },
+    "sections": {
+      "featured": "Hervorgehobene Ressourcen",
+      "total": "Gesamte Ressourcen",
+      "concertVideos": {
+        "title": "Esperanto Live-Konzertvideos",
+        "description": "Sehen Sie Auftritte von Esperanto-Musikern weltweit"
+      }
+    },
+    "results": {
+      "showing": "Zeige {{count}} Ressourcen",
+      "noResults": "Keine Ressourcen gefunden",
+      "noResultsDescription": "Versuchen Sie, Ihre Such- oder Filterkriterien anzupassen"
+    },
+    "categories": {
+      "all": "Alle Ressourcen",
+      "learning": "Lernressourcen",
+      "grammar": "Grammatikanleitungen",
+      "tools": "Werkzeuge & Tastaturen",
+      "music": "Musik & Künstler",
+      "audio": "Audio & Podcasts",
+      "video": "Video-Ressourcen",
+      "community": "Gemeinschaft & Karten",
+      "events": "Veranstaltungen & Kurse",
+      "organizations": "Organisationen",
+      "culture": "Kultur & Geschichte",
+      "news": "Nachrichten & Literatur",
+      "books": "Bücher & Lesen"
+    },
+    "difficulty": {
+      "beginner": "Anfänger",
+      "intermediate": "Mittelstufe",
+      "advanced": "Fortgeschritten",
+      "allLevels": "Alle Stufen"
+    },
+    "labels": {
+      "free": "Kostenlos",
+      "paid": "Bezahlt",
+      "freemium": "Freemium",
+      "requiresAccount": "Konto Erforderlich",
+      "external": "Externer Link",
+      "featured": "Hervorgehoben",
+      "new": "Neu",
+      "popular": "Beliebt"
+    },
+    "actions": {
+      "visitSite": "Website Besuchen",
+      "learnMore": "Mehr Erfahren",
+      "download": "Herunterladen",
+      "register": "Registrieren",
+      "viewDetails": "Details Anzeigen"
+    }
+  }
+}

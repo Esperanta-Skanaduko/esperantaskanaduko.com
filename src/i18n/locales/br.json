@@ -1,0 +1,326 @@
+{
+  "_meta": {
+    "language": "Brezhoneg",
+    "code": "br",
+    "translationStatus": "complete",
+    "note": "Troidigezh klok e brezhoneg - Breizh hag ar gumuniezhoù brezhoneg"
+  },
+  "common": {
+    "site": {
+      "name": "Esperanta\nSkanaduko",
+      "tagline": "Ul lec'hienn klok evit deskiñ esperanto hag kavout danvezioù",
+      "description": "Deskiit esperanto dre zanvezioù klok, ostoù etrewezhiat ha darempredoù gant ar gumuniezh. Moned d'ouzhpenn 200 danvez deskidigezh diuzet, levrioù, sonerezh, videoioù ha muioc'h c'hoazh."
+    },
+    "navigation": {
+      "home": "Degemer",
+      "about": "Diwar-benn",
+      "library": "Levraoueg"
+    },
+    "ui": {
+      "loading": "O kargañ...",
+      "error": "Fazi",
+      "language": "Yezh",
+      "switchLanguage": "Chench yezh"
+    }
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Esperanta Skanaduko - Deskiit esperanto war-linenn",
+        "description": "Ho kreizenn glok evit deskiñ esperanto. Moned da zanvezioù, levrioù, sonerezh, darempredoù gant ar gumuniezh hag ostoù etrewezhiat evit deskiñ ar yezh etrebroadel.",
+        "keywords": "deskiit esperanto, deskidigezh esperanto, yezh etrebroadel, yezh savet, savenn evit deskiñ yezhoù"
+      },
+      "resources": {
+        "title": "Danvezioù esperanto - Danvezoù deskidigezh hag ostoù",
+        "description": "Dizoleit ouzhpenn 200 dra evit deskiñ esperanto gant sturiadurioù yezhadur, sonerezh, podskignoù, videoioù, kartoù ar gumuniezh, stummadoù hag ostoù. Danvezioù digoust evit ar re a gresk da zeskerion araokaet.",
+        "keywords": "danvezioù evit deskiñ esperanto, deskiit esperanto, yezhadur esperanto, sonerezh esperanto, podskignoù esperanto, kumuniezh esperanto, koursoù esperanto, ostoù esperanto, deskidigezh yezhoù"
+      },
+      "library": {
+        "title": "Levraoueg esperanto - Levrioù ha danvezoù lenn",
+        "description": "Furchit hor dastumadenn diuzet a levrioù, romantoù ha danvezoù lenn e esperanto. Peurzezh evit ar skolidi war bep live.",
+        "keywords": "levrioù esperanto, levraoueg esperanto, lenn esperanto, lennadurezh esperanto, deskiit lenn esperanto"
+      },
+      "concerts": {
+        "title": "Videoioù koñsertoù bev esperanto",
+        "description": "Sellit ouzh koñsertoù bev gant sonadegoù esperanto er bed a-bezh. Dizoleit sevenadur sonerel flour kumuniezh esperanto.",
+        "keywords": "sonerezh esperanto, koñsertoù esperanto, sonadegoù esperanto, sevenadur esperanto, sonerezh bev"
+      }
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "Degemer",
+      "library": "Levraoueg",
+      "about": "Diwar-benn",
+      "resources": "Danvezioù"
+    },
+    "secondary": {
+      "contact": "Darempred",
+      "donate": "Ober un donezon",
+      "analyzer": "Dezranner"
+    }
+  },
+  "donate": {
+    "hero": {
+      "title": "Sikourit hor misioñ",
+      "subtitle": "Sikourit ac'hanomp da virout Esperanta Skanaduko digoust ha tizhus evit ar skolidi er bed a-bezh. Ho skoazell a ro tro deomp da virout ar savenn war droed, da grouiou endalc'had nevez ha da greskiñ ar gumuniezh."
+    },
+    "sections": {
+      "methods": {
+        "title": "Dibabit ho hentenn welloc'h karet"
+      },
+      "impact": {
+        "title": "Ho levezon",
+        "description": "Pep donezon, pe vern pegen bihan e vefe, a skoazell ac'hanomp da genderc'hel hor misioñ. Setu penaos ho skoazell a ra ur c'hemmad:"
+      },
+      "thankYou": {
+        "title": "Dankon! Trugarez!",
+        "message": "Ho c'hrasouster a skoazell da virout ha da rannañ kaerded an esperanto gant ar skolidi er bed a-bezh. A-gevret, emaomp o sevel pontoù etre ar sevenadurioù hag ar yezhoù."
+      }
+    },
+    "actions": {
+      "donateNow": "Ober un donezon bremaoñ"
+    },
+    "methods": {
+      "paypal": {
+        "title": "PayPal",
+        "description": "Donezonoù sur un tro pe adsavet"
+      },
+      "buymeacoffee": {
+        "title": "Buy Me a Coffee",
+        "description": "Sikourit gant un donezon kafe"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "description": "Skoazell miziek evit diorren padus"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "title": "Ostadur servijer",
+        "description": "Mirout al lec'hienn war-dro 24/7 evit moned hollek",
+        "amount": "€10/miz"
+      },
+      "content": {
+        "title": "Krouiedigezh endalc'had",
+        "description": "Diorren danvezoù deskidigezh ha danvezioù nevez",
+        "amount": "€25/miz"
+      },
+      "development": {
+        "title": "Ostoù diorren",
+        "description": "Mirout ha gwellaat perzhioù ar savenn",
+        "amount": "€15/miz"
+      },
+      "community": {
+        "title": "Skoazell ar gumuniezh",
+        "description": "Kevezerezh ha skoazell kumuniezh esperanto",
+        "amount": "€20/miz"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "welcome": "Degemer mat war Esperanta Skanduko",
+      "description": "Dizoleit kaerded an esperanto dre hor dastumadenn glok a zanvezioù deskidigezh, levrioù hag ostoù etrewezhiat."
+    },
+    "actions": {
+      "getStarted": "Krogiñ ganti",
+      "learnMore": "Deskiit muioc'h"
+    },
+    "features": {
+      "title": "Perzhioù",
+      "items": {
+        "library": {
+          "title": "Levraoueg glok",
+          "description": "Moned da vilioù a levrioù, pennadennò ha danvezoù deskidigezh esperanto"
+        },
+        "interactive": {
+          "title": "Deskidigezh etrewezhiat",
+        "description": "Implijit ostoù etrewezhiat hag azgouladerezh evit gwellaat ho barregezh"
+        },
+        "community": {
+          "title": "Kumuniezh bedel",
+          "description": "Kenstagit gant ar re a zesk esperanto hag ar gomzerien er bed a-bezh"
+        }
+      }
+    }
+  },
+  "about": {
+    "page": {
+      "title": "Diwar-benn Esperanta Skanduko",
+      "description": "Esperanta Skanduko a zo perc'hennet da lakaat deskidigezh an esperanto tizhus ha dedennuz evit an holl."
+    },
+    "sections": {
+      "mission": {
+        "title": "Hor misioñ",
+        "description": "Mirout ha rannañ lennadurezh esperanto, danvezoù deskidigezh ha danvezioù sevenadurel gant ar bed."
+      },
+      "esperanto": {
+        "title": "Petra eo esperanto?",
+        "description": "Un yezh skoazellek etrebroadel eo esperanto, hag a zo bet graet evit bezhañ aes da zeskiñ ha da gomz etrebroadel."
+      }
+    }
+  },
+  "library": {
+    "page": {
+      "title": "Levraoueg"
+    },
+    "search": {
+      "placeholder": "Klask levrioù..."
+    },
+    "filters": {
+      "categories": "Rummadoù",
+      "allBooks": "An holl levrioù"
+    },
+    "results": {
+      "noResults": "Levr ebet kavet",
+      "booksFound": "levr kavet"
+    }
+  },
+  "footer": {
+    "legal": {
+      "copyright": "An holl wiriouiù miret",
+      "madeWith": "Graet gant",
+      "forCommunity": "evit kumuniezh esperanto",
+      "developedBy": "Dioreet gant ❤️ gant"
+    },
+    "projects": {
+      "title": "Raktresoù stag",
+      "esperantoAnalyzer": {
+        "title": "Dezranner esperanto",
+        "description": "Pakad NPM evit dezrannañ testennoù esperanto"
+      }
+    },
+    "social": {
+      "title": "Kenstag",
+      "links": {
+        "github": "GitHub",
+        "issues": "Kemenn ur gudenn",
+        "contribute": "Kemer perzh"
+      }
+    },
+    "acknowledgments": {
+      "title": "Trugarekadennoù",
+      "gutenberg": "Trugarez vras da Raktres Gutenberg evit ar levrioù esperanto digoust"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Pajenn ebet kavet",
+      "action": "Distreiñ d'ar bajenn-degemer"
+    },
+    "general": {
+      "title": "Un dra bennak a zo aet a-dreuz",
+      "action": "Klask en-dro"
+    }
+  },
+  "auth": {
+    "actions": {
+      "signUp": "En em enskrivañ",
+      "logIn": "Kevreañ",
+      "signOut": "Digevreañ"
+    },
+    "fields": {
+      "email": "Postel",
+      "password": "Ger-tremen",
+      "confirmPassword": "Kadarnaat ar ger-tremen"
+    },
+    "links": {
+      "forgotPassword": "Disoñjet ho ker-tremen?",
+      "alreadyHaveAccount": "Ur gont ho peus dija?",
+      "noAccount": "N'ho peus ket a gont c'hoazh?"
+    },
+    "status": {
+      "creatingAccount": "O krouiñ ho kont...",
+      "welcomeBack": "Degemer mat en-dro",
+      "getStarted": "Kregiñ ganti"
+    },
+    "errors": {
+      "validation": {
+        "emailRequired": "Ret eo lakaat ar postel",
+        "emailInvalid": "Lakait ur chomlec'h postel reizh mar plij",
+        "passwordRequired": "Ret eo lakaat ur ger-tremen",
+        "passwordTooShort": "Ret eo d'ar ger-tremen bezañ 6 arouezenn da nebeutañ",
+        "passwordsNoMatch": "Ne glot ket ar gerioù-tremen"
+      },
+      "firebase": {
+        "emailInUse": "Implijet eo ar chomlec'h postel-mañ dija",
+        "userNotFound": "Kont ebet kavet gant ar chomlec'h postel-mañ",
+        "wrongPassword": "Ger-tremen direizh",
+        "tooManyAttempts": "Re a daolioù-esae c'hwitet. Klaskit en-dro diwezhatoc'h mar plij",
+        "networkError": "Fazi rouedad. Gwiriit ho kennask mar plij",
+        "unknownError": "Ur fazi dic'hortoz a zo c'hoarvezet. Klaskit en-dro mar plij"
+      }
+    },
+    "success": {
+      "accountCreated": "Kont krouet gant berzh!",
+      "signedIn": "Degemer mat en-dro!",
+      "signedOut": "Digevreaet gant berzh"
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "Danvezioù esperanto",
+      "subtitle": "Dastumadenn glok a benveg deskiñ, ostilhoù ha danvezioù ar gumuniezh"
+    },
+    "search": {
+      "label": "Klask danvezioù...",
+      "placeholder": "Klask dre ditl, deskrivadur pe c'hlavioù..."
+    },
+    "filters": {
+      "filterBy": "Silañ dre rummad",
+      "clearAll": "Diverkañ an holl siloù"
+    },
+    "sections": {
+      "featured": "Danvezioù war wel",
+      "total": "Hollad an danvezioù",
+      "concertVideos": {
+        "title": "Videoioù kenstrivioù esperanto",
+        "description": "Sellit ouzh kenstrivioù sonerien esperanto eus ar bed a-bezh"
+      }
+    },
+    "results": {
+      "showing": "O tiskoez {{count}} danvez",
+      "noResults": "Danvez ebet kavet",
+      "noResultsDescription": "Klaskit kemmañ ho klask pe ho siloù"
+    },
+    "categories": {
+      "all": "An holl zanvezioù",
+      "learning": "Danvezioù deskiñ",
+      "grammar": "Sturiadoù yezhadurezh",
+      "tools": "Ostilhoù ha stokellaoueregoù",
+      "music": "Sonerezh ha sonerien",
+      "audio": "Klevet ha podskignoù",
+      "video": "Danvezioù video",
+      "community": "Kumuniezh ha kartennoù",
+      "events": "Degouezhioù ha stagadurioù",
+      "organizations": "Aozadurioù",
+      "culture": "Sevenadur ha istor",
+      "news": "Keleier ha lennegezh",
+      "books": "Levrioù ha lenn"
+    },
+    "difficulty": {
+      "beginner": "Kregiñ",
+      "intermediate": "Etre",
+      "advanced": "Araokaet",
+      "allLevels": "An holl liveoù"
+    },
+    "labels": {
+      "free": "Digoust",
+      "paid": "Da baeañ",
+      "freemium": "Digoust hag astennet",
+      "requiresAccount": "Ret eo ur gont",
+      "external": "Liamm diavaez",
+      "featured": "War wel",
+      "new": "Nevez",
+      "popular": "Poblek"
+    },
+    "actions": {
+      "visitSite": "Mont d'al lec'hienn",
+      "learnMore": "Gouzout hiroc'h",
+      "download": "Pellgargañ",
+      "register": "En em enskrivañ",
+      "viewDetails": "Gwelet ar munudoù"
+    }
+  }
+}

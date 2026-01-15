@@ -1,0 +1,329 @@
+{
+  "_meta": {
+    "language": "Frysk",
+    "code": "fy",
+    "translationStatus": "human-translated",
+    "translator": "AI Assistant",
+    "reviewStatus": "completed",
+    "note": "Folsleine Fryske oersetting",
+    "lastUpdated": "2025-10-11"
+  },
+  "common": {
+    "site": {
+      "name": "Esperanta\nSkanaduko",
+      "tagline": "In komprehinsyf webside foar it learen fan Esperanto en boarnen",
+      "description": "Learje Esperanto fia komprehinsyf boarnen, ynteraktive ark, en mienskipsferbinings. Tagong ta mear dan 200 kuratearre learmateriaal, boeken, muzyk, fideo's, en mear."
+    },
+    "navigation": {
+      "home": "Thús",
+      "about": "Oer",
+      "library": "Bibleteek"
+    },
+    "ui": {
+      "loading": "Lade...",
+      "error": "Flater",
+      "language": "Taal",
+      "switchLanguage": "Taal Feroarje"
+    }
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Esperanta Skanaduko - Learje Esperanto Online",
+        "description": "Jo komprehinsyf sintrum foar it learen fan Esperanto. Tagong ta boarnen, boeken, muzyk, mienskipsferbinings, en ynteraktive ark om de ynternasjonale taal te behearskjen.",
+        "keywords": "learje Esperanto, Esperanto learen, ynternasjonale taal, konstruearre taal, taallear platfoarm"
+      },
+      "resources": {
+        "title": "Esperanto Boarnen - Learmateriaal en Ark",
+        "description": "Untdekke 200+ komprehinsyf Esperanto learboarnen ynklusyf grammatikagy, muzyk, podcasts, fideo's, mienskipskaarten, kursussen, en ark. Fergese boarnen foar begjinners oant foardere learlingen.",
+        "keywords": "Esperanto learboarnen, learje Esperanto, Esperanto grammatika, Esperanto muzyk, Esperanto podcasts, Esperanto mienskip, Esperanto kursussen, Esperanto ark, taallearen"
+      },
+      "library": {
+        "title": "Esperanto Bibleteek - Boeken en Lêsmateriaal",
+        "description": "Blêdzje troch ús kuratearre kolleksje fan Esperantoboeken, romans, en lêsmateriaal. Perfekt foar learlingen op alle nivo's.",
+        "keywords": "Esperantoboeken, Esperantobibleteek, Esperantolêzen, Esperantoliteratuer, learje Esperantolêzen"
+      },
+      "concerts": {
+        "title": "Esperanto Libbene Konsertfideo's",
+        "description": "Sjoch libbene optrêdens fan Esperantomusikanten wrâldwiid. Untdekke de libbendige muzykkultur yn de Esperantomienskip.",
+        "keywords": "Esperantomuzyk, Esperantokonsearten, Esperantomusikanten, Esperantokultur, libbene muzyk"
+      }
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "Thús",
+      "library": "Bibleteek",
+      "about": "Oer",
+      "resources": "Boarnen"
+    },
+    "secondary": {
+      "contact": "Kontakt",
+      "donate": "Donearje",
+      "analyzer": "Analysearder"
+    }
+  },
+  "donate": {
+    "hero": {
+      "title": "Stypje Us Missy",
+      "subtitle": "Help ús om Esperanta Skanaduko fergees en tagonklik te hâlden foar learlingen wrâldwiid. Jo stipe stelt ús yn steat it platfoarm te ûnderhâlden, nij ynhâld te meitsjen, en de mienskip te fergrutsjen."
+    },
+    "sections": {
+      "methods": {
+        "title": "Kies Jo Foarkar Metoade"
+      },
+      "impact": {
+        "title": "Jo Ympakt",
+        "description": "Elke donaasje, hoe lyts ek, helpt ús troch te gean mei ús missy. Hjir is hoe't jo stipe in ferskil makket:"
+      },
+      "thankYou": {
+        "title": "Dankon! Tank!",
+        "message": "Jo rûmhertens helpt de skientme fan Esperanto te behâlden en te dielen mei learlingen oer de hiele wrâld. Tegearre bouwe wy brêgen oer kultueren en talen hinne."
+      }
+    },
+    "actions": {
+      "donateNow": "Donearje No"
+    },
+    "methods": {
+      "paypal": {
+        "title": "PayPal",
+        "description": "Feilige ienmalige of werheljende donaasjes"
+      },
+      "buymeacoffee": {
+        "title": "Buy Me a Coffee",
+        "description": "Stypje mei in kofjedonaasje"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "description": "Moanliks stipe foar trochgeande ûntwikkeling"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "title": "Serverhosting",
+        "description": "Hâld de webside 24/7 rinnend foar wrâldwide tagong",
+        "amount": "$10/moanne"
+      },
+      "content": {
+        "title": "Ynhâldsproduksje",
+        "description": "Untwikkelje nij learmateriaal en boarnen",
+        "amount": "$25/moanne"
+      },
+      "development": {
+        "title": "Untwikkelingsark",
+        "description": "Underhâld en ferbetterje platfoarmfunksjes",
+        "amount": "$15/moanne"
+      },
+      "community": {
+        "title": "Mienskipsstipe",
+        "description": "Moderearje en stypje de Esperantomienskip",
+        "amount": "$20/moanne"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "welcome": "Wolkom by Esperanta Skanduko",
+      "description": "Untdekke de skientme fan Esperanto fia ús komprehinsyf kolleksje fan learboarnen, boeken, en ynteraktive ark."
+    },
+    "actions": {
+      "getStarted": "Begjinne",
+      "learnMore": "Learje Mear"
+    },
+    "features": {
+      "title": "Funksjes",
+      "items": {
+        "library": {
+          "title": "Komprehinsyf Bibleteek",
+          "description": "Tagong ta tûzenen Esperantoboeken, artikels, en learmateriaal"
+        },
+        "interactive": {
+          "title": "Ynteraktyf Learen",
+          "description": "Doch mei mei ynteraktive ark en oefeningen om jo feardichheden te ferbetterjen"
+        },
+        "community": {
+          "title": "Wrâldwide Mienskip",
+          "description": "Ferbine mei Esperantoleerlingen en sprekkers fan oer de hiele wrâld"
+        }
+      }
+    }
+  },
+  "about": {
+    "page": {
+      "title": "Oer Esperanta Skanduko",
+      "description": "Esperanta Skanduko is wijd oan it meitsjen fan Esperantolearen tagonklik en boeiend foar elkenien."
+    },
+    "sections": {
+      "mission": {
+        "title": "Us Missy",
+        "description": "Om Esperantoliteratuer, learmateriaal, en kulturele boarnen te behâlden en te dielen mei de wrâld."
+      },
+      "esperanto": {
+        "title": "Wat is Esperanto?",
+        "description": "Esperanto is in ynternasjonale helptaal ûntworpen foar gemaklik learen en ynternasjonale kommunikaasje."
+      }
+    }
+  },
+  "library": {
+    "page": {
+      "title": "Bibleteek"
+    },
+    "search": {
+      "placeholder": "Sykje boeken..."
+    },
+    "filters": {
+      "categories": "Kategoryen",
+      "allBooks": "Alle Boeken"
+    },
+    "results": {
+      "noResults": "Gjin boeken fûn",
+      "booksFound": "boeken fûn"
+    }
+  },
+  "footer": {
+    "legal": {
+      "copyright": "Alle rjochten foarbehâlden",
+      "madeWith": "Makke mei",
+      "forCommunity": "foar de Esperantomienskip",
+      "developedBy": "Makke mei ❤️ troch"
+    },
+    "projects": {
+      "title": "Relatearre Projekten",
+      "esperantoAnalyzer": {
+        "title": "Esperanto Analyzer",
+        "description": "NPM pakket foar Esperantotekstanalyse"
+      }
+    },
+    "social": {
+      "title": "Ferbine",
+      "links": {
+        "github": "GitHub",
+        "issues": "Melde Probleem",
+        "contribute": "Bydrage"
+      }
+    },
+    "acknowledgments": {
+      "title": "Erkenntnissen",
+      "gutenberg": "Spesjale tank oan Project Gutenberg foar it beskikber stellen fan fergese Esperantoboeken"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Side Net Fûn",
+      "action": "Nei Thús"
+    },
+    "general": {
+      "title": "Der is wat misgien",
+      "action": "Opnij Probearje"
+    }
+  },
+  "auth": {
+    "actions": {
+      "signUp": "Oanmelde",
+      "logIn": "Ynlogge",
+      "signOut": "Útlogge"
+    },
+    "fields": {
+      "email": "E-mail",
+      "password": "Wachtwurd",
+      "confirmPassword": "Befestigje Wachtwurd"
+    },
+    "links": {
+      "forgotPassword": "Wachtwurd Fergetten?",
+      "alreadyHaveAccount": "Al in akkount?",
+      "noAccount": "Gjin akkount?"
+    },
+    "status": {
+      "creatingAccount": "Jo akkount wurdt oanmakke...",
+      "welcomeBack": "Wolkom Werom",
+      "getStarted": "Begjinne"
+    },
+    "errors": {
+      "validation": {
+        "emailRequired": "E-mail is fereaske",
+        "emailInvalid": "Fier in jildich e-mailadres yn",
+        "passwordRequired": "Wachtwurd is fereaske",
+        "passwordTooShort": "Wachtwurd moat op syn minst 6 tekens wêze",
+        "passwordsNoMatch": "Wachtwurden komme net oerien"
+      },
+      "firebase": {
+        "emailInUse": "Dit e-mailadres is al yn gebrûk",
+        "userNotFound": "Gjin akkount fûn mei dit e-mailadres",
+        "wrongPassword": "Ferkeard wachtwurd",
+        "tooManyAttempts": "Tefolle mislearre besykjen. Probearje letter wer",
+        "networkError": "Netwurkflater. Kontrolearje jo ferbining",
+        "unknownError": "Der is in ûnferwachte flater bard. Probearje opnij"
+      }
+    },
+    "success": {
+      "accountCreated": "Akkount mei súkses oanmakke!",
+      "signedIn": "Wolkom werom!",
+      "signedOut": "Mei súkses útlogge"
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "Esperanto Boarnen",
+      "subtitle": "Komprehinsyf kolleksje fan learmateriaal, ark, en mienskipsboarnen"
+    },
+    "search": {
+      "label": "Sykje boarnen...",
+      "placeholder": "Sykje op titel, beskriuwing, of labels..."
+    },
+    "filters": {
+      "filterBy": "Filterje op kategory",
+      "clearAll": "Wiskje Alle Filters"
+    },
+    "sections": {
+      "featured": "Útljochte Boarnen",
+      "total": "Totaal Boarnen",
+      "concertVideos": {
+        "title": "Esperanto Libbene Konsertfideo's",
+        "description": "Sjoch optrêdens fan Esperantomusikanten wrâldwiid"
+      }
+    },
+    "results": {
+      "showing": "{{count}} boarnen werjûn",
+      "noResults": "Gjin boarnen fûn",
+      "noResultsDescription": "Probearje jo sykopdracht of filterkriteria oan te passen"
+    },
+    "categories": {
+      "all": "Alle Boarnen",
+      "learning": "Learboarnen",
+      "grammar": "Grammatikagidsen",
+      "tools": "Ark en Toetseboerden",
+      "music": "Muzyk en Artisten",
+      "audio": "Audio en Podcasts",
+      "video": "Fideoboarnen",
+      "community": "Mienskip en Kaarten",
+      "events": "Eveneminten en Kursussen",
+      "organizations": "Organisaasjes",
+      "culture": "Kultuer en Skiednis",
+      "news": "Nijs en Literatuer",
+      "books": "Boeken en Lêzen"
+    },
+    "difficulty": {
+      "beginner": "Begjinner",
+      "intermediate": "Tuskennivo",
+      "advanced": "Foardere",
+      "allLevels": "Alle Nivo's"
+    },
+    "labels": {
+      "free": "Fergees",
+      "paid": "Betelle",
+      "freemium": "Freemium",
+      "requiresAccount": "Akkount Fereaske",
+      "external": "Ekstern Link",
+      "featured": "Útljochte",
+      "new": "Nij",
+      "popular": "Populêr"
+    },
+    "actions": {
+      "visitSite": "Side Besykje",
+      "learnMore": "Learje Mear",
+      "download": "Downloade",
+      "register": "Registrearje",
+      "viewDetails": "Deitails Besjen"
+    }
+  }
+}

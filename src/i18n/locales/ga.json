@@ -1,0 +1,323 @@
+{
+  "_meta": {
+    "language": "Gaeilge",
+    "code": "ga",
+    "translationStatus": "complete",
+    "note": "Aistriúchán iomlán go Gaeilge - Éire agus pobail Ghaeilge"
+  },
+  "common": {
+    "site": {
+      "name": "Esperanta\nSkanaduko",
+      "tagline": "Suíomh cuimsitheach foghlama agus acmhainní Esperanto",
+      "description": "Foghlaim Esperanto trí acmhainní cuimsitheacha, uirlisí idirghníomhacha agus naisc pobail. Faigh rochtain ar 200+ ábhar foghlama coimeádta, leabhair, ceol, físeáin, agus tuilleadh."
+    },
+    "navigation": {
+      "home": "Baile",
+      "about": "Maidir Linn",
+      "library": "Leabharlann"
+    },
+    "ui": {
+      "loading": "Ag lódáil...",
+      "error": "Earráid",
+      "language": "Teanga",
+      "switchLanguage": "Athraigh Teanga"
+    }
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Esperanta Skanaduko - Foghlaim Esperanto Ar Líne",
+        "description": "Do mhol cuimsitheach chun Esperanto a fhoghlaim. Faigh rochtain ar acmhainní, leabhair, ceol, naisc pobail, agus uirlisí idirghníomhacha chun máistreacht a fháil ar an teanga idirnáisiúnta.",
+        "keywords": "foghlaim Esperanto, foghlaim teanga Esperanto, teanga idirnáisiúnta, teanga shaorga, ardán foghlama teanga"
+      },
+      "resources": {
+        "title": "Acmhainní Esperanto - Ábhair Foghlama & Uirlisí",
+        "description": "Aimsigh 200+ acmhainní cuimsitheacha foghlama Esperanto lena n-áirítear treoracha gramadaí, ceol, podchraoltaí, físeáin, léarscáileanna pobail, cúrsaí, agus uirlisí. Acmhainní saor in aisce do thosaitheoirí go foghlaimeoirí ardleibhéil.",
+        "keywords": "acmhainní foghlama Esperanto, foghlaim Esperanto, gramadach Esperanto, ceol Esperanto, podchraoltaí Esperanto, pobal Esperanto, cúrsaí Esperanto, uirlisí Esperanto, foghlaim teanga"
+      },
+      "library": {
+        "title": "Leabharlann Esperanto - Leabhair & Ábhair Léitheoireachta",
+        "description": "Brabhsáil ár mbailiúchán coimeádta de leabhair, úrscéalta, agus ábhair léitheoireachta Esperanto. Foirfe d'fhoghlaimeoirí ag gach leibhéal.",
+        "keywords": "leabhair Esperanto, leabharlann Esperanto, léitheoireacht Esperanto, litríocht Esperanto, foghlaim léitheoireacht Esperanto"
+      },
+      "concerts": {
+        "title": "Físeáin Ceolchoirmeacha Beo Esperanto",
+        "description": "Féach ar léirithe beo ó cheoltóirí Esperanto ar fud an domhain. Faigh amach faoin gcultúr ceoil bríomhar sa phobal Esperanto.",
+        "keywords": "ceol Esperanto, ceolchoirmeacha Esperanto, ceoltóirí Esperanto, cultúr Esperanto, ceol beo"
+      }
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "Baile",
+      "library": "Leabharlann",
+      "about": "Maidir Linn",
+      "resources": "Acmhainní"
+    },
+    "secondary": {
+      "contact": "Teagmháil",
+      "donate": "Bronn",
+      "analyzer": "Anailísí"
+    }
+  },
+  "donate": {
+    "page": {
+      "title": "Tacaigh le Esperanta Skanduko",
+      "tagline": "Cabhraigh Linn Acmhainní Esperanto a Choinneáil Saor in Aisce agus Inrochtana"
+    },
+    "intro": {
+      "title": "Cén Fáth Bronnadh?",
+      "description": "Cabhraíonn do thacaíocht linn ár n-ardán cuimsitheach foghlama Esperanto a chothabháil agus a leathnú. Déanann gach ranníocaíocht, beag nó mór, difríocht chun na hacmhainní seo a choinneáil saor in aisce agus inrochtana d'fhoghlaimeoirí ar fud an domhain."
+    },
+    "cards": {
+      "thankYou": {
+        "title": "Dankon! Go raibh maith agat!",
+        "message": "Cabhraíonn do fhlaithiúlacht le háilleacht Esperanto a chaomhnú agus a roinnt le foghlaimeoirí ar fud an domhain. Le chéile, táimid ag tógáil droichid trasna cultúir agus teangacha."
+      }
+    },
+    "actions": {
+      "donateNow": "Bronn Anois"
+    },
+    "methods": {
+      "paypal": {
+        "title": "PayPal",
+        "description": "Síntiúis shlána aon uair nó athfhillteacha"
+      },
+      "buymeacoffee": {
+        "title": "Ceannaigh Caife Dom",
+        "description": "Tacaíocht le síntiús caife"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "description": "Tacaíocht mhíosúil le haghaidh forbairt leanúnach"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "title": "Óstáil Freastalaí",
+        "description": "Coinnigh an suíomh gréasáin ag rith 24/7 le haghaidh rochtain dhomhanda",
+        "amount": "€10/mí"
+      },
+      "content": {
+        "title": "Cruthú Ábhair",
+        "description": "Forbraigh ábhair foghlama agus acmhainní nua",
+        "amount": "€25/mí"
+      },
+      "development": {
+        "title": "Uirlisí Forbartha",
+        "description": "Cothabháil agus feabhsaigh gnéithe an ardáin",
+        "amount": "€15/mí"
+      },
+      "community": {
+        "title": "Tacaíocht Pobail",
+        "description": "Modhnú agus tacú leis an bpobal Esperanto",
+        "amount": "€20/mí"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "welcome": "Fáilte go Esperanta Skanduko",
+      "description": "Faigh amach áilleacht Esperanto trínár mbailiúchán cuimsitheach d'acmhainní foghlama, leabhair, agus uirlisí idirghníomhacha."
+    },
+    "actions": {
+      "getStarted": "Tosaigh",
+      "learnMore": "Foghlaim Tuilleadh"
+    },
+    "features": {
+      "title": "Gnéithe",
+      "items": {
+        "library": {
+          "title": "Leabharlann Chuimsitheach",
+          "description": "Rochtain ar na mílte leabhar, alt, agus ábhair foghlama Esperanto"
+        },
+        "interactive": {
+          "title": "Foghlaim Idirghníomhach",
+          "description": "Rannpháirtigh le huirlisí agus cleachtaí idirghníomhacha chun do scileanna a fheabhsú"
+        },
+        "community": {
+          "title": "Pobal Domhanda",
+          "description": "Ceangail le foghlaimeoirí agus cainteoirí Esperanto ó gach cearn den domhan"
+        }
+      }
+    }
+  },
+  "about": {
+    "page": {
+      "title": "Maidir le Esperanta Skanduko",
+      "description": "Tá Esperanta Skanduko tiomanta d'fhoghlaim Esperanto a dhéanamh inrochtana agus tarraingteach do chách."
+    },
+    "sections": {
+      "mission": {
+        "title": "Ár Misean",
+        "description": "Litríocht, ábhair foghlama, agus acmhainní cultúrtha Esperanto a chaomhnú agus a roinnt leis an domhan."
+      },
+      "esperanto": {
+        "title": "Cad is Esperanto ann?",
+        "description": "Is teanga chabhraíoch idirnáisiúnta í Esperanto atá deartha le haghaidh éascaíocht foghlama agus cumarsáid idirnáisiúnta."
+      }
+    }
+  },
+  "library": {
+    "page": {
+      "title": "Leabharlann"
+    },
+    "search": {
+      "placeholder": "Cuardaigh leabhair..."
+    },
+    "filters": {
+      "categories": "Catagóirí",
+      "allBooks": "Gach Leabhar"
+    },
+    "results": {
+      "noResults": "Níor aimsíodh leabhair",
+      "booksFound": "leabhar aimsithe"
+    }
+  },
+  "footer": {
+    "legal": {
+      "copyright": "Gach ceart ar cosaint",
+      "madeWith": "Déanta le",
+      "forCommunity": "don phobal Esperanto",
+      "developedBy": "Forbartha le ❤️ ag"
+    },
+    "projects": {
+      "title": "Tionscadail Ghaolmhara",
+      "esperantoAnalyzer": {
+        "title": "Anailíseoir Esperanto",
+        "description": "Pacáiste NPM le haghaidh anailís téacs Esperanto"
+      }
+    },
+    "social": {
+      "title": "Ceangail",
+      "links": {
+        "github": "GitHub",
+        "issues": "Tuairiscigh Saincheist",
+        "contribute": "Cuir Leis"
+      }
+    },
+    "acknowledgments": {
+      "title": "Aitheantas",
+      "gutenberg": "Buíochas speisialta le Tionscadal Gutenberg as leabhair Esperanto saor in aisce a sholáthar"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Ní Bhfuarthas an Leathanach",
+      "action": "Téigh ar Ais go Baile"
+    },
+    "general": {
+      "title": "Chuaigh rud éigin mearaigh",
+      "action": "Bain Triail Eile As"
+    }
+  },
+  "auth": {
+    "actions": {
+      "signUp": "Cláraigh",
+      "logIn": "Logáil Isteach",
+      "signOut": "Logáil Amach"
+    },
+    "fields": {
+      "email": "Ríph ost",
+      "password": "Pasfhocal",
+      "confirmPassword": "Deimhnigh Pasfhocal"
+    },
+    "links": {
+      "forgotPassword": "Pasfhocal dearmadta?",
+      "alreadyHaveAccount": "Cuntas agat cheana féin?",
+      "noAccount": "Cuntas uait?"
+    },
+    "status": {
+      "creatingAccount": "Do chuntas á chrúthú...",
+      "welcomeBack": "Fáilte ar ais",
+      "getStarted": "Tosaigh"
+    },
+    "errors": {
+      "validation": {
+        "emailRequired": "Tá ríph ost riachtanach",
+        "emailInvalid": "Cuir isteach seoladh bailbhe ríph ost",
+        "passwordRequired": "Tá pasfhocal riachtanach",
+        "passwordTooShort": "Caithfidh an pasfhocal a bheith ar a laghad 6 charachtar",
+        "passwordsNoMatch": "Ní théann na pasfhocail le chéile"
+      },
+      "firebase": {
+        "emailInUse": "Tá an ríph ost seo in úsaid cheana féin",
+        "userNotFound": "Ní bhfuarthas cuntas leis an ríph ost seo",
+        "wrongPassword": "Pasfhocal mích eart",
+        "tooManyAttempts": "An iomarca iarrachtai loicthe. Bain triail eile as ar ball",
+        "networkError": "Earráid línoíra. Seiceáil do nasc",
+        "unknownError": "Tharla earráid gan choinne. Bain triail eile as"
+      }
+    },
+    "success": {
+      "accountCreated": "Cuntas cruthaithe go ráthúil!",
+      "signedIn": "Fáilte ar ais!",
+      "signedOut": "Logáilte amach go ráthúil"
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "Acmhainní Esperanto",
+      "subtitle": "Bailiúchán cuimsitheach d'ábhair foghlama, uirlisí, agus acmhainní pobail"
+    },
+    "search": {
+      "label": "Cuardaigh acmhainní...",
+      "placeholder": "Cuardaigh de réir teideal, cur síos, nó clibeanna..."
+    },
+    "filters": {
+      "filterBy": "Sc ag de réir catagóire",
+      "clearAll": "Glan Gach Scagán"
+    },
+    "sections": {
+      "featured": "Acmhainní Speisi alta",
+      "total": "Acmhainní Iomlána",
+      "concertVideos": {
+        "title": "Físeáin Ceolchoirmeacha Beo Esperanto",
+        "description": "Féach ar thaispeáintais ó cheoltoirí Esperanto ar fud an domhain"
+      }
+    },
+    "results": {
+      "showing": "Ag taispeáint {{count}} acmhainn",
+      "noResults": "Níor aimsíodh acmhainní",
+      "noResultsDescription": "Bain triail as do chuidígh cuardaíoch óir nó critear scagán a choigartsú"
+    },
+    "categories": {
+      "all": "Gach Acmhainn",
+      "learning": "Acmhainní Foghlama",
+      "grammar": "Treoirleabhair Gramadaí",
+      "tools": "Uirlisí & Méarchlaíir",
+      "music": "Ceol & Ealaiontoirí",
+      "audio": "Fuaim & Podchraoltaí",
+      "video": "Acmhainní Físe",
+      "community": "Pobal & Léarscaileanna",
+      "events": "Imeachtai & Cúrsai",
+      "organizations": "Eagrasaetha",
+      "culture": "Cultúr & Stair",
+      "news": "Nuacht & Litríocht",
+      "books": "Leabhair & Léitheoireacht"
+    },
+    "difficulty": {
+      "beginner": "Túsaitheoir",
+      "intermediate": "Meanlibheal",
+      "advanced": "Ard",
+      "allLevels": "Gach Leibhéal"
+    },
+    "labels": {
+      "free": "Saor in Aisce",
+      "paid": "Íoctha",
+      "freemium": "Saor/Íoctha",
+      "requiresAccount": "Cuntas Riachtanach",
+      "external": "Nasc Seachtrach",
+      "featured": "Speisi alta",
+      "new": "Nua",
+      "popular": "Coiti anta"
+    },
+    "actions": {
+      "visitSite": "Tabhair Cuairt ar an Suíomh",
+      "learnMore": "Foghlaim Tuilleadh",
+      "download": "Íoslódaigh",
+      "register": "Cláraigh",
+      "viewDetails": "Breathnaigh ar Mhioneolais"
+    }
+  }
+}

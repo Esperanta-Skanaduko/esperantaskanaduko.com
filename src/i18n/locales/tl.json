@@ -1,0 +1,325 @@
+{
+  "_meta": {
+    "language": "Tagalog",
+    "code": "tl",
+    "translationStatus": "complete",
+    "note": "Kumpletong pagsasalin sa Filipino/Tagalog - Pilipinas at mga nagsasalita ng Tagalog"
+  },
+  "common": {
+    "site": {
+      "name": "Esperanta\nSkanaduko",
+      "tagline": "Isang komprehensibong website para sa pag-aaral at mapagkukunan ng Esperanto",
+      "description": "Matuto ng Esperanto sa pamamagitan ng komprehensibong mga mapagkukunan, interaktibong mga tool, at koneksyon sa komunidad. Mag-access ng 200+ curated na mga learning materials, libro, musika, video, at iba pa."
+    },
+    "navigation": {
+      "home": "Tahanan",
+      "about": "Tungkol",
+      "library": "Aklatan"
+    },
+    "ui": {
+      "loading": "Naglo-load...",
+      "error": "Error",
+      "language": "Wika",
+      "switchLanguage": "Palitan ang Wika"
+    }
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Esperanta Skanaduko - Matuto ng Esperanto Online",
+        "description": "Ang iyong komprehensibong sentro para sa pag-aaral ng Esperanto. Mag-access ng mga mapagkukunan, libro, musika, koneksyon sa komunidad, at interaktibong mga tool upang mastering ang internasyonal na wika.",
+        "keywords": "matuto ng Esperanto, pag-aaral ng Esperanto, internasyonal na wika, itinayong wika, platform sa pag-aaral ng wika"
+      },
+      "resources": {
+        "title": "Mga Mapagkukunan ng Esperanto - Mga Materyales sa Pag-aaral at Tools",
+        "description": "Tumuklas ng 200+ komprehensibong mga mapagkukunan sa pag-aaral ng Esperanto kabilang ang grammar guides, musika, podcasts, videos, community maps, courses, at tools. Libreng mapagkukunan para sa mga nagsisimula hanggang advanced learners.",
+        "keywords": "mga mapagkukunan sa pag-aaral ng Esperanto, matuto ng Esperanto, grammar ng Esperanto, musika ng Esperanto, podcasts ng Esperanto, komunidad ng Esperanto, kurso ng Esperanto, tools ng Esperanto, pag-aaral ng wika"
+      },
+      "library": {
+        "title": "Aklatan ng Esperanto - Mga Libro at Materyales sa Pagbabasa",
+        "description": "I-browse ang aming curated na koleksyon ng mga libro, nobela, at materyales sa pagbabasa ng Esperanto. Perpekto para sa mga nag-aaral sa lahat ng antas.",
+        "keywords": "mga libro ng Esperanto, aklatan ng Esperanto, pagbabasa ng Esperanto, panitikan ng Esperanto, matuto ng pagbabasa ng Esperanto"
+      },
+      "concerts": {
+        "title": "Mga Live Concert Video ng Esperanto",
+        "description": "Manood ng live performances mula sa mga musikero ng Esperanto sa buong mundo. Tuklasin ang vibrant music culture sa komunidad ng Esperanto.",
+        "keywords": "musika ng Esperanto, concerts ng Esperanto, mga musikero ng Esperanto, kultura ng Esperanto, live music"
+      }
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "Tahanan",
+      "library": "Aklatan",
+      "about": "Tungkol",
+      "resources": "Mga Mapagkukunan"
+    },
+    "secondary": {
+      "contact": "Makipag-ugnayan",
+      "donate": "Mag-donate",
+      "analyzer": "Analyzer"
+    }
+  },
+  "donate": {
+    "page": {
+      "title": "Suportahan ang Aming Misyon",
+      "description": "Ang inyong suporta ay tumutulong sa amin na magpatuloy sa pagbibigay ng libreng mga mapagkukunan ng Esperanto sa mga nag-aaral sa buong mundo."
+    },
+    "form": {
+      "title": "Pumili ng Inyong Paraan ng Donasyon",
+      "description": "Pumili ng inyong ginustong platform upang suportahan:",
+      "amountLabel": "Halaga ng Donasyon",
+      "customAmount": "Custom na halaga",
+      "oneTime": "Isang beses",
+      "monthly": "Buwanan",
+      "thankYou": {
+        "title": "Dankon! Salamat!",
+        "message": "Ang inyong pagbibigay ay tumutulong na panatilihin at ibahagi ang kagandahan ng Esperanto sa mga nag-aaral sa buong mundo. Sama-sama, nagtatayo tayo ng mga tulay sa mga kultura at wika."
+      }
+    },
+    "actions": {
+      "donateNow": "Mag-donate Ngayon"
+    },
+    "methods": {
+      "paypal": {
+        "title": "PayPal",
+        "description": "Secure na isang beses o paulit-ulit na donasyon"
+      },
+      "buymeacoffee": {
+        "title": "Buy Me a Coffee",
+        "description": "Suportahan sa pamamagitan ng donasyon ng kape"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "description": "Buwanang suporta para sa patuloy na pag-develop"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "title": "Server Hosting",
+        "description": "Panatilihing tumatakbo ang website 24/7 para sa pandaigdigang access",
+        "amount": "₱500/buwan"
+      },
+      "content": {
+        "title": "Paglikha ng Content",
+        "description": "Bumuo ng bagong learning materials at mapagkukunan",
+        "amount": "₱1,250/buwan"
+      },
+      "development": {
+        "title": "Development Tools",
+        "description": "Panatilihin at pahusayin ang mga feature ng platform",
+        "amount": "₱750/buwan"
+      },
+      "community": {
+        "title": "Suporta sa Komunidad",
+        "description": "Mag-moderate at suportahan ang komunidad ng Esperanto",
+        "amount": "₱1,000/buwan"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "welcome": "Maligayang Pagdating sa Esperanta Skanduko",
+      "description": "Tuklasin ang kagandahan ng Esperanto sa pamamagitan ng aming komprehensibong koleksyon ng learning resources, libro, at interaktibong tools."
+    },
+    "actions": {
+      "getStarted": "Magsimula",
+      "learnMore": "Matuto Pa"
+    },
+    "features": {
+      "title": "Mga Feature",
+      "items": {
+        "library": {
+          "title": "Komprehensibong Aklatan",
+          "description": "Mag-access ng libu-libong libro, artikulo, at learning materials ng Esperanto"
+        },
+        "interactive": {
+          "title": "Interaktibong Pag-aaral",
+          "description": "Makipagtulungan sa interaktibong tools at ehersisyo upang mapabuti ang inyong skills"
+        },
+        "community": {
+          "title": "Pandaigdigang Komunidad",
+          "description": "Makipag-ugnayan sa mga nag-aaral at nagsasalita ng Esperanto mula sa buong mundo"
+        }
+      }
+    }
+  },
+  "about": {
+    "page": {
+      "title": "Tungkol sa Esperanta Skanduko",
+      "description": "Ang Esperanta Skanduko ay nakatuon sa paggawa ng pag-aaral ng Esperanto na accessible at engaging para sa lahat."
+    },
+    "sections": {
+      "mission": {
+        "title": "Ang Aming Misyon",
+        "description": "Upang panatilihin at ibahagi ang panitikan ng Esperanto, learning materials, at cultural resources sa mundo."
+      },
+      "esperanto": {
+        "title": "Ano ang Esperanto?",
+        "description": "Ang Esperanto ay isang internasyonal na auxiliary language na dinisenyo para sa kadaling pag-aaral at internasyonal na komunikasyon."
+      }
+    }
+  },
+  "library": {
+    "page": {
+      "title": "Aklatan"
+    },
+    "search": {
+      "placeholder": "Maghanap ng mga libro..."
+    },
+    "filters": {
+      "categories": "Mga Kategorya",
+      "allBooks": "Lahat ng Libro"
+    },
+    "results": {
+      "noResults": "Walang libro na nahanap",
+      "booksFound": "libro na nahanap"
+    }
+  },
+  "footer": {
+    "legal": {
+      "copyright": "Lahat ng karapatan ay nakalaan",
+      "madeWith": "Ginawa na may",
+      "forCommunity": "para sa komunidad ng Esperanto",
+      "developedBy": "Binuo na may ❤️ ni"
+    },
+    "projects": {
+      "title": "Mga Kaugnay na Proyekto",
+      "esperantoAnalyzer": {
+        "title": "Esperanto Analyzer",
+        "description": "NPM package para sa pagsusuri ng teksto ng Esperanto"
+      }
+    },
+    "social": {
+      "title": "Makipag-ugnayan",
+      "links": {
+        "github": "GitHub",
+        "issues": "Mag-ulat ng Isyu",
+        "contribute": "Mag-ambag"
+      }
+    },
+    "acknowledgments": {
+      "title": "Mga Pagkilala",
+      "gutenberg": "Espesyal na salamat sa Project Gutenberg para sa pagbibigay ng libreng mga libro ng Esperanto"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Hindi Nahanap ang Pahina",
+      "action": "Bumalik sa Tahanan"
+    },
+    "general": {
+      "title": "May nangyaring mali",
+      "action": "Subukan Muli"
+    }
+  },
+  "auth": {
+    "actions": {
+      "signUp": "Mag-sign Up",
+      "logIn": "Mag-log In",
+      "signOut": "Mag-sign Out"
+    },
+    "fields": {
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Kumpirmahin ang Password"
+    },
+    "links": {
+      "forgotPassword": "Nakalimutan ang Password?",
+      "alreadyHaveAccount": "Mayroon nang account?",
+      "noAccount": "Wala pang account?"
+    },
+    "status": {
+      "creatingAccount": "Ginagawa ang inyong account...",
+      "welcomeBack": "Maligayang Pagbabalik",
+      "getStarted": "Magsimula"
+    },
+    "errors": {
+      "validation": {
+        "emailRequired": "Kailangan ang email",
+        "emailInvalid": "Mangyaring maglagay ng valid na email address",
+        "passwordRequired": "Kailangan ang password",
+        "passwordTooShort": "Ang password ay dapat na hindi bababa sa 6 characters",
+        "passwordsNoMatch": "Hindi tugma ang mga password"
+      },
+      "firebase": {
+        "emailInUse": "Ang email na ito ay ginagamit na",
+        "userNotFound": "Walang account na nahanap sa email na ito",
+        "wrongPassword": "Maling password",
+        "tooManyAttempts": "Masyadong maraming nabigong pagtatangka. Mangyaring subukan muli mamaya",
+        "networkError": "Network error. Mangyaring suriin ang inyong koneksyon",
+        "unknownError": "May nangyaring hindi inaasahang error. Mangyaring subukan muli"
+      }
+    },
+    "success": {
+      "accountCreated": "Matagumpay na nagawa ang account!",
+      "signedIn": "Maligayang pagbabalik!",
+      "signedOut": "Matagumpay na nag-sign out"
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "Mga Mapagkukunan ng Esperanto",
+      "subtitle": "Komprehensibong koleksyon ng learning materials, tools, at mga mapagkukunan ng komunidad"
+    },
+    "search": {
+      "label": "Maghanap ng mga mapagkukunan...",
+      "placeholder": "Maghanap ayon sa titulo, deskripsyon, o tags..."
+    },
+    "filters": {
+      "filterBy": "I-filter ayon sa kategorya",
+      "clearAll": "I-clear ang Lahat ng Filters"
+    },
+    "sections": {
+      "featured": "Mga Itinampok na Mapagkukunan",
+      "total": "Kabuuang Mapagkukunan",
+      "concertVideos": {
+        "title": "Mga Live Concert Video ng Esperanto",
+        "description": "Manood ng mga pagtatanghal mula sa mga musikero ng Esperanto sa buong mundo"
+      }
+    },
+    "results": {
+      "showing": "Nagpapakita ng {{count}} mapagkukunan",
+      "noResults": "Walang mapagkukunang nahanap",
+      "noResultsDescription": "Subukang ayusin ang inyong paghahanap o filter criteria"
+    },
+    "categories": {
+      "all": "Lahat ng Mapagkukunan",
+      "learning": "Mga Mapagkukunan sa Pag-aaral",
+      "grammar": "Mga Gabay sa Grammar",
+      "tools": "Mga Tool at Keyboards",
+      "music": "Musika at mga Artista",
+      "audio": "Audio at Podcasts",
+      "video": "Mga Mapagkukunan ng Video",
+      "community": "Komunidad at mga Mapa",
+      "events": "Mga Kaganapan at Kurso",
+      "organizations": "Mga Organisasyon",
+      "culture": "Kultura at Kasaysayan",
+      "news": "Balita at Panitikan",
+      "books": "Mga Libro at Pagbabasa"
+    },
+    "difficulty": {
+      "beginner": "Nagsisimula",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced",
+      "allLevels": "Lahat ng Antas"
+    },
+    "labels": {
+      "free": "Libre",
+      "paid": "Bayad",
+      "freemium": "Freemium",
+      "requiresAccount": "Nangangailangan ng Account",
+      "external": "External na Link",
+      "featured": "Itinampok",
+      "new": "Bago",
+      "popular": "Sikat"
+    },
+    "actions": {
+      "visitSite": "Bisitahin ang Site",
+      "learnMore": "Matuto Pa",
+      "download": "I-download",
+      "register": "Mag-register",
+      "viewDetails": "Tingnan ang mga Detalye"
+    }
+  }
+}

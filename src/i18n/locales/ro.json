@@ -1,0 +1,319 @@
+{
+  "_meta": {
+    "language": "Română",
+    "code": "ro",
+    "translationStatus": "human-translated",
+    "note": "Traducere completă în limba română",
+    "translator": "AI Assistant",
+    "reviewStatus": "completed",
+    "lastUpdated": "2025-10-11"
+  },
+  "common": {
+    "site": {
+      "name": "Esperanta\nSkanaduko",
+      "tagline": "Un site web cuprinzător pentru învățarea Esperanto și resurse",
+      "description": "Învață Esperanto prin resurse cuprinzătoare, instrumente interactive și conexiuni comunitare. Accesează peste 200+ materiale de învățare selectate, cărți, muzică, videoclipuri și multe altele."
+    },
+    "navigation": {
+      "home": "Acasă",
+      "about": "Despre",
+      "library": "Bibliotecă"
+    },
+    "ui": {
+      "loading": "Se încarcă...",
+      "error": "Eroare",
+      "language": "Limbă",
+      "switchLanguage": "Schimbă Limba"
+    }
+  },
+  "seo": {
+    "home": {
+      "title": "Esperanta Skanaduko - Învață Esperanto Online",
+      "description": "Resurse cuprinzătoare de învățare Esperanto, cărți, muzică și instrumente interactive. Alatură-te unei comunități mondiale de vorbitori de Esperanto. Toate nivelurile de competență sunt binevenit!",
+      "keywords": "învață Esperanto, limbă internațională, platforma de învățare a limbilor, resurse Esperanto, comunitatea Esperanto, cărți Esperanto, muzică Esperanto"
+    },
+    "about": {
+      "title": "Despre - Esperanta Skanaduko",
+      "description": "Aflați mai multe despre misiunea noastră de a face Esperanto accesibil tuturor prin intermediul resurselor cuprinzătoare și al instrumentelor interactive de învățare.",
+      "keywords": "despre Esperanto, limbă internațională, educație lingvistică, resurse lingvistice, comunitate lingvistică"
+    },
+    "library": {
+      "title": "Biblioteca Esperanto - Esperanta Skanaduko",
+      "description": "Răsfoiește colecția noastră de cărți în Esperanto, inclusiv literatură originală, traducții, ghiduri de gramatică și resurse de învățare pentru toate nivelurile.",
+      "keywords": "cărți Esperanto, literatura Esperanto, ghiduri de gramatică, resurse de învățare, cărți în Esperanto"
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "Acasă",
+      "library": "Bibliotecă",
+      "about": "Despre",
+      "resources": "Resurse"
+    },
+    "secondary": {
+      "contact": "Contact",
+      "donate": "Donează",
+      "analyzer": "Analizor"
+    }
+  },
+  "donate": {
+    "hero": {
+      "title": "Sprijiniți Misiunea Noastră",
+      "subtitle": "Ajutați-ne să menținem resursele Esperanto accesibile pentru toți"
+    },
+    "sections": {
+      "whyDonate": {
+        "title": "De ce donează?",
+        "description": "Donația dvs. susține dezvoltarea resurselor gratuite de învățare Esperanto, întreținerea serverului și creșterea comunității."
+      },
+      "impact": {
+        "title": "Impactul Donației Dvs."
+      }
+    },
+    "methods": {
+      "paypal": {
+        "name": "PayPal",
+        "description": "Donație unică sau recurentă"
+      },
+      "kofi": {
+        "name": "Cumpără-mi o Cafea",
+        "description": "Sprijin simplu pentru creatorul de conținut"
+      },
+      "patreon": {
+        "name": "Patreon",
+        "description": "Sprijin lunar pentru conținut exclusiv"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "amount": "10 USD/lună",
+        "description": "Acoperă costurile de gazduire a serverului"
+      },
+      "content": {
+        "amount": "25 USD/lună",
+        "description": "Susține crearea de conținut nou"
+      },
+      "development": {
+        "amount": "50+ USD/lună",
+        "description": "Permite dezvoltarea de noi funcționalități"
+      }
+    },
+    "thankYou": "Dankon! Mulțumim!"
+  },
+  "home": {
+    "hero": {
+      "welcome": "Bun venit la Esperanta Skanduko",
+      "description": "Descoperiți frumusețea limbii Esperanto prin colecția noastră cuprinzătoare de resurse de învățare, cărți și instrumente interactive."
+    },
+    "actions": {
+      "getStarted": "Începeți",
+      "learnMore": "Aflați Mai Multe"
+    },
+    "features": {
+      "title": "Funcționalități",
+      "items": {
+        "library": {
+          "title": "Bibliotecă Cuprinzătoare",
+          "description": "Accesați mii de cărți, articole și materiale de învățare în Esperanto"
+        },
+        "interactive": {
+          "title": "Învățare Interactivă",
+          "description": "Angajați-vă cu instrumente și exerciții interactive pentru a vă îmbunătăți abilitățile"
+        },
+        "community": {
+          "title": "Comunitate Globală",
+          "description": "Conectați-vă cu cursanți și vorbitori de Esperanto din întreaga lume"
+        }
+      }
+    }
+  },
+  "about": {
+    "page": {
+      "title": "Despre Esperanta Skanduko",
+      "description": "Esperanta Skanduko este dedicat să facă învățarea limbii Esperanto accesibilă și captivantă pentru toată lumea."
+    },
+    "sections": {
+      "mission": {
+        "title": "Misiunea Noastră",
+        "description": "Să păstrăm și să partajăm literatura Esperanto, materialele de învățare și resursele culturale cu lumea."
+      },
+      "esperanto": {
+        "title": "Ce este Esperanto?",
+        "description": "Esperanto este o limbă auxiliară internațională concepută pentru ușurință în învățare și comunicare internațională."
+      }
+    }
+  },
+  "library": {
+    "page": {
+      "title": "Bibliotecă"
+    },
+    "search": {
+      "placeholder": "Căutați cărți...",
+      "noResults": "Nicio carte găsită pentru \"{{query}}\""
+    },
+    "filters": {
+      "categories": {
+        "title": "Categorii",
+        "all": "Toate Cărțile"
+      }
+    },
+    "results": {
+      "showing": "Se afișează {{count}} carte",
+      "showing_other": "Se afișează {{count}} cărți",
+      "total": "{{count}} carte totală",
+      "total_other": "{{count}} cărți totale"
+    }
+  },
+  "footer": {
+    "legal": {
+      "copyright": "All rights reserved",
+      "madeWith": "Made with",
+      "forCommunity": "for the Esperanto community",
+      "developedBy": "Developed with ❤️ by"
+    },
+    "projects": {
+      "title": "Related Projects",
+      "esperantoAnalyzer": {
+        "title": "Esperanto Analyzer",
+        "description": "NPM package for Esperanto text analysis"
+      }
+    },
+    "social": {
+      "title": "Conectați-vă",
+      "links": {
+        "github": "GitHub",
+        "issues": "Raportați Problemă",
+        "contribute": "Contribuiți"
+      }
+    },
+    "acknowledgments": {
+      "title": "Mulțumiri",
+      "gutenberg": "Mulțumiri speciale către Project Gutenberg pentru furnizarea de cărți gratuite în Esperanto"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Pagina Nu a Fost Găsită",
+      "message": "Ne pare rău, dar nu am putut găsi pagina pe care o căutați.",
+      "action": "Revenire la Acasă"
+    },
+    "serverError": {
+      "title": "Ceva Nu a Funcționat Corect",
+      "message": "A apărut o eroare neașteptată. Vă rugăm să încercați din nou mai târziu.",
+      "action": "Încercați Din Nou"
+    },
+    "generic": {
+      "title": "Eroare",
+      "message": "A apărut o eroare neașteptată."
+    }
+  },
+  "auth": {
+    "actions": {
+      "signUp": "Înregistrare",
+      "logIn": "Autentificare",
+      "signOut": "Deconectare"
+    },
+    "fields": {
+      "email": "E-mail",
+      "password": "Parolă",
+      "confirmPassword": "Confirmați Parola"
+    },
+    "links": {
+      "forgotPassword": "Ați uitat parola?",
+      "alreadyHaveAccount": "Aveți deja un cont?",
+      "noAccount": "Nu aveți un cont?"
+    },
+    "status": {
+      "creatingAccount": "Se creează contul dvs...",
+      "welcomeBack": "Bine Ați Revenit",
+      "getStarted": "Începeți"
+    },
+    "errors": {
+      "validation": {
+        "emailRequired": "E-mailul este necesar",
+        "emailInvalid": "Vă rugăm să introduceți o adresă de e-mail validă",
+        "passwordRequired": "Parola este necesară",
+        "passwordTooShort": "Parola trebuie să aibă cel puțin 6 caractere",
+        "passwordsNoMatch": "Parolele nu se potrivesc"
+      },
+      "firebase": {
+        "emailInUse": "Acest e-mail este deja folosit",
+        "userNotFound": "Niciun cont găsit cu acest e-mail",
+        "wrongPassword": "Parolă incorectă",
+        "tooManyAttempts": "Prea multe încercări eșuate. Vă rugăm să încercați din nou mai târziu",
+        "networkError": "Eroare de rețea. Vă rugăm să verificați conexiunea",
+        "unknownError": "A apărut o eroare neașteptată. Vă rugăm să încercați din nou"
+      }
+    },
+    "success": {
+      "accountCreated": "Cont creat cu succes!",
+      "signedIn": "Bine ați revenit!",
+      "signedOut": "Deconectat cu succes"
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "Resurse Esperanto",
+      "subtitle": "Colecție cuprinzătoare de materiale de învățare, instrumente și resurse comunitare"
+    },
+    "search": {
+      "label": "Căutați resurse...",
+      "placeholder": "Căutați după titlu, descriere sau etichete..."
+    },
+    "filters": {
+      "filterBy": "Filtrați după categorie",
+      "clearAll": "Ștergeți Toate Filtrele"
+    },
+    "sections": {
+      "featured": "Resurse Recomandate",
+      "total": "Total Resurse",
+      "concertVideos": {
+        "title": "Videoclipuri Concerte Live Esperanto",
+        "description": "Urmăriți spectacole ale muzicienilor Esperanto din întreaga lume"
+      }
+    },
+    "results": {
+      "showing": "Se afișează {{count}} resurse",
+      "noResults": "Nicio resursă găsită",
+      "noResultsDescription": "Încercați să ajustați criteriile de căutare sau filtrare"
+    },
+    "categories": {
+      "all": "Toate Resursele",
+      "learning": "Resurse de Învățare",
+      "grammar": "Ghiduri de Gramatică",
+      "tools": "Instrumente & Tastaturi",
+      "music": "Muzică & Artiști",
+      "audio": "Audio & Podcasturi",
+      "video": "Resurse Video",
+      "community": "Comunitate & Hărți",
+      "events": "Evenimente & Cursuri",
+      "organizations": "Organizații",
+      "culture": "Cultură & Istorie",
+      "news": "Știri & Literatură",
+      "books": "Cărți & Lectură"
+    },
+    "difficulty": {
+      "beginner": "Începător",
+      "intermediate": "Intermediar",
+      "advanced": "Avansat",
+      "allLevels": "Toate Nivelurile"
+    },
+    "labels": {
+      "free": "Gratuit",
+      "paid": "Plătit",
+      "freemium": "Freemium",
+      "requiresAccount": "Necesită Cont",
+      "external": "Link Extern",
+      "featured": "Recomandat",
+      "new": "Nou",
+      "popular": "Popular"
+    },
+    "actions": {
+      "visitSite": "Vizitați Site-ul",
+      "learnMore": "Aflați Mai Multe",
+      "download": "Descărcați",
+      "register": "Înregistrați-vă",
+      "viewDetails": "Vedeți Detalii"
+    }
+  }
+}

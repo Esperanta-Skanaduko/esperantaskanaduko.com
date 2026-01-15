@@ -1,0 +1,326 @@
+{
+  "_meta": {
+    "language": "한글",
+    "code": "ko",
+    "translationStatus": "complete",
+    "note": "완전한 한국어 번역 - 자연스러운 한국어 표현"
+  },
+  "common": {
+    "site": {
+      "name": "Esperanta\nSkanaduko",
+      "tagline": "종합 에스페란토 학습 및 자료 웹사이트",
+      "description": "포괄적인 자료, 대화형 도구, 커뮤니티 연결을 통해 에스페란토를 배우세요. 200개 이상의 엄선된 학습 자료, 서적, 음악, 동영상 등에 액세스하세요."
+    },
+    "navigation": {
+      "home": "홈",
+      "about": "소개",
+      "library": "도서관"
+    },
+    "ui": {
+      "loading": "로딩 중...",
+      "error": "오류",
+      "language": "언어",
+      "switchLanguage": "언어 전환"
+    }
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Esperanta Skanaduko - 온라인 에스페란토 학습",
+        "description": "에스페란토 학습을 위한 종합 허브입니다. 국제어를 마스터하기 위한 자료, 서적, 음악, 커뮤니티 연결 및 대화형 도구에 액세스하세요.",
+        "keywords": "에스페란토 배우기, 에스페란토 학습, 국제어, 인공어, 언어 학습 플랫폼"
+      },
+      "resources": {
+        "title": "에스페란토 자료 - 학습 자료 및 도구",
+        "description": "문법 가이드, 음악, 팟캐스트, 동영상, 커뮤니티 지도, 코스 및 도구를 포함한 200개 이상의 포괄적인 에스페란토 학습 자료를 발견하세요. 초급부터 고급 학습자를 위한 무료 자료.",
+        "keywords": "에스페란토 학습 자료, 에스페란토 배우기, 에스페란토 문법, 에스페란토 음악, 에스페란토 팟캐스트, 에스페란토 커뮤니티, 에스페란토 코스, 에스페란토 도구, 언어 학습"
+      },
+      "library": {
+        "title": "에스페란토 도서관 - 서적 및 독서 자료",
+        "description": "모든 수준의 학습자에게 완벽한 엄선된 에스페란토 서적, 소설 및 독서 자료 컬렉션을 탐색하세요.",
+        "keywords": "에스페란토 서적, 에스페란토 도서관, 에스페란토 독서, 에스페란토 문학, 에스페란토 독서 배우기"
+      },
+      "concerts": {
+        "title": "에스페란토 라이브 콘서트 동영상",
+        "description": "전 세계 에스페란토 음악가들의 라이브 공연을 시청하세요. 에스페란토 커뮤니티의 활기찬 음악 문화를 발견하세요.",
+        "keywords": "에스페란토 음악, 에스페란토 콘서트, 에스페란토 음악가, 에스페란토 문화, 라이브 음악"
+      }
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "홈",
+      "library": "도서관",
+      "about": "소개",
+      "resources": "자료"
+    },
+    "secondary": {
+      "contact": "문의하기",
+      "donate": "후원하기",
+      "analyzer": "분석기"
+    }
+  },
+  "donate": {
+    "hero": {
+      "title": "우리의 미션을 지원해 주세요",
+      "subtitle": "Esperanta Skanaduko를 전 세계 학습자들에게 무료로 접근 가능하게 유지하도록 도와주세요. 여러분의 지원은 플랫폼 유지, 새로운 콘텐츠 제작, 커뮤니티 성장을 가능하게 합니다."
+    },
+    "sections": {
+      "methods": {
+        "title": "선호하는 방법을 선택하세요"
+      },
+      "impact": {
+        "title": "여러분의 영향력",
+        "description": "크기에 관계없이 모든 기부가 우리의 미션을 계속하는 데 도움이 됩니다. 여러분의 지원이 어떻게 변화를 만드는지 확인하세요:"
+      },
+      "thankYou": {
+        "title": "Dankon! 감사합니다!",
+        "message": "여러분의 관대함은 에스페란토의 아름다움을 전 세계 학습자들과 보존하고 공유하는 데 도움이 됩니다. 함께 문화와 언어를 넘나드는 다리를 구축하고 있습니다."
+      }
+    },
+    "actions": {
+      "donateNow": "지금 후원하기"
+    },
+    "methods": {
+      "paypal": {
+        "title": "PayPal",
+        "description": "안전한 일회성 또는 정기 후원"
+      },
+      "buymeacoffee": {
+        "title": "Buy Me a Coffee",
+        "description": "커피 후원으로 지원하기"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "description": "지속적인 개발을 위한 월간 지원"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "title": "서버 호스팅",
+        "description": "전 세계적 접근을 위해 웹사이트를 24/7 운영으로 유지",
+        "amount": "$10/월"
+      },
+      "content": {
+        "title": "콘텐츠 제작",
+        "description": "새로운 학습 자료 및 리소스 개발",
+        "amount": "$25/월"
+      },
+      "development": {
+        "title": "개발 도구",
+        "description": "플랫폼 기능 유지 및 개선",
+        "amount": "$15/월"
+      },
+      "community": {
+        "title": "커뮤니티 지원",
+        "description": "에스페란토 커뮤니티 관리 및 지원",
+        "amount": "$20/월"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "welcome": "Esperanta Skanduko에 오신 것을 환영합니다",
+      "description": "포괄적인 학습 자료, 서적 및 대화형 도구를 통해 에스페란토의 아름다움을 발견하세요."
+    },
+    "actions": {
+      "getStarted": "시작하기",
+      "learnMore": "자세히 알아보기"
+    },
+    "features": {
+      "title": "특징",
+      "items": {
+        "library": {
+          "title": "포괄적인 도서관",
+          "description": "수천 개의 에스페란토 서적, 기사 및 학습 자료에 액세스"
+        },
+        "interactive": {
+          "title": "대화형 학습",
+          "description": "대화형 도구와 연습 문제로 실력 향상"
+        },
+        "community": {
+          "title": "글로벌 커뮤니티",
+          "description": "전 세계 에스페란토 학습자 및 사용자들과 연결"
+        }
+      }
+    }
+  },
+  "about": {
+    "page": {
+      "title": "Esperanta Skanduko 소개",
+      "description": "Esperanta Skanduko는 모두를 위해 에스페란토 학습을 접근 가능하고 매력적으로 만드는 데 전념하고 있습니다."
+    },
+    "sections": {
+      "mission": {
+        "title": "우리의 미션",
+        "description": "에스페란토 문학, 학습 자료 및 문화 자원을 전 세계와 보존하고 공유하기 위함입니다."
+      },
+      "esperanto": {
+        "title": "에스페란토란 무엇인가요?",
+        "description": "에스페란토는 쉽게 배울 수 있고 국제적 소통을 위해 설계된 국제 보조어입니다."
+      }
+    }
+  },
+  "library": {
+    "page": {
+      "title": "도서관"
+    },
+    "search": {
+      "placeholder": "서적 검색..."
+    },
+    "filters": {
+      "categories": "카테고리",
+      "allBooks": "모든 서적"
+    },
+    "results": {
+      "noResults": "서적을 찾을 수 없습니다",
+      "booksFound": "권 발견"
+    }
+  },
+  "footer": {
+    "legal": {
+      "copyright": "모든 권리 보유",
+      "madeWith": "만든 곳",
+      "forCommunity": "에스페란토 커뮤니티를 위해",
+      "developedBy": "❤️로 개발:"
+    },
+    "projects": {
+      "title": "관련 프로젝트",
+      "esperantoAnalyzer": {
+        "title": "Esperanto Analyzer",
+        "description": "에스페란토 텍스트 분석용 NPM 패키지"
+      }
+    },
+    "social": {
+      "title": "연결",
+      "links": {
+        "github": "GitHub",
+        "issues": "문제 보고",
+        "contribute": "기여하기"
+      }
+    },
+    "acknowledgments": {
+      "title": "감사의 말",
+      "gutenberg": "무료 에스페란토 서적을 제공한 Project Gutenberg에 특별히 감사드립니다"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "페이지를 찾을 수 없습니다",
+      "action": "홈으로 가기"
+    },
+    "general": {
+      "title": "문제가 발생했습니다",
+      "action": "다시 시도"
+    }
+  },
+  "auth": {
+    "actions": {
+      "signUp": "회원가입",
+      "logIn": "로그인",
+      "signOut": "로그아웃"
+    },
+    "fields": {
+      "email": "이메일",
+      "password": "비밀번호",
+      "confirmPassword": "비밀번호 확인"
+    },
+    "links": {
+      "forgotPassword": "비밀번호를 잊으셨나요?",
+      "alreadyHaveAccount": "이미 계정이 있으신가요?",
+      "noAccount": "계정이 없으신가요?"
+    },
+    "status": {
+      "creatingAccount": "계정 생성 중...",
+      "welcomeBack": "다시 오신 것을 환영합니다",
+      "getStarted": "시작하기"
+    },
+    "errors": {
+      "validation": {
+        "emailRequired": "이메일이 필요합니다",
+        "emailInvalid": "유효한 이메일 주소를 입력해 주세요",
+        "passwordRequired": "비밀번호가 필요합니다",
+        "passwordTooShort": "비밀번호는 최소 6자 이상이어야 합니다",
+        "passwordsNoMatch": "비밀번호가 일치하지 않습니다"
+      },
+      "firebase": {
+        "emailInUse": "이 이메일은 이미 사용 중입니다",
+        "userNotFound": "이 이메일로 등록된 계정을 찾을 수 없습니다",
+        "wrongPassword": "비밀번호가 올바르지 않습니다",
+        "tooManyAttempts": "너무 많은 시도가 실패했습니다. 나중에 다시 시도해 주세요",
+        "networkError": "네트워크 오류입니다. 연결을 확인해 주세요",
+        "unknownError": "예상치 못한 오류가 발생했습니다. 다시 시도해 주세요"
+      }
+    },
+    "success": {
+      "accountCreated": "계정이 성공적으로 생성되었습니다!",
+      "signedIn": "다시 오신 것을 환영합니다!",
+      "signedOut": "성공적으로 로그아웃했습니다"
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "에스페란토 자료",
+      "subtitle": "학습 자료, 도구 및 커뮤니티 자원의 포괄적인 컬렉션"
+    },
+    "search": {
+      "label": "자료 검색...",
+      "placeholder": "제목, 설명 또는 태그로 검색..."
+    },
+    "filters": {
+      "filterBy": "카테고리별 필터",
+      "clearAll": "모든 필터 지우기"
+    },
+    "sections": {
+      "featured": "주요 자료",
+      "total": "총 자료 수",
+      "concertVideos": {
+        "title": "에스페란토 라이브 콘서트 동영상",
+        "description": "전 세계 에스페란토 음악가들의 공연 시청"
+      }
+    },
+    "results": {
+      "showing": "{{count}}개 자료 표시",
+      "noResults": "자료를 찾을 수 없습니다",
+      "noResultsDescription": "검색 또는 필터 조건을 조정해 보세요"
+    },
+    "categories": {
+      "all": "모든 자료",
+      "learning": "학습 자료",
+      "grammar": "문법 가이드",
+      "tools": "도구 및 키보드",
+      "music": "음악 및 아티스트",
+      "audio": "오디오 및 팟캐스트",
+      "video": "동영상 자료",
+      "community": "커뮤니티 및 지도",
+      "events": "이벤트 및 코스",
+      "organizations": "조직",
+      "culture": "문화 및 역사",
+      "news": "뉴스 및 문학",
+      "books": "서적 및 독서"
+    },
+    "difficulty": {
+      "beginner": "초급",
+      "intermediate": "중급",
+      "advanced": "고급",
+      "allLevels": "모든 레벨"
+    },
+    "labels": {
+      "free": "무료",
+      "paid": "유료",
+      "freemium": "프리미엄",
+      "requiresAccount": "계정 필요",
+      "external": "외부 링크",
+      "featured": "주요",
+      "new": "신규",
+      "popular": "인기"
+    },
+    "actions": {
+      "visitSite": "사이트 방문",
+      "learnMore": "자세히 알아보기",
+      "download": "다운로드",
+      "register": "등록",
+      "viewDetails": "세부정보 보기"
+    }
+  }
+}

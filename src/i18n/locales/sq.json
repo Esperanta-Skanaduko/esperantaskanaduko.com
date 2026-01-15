@@ -1,0 +1,326 @@
+{
+  "_meta": {
+    "language": "Shqip",
+    "code": "sq",
+    "translationStatus": "complete",
+    "note": "Përkthim i plotë në shqip - Shqipëria, Kosova dhe komunitetet shqiptare"
+  },
+  "common": {
+    "site": {
+      "name": "Esperanta\nSkanaduko",
+      "tagline": "Një faqe interneti gjithëpërfshirëse për mësimin e esperantos dhe burime",
+      "description": "Mësoni esperanton përmes burimeve gjithëpërfshirëse, mjeteve interaktive dhe lidhjeve me komunitetin. Qasje në më shumë se 200 materiale mësimore të përzgjedhura, libra, muzikë, video dhe shumë më tepër."
+    },
+    "navigation": {
+      "home": "Ballina",
+      "about": "Rreth Nesh",
+      "library": "Biblioteka"
+    },
+    "ui": {
+      "loading": "Po ngarkohet...",
+      "error": "Gabim",
+      "language": "Gjuha",
+      "switchLanguage": "Ndryshoni Gjuhën"
+    }
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Esperanta Skanaduko - Mësoni Esperanton në Internet",
+        "description": "Qendra juaj gjithëpërfshirëse për të mësuar esperanton. Qasje në burime, libra, muzikë, lidhje me komunitetin dhe mjete interaktive për të zotëruar gjuhën ndërkombëtare.",
+        "keywords": "mësoni esperanto, mësimi i esperantos, gjuhë ndërkombëtare, gjuhë e konstruktuar, platformë për mësimin e gjuhëve"
+      },
+      "resources": {
+        "title": "Burime Esperanto - Materiale dhe Mjete Mësimore",
+        "description": "Zbuloni më shumë se 200 burime gjithëpërfshirëse për mësimin e esperantos, duke përfshirë udhëzues gramatikë, muzikë, podkaste, video, harta të komunitetit, kurse dhe mjete. Burime falas për nxënësit nga fillestarët deri tek ata të avancuar.",
+        "keywords": "burime për mësimin e esperantos, mësoni esperanto, gramatika e esperantos, muzika e esperantos, podkastet e esperantos, komuniteti i esperantos, kurse esperanto, mjete esperanto, mësimi i gjuhëve"
+      },
+      "library": {
+        "title": "Biblioteka e Esperantos - Libra dhe Materiale Leximi",
+        "description": "Shfletoni koleksionin tonë të përzgjedhur të librave, romaneve dhe materialeve të leximit në esperanto. Perfekte për nxënësit në të gjitha nivelet.",
+        "keywords": "libra esperanto, biblioteka e esperantos, leximi në esperanto, literatura e esperantos, mësoni të lexoni esperanto"
+      },
+      "concerts": {
+        "title": "Video të Koncerteve të Drejtpërdrejta të Esperantos",
+        "description": "Shikoni performanca të drejtpërdrejta nga muzikantë esperanto në të gjithë botën. Zbuloni kulturën e gjallë muzikore në komunitetin e esperantos.",
+        "keywords": "muzika e esperantos, koncerte esperanto, muzikantë esperanto, kultura e esperantos, muzikë e drejtpërdrejtë"
+      }
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "Ballina",
+      "library": "Biblioteka",
+      "about": "Rreth Nesh",
+      "resources": "Burimet"
+    },
+    "secondary": {
+      "contact": "Kontakti",
+      "donate": "Dhuroni",
+      "analyzer": "Analizuesi"
+    }
+  },
+  "donate": {
+    "hero": {
+      "title": "Mbështetni Misionin Tonë",
+      "subtitle": "Ndihmoni që ta mbajmë Esperanta Skanaduko falas dhe të arritshme për nxënësit në të gjithë botën. Mbështetja juaj na mundëson të mirëmbajmë platformën, të krijojmë përmbajtje të re dhe të rritëm komunitetin."
+    },
+    "sections": {
+      "methods": {
+        "title": "Zgjidhni Mënyrën Tuaj të Preferuar"
+      },
+      "impact": {
+        "title": "Ndikimi Juaj",
+        "description": "Çdo dhurim, pavarësisht nga madhësia, na ndihmon të vazhdojmë misionin tonë. Ja se si mbështetja juaj bën një ndryshim:"
+      },
+      "thankYou": {
+        "title": "Dankon! Faleminderit!",
+        "message": "Bujaria juaj ndihmon në ruajtjen dhe ndarjen e bukurisë së esperantos me nxënësit në të gjithë botën. Së bashku, po ndërtojmë ura midis kulturave dhe gjuhëve."
+      }
+    },
+    "actions": {
+      "donateNow": "Dhuroni Tani"
+    },
+    "methods": {
+      "paypal": {
+        "title": "PayPal",
+        "description": "Dhurime të sigurta njëherësh ose përseritje"
+      },
+      "buymeacoffee": {
+        "title": "Blini një Kafe",
+        "description": "Mbështeni me një dhurim kafe"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "description": "Mbështetje mujore për zhvillim të vazhdueshëm"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "title": "Hosting i Serverit",
+        "description": "Mbani faqen të funksionojë 24/7 për qasje globale",
+        "amount": "€10/muaj"
+      },
+      "content": {
+        "title": "Krijimi i Përmbajtjes",
+        "description": "Zhvilloni materiale dhe burime të reja mësimore",
+        "amount": "€25/muaj"
+      },
+      "development": {
+        "title": "Mjetet e Zhvillimit",
+        "description": "Mirëmbani dhe përmirësoni veçoritë e platformës",
+        "amount": "€15/muaj"
+      },
+      "community": {
+        "title": "Mbështetja e Komunitetit",
+        "description": "Moderoni dhe mbështeni komunitetin e esperantos",
+        "amount": "€20/muaj"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "welcome": "Mirë se vini në Esperanta Skanduko",
+      "description": "Zbuloni bukurinë e esperantos përmes koleksionit tonë gjithëpërfshirës të burimeve mësimore, librave dhe mjeteve interaktive."
+    },
+    "actions": {
+      "getStarted": "Filloni",
+      "learnMore": "Mësoni më shumë"
+    },
+    "features": {
+      "title": "Veçoritë",
+      "items": {
+        "library": {
+          "title": "Bibliotekë Gjithëpërfshirëse",
+          "description": "Qasje në mijëra libra, artikuj dhe materiale mësimore esperanto"
+        },
+        "interactive": {
+          "title": "Mësim Interaktiv",
+          "description": "Angazhohuni me mjete dhe ushtrime interaktive për të përmirësuar aftësitë tuaja"
+        },
+        "community": {
+          "title": "Komunitet Global",
+          "description": "Lidhuni me nxënësit dhe folësit e esperantos nga e gjithë bota"
+        }
+      }
+    }
+  },
+  "about": {
+    "page": {
+      "title": "Rreth Esperanta Skanduko",
+      "description": "Esperanta Skanduko është e përkushtuar të bëjë mësimin e esperantos të arritshëm dhe të angazhues për të gjithë."
+    },
+    "sections": {
+      "mission": {
+        "title": "Misioni Ynë",
+        "description": "Të ruajmë dhe të ndajmë literaturën e esperantos, materialet mësimore dhe burimet kulturore me botën."
+      },
+      "esperanto": {
+        "title": "Çfarë është Esperanto?",
+        "description": "Esperanto është një gjuhë ndërkombëtare ndihmëse e krijuar për lehtësi mësimi dhe komunikimi ndërkombëtar."
+      }
+    }
+  },
+  "library": {
+    "page": {
+      "title": "Biblioteka"
+    },
+    "search": {
+      "placeholder": "Kërko libra..."
+    },
+    "filters": {
+      "categories": "Kategoritë",
+      "allBooks": "Të Gjithë Librat"
+    },
+    "results": {
+      "noResults": "Nuk u gjetën libra",
+      "booksFound": "libra u gjetën"
+    }
+  },
+  "footer": {
+    "legal": {
+      "copyright": "Të gjitha të drejtat e rezervuara",
+      "madeWith": "Bërë me",
+      "forCommunity": "për komunitetin e esperantos",
+      "developedBy": "Zhvilluar me ❤️ nga"
+    },
+    "projects": {
+      "title": "Projekte të Lidhura",
+      "esperantoAnalyzer": {
+        "title": "Analizuesi i Esperantos",
+        "description": "Paketë NPM për analizën e tekstit esperanto"
+      }
+    },
+    "social": {
+      "title": "Lidhuni",
+      "links": {
+        "github": "GitHub",
+        "issues": "Raportoni Problemin",
+        "contribute": "Kontribuoni"
+      }
+    },
+    "acknowledgments": {
+      "title": "Falenderimet",
+      "gutenberg": "Falenderime të veçanta për Projektin Gutenberg për ofrimin e librave falas esperanto"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Faqja Nuk u Gjet",
+      "action": "Shkoni në Ballina"
+    },
+    "general": {
+      "title": "Diçka shkoi keq",
+      "action": "Provoni Përsëri"
+    }
+  },
+  "auth": {
+    "actions": {
+      "signUp": "Regjistrohu",
+      "logIn": "Identifikohu",
+      "signOut": "Çidentifikohu"
+    },
+    "fields": {
+      "email": "Email",
+      "password": "Fjalëkalimi",
+      "confirmPassword": "Konfirmo Fjalëkalimin"
+    },
+    "links": {
+      "forgotPassword": "Harruat fjalëkalimin?",
+      "alreadyHaveAccount": "Keni tashmë një llogari?",
+      "noAccount": "Nuk keni një llogari?"
+    },
+    "status": {
+      "creatingAccount": "Po krijohet llogaria juaj...",
+      "welcomeBack": "Mirë se erdhët përsëri",
+      "getStarted": "Filloni"
+    },
+    "errors": {
+      "validation": {
+        "emailRequired": "Email-i është i detyrueshëm",
+        "emailInvalid": "Ju lutemi vendosni një adresë email të vlefshme",
+        "passwordRequired": "Fjalëkalimi është i detyrueshëm",
+        "passwordTooShort": "Fjalëkalimi duhet të jetë të paktën 6 karaktere",
+        "passwordsNoMatch": "Fjalëkalimet nuk përputhen"
+      },
+      "firebase": {
+        "emailInUse": "Ky email është tashmë në përdorim",
+        "userNotFound": "Nuk u gjet llogari me këtë email",
+        "wrongPassword": "Fjalëkalim i pasaktë",
+        "tooManyAttempts": "Shumë tentativa të dështuara. Ju lutemi provoni më vonë",
+        "networkError": "Gabim në rrjet. Ju lutemi kontrolloni lidhjen tuaj",
+        "unknownError": "Ndodhi një gabim i papritur. Ju lutemi provoni përsëri"
+      }
+    },
+    "success": {
+      "accountCreated": "Llogaria u krijua me sukses!",
+      "signedIn": "Mirë se erdhët përsëri!",
+      "signedOut": "U çidentifikuat me sukses"
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "Burimet e Esperantos",
+      "subtitle": "Koleksion gjithëpërfshirës i materialeve mësimore, mjeteve dhe burimeve të komunitetit"
+    },
+    "search": {
+      "label": "Kërko burime...",
+      "placeholder": "Kërko sipas titullit, përshkrimit ose etiketave..."
+    },
+    "filters": {
+      "filterBy": "Filtro sipas kategorisë",
+      "clearAll": "Pastro Të Gjithë Filtrat"
+    },
+    "sections": {
+      "featured": "Burime të Veçuara",
+      "total": "Totali i Burimeve",
+      "concertVideos": {
+        "title": "Video të Koncerteve të Drejtpërdrejta të Esperantos",
+        "description": "Shikoni performanca nga muzikantë esperanto në të gjithë botën"
+      }
+    },
+    "results": {
+      "showing": "Duke treguar {{count}} burime",
+      "noResults": "Nuk u gjetën burime",
+      "noResultsDescription": "Provoni të rregulloni kërkimin ose kriteret e filtrit"
+    },
+    "categories": {
+      "all": "Të Gjitha Burimet",
+      "learning": "Burime Mësimore",
+      "grammar": "Udhëzues Gramatikë",
+      "tools": "Mjete & Tastierat",
+      "music": "Muzika & Artistë",
+      "audio": "Audio & Podkaste",
+      "video": "Burime Video",
+      "community": "Komuniteti & Hartat",
+      "events": "Ngjarje & Kurse",
+      "organizations": "Organizata",
+      "culture": "Kulturë & Histori",
+      "news": "Lajme & Literaturë",
+      "books": "Libra & Lexim"
+    },
+    "difficulty": {
+      "beginner": "Fillestar",
+      "intermediate": "I mesmë",
+      "advanced": "I avancuar",
+      "allLevels": "Të Gjitha Nivelet"
+    },
+    "labels": {
+      "free": "Falas",
+      "paid": "Me Pagesë",
+      "freemium": "Freemium",
+      "requiresAccount": "Kërkohet Llogari",
+      "external": "Lidhje e Jashtme",
+      "featured": "E Veçuar",
+      "new": "E re",
+      "popular": "Popullore"
+    },
+    "actions": {
+      "visitSite": "Vizitoni Faqen",
+      "learnMore": "Mësoni më shumë",
+      "download": "Shkarkoni",
+      "register": "Regjistrohu",
+      "viewDetails": "Shiko Detajet"
+    }
+  }
+}

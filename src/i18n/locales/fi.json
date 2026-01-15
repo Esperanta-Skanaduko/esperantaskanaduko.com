@@ -1,0 +1,329 @@
+{
+  "_meta": {
+    "language": "Suomi",
+    "code": "fi",
+    "translationStatus": "human-translated",
+    "note": "Täydellinen suomenkielinen käännös",
+    "lastUpdated": "2025-10-12",
+    "translator": "AI Assistant",
+    "reviewStatus": "completed"
+  },
+  "common": {
+    "site": {
+      "name": "Esperanta\nSkanaduko",
+      "tagline": "Kattava esperanton oppimis- ja resurssisivusto",
+      "description": "Opi esperantoa kattavien resurssien, interaktiivisten työkalujen ja yhteisöyhteyksien avulla. Käytä yli 200 kuratoitua oppimateriaalia, kirjaa, musiikkia, videoita ja paljon muuta."
+    },
+    "navigation": {
+      "home": "Etusivu",
+      "about": "Tietoa meistä",
+      "library": "Kirjasto"
+    },
+    "ui": {
+      "loading": "Ladataan...",
+      "error": "Virhe",
+      "language": "Kieli",
+      "switchLanguage": "Vaihda kieltä"
+    }
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Esperanta Skanaduko - Opi esperantoa verkossa",
+        "description": "Kattava keskuksesi esperanton oppimiseen. Käytä resursseja, kirjoja, musiikkia, yhteisöyhteyksiä ja interaktiivisia työkaluja kansainvälisen kielen hallitsemiseksi.",
+        "keywords": "opi esperantoa, esperanton oppiminen, kansainvälinen kieli, keinotekoinen kieli, kielenoppimisalusta"
+      },
+      "resources": {
+        "title": "Esperanto-resurssit - Oppimateriaalia ja työkaluja",
+        "description": "Löydä yli 200 kattavaa esperanton oppimisresurssia, mukaan lukien kieliopasoppaita, musiikkia, podcasteja, videoita, yhteisökarttoja, kursseja ja työkaluja. Ilmaisia resursseja aloittelijoille ja edistyneille oppijoille.",
+        "keywords": "esperanton oppimisresurssit, opi esperantoa, esperanton kielioppi, esperanto-musiikki, esperanto-podcastit, esperanto-yhteisö, esperanto-kurssit, esperanto-työkalut, kielenoppiminen"
+      },
+      "library": {
+        "title": "Esperanto-kirjasto - Kirjat ja lukumateriaali",
+        "description": "Selaa kuratoitua kokoelmaamme esperanto-kirjoja, romaaneja ja lukumateriaalia. Täydellinen kaikentasoisille oppijoille.",
+        "keywords": "esperanto-kirjat, esperanto-kirjasto, esperanton lukeminen, esperanto-kirjallisuus, opi lukemaan esperantoa"
+      },
+      "concerts": {
+        "title": "Esperanto-livekonserttiviodeot",
+        "description": "Katso live-esityksiä esperanto-muusikoilta ympäri maailmaa. Löydä vilkas musiikkikulttuuri esperanto-yhteisössä.",
+        "keywords": "esperanto-musiikki, esperanto-konsertit, esperanto-muusikot, esperanto-kulttuuri, live-musiikki"
+      }
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "Etusivu",
+      "library": "Kirjasto",
+      "about": "Tietoa meistä",
+      "resources": "Resurssit"
+    },
+    "secondary": {
+      "contact": "Yhteystiedot",
+      "donate": "Lahjoita",
+      "analyzer": "Analysaattori"
+    }
+  },
+  "donate": {
+    "hero": {
+      "title": "Tue tehtäväämme",
+      "subtitle": "Auta meitä pitämään Esperanta Skanaduko ilmaisena ja saavutettavana oppijoille ympäri maailmaa. Tukesi mahdollistaa alustan ylläpidon, uuden sisällön luomisen ja yhteisön kasvattamisen."
+    },
+    "sections": {
+      "methods": {
+        "title": "Valitse haluamasi menetelmä"
+      },
+      "impact": {
+        "title": "Vaikutuksesi",
+        "description": "Jokainen lahjoitus, koosta riippumatta, auttaa meitä jatkamaan tehtäväämme. Näin tukesi tekee eron:"
+      },
+      "thankYou": {
+        "title": "Dankon! Kiitos!",
+        "message": "Anteliaisuutesi auttaa säilyttämään ja jakamaan esperanton kauneuden oppijoiden kanssa ympäri maailmaa. Yhdessä rakennamme siltoja kulttuurien ja kielten välille."
+      }
+    },
+    "actions": {
+      "donateNow": "Lahjoita nyt"
+    },
+    "methods": {
+      "paypal": {
+        "title": "PayPal",
+        "description": "Turvalliset kerta- tai toistuvat lahjoitukset"
+      },
+      "buymeacoffee": {
+        "title": "Buy Me a Coffee",
+        "description": "Tue kahvilahjoituksella"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "description": "Kuukausittainen tuki jatkuvalle kehitykselle"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "title": "Palvelinisännöinti",
+        "description": "Pidä verkkosivusto käynnissä 24/7 maailmanlaajuista käyttöä varten",
+        "amount": "$10/month"
+      },
+      "content": {
+        "title": "Sisällön luominen",
+        "description": "Kehitä uusia oppimateriaalia ja resursseja",
+        "amount": "$25/kuukausi"
+      },
+      "development": {
+        "title": "Kehitystyökalut",
+        "description": "Ylläpidä ja paranna alustan ominaisuuksia",
+        "amount": "$15/kuukausi"
+      },
+      "community": {
+        "title": "Yhteisötuki",
+        "description": "Moderoi ja tue esperanto-yhteisöä",
+        "amount": "$20/kuukausi"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "welcome": "Tervetuloa Esperanta Skandukoon",
+      "description": "Löydä esperanton kauneus kattavan kokoelmamme kautta, joka sisältää oppimisresursseja, kirjoja ja interaktiivisia työkaluja."
+    },
+    "actions": {
+      "getStarted": "Aloita",
+      "learnMore": "Lue lisää"
+    },
+    "features": {
+      "title": "Ominaisuudet",
+      "items": {
+        "library": {
+          "title": "Kattava kirjasto",
+          "description": "Käytä tuhansia esperanto-kirjoja, artikkeleita ja oppimateriaalia"
+        },
+        "interactive": {
+          "title": "Interaktiivinen oppiminen",
+          "description": "Osallistu interaktiivisiin työkaluihin ja harjoituksiin taitojesi parantamiseksi"
+        },
+        "community": {
+          "title": "Maailmanlaajuinen yhteisö",
+          "description": "Yhdistä esperanton oppijoihin ja puhujiin ympäri maailmaa"
+        }
+      }
+    }
+  },
+  "about": {
+    "page": {
+      "title": "Tietoa Esperanta Skandukosta",
+      "description": "Esperanta Skanduko on omistautunut tekemään esperanton oppimisesta saavutettavaa ja kiinnostavaa kaikille."
+    },
+    "sections": {
+      "mission": {
+        "title": "Tehtävämme",
+        "description": "Säilyttää ja jakaa esperanton kirjallisuutta, oppimateriaalia ja kulttuuriresursseja maailman kanssa."
+      },
+      "esperanto": {
+        "title": "Mikä on esperanto?",
+        "description": "Esperanto on kansainvälinen apukieli, joka on suunniteltu helppoa oppimista ja kansainvälistä viestintää varten."
+      }
+    }
+  },
+  "library": {
+    "page": {
+      "title": "Kirjasto"
+    },
+    "search": {
+      "placeholder": "Etsi kirjoja..."
+    },
+    "filters": {
+      "categories": "Kategoriat",
+      "allBooks": "Kaikki kirjat"
+    },
+    "results": {
+      "noResults": "Kirjoja ei löytynyt",
+      "booksFound": "kirjaa löytyi"
+    }
+  },
+  "footer": {
+    "legal": {
+      "copyright": "Kaikki oikeudet pidätetään",
+      "madeWith": "Tehty",
+      "forCommunity": "esperanto-yhteisölle",
+      "developedBy": "Kehitetty ❤️:llä"
+    },
+    "projects": {
+      "title": "Liittyvät projektit",
+      "esperantoAnalyzer": {
+        "title": "Esperanto Analyzer",
+        "description": "NPM-paketti esperanto-tekstianalyysiin"
+      }
+    },
+    "social": {
+      "title": "Yhdistä",
+      "links": {
+        "github": "GitHub",
+        "issues": "Raportoi ongelma",
+        "contribute": "Osallistu"
+      }
+    },
+    "acknowledgments": {
+      "title": "Kiitokset",
+      "gutenberg": "Erityiskiitos Project Gutenbergille ilmaisten esperanto-kirjojen tarjoamisesta"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Sivua ei löytynyt",
+      "action": "Siirry etusivulle"
+    },
+    "general": {
+      "title": "Jotain meni vikaan",
+      "action": "Yritä uudelleen"
+    }
+  },
+  "auth": {
+    "actions": {
+      "signUp": "Rekisteröidy",
+      "logIn": "Kirjaudu sisään",
+      "signOut": "Kirjaudu ulos"
+    },
+    "fields": {
+      "email": "Sähköposti",
+      "password": "Salasana",
+      "confirmPassword": "Vahvista salasana"
+    },
+    "links": {
+      "forgotPassword": "Unohditko salasanan?",
+      "alreadyHaveAccount": "Onko sinulla jo tili?",
+      "noAccount": "Eikö sinulla ole tiliä?"
+    },
+    "status": {
+      "creatingAccount": "Luodaan tiliäsi...",
+      "welcomeBack": "Tervetuloa takaisin",
+      "getStarted": "Aloita"
+    },
+    "errors": {
+      "validation": {
+        "emailRequired": "Sähköposti vaaditaan",
+        "emailInvalid": "Anna kelvollinen sähköpostiosoite",
+        "passwordRequired": "Salasana vaaditaan",
+        "passwordTooShort": "Salasanan on oltava vähintään 6 merkkiä",
+        "passwordsNoMatch": "Salasanat eivät täsmää"
+      },
+      "firebase": {
+        "emailInUse": "Tämä sähköposti on jo käytössä",
+        "userNotFound": "Tällä sähköpostilla ei löydy tiliä",
+        "wrongPassword": "Väärä salasana",
+        "tooManyAttempts": "Liian monta epäonnistunutta yritystä. Yritä myöhemmin uudelleen",
+        "networkError": "Verkkovirhe. Tarkista yhteytesi",
+        "unknownError": "Odottamaton virhe tapahtui. Yritä uudelleen"
+      }
+    },
+    "success": {
+      "accountCreated": "Tili luotu onnistuneesti!",
+      "signedIn": "Tervetuloa takaisin!",
+      "signedOut": "Uloskirjautuminen onnistui"
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "Esperanto-resurssit",
+      "subtitle": "Kattava kokoelma oppimateriaalia, työkaluja ja yhteisöresursseja"
+    },
+    "search": {
+      "label": "Etsi resursseja...",
+      "placeholder": "Etsi otsikon, kuvauksen tai tunnisteiden perusteella..."
+    },
+    "filters": {
+      "filterBy": "Suodata kategorian mukaan",
+      "clearAll": "Tyhjennä kaikki suodattimet"
+    },
+    "sections": {
+      "featured": "Esitellyt resurssit",
+      "total": "Resursseja yhteensä",
+      "concertVideos": {
+        "title": "Esperanto-livekonserttiviodeot",
+        "description": "Katso esityksiä esperanto-muusikoilta ympäri maailmaa"
+      }
+    },
+    "results": {
+      "showing": "Näytetään {{count}} resurssia",
+      "noResults": "Resursseja ei löytynyt",
+      "noResultsDescription": "Kokeile muuttaa haku- tai suodatusehtoja"
+    },
+    "categories": {
+      "all": "Kaikki resurssit",
+      "learning": "Oppimisresurssit",
+      "grammar": "Kieliopasoppaat",
+      "tools": "Työkalut ja näppäimistöt",
+      "music": "Musiikki ja artistit",
+      "audio": "Ääni ja podcastit",
+      "video": "Videoresurssit",
+      "community": "Yhteisö ja kartat",
+      "events": "Tapahtumat ja kurssit",
+      "organizations": "Organisaatiot",
+      "culture": "Kulttuuri ja historia",
+      "news": "Uutiset ja kirjallisuus",
+      "books": "Kirjat ja lukeminen"
+    },
+    "difficulty": {
+      "beginner": "Aloittelija",
+      "intermediate": "Keskitaso",
+      "advanced": "Edistynyt",
+      "allLevels": "Kaikki tasot"
+    },
+    "labels": {
+      "free": "Ilmainen",
+      "paid": "Maksullinen",
+      "freemium": "Freemium",
+      "requiresAccount": "Vaatii tilin",
+      "external": "Ulkoinen linkki",
+      "featured": "Esitelty",
+      "new": "Uusi",
+      "popular": "Suosittu"
+    },
+    "actions": {
+      "visitSite": "Vieraile sivustolla",
+      "learnMore": "Lue lisää",
+      "download": "Lataa",
+      "register": "Rekisteröidy",
+      "viewDetails": "Näytä tiedot"
+    }
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "_meta": {
+    "language": "Malti",
+    "code": "mt",
+    "translationStatus": "complete",
+    "note": "Traduzzjoni kompleta bil-Malti - Malta u l-komunitajiet Maltin"
+  },
+  "common": {
+    "site": {
+      "name": "Esperanta\nSkanaduko",
+      "tagline": "Websajt komprensiv għat-tagħlim u r-riżorsi tal-Esperanto",
+      "description": "Itgħallem l-Esperanto permezz ta' riżorsi komprensivi, għodod interattivi u konnessjonijiet mal-komunità. Aċċess għal aktar minn 200 materjal ta' tagħlim magħżul, kotba, mużika, vidjows u aktar."
+    },
+    "navigation": {
+      "home": "Dar",
+      "about": "Dwarna",
+      "library": "Librerija"
+    },
+    "ui": {
+      "loading": "Qed jillowdja...",
+      "error": "Żball",
+      "language": "Lingwa",
+      "switchLanguage": "Ibdel il-Lingwa"
+    }
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Esperanta Skanaduko - Itgħallem l-Esperanto Onlajn",
+        "description": "Iċ-ċentru komprensiv tiegħek biex titgħallem l-Esperanto. Aċċess għal riżorsi, kotba, mużika, konnessjonijiet mal-komunità u għodod interattivi biex tissebbaħ fil-lingwa internazzjonali.",
+        "keywords": "itgħallem l-Esperanto, tagħlim tal-Esperanto, lingwa internazzjonali, lingwa kostruita, pjattaforma għat-tagħlim tal-lingwi"
+      },
+      "resources": {
+        "title": "Riżorsi tal-Esperanto - Materjali u Għodod għat-Tagħlim",
+        "description": "Skopri aktar minn 200 riżors komprensiv għat-tagħlim tal-Esperanto inkluż gwidi tal-grammatika, mużika, podcasts, vidjows, mapep tal-komunità, korsijiet u għodod. Riżorsi b'xejn għal dawk li jibdew sa studenti avvanzati.",
+        "keywords": "riżorsi għat-tagħlim tal-Esperanto, itgħallem l-Esperanto, grammatika tal-Esperanto, mużika tal-Esperanto, podcasts tal-Esperanto, komunità tal-Esperanto, korsijiet tal-Esperanto, għodod tal-Esperanto, tagħlim tal-lingwi"
+      },
+      "library": {
+        "title": "Librerija tal-Esperanto - Kotba u Materjali ta' Qari",
+        "description": "Ibbrawżja l-kollezzjoni magħżula tagħna ta' kotba, rumanzi u materjali ta' qari bl-Esperanto. Perfett għal studenti ta' kull livell.",
+        "keywords": "kotba bl-Esperanto, librerija tal-Esperanto, qari bl-Esperanto, letteratura tal-Esperanto, itgħallem aqra bl-Esperanto"
+      },
+      "concerts": {
+        "title": "Vidjows ta' Kunċerti Live tal-Esperanto",
+        "description": "Ara performances live minn mużiċisti tal-Esperanto mad-dinja kollha. Skopri l-kultura mużikali vibranti fil-komunità tal-Esperanto.",
+        "keywords": "mużika tal-Esperanto, kunċerti tal-Esperanto, mużiċisti tal-Esperanto, kultura tal-Esperanto, mużika live"
+      }
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "Dar",
+      "library": "Librerija",
+      "about": "Dwarna",
+      "resources": "Riżorsi"
+    },
+    "secondary": {
+      "contact": "Kuntatt",
+      "donate": "Iddonazzjoni",
+      "analyzer": "Analizzatur"
+    }
+  },
+  "donate": {
+    "hero": {
+      "title": "Appoġġja l-Missjoni Tagħna",
+      "subtitle": "Għinna nżommu lil Esperanta Skanaduko b'xejn u aċċessibbli għal studenti mad-dinja kollha. L-appoġġ tiegħek jippermettilna nżommu l-pjattaforma, ninħolqu kontenut ġdid u nkabbru l-komunità."
+    },
+    "sections": {
+      "methods": {
+        "title": "Agħżel il-Metodu Preferat Tiegħek"
+      },
+      "impact": {
+        "title": "L-Impatt Tiegħek",
+        "description": "Kull donazzjoni, tkun kemm tkun, tgħinna nkomplu l-missjoni tagħna. Hawn kif l-appoġġ tiegħek jagħmel differenza:"
+      },
+      "thankYou": {
+        "title": "Dankon! Għazzħa!",
+        "message": "Il-ġenerożità tiegħek tgħin bipreżerva u tqassam is-sbuħija tal-Esperanto ma' studenti madwar id-dinja. Flimkien, qegħdin nibnu pontijiet bejn kulturi u lingwi."
+      }
+    },
+    "actions": {
+      "donateNow": "Iddonazzjoni Issa"
+    },
+    "methods": {
+      "paypal": {
+        "title": "PayPal",
+        "description": "Donazzjonijiet siġuri darba jew rikorrenti"
+      },
+      "buymeacoffee": {
+        "title": "Buy Me a Coffee",
+        "description": "Appoġġ b'donazzjoni tal-kafe"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "description": "Appoġġ ta' kull xahar għal żopp kontinwu"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "title": "Hosting tas-Server",
+        "description": "Iżżomm il-websajt meħud 24/7 għal aċċess globali",
+        "amount": "€10/xahar"
+      },
+      "content": {
+        "title": "Ħolqien ta' Kontenut",
+        "description": "Iżżiviluppa materjali ġodda ta' tagħlim u riżorsi",
+        "amount": "€25/xahar"
+      },
+      "development": {
+        "title": "Għodod ta' Żvilupp",
+        "description": "Iżżomm u tittjib il-karatteristiċi tal-pjattaforma",
+        "amount": "€15/xahar"
+      },
+      "community": {
+        "title": "Appoġġ għall-Komunità",
+        "description": "Immodera u tappoġġa l-komunità tal-Esperanto",
+        "amount": "€20/xahar"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "welcome": "Merħba għand Esperanta Skanduko",
+      "description": "Skopri s-sbuħija tal-Esperanto permezz tal-kollezzjoni komprensiva tagħna ta' riżorsi għat-tagħlim, kotba u għodod interattivi."
+    },
+    "actions": {
+      "getStarted": "Ibda",
+      "learnMore": "Itgħallem Aktar"
+    },
+    "features": {
+      "title": "Karaħteriżtiċi",
+      "items": {
+        "library": {
+          "title": "Librerija Komprensiva",
+          "description": "Aċċess għal eluf ta' kotba, artikli u materjali ta' tagħlim bl-Esperanto"
+        },
+        "interactive": {
+          "title": "Tagħlim Interattiv",
+          "description": "Impenja ruħek b'għodod interattivi u eżerċizzji biex ittejjeb il-ħiliet tiegħek"
+        },
+        "community": {
+          "title": "Komunità Globali",
+          "description": "Ikkonnettja ma' studenti u kelliem tal-Esperanto mad-dinja kollha"
+        }
+      }
+    }
+  },
+  "about": {
+    "page": {
+      "title": "Dwar Esperanta Skanduko",
+      "description": "Esperanta Skanduko hija ddedikata biex tagħmel it-tagħlim tal-Esperanto aċċessibbli u interessanti għal kulħadd."
+    },
+    "sections": {
+      "mission": {
+        "title": "Il-Missjoni Tagħna",
+        "description": "Li nipreżervaw u nqassmu l-letteratura, il-materjali ta' tagħlim u r-riżorsi kulturali tal-Esperanto mad-dinja."
+      },
+      "esperanto": {
+        "title": "X'inhi l-Esperanto?",
+        "description": "L-Esperanto hija lingwa awżiljarja internazzjonali mġeddma għal faċilita' ta' tagħlim u komunikazzjoni internazzjonali."
+      }
+    }
+  },
+  "library": {
+    "page": {
+      "title": "Librerija"
+    },
+    "search": {
+      "placeholder": "Fittex kotba..."
+    },
+    "filters": {
+      "categories": "Kategoriji",
+      "allBooks": "Kotba Kollha"
+    },
+    "results": {
+      "noResults": "L-ebda ktieb ma nstab",
+      "booksFound": "kotba nstabu"
+    }
+  },
+  "footer": {
+    "legal": {
+      "copyright": "Id-drittijiet kollħa rriservaħati",
+      "madeWith": "Magħmul b'",
+      "forCommunity": "għall-komunità tal-Esperanto",
+      "developedBy": "Iżżovilluppat b'❤️ minn"
+    },
+    "projects": {
+      "title": "Proġetti Relatati",
+      "esperantoAnalyzer": {
+        "title": "Analizzatur tal-Esperanto",
+        "description": "Pakkett NPM għal analiżi tat-test tal-Esperanto"
+      }
+    },
+    "social": {
+      "title": "Ikkonnettja",
+      "links": {
+        "github": "GitHub",
+        "issues": "Irrapporta Problema",
+        "contribute": "Ikkontribwixxi"
+      }
+    },
+    "acknowledgments": {
+      "title": "Rikonoxximenti",
+      "gutenberg": "Grazzi speċjali lil Proġett Gutenberg għal kotba b'xejn tal-Esperanto"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Paġna Ma Nstabetx",
+      "action": "Mur Lejn id-Dar"
+    },
+    "general": {
+      "title": "Xi ħaġa marret ħażin",
+      "action": "Erga' Pprova"
+    }
+  },
+  "auth": {
+    "actions": {
+      "signUp": "Irreġistra",
+      "logIn": "Idħol",
+      "signOut": "Oħroġ"
+    },
+    "fields": {
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Ikkonferma l-Password"
+    },
+    "links": {
+      "forgotPassword": "Insejt il-Password?",
+      "alreadyHaveAccount": "Diġà għandek kont?",
+      "noAccount": "M'għandekx kont?"
+    },
+    "status": {
+      "creatingAccount": "Qed jinħoloq il-kont tiegħek...",
+      "welcomeBack": "Merħba Lura",
+      "getStarted": "Ibda"
+    },
+    "errors": {
+      "validation": {
+        "emailRequired": "L-email hu meħtieġ",
+        "emailInvalid": "Jekk joġġbok dahal indirizz email validu",
+        "passwordRequired": "Il-password hu meħtieġ",
+        "passwordTooShort": "Il-password irid ikun ta' mill-inqas 6 karaħteri",
+        "passwordsNoMatch": "Il-passwords ma jaqblux"
+      },
+      "firebase": {
+        "emailInUse": "Dan l-email diġà qed jintuża",
+        "userNotFound": "L-ebda kont ma nstab b'dan l-email",
+        "wrongPassword": "Password żbaljat",
+        "tooManyAttempts": "Wisq tentattivi falluti. Jekk joġġbok erga' pprova aktar tard",
+        "networkError": "Żball tan-netwerk. Jekk joġġbok iċċekkja l-konnessjoni tiegħek",
+        "unknownError": "Seħħ żbaljazzjoni mhux mistenni. Jekk joġġbok erga' pprova"
+      }
+    },
+    "success": {
+      "accountCreated": "Kont inħoloq b'suċċess!",
+      "signedIn": "Merħba lura!",
+      "signedOut": "Oħroġt b'suċċess"
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "Riżorsi tal-Esperanto",
+      "subtitle": "Kollezzjoni komprensiva ta' materjali ta' tagħlim, għodod u riżorsi tal-komunità"
+    },
+    "search": {
+      "label": "Fittex riżorsi...",
+      "placeholder": "Fittex bit-titlu, deskrizzjoni jew tags..."
+    },
+    "filters": {
+      "filterBy": "Iffiltra skont il-kategorija",
+      "clearAll": "Neadda l-Filtri Kollha"
+    },
+    "sections": {
+      "featured": "Riżorsi Prominenti",
+      "total": "Riżorsi Totali",
+      "concertVideos": {
+        "title": "Vidjows ta' Kunċerti Live tal-Esperanto",
+        "description": "Ara performances minn mużiċisti tal-Esperanto mad-dinja kollha"
+      }
+    },
+    "results": {
+      "showing": "Qed juru {{count}} riżors",
+      "noResults": "L-ebda riżors ma nstab",
+      "noResultsDescription": "Ipprova aġġusta t-tiftix jew il-kriterji tal-filtru tiegħek"
+    },
+    "categories": {
+      "all": "Riżorsi Kollha",
+      "learning": "Riżorsi għat-Tagħlim",
+      "grammar": "Gwidi tal-Grammatika",
+      "tools": "Għodod u Tastieri",
+      "music": "Mużika u Artiżti",
+      "audio": "Awdjo u Podcasts",
+      "video": "Riżorsi tal-Vidjo",
+      "community": "Komunità u Mapep",
+      "events": "Avvenimenti u Korsijiet",
+      "organizations": "Organizzazzjonijiet",
+      "culture": "Kultura u Storja",
+      "news": "Aħbarijiet u Letteratura",
+      "books": "Kotba u Qari"
+    },
+    "difficulty": {
+      "beginner": "Bidwiena",
+      "intermediate": "Intermedju",
+      "advanced": "Avvanzat",
+      "allLevels": "Il-Livelli Kollha"
+    },
+    "labels": {
+      "free": "B'xejn",
+      "paid": "Imhaħlas",
+      "freemium": "Freemium",
+      "requiresAccount": "Kont Meħtieġ",
+      "external": "Link Estern",
+      "featured": "Prominenti",
+      "new": "Ġdid",
+      "popular": "Popolari"
+    },
+    "actions": {
+      "visitSite": "Żur is-Sit",
+      "learnMore": "Itgħallem Aktar",
+      "download": "Nizel",
+      "register": "Irreġistra",
+      "viewDetails": "Ara d-Dettalji"
+    }
+  }
+}

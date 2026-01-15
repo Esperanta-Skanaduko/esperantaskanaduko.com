@@ -1,0 +1,327 @@
+{
+  "_meta": {
+    "language": "Occitan",
+    "code": "oc",
+    "translationStatus": "human-translated",
+    "lastUpdated": "2025-10-11",
+    "note": "Traduccion completa en occitan"
+  },
+  "common": {
+    "site": {
+      "name": "Esperanta\nSkanaduko",
+      "tagline": "Un site web complet per l'aprendissatge e las ressorsas d'esperanto",
+      "description": "Aprendre l'esperanto gràcias a de ressorsas completas, d'aisinas interactivas e de connexions comunitàrias. Accedir a mai de 200 materials d'aprendissatge curats, libres, musica, vidèos e mai encara."
+    },
+    "navigation": {
+      "home": "Acuèlh",
+      "about": "A prepaus",
+      "library": "Bibliotèca"
+    },
+    "ui": {
+      "loading": "Cargament...",
+      "error": "Error",
+      "language": "Lenga",
+      "switchLanguage": "Cambiar de Lenga"
+    }
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Esperanta Skanaduko - Aprendre l'Esperanto en Linha",
+        "description": "V\u00f2stre centre complet per aprendre l'esperanto. Accedir a las ressorsas, als libres, a la musica, a las connexions comunit\u00e0rias e a las aisinas interactivas per ma\u00eftrejar la lenga internacionala.",
+        "keywords": "aprendre esperanto, aprendissatge d'esperanto, lenga internacionala, lenga constru\u00efda, plataforma d'aprendissatge de lengas"
+      },
+      "resources": {
+        "title": "Ressorsas d'Esperanto - Materials d'Aprendissatge e Aisinas",
+        "description": "Descobrir mai de 200 ressorsas completas d'aprendissatge de l'esperanto incluent de gu\u00ecdas gramaticalas, musica, podcasts, vid\u00e8os, mapas comunit\u00e0ris, corses e aisinas. Ressorsas gratuitas per aprenedors principiants a avan\u00e7ats.",
+        "keywords": "ressorsas d'aprendissatge d'esperanto, aprendre esperanto, gramatica esperanto, musica esperanto, podcasts esperanto, comunitat esperanto, corses esperanto, aisinas esperanto, aprendissatge de lengas"
+      },
+      "library": {
+        "title": "Bibliot\u00e8ca d'Esperanto - Libres e Materials de Lectura",
+        "description": "Percorrer n\u00f2stra colleccion curada de libres, romans e materials de lectura en esperanto. Perf\u00e8cte per aprenedors de totes los nivels.",
+        "keywords": "libres esperanto, bibliot\u00e8ca esperanto, lectura esperanto, literatura esperanto, aprendre a legir en esperanto"
+      },
+      "concerts": {
+        "title": "Vid\u00e8os de Conc\u00e8rts en Direc\u00f2te d'Esperanto",
+        "description": "Regargar de performan\u00e7as en direc\u00f2te de musicians esperantistas del mond enti\u00e8r. Descobrir la vibrant cultura musicala dins la comunitat esperantista.",
+        "keywords": "musica esperanto, conc\u00e8rts esperanto, musicians esperanto, cultura esperanto, musica en direc\u00f2te"
+      }
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "Acuèlh",
+      "library": "Bibliotèca",
+      "about": "A prepaus",
+      "resources": "Ressorsas"
+    },
+    "secondary": {
+      "contact": "Contacte",
+      "donate": "Donar",
+      "parser": "Analisador"
+    }
+  },
+  "donate": {
+    "hero": {
+      "title": "Sostenètz N\u00f2stra Mission",
+      "subtitle": "Ajudatz-nos a mantenir Esperanta Skanaduko gratuit e accessible als aprenedors del mond enti\u00e8r. V\u00f2stre sosten nos permet de mantenir la plataforma, crear de contenguts nov\u00e8ls e far cr\u00e9isser la comunitat."
+    },
+    "sections": {
+      "methods": {
+        "title": "Causissètz V\u00f2stre Metòde Preferit"
+      },
+      "impact": {
+        "title": "V\u00f2stre Impacte",
+        "description": "Cada don, quina que si\u00e1 sa talha, nos ajuda a contunhar n\u00f2stra mission. Vaqu\u00ed cossí v\u00f2stre sosten fa la diferen\u00e7a:"
+      },
+      "thankYou": {
+        "title": "Dankon! Mercés!",
+        "message": "V\u00f2stra generositat ajuda a preservar e partejar la beutat de l'esperanto amb d'aprenedors del mond enti\u00e8r. Ensems, batissèm de ponts entre las culturas e las lengas."
+      }
+    },
+    "actions": {
+      "donateNow": "Donar Ara"
+    },
+    "methods": {
+      "paypal": {
+        "title": "PayPal",
+        "description": "Dons segurs en un c\u00f2p o recurrents"
+      },
+      "buymeacoffee": {
+        "title": "Buy Me a Coffee",
+        "description": "Sostenètz amb un don de caf\u00e8"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "description": "Sosten mensual pel desvolopament continu"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "title": "Alotjament del Servidor",
+        "description": "Mantenir lo site web en foncionalitat 24/7 per l'acc\u00e8s mondial",
+        "amount": "10 USD/mes"
+      },
+      "content": {
+        "title": "Creacion de Contenguts",
+        "description": "Desvelopar de materials d'aprendissatge e de ressorsas nov\u00e8las",
+        "amount": "25 USD/mes"
+      },
+      "development": {
+        "title": "Aisinas de Desvolopament",
+        "description": "Mantenir e melhorar las foncionalitats de la plataforma",
+        "amount": "15 USD/mes"
+      },
+      "community": {
+        "title": "Sosten Comunitari",
+        "description": "Moderar e sostenèr la comunitat esperantista",
+        "amount": "20 USD/mes"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "welcome": "Benvengut a Esperanta Skanduko",
+      "description": "Descobrir la beutat de l'esperanto gr\u00e0cias a n\u00f2stra colleccion completa de ressorsas d'aprendissatge, libres e aisinas interactivas."
+    },
+    "actions": {
+      "getStarted": "Comen\u00e7ar",
+      "learnMore": "Ne Saber Mai"
+    },
+    "features": {
+      "title": "Foncionalitats",
+      "items": {
+        "library": {
+          "title": "Bibliot\u00e8ca Completa",
+          "description": "Accedir a de milierats de libres, articles e materials d'aprendissatge en esperanto"
+        },
+        "interactive": {
+          "title": "Aprendissatge Interactiu",
+          "description": "S'engatjar amb d'aisinas interactivas e d'exercicis per melhorar v\u00f2stras compet\u00e9ncias"
+        },
+        "community": {
+          "title": "Comunitat Mondiala",
+          "description": "Se connectar amb d'aprenedors e de parlaires d'esperanto del mond enti\u00e8r"
+        }
+      }
+    }
+  },
+  "about": {
+    "page": {
+      "title": "A prepaus d'Esperanta Skanduko",
+      "description": "Esperanta Skanduko es dedicat a rendre l'aprendissatge de l'esperanto accessible e engajant per totes."
+    },
+    "sections": {
+      "mission": {
+        "title": "N\u00f2stra Mission",
+        "description": "Preservar e partejar la literatura, los materials d'aprendissatge e las ressorsas culturalas de l'esperanto amb lo mond enti\u00e8r."
+      },
+      "esperanto": {
+        "title": "Qu\u00e8 es l'Esperanto?",
+        "description": "L'esperanto es una lenga auxiliària internacionala concebuda per facilitar l'aprendissatge e la comunicacion internacionala."
+      }
+    }
+  },
+  "library": {
+    "page": {
+      "title": "Bibliot\u00e8ca"
+    },
+    "search": {
+      "placeholder": "Cercar de libres..."
+    },
+    "filters": {
+      "categories": "Categorias",
+      "allBooks": "Totes los Libres"
+    },
+    "results": {
+      "noResults": "Cap de libre pas trobat",
+      "booksFound": "libres trobats"
+    }
+  },
+  "footer": {
+    "legal": {
+      "copyright": "Totes los dre\u00e7s reservats",
+      "madeWith": "Fa\u00e7 amb",
+      "forCommunity": "per la comunitat esperantista",
+      "developedBy": "Desvolopat amb \u2764\ufe0f per"
+    },
+    "projects": {
+      "title": "Proj\u00e8ctes Aparentats",
+      "esperantoAnalyzer": {
+        "title": "Analisador d'Esperanto",
+        "description": "Paquet NPM per l'analisi de t\u00e8xtes en esperanto"
+      }
+    },
+    "social": {
+      "title": "Se Connectar",
+      "links": {
+        "github": "GitHub",
+        "issues": "Senhalar un Probl\u00e8ma",
+        "contribute": "Contribuir"
+      }
+    },
+    "acknowledgments": {
+      "title": "Remerciaments",
+      "gutenberg": "Mercés especial a Proj\u00e8cte Gutenberg per provesir de libres gratuits en esperanto"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Pagina Pas Trobada",
+      "action": "Tornar a l'Acu\u00e8lh"
+    },
+    "general": {
+      "title": "Qualqu'una c\u00f2sa anec mal",
+      "action": "Tornar Ensajar"
+    }
+  },
+  "auth": {
+    "actions": {
+      "signUp": "Se Marcar",
+      "logIn": "Se Connectar",
+      "signOut": "Se Desconnectar"
+    },
+    "fields": {
+      "email": "Corrièl",
+      "password": "Senhal",
+      "confirmPassword": "Confirmar lo Senhal"
+    },
+    "links": {
+      "forgotPassword": "Senhal Oblidat?",
+      "alreadyHaveAccount": "Av\u00e8tz ja un compte?",
+      "noAccount": "Av\u00e8tz pas de compte?"
+    },
+    "status": {
+      "creatingAccount": "Creacion de v\u00f2stre compte...",
+      "welcomeBack": "Tornatz Benvengut",
+      "getStarted": "Comen\u00e7ar"
+    },
+    "errors": {
+      "validation": {
+        "emailRequired": "Lo corrièl es necessari",
+        "emailInvalid": "Mercés d'entrar una adre\u00e7a de corrièl valida",
+        "passwordRequired": "Lo senhal es necessari",
+        "passwordTooShort": "Lo senhal deu aver almens 6 caract\u00e8rs",
+        "passwordsNoMatch": "Los senhals correspond\u00e8isson pas"
+      },
+      "firebase": {
+        "emailInUse": "Aqueste corrièl es ja utilizat",
+        "userNotFound": "Cap de compte pas trobat amb aqueste corrièl",
+        "wrongPassword": "Senhal incorr\u00e8cte",
+        "tooManyAttempts": "Tr\u00f2p d'ensages ratarats. Mercés de tornar ensajar mai tard",
+        "networkError": "Error de ret. Mercés de verificar v\u00f2stra connexion",
+        "unknownError": "Una error imprevista se produsiguec. Mercés de tornar ensajar"
+      }
+    },
+    "success": {
+      "accountCreated": "Compte creat amb succ\u00e8s!",
+      "signedIn": "Tornatz benvengut!",
+      "signedOut": "Desconnexion capitada amb succ\u00e8s"
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "Ressorsas d'Esperanto",
+      "subtitle": "Colleccion completa de materials d'aprendissatge, aisinas e ressorsas comunit\u00e0rias"
+    },
+    "search": {
+      "label": "Cercar de ressorsas...",
+      "placeholder": "Cercar per title, descripcion o etiquetas..."
+    },
+    "filters": {
+      "filterBy": "Filtrar per categoria",
+      "clearAll": "Escafar Totes los Filtres"
+    },
+    "sections": {
+      "featured": "Ressorsas Mesas en Avant",
+      "total": "Total de Ressorsas",
+      "concertVideos": {
+        "title": "Vid\u00e8os de Conc\u00e8rts en Direc\u00f2te d'Esperanto",
+        "description": "Regargar de performan\u00e7as de musicians esperantistas del mond enti\u00e8r"
+      }
+    },
+    "results": {
+      "showing": "Afichatge de {{count}} ressorsas",
+      "noResults": "Cap de ressorsa pas trobada",
+      "noResultsDescription": "Ensajatz d'ajustar v\u00f2stres crit\u00e8ris de cerca o de filtre"
+    },
+    "categories": {
+      "all": "Totas las Ressorsas",
+      "learning": "Ressorsas d'Aprendissatge",
+      "grammar": "Gu\u00ecdas Gramaticalas",
+      "tools": "Aisinas e Claviers",
+      "music": "Musica e Artistas",
+      "audio": "\u00c0udio e Podcasts",
+      "video": "Ressorsas Vid\u00e8o",
+      "community": "Comunitat e Mapas",
+      "events": "Eveniments e Corses",
+      "organizations": "Organizacions",
+      "culture": "Cultura e Ist\u00f2ria",
+      "news": "Novic\u00e8tas e Literatura",
+      "books": "Libres e Lectura"
+    },
+    "difficulty": {
+      "beginner": "Principiant",
+      "intermediate": "Intermedi\u00e0ri",
+      "advanced": "Avan\u00e7at",
+      "allLevels": "Totes los Nivels"
+    },
+    "labels": {
+      "free": "Gratuit",
+      "paid": "Pagant",
+      "freemium": "Freemium",
+      "requiresAccount": "Requ\u00e8r un Compte",
+      "external": "Ligam Ext\u00e8rne",
+      "featured": "Mes en Avant",
+      "new": "Nov\u00e8l",
+      "popular": "Popular"
+    },
+    "actions": {
+      "visitSite": "Visitar lo Site",
+      "learnMore": "Ne Saber Mai",
+      "download": "Telecargar",
+      "register": "Se Marcar",
+      "viewDetails": "Veire los Detalhs"
+    }
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "_meta": {
+    "language": "Dansk",
+    "code": "da",
+    "translationStatus": "human-translated",
+    "translator": "AI Assistant",
+    "reviewStatus": "completed",
+    "note": "Komplet dansk oversættelse",
+    "lastUpdated": "2025-10-11"
+  },
+  "common": {
+    "site": {
+      "name": "Esperanta\nSkanaduko",
+      "tagline": "En omfattende hjemmeside til læring af esperanto og ressourcer",
+      "description": "Lær esperanto gennem omfattende ressourcer, interaktive værktøjer og fællesskabsforbindelser. Få adgang til over 200 kuraterede læringsmaterialer, bøger, musik, videoer og mere."
+    },
+    "navigation": {
+      "home": "Hjem",
+      "about": "Om",
+      "library": "Bibliotek"
+    },
+    "ui": {
+      "loading": "Indlæser...",
+      "error": "Fejl",
+      "language": "Sprog",
+      "switchLanguage": "Skift Sprog"
+    }
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Esperanta Skanaduko - Lær Esperanto Online",
+        "description": "Dit omfattende knudepunkt for at lære esperanto. Få adgang til ressourcer, bøger, musik, fællesskabsforbindelser og interaktive værktøjer til at mestre det internationale sprog.",
+        "keywords": "lære esperanto, esperanto-læring, internationalt sprog, konstrueret sprog, sproglæringsplatform"
+      },
+      "resources": {
+        "title": "Esperanto Ressourcer - Læringsmaterialer og Værktøjer",
+        "description": "Opdag over 200 omfattende esperanto-læringsressourcer inklusive grammatikguider, musik, podcasts, videoer, fællesskabskort, kurser og værktøjer. Gratis ressourcer for begyndere til avancerede elever.",
+        "keywords": "esperanto-læringsressourcer, lære esperanto, esperanto-grammatik, esperanto-musik, esperanto-podcasts, esperanto-fællesskabet, esperanto-kurser, esperanto-værktøjer, sprogindlæring"
+      },
+      "library": {
+        "title": "Esperanto Bibliotek - Bøger og Læsematerialer",
+        "description": "Gennemse vores kuraterede samling af esperanto-bøger, romaner og læsematerialer. Perfekt til elever på alle niveauer.",
+        "keywords": "esperanto-bøger, esperanto-bibliotek, esperanto-læsning, esperanto-litteratur, lære esperanto-læsning"
+      },
+      "concerts": {
+        "title": "Esperanto Live Koncertvideoer",
+        "description": "Se liveoptrædener fra esperanto-musikere verden over. Opdag den levende musikkultur i esperanto-fællesskabet.",
+        "keywords": "esperanto-musik, esperanto-koncerter, esperanto-musikere, esperanto-kultur, live musik"
+      }
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "Hjem",
+      "library": "Bibliotek",
+      "about": "Om",
+      "resources": "Ressourcer"
+    },
+    "secondary": {
+      "contact": "Kontakt",
+      "donate": "Doner",
+      "analyzer": "Analysator"
+    }
+  },
+  "donate": {
+    "hero": {
+      "title": "Støt Vores Mission",
+      "subtitle": "Hjælp os med at holde Esperanta Skanaduko gratis og tilgængeligt for elever verden over. Din støtte gør det muligt for os at vedligeholde platformen, skabe nyt indhold og udvide fællesskabet."
+    },
+    "sections": {
+      "methods": {
+        "title": "Vælg Din Foretrukne Metode"
+      },
+      "impact": {
+        "title": "Din Påvirkning",
+        "description": "Hver donation, uanset størrelse, hjælper os med at fortsætte vores mission. Sådan gør din støtte en forskel:"
+      },
+      "thankYou": {
+        "title": "Dankon! Tak!",
+        "message": "Din generøsitet hjælper med at bevare og dele skønheden ved esperanto med elever rundt om i verden. Sammen bygger vi broer på tværs af kulturer og sprog."
+      }
+    },
+    "actions": {
+      "donateNow": "Doner Nu"
+    },
+    "methods": {
+      "paypal": {
+        "title": "PayPal",
+        "description": "Sikre engangs- eller tilbagevendende donationer"
+      },
+      "buymeacoffee": {
+        "title": "Buy Me a Coffee",
+        "description": "Støt med en kaffedonation"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "description": "Månedlig støtte til løbende udvikling"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "title": "Serverhosting",
+        "description": "Hold hjemmesiden kørende 24/7 for global adgang",
+        "amount": "$10/måned"
+      },
+      "content": {
+        "title": "Indholdsproduktion",
+        "description": "Udvikle nye læringsmaterialer og ressourcer",
+        "amount": "$25/måned"
+      },
+      "development": {
+        "title": "Udviklingsværktøjer",
+        "description": "Vedligeholde og forbedre platformens funktioner",
+        "amount": "$15/måned"
+      },
+      "community": {
+        "title": "Fællesskabsstøtte",
+        "description": "Moderere og støtte esperanto-fællesskabet",
+        "amount": "$20/måned"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "welcome": "Velkommen til Esperanta Skanduko",
+      "description": "Opdag skønheden ved esperanto gennem vores omfattende samling af læringsressourcer, bøger og interaktive værktøjer."
+    },
+    "actions": {
+      "getStarted": "Kom I Gang",
+      "learnMore": "Lær Mere"
+    },
+    "features": {
+      "title": "Funktioner",
+      "items": {
+        "library": {
+          "title": "Omfattende Bibliotek",
+          "description": "Få adgang til tusindvis af esperanto-bøger, artikler og læringsmaterialer"
+        },
+        "interactive": {
+          "title": "Interaktiv Læring",
+          "description": "Engager dig med interaktive værktøjer og øvelser for at forbedre dine færdigheder"
+        },
+        "community": {
+          "title": "Globalt Fællesskab",
+          "description": "Forbind med esperanto-elever og talere fra hele verden"
+        }
+      }
+    }
+  },
+  "about": {
+    "page": {
+      "title": "Om Esperanta Skanduko",
+      "description": "Esperanta Skanduko er dedikeret til at gøre esperanto-læring tilgængelig og engagerende for alle."
+    },
+    "sections": {
+      "mission": {
+        "title": "Vores Mission",
+        "description": "At bevare og dele esperanto-litteratur, læringsmaterialer og kulturelle ressourcer med verden."
+      },
+      "esperanto": {
+        "title": "Hvad er Esperanto?",
+        "description": "Esperanto er et internationalt hjælpesprog designet til nem læring og international kommunikation."
+      }
+    }
+  },
+  "library": {
+    "page": {
+      "title": "Bibliotek"
+    },
+    "search": {
+      "placeholder": "Søg efter bøger..."
+    },
+    "filters": {
+      "categories": "Kategorier",
+      "allBooks": "Alle Bøger"
+    },
+    "results": {
+      "noResults": "Ingen bøger fundet",
+      "booksFound": "bøger fundet"
+    }
+  },
+  "footer": {
+    "legal": {
+      "copyright": "Alle rettigheder forbeholdes",
+      "madeWith": "Lavet med",
+      "forCommunity": "til esperanto-fællesskabet",
+      "developedBy": "Udviklet med ❤️ af"
+    },
+    "projects": {
+      "title": "Relaterede Projekter",
+      "esperantoAnalyzer": {
+        "title": "Esperanto Analyzer",
+        "description": "NPM-pakke til esperanto-tekstanalyse"
+      }
+    },
+    "social": {
+      "title": "Forbind",
+      "links": {
+        "github": "GitHub",
+        "issues": "Rapporter Problem",
+        "contribute": "Bidrag"
+      }
+    },
+    "acknowledgments": {
+      "title": "Anerkendelser",
+      "gutenberg": "Særlig tak til Project Gutenberg for at levere gratis esperanto-bøger"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Side Ikke Fundet",
+      "action": "Gå Til Hjem"
+    },
+    "general": {
+      "title": "Noget gik galt",
+      "action": "Prøv Igen"
+    }
+  },
+  "auth": {
+    "actions": {
+      "signUp": "Tilmeld Dig",
+      "logIn": "Log Ind",
+      "signOut": "Log Ud"
+    },
+    "fields": {
+      "email": "E-mail",
+      "password": "Adgangskode",
+      "confirmPassword": "Bekræft Adgangskode"
+    },
+    "links": {
+      "forgotPassword": "Glemt Adgangskode?",
+      "alreadyHaveAccount": "Har du allerede en konto?",
+      "noAccount": "Har du ikke en konto?"
+    },
+    "status": {
+      "creatingAccount": "Opretter din konto...",
+      "welcomeBack": "Velkommen Tilbage",
+      "getStarted": "Kom I Gang"
+    },
+    "errors": {
+      "validation": {
+        "emailRequired": "E-mail er påkrævet",
+        "emailInvalid": "Indtast venligst en gyldig e-mailadresse",
+        "passwordRequired": "Adgangskode er påkrævet",
+        "passwordTooShort": "Adgangskode skal være mindst 6 tegn",
+        "passwordsNoMatch": "Adgangskoderne stemmer ikke overens"
+      },
+      "firebase": {
+        "emailInUse": "Denne e-mail er allerede i brug",
+        "userNotFound": "Ingen konto fundet med denne e-mail",
+        "wrongPassword": "Forkert adgangskode",
+        "tooManyAttempts": "For mange mislykkede forsøg. Prøv igen senere",
+        "networkError": "Netværksfejl. Tjek din forbindelse",
+        "unknownError": "En uventet fejl opstod. Prøv igen"
+      }
+    },
+    "success": {
+      "accountCreated": "Konto oprettet!",
+      "signedIn": "Velkommen tilbage!",
+      "signedOut": "Logget ud"
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "Esperanto Ressourcer",
+      "subtitle": "Omfattende samling af læringsmaterialer, værktøjer og fællesskabsressourcer"
+    },
+    "search": {
+      "label": "Søg ressourcer...",
+      "placeholder": "Søg efter titel, beskrivelse eller tags..."
+    },
+    "filters": {
+      "filterBy": "Filtrer efter kategori",
+      "clearAll": "Ryd Alle Filtre"
+    },
+    "sections": {
+      "featured": "Fremhævede Ressourcer",
+      "total": "Totale Ressourcer",
+      "concertVideos": {
+        "title": "Esperanto Live Koncertvideoer",
+        "description": "Se optrædener fra esperanto-musikere verden over"
+      }
+    },
+    "results": {
+      "showing": "Viser {{count}} ressourcer",
+      "noResults": "Ingen ressourcer fundet",
+      "noResultsDescription": "Prøv at justere dine søge- eller filterkriterier"
+    },
+    "categories": {
+      "all": "Alle Ressourcer",
+      "learning": "Læringsressourcer",
+      "grammar": "Grammatikguider",
+      "tools": "Værktøjer og Tastaturer",
+      "music": "Musik og Kunstnere",
+      "audio": "Lyd og Podcasts",
+      "video": "Videoressourcer",
+      "community": "Fællesskab og Kort",
+      "events": "Begivenheder og Kurser",
+      "organizations": "Organisationer",
+      "culture": "Kultur og Historie",
+      "news": "Nyheder og Litteratur",
+      "books": "Bøger og Læsning"
+    },
+    "difficulty": {
+      "beginner": "Begynder",
+      "intermediate": "Mellem",
+      "advanced": "Avanceret",
+      "allLevels": "Alle Niveauer"
+    },
+    "labels": {
+      "free": "Gratis",
+      "paid": "Betalt",
+      "freemium": "Freemium",
+      "requiresAccount": "Konto Påkrævet",
+      "external": "Eksternt Link",
+      "featured": "Fremhævet",
+      "new": "Ny",
+      "popular": "Populær"
+    },
+    "actions": {
+      "visitSite": "Besøg Side",
+      "learnMore": "Lær Mere",
+      "download": "Download",
+      "register": "Registrer",
+      "viewDetails": "Vis Detaljer"
+    }
+  }
+}

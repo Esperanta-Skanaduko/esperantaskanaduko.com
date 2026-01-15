@@ -1,0 +1,329 @@
+{
+  "_meta": {
+    "language": "Íslenska",
+    "code": "is",
+    "translationStatus": "human-translated",
+    "translator": "AI Assistant",
+    "reviewStatus": "completed",
+    "note": "Fullkomin íslensk þýðing",
+    "lastUpdated": "2025-10-11"
+  },
+  "common": {
+    "site": {
+      "name": "Esperanta\nSkanaduko",
+      "tagline": "Alhliða vefsíða fyrir esperantónám og tilföng",
+      "description": "Lærðu esperanto með alhliða tilföngum, gagnvirkum verkfærum og samfélagstengingum. Fáðu aðgang að yfir 200 úrvöldum námsgögnum, bókum, tónlist, myndböndum og meira."
+    },
+    "navigation": {
+      "home": "Heim",
+      "about": "Um",
+      "library": "Bókasafn"
+    },
+    "ui": {
+      "loading": "Hleður...",
+      "error": "Villa",
+      "language": "Tungumál",
+      "switchLanguage": "Skipta um Tungumál"
+    }
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Esperanta Skanaduko - Lærðu Esperanto á Netinu",
+        "description": "Alhliða miðstöð þín fyrir að læra esperanto. Fáðu aðgang að tilföngum, bókum, tónlist, samfélagstengingum og gagnvirkum verkfærum til að ná tökum á alþjóðamálinu.",
+        "keywords": "læra esperanto, esperantónám, alþjóðamál, smíðað tungumál, tungumálanámsvettvangur"
+      },
+      "resources": {
+        "title": "Esperanto Tilföng - Námsgögn og Verkfæri",
+        "description": "Uppgötvaðu yfir 200 alhliða esperantónámstilföng þar á meðal málfræðileiðbeiningar, tónlist, hlaðvörp, myndbönd, samfélagskort, námskeið og verkfæri. Ókeypis tilföng fyrir byrjendur til framhaldsnema.",
+        "keywords": "esperantónámstilföng, læra esperanto, esperantómálfræði, esperantótónlist, esperantóhlaðvörp, esperantósamfélagið, esperantónámskeið, esperantóverkfæri, tungumálanám"
+      },
+      "library": {
+        "title": "Esperanto Bókasafn - Bækur og Lesefni",
+        "description": "Skoðaðu úrvalssafn okkar af esperantóbókum, skáldsögum og lesefni. Fullkomið fyrir nemendur á öllum stigum.",
+        "keywords": "esperantóbækur, esperantóbókasafn, esperantólestur, esperantóbókmenntir, læra esperantólestur"
+      },
+      "concerts": {
+        "title": "Esperanto Lifandi Tónleikamyndbönd",
+        "description": "Horfðu á lifandi flutning frá esperantótónlistarmönnum um allan heim. Uppgötvaðu líflega tónlistarmenningu esperantósamfélagsins.",
+        "keywords": "esperantótónlist, esperantótónleikar, esperantótónlistarmenn, esperantómenning, lifandi tónlist"
+      }
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "Heim",
+      "library": "Bókasafn",
+      "about": "Um",
+      "resources": "Tilföng"
+    },
+    "secondary": {
+      "contact": "Hafa Samband",
+      "donate": "Styrkja",
+      "analyzer": "Greining"
+    }
+  },
+  "donate": {
+    "hero": {
+      "title": "Styðjið Verkefni Okkar",
+      "subtitle": "Hjálpaðu okkur að halda Esperanta Skanaduko ókeypis og aðgengilegu nemendum um allan heim. Stuðningur þinn gerir okkur kleift að viðhalda vettvangi, búa til nýtt efni og stækka samfélagið."
+    },
+    "sections": {
+      "methods": {
+        "title": "Veldu Þér Ákjósanlegustu Aðferð"
+      },
+      "impact": {
+        "title": "Þín Áhrif",
+        "description": "Sérhver framlög, sama hversu lítil, hjálpa okkur að halda áfram verkefni okkar. Svona gerir stuðningur þinn mun:"
+      },
+      "thankYou": {
+        "title": "Dankon! Takk!",
+        "message": "Örlæti þitt hjálpar til við að varðveita og deila fegurð esperantó með nemendum um allan heim. Saman erum við að byggja brýr þvert á menningarheima og tungumál."
+      }
+    },
+    "actions": {
+      "donateNow": "Styrkja Núna"
+    },
+    "methods": {
+      "paypal": {
+        "title": "PayPal",
+        "description": "Örugg einskiptis eða endurtekin framlög"
+      },
+      "buymeacoffee": {
+        "title": "Buy Me a Coffee",
+        "description": "Styðja með kaffiframlagi"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "description": "Mánaðarlegur stuðningur fyrir áframhaldandi þróun"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "title": "Þjónavélagestgjöf",
+        "description": "Halda vefsíðunni gangandi 24/7 fyrir alþjóðlegan aðgang",
+        "amount": "$10/mánuður"
+      },
+      "content": {
+        "title": "Efnisframleiðsla",
+        "description": "Þróa nýtt námsefni og tilföng",
+        "amount": "$25/mánuður"
+      },
+      "development": {
+        "title": "Þróunarverkfæri",
+        "description": "Viðhalda og bæta vettvangseiginleika",
+        "amount": "$15/mánuður"
+      },
+      "community": {
+        "title": "Samfélagsstuðningur",
+        "description": "Stjórna og styðja esperantósamfélagið",
+        "amount": "$20/mánuður"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "welcome": "Velkomin í Esperanta Skanduko",
+      "description": "Uppgötvaðu fegurð esperantó í gegnum alhliða safn okkar af námstilföngum, bókum og gagnvirkum verkfærum."
+    },
+    "actions": {
+      "getStarted": "Byrja",
+      "learnMore": "Læra Meira"
+    },
+    "features": {
+      "title": "Eiginleikar",
+      "items": {
+        "library": {
+          "title": "Alhliða Bókasafn",
+          "description": "Fáðu aðgang að þúsundum esperantóbóka, greina og námsgagna"
+        },
+        "interactive": {
+          "title": "Gagnvirkt Nám",
+          "description": "Taktu þátt með gagnvirkum verkfærum og æfingum til að bæta færni þína"
+        },
+        "community": {
+          "title": "Alþjóðlegt Samfélag",
+          "description": "Tengstu esperantónemendum og málhöfum frá öllum heimshornum"
+        }
+      }
+    }
+  },
+  "about": {
+    "page": {
+      "title": "Um Esperanta Skanduko",
+      "description": "Esperanta Skanduko er tileinkað að gera esperantónám aðgengilegt og grípandi fyrir alla."
+    },
+    "sections": {
+      "mission": {
+        "title": "Verkefni Okkar",
+        "description": "Að varðveita og deila esperantóbókmenntum, námsefni og menningarlegum tilföngum með heiminum."
+      },
+      "esperanto": {
+        "title": "Hvað er Esperanto?",
+        "description": "Esperanto er alþjóðlegt hjálparmál hannað til auðveldrar náms og alþjóðlegrar samskipta."
+      }
+    }
+  },
+  "library": {
+    "page": {
+      "title": "Bókasafn"
+    },
+    "search": {
+      "placeholder": "Leita að bókum..."
+    },
+    "filters": {
+      "categories": "Flokkar",
+      "allBooks": "Allar Bækur"
+    },
+    "results": {
+      "noResults": "Engar bækur fundust",
+      "booksFound": "bækur fundust"
+    }
+  },
+  "footer": {
+    "legal": {
+      "copyright": "Allur réttur áskilinn",
+      "madeWith": "Búið til með",
+      "forCommunity": "fyrir esperantósamfélagið",
+      "developedBy": "Þróað með ❤️ af"
+    },
+    "projects": {
+      "title": "Tengd Verkefni",
+      "esperantoAnalyzer": {
+        "title": "Esperanto Analyzer",
+        "description": "NPM pakki fyrir esperantótextagreiningu"
+      }
+    },
+    "social": {
+      "title": "Tengist",
+      "links": {
+        "github": "GitHub",
+        "issues": "Tilkynna Vandamál",
+        "contribute": "Leggja Til"
+      }
+    },
+    "acknowledgments": {
+      "title": "Þakklæti",
+      "gutenberg": "Sérstakar þakkir til Project Gutenberg fyrir að veita ókeypis esperantóbækur"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Síða Fannst Ekki",
+      "action": "Fara Heim"
+    },
+    "general": {
+      "title": "Eitthvað fór úrskeiðis",
+      "action": "Reyna Aftur"
+    }
+  },
+  "auth": {
+    "actions": {
+      "signUp": "Skrá Sig",
+      "logIn": "Skrá Inn",
+      "signOut": "Skrá Út"
+    },
+    "fields": {
+      "email": "Netfang",
+      "password": "Lykilorð",
+      "confirmPassword": "Staðfesta Lykilorð"
+    },
+    "links": {
+      "forgotPassword": "Gleymt Lykilorð?",
+      "alreadyHaveAccount": "Ertu nú þegar með reikning?",
+      "noAccount": "Ertu ekki með reikning?"
+    },
+    "status": {
+      "creatingAccount": "Býr til reikninginn þinn...",
+      "welcomeBack": "Velkomin Aftur",
+      "getStarted": "Byrja"
+    },
+    "errors": {
+      "validation": {
+        "emailRequired": "Netfang er nauðsynlegt",
+        "emailInvalid": "Vinsamlegast sláðu inn gilt netfang",
+        "passwordRequired": "Lykilorð er nauðsynlegt",
+        "passwordTooShort": "Lykilorð verður að vera að minnsta kosti 6 stafir",
+        "passwordsNoMatch": "Lykilorð stemma ekki"
+      },
+      "firebase": {
+        "emailInUse": "Þetta netfang er nú þegar í notkun",
+        "userNotFound": "Enginn reikningur fannst með þessu netfangi",
+        "wrongPassword": "Rangt lykilorð",
+        "tooManyAttempts": "Of margar misheppnaðar tilraunir. Reyndu aftur síðar",
+        "networkError": "Netkerfisvilla. Athugaðu tenginguna þína",
+        "unknownError": "Óvænt villa kom upp. Reyndu aftur"
+      }
+    },
+    "success": {
+      "accountCreated": "Reikningur búinn til!",
+      "signedIn": "Velkomin aftur!",
+      "signedOut": "Skráð út"
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "Esperanto Tilföng",
+      "subtitle": "Alhliða safn námsgagna, verkfæra og samfélagstilföng"
+    },
+    "search": {
+      "label": "Leita að tilföngum...",
+      "placeholder": "Leita eftir titli, lýsingu eða merkjum..."
+    },
+    "filters": {
+      "filterBy": "Sía eftir flokki",
+      "clearAll": "Hreinsa Allar Síur"
+    },
+    "sections": {
+      "featured": "Valin Tilföng",
+      "total": "Heildarfjöldi Tilfanga",
+      "concertVideos": {
+        "title": "Esperanto Lifandi Tónleikamyndbönd",
+        "description": "Horfðu á flutning frá esperantótónlistarmönnum um allan heim"
+      }
+    },
+    "results": {
+      "showing": "Sýni {{count}} tilföng",
+      "noResults": "Engin tilföng fundust",
+      "noResultsDescription": "Reyndu að aðlaga leitarskilyrði eða síuskilyrði"
+    },
+    "categories": {
+      "all": "Öll Tilföng",
+      "learning": "Námstilföng",
+      "grammar": "Málfræðileiðbeiningar",
+      "tools": "Verkfæri og Lyklaborð",
+      "music": "Tónlist og Listamenn",
+      "audio": "Hljóð og Hlaðvörp",
+      "video": "Myndbandstilföng",
+      "community": "Samfélag og Kort",
+      "events": "Viðburðir og Námskeið",
+      "organizations": "Samtök",
+      "culture": "Menning og Saga",
+      "news": "Fréttir og Bókmenntir",
+      "books": "Bækur og Lestur"
+    },
+    "difficulty": {
+      "beginner": "Byrjandi",
+      "intermediate": "Miðstig",
+      "advanced": "Framhaldsstig",
+      "allLevels": "Öll Stig"
+    },
+    "labels": {
+      "free": "Ókeypis",
+      "paid": "Borgað",
+      "freemium": "Freemium",
+      "requiresAccount": "Reikningur Nauðsynlegur",
+      "external": "Ytri Tengill",
+      "featured": "Valið",
+      "new": "Nýtt",
+      "popular": "Vinsælt"
+    },
+    "actions": {
+      "visitSite": "Heimsækja Síðu",
+      "learnMore": "Læra Meira",
+      "download": "Sækja",
+      "register": "Skrá",
+      "viewDetails": "Skoða Upplýsingar"
+    }
+  }
+}

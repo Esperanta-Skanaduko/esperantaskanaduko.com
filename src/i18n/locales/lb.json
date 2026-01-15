@@ -1,0 +1,329 @@
+{
+  "_meta": {
+    "language": "Lëtzebuergësch",
+    "code": "lb",
+    "translationStatus": "human-translated",
+    "translator": "AI Assistant",
+    "reviewStatus": "completed",
+    "note": "Komplett Lëtzebuergesch Iwwersetzung",
+    "lastUpdated": "2025-10-11"
+  },
+  "common": {
+    "site": {
+      "name": "Esperanta\nSkanaduko",
+      "tagline": "Eng ëmfaassend Websäit fir Esperanto ze léieren a Ressourcen",
+      "description": "Léiert Esperanto duerch ëmfaassend Ressourcen, interaktiv Tools, a Communautéitsverbindungen. Zougang zu méi wéi 200 kuratéierte Léiermaterialien, Bicher, Musek, Videoen, a méi."
+    },
+    "navigation": {
+      "home": "Doheem",
+      "about": "Iwwer",
+      "library": "Bibliothéik"
+    },
+    "ui": {
+      "loading": "Lueden...",
+      "error": "Feeler",
+      "language": "Sprooch",
+      "switchLanguage": "Sprooch wiesselen"
+    }
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Esperanta Skanaduko - Léiert Esperanto Online",
+        "description": "Ären ëmfaassenden Zentrum fir Esperanto ze léieren. Zougang zu Ressourcen, Bicher, Musek, Communautéitsverbindungen, an interaktiv Tools fir d'international Sprooch ze meeschteren.",
+        "keywords": "léiert Esperanto, Esperanto léieren, international Sprooch, konstruierte Sprooch, Sproochléierplattform"
+      },
+      "resources": {
+        "title": "Esperanto Ressourcen - Léiermaterial a Tools",
+        "description": "Entdeckt 200+ ëmfaassend Esperanto Léierressourcen mat Grammatikguiden, Musek, Podcasts, Videoen, Communautéitskaarten, Coursen, a Tools. Gratis Ressourcen fir Ufänger bis fortgeschratt Léierende.",
+        "keywords": "Esperanto Léierressourcen, léiert Esperanto, Esperanto Grammatik, Esperanto Musek, Esperanto Podcasts, Esperanto Communautéit, Esperanto Coursen, Esperanto Tools, Sproochléieren"
+      },
+      "library": {
+        "title": "Esperanto Bibliothéik - Bicher a Liesmaterial",
+        "description": "Blättert duerch eis kuratéiert Sammlung vun Esperanto Bicher, Romaner, a Liesmaterial. Perfekt fir Léierende op all Niveauen.",
+        "keywords": "Esperanto Bicher, Esperanto Bibliothéik, Esperanto liesen, Esperanto Literatur, léiert Esperanto liesen"
+      },
+      "concerts": {
+        "title": "Esperanto Live Konzert Videoen",
+        "description": "Kuckt Live-Optriedungen vun Esperanto Musikeren weltweit. Entdeckt d'lëwendeg Musikkultur an der Esperanto Communautéit.",
+        "keywords": "Esperanto Musek, Esperanto Konzerter, Esperanto Musikeren, Esperanto Kultur, Live Musek"
+      }
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "Doheem",
+      "library": "Bibliothéik",
+      "about": "Iwwer",
+      "resources": "Ressourcen"
+    },
+    "secondary": {
+      "contact": "Kontakt",
+      "donate": "Spënden",
+      "analyzer": "Analysator"
+    }
+  },
+  "donate": {
+    "hero": {
+      "title": "Ennerstetzt eis Missioun",
+      "subtitle": "Hëleft eis Esperanta Skanaduko gratis an zougräiflech ze halen fir Léierende weltweit. Ären Support erméiglecht et eis d'Plattform ze ennerhalen, neien Inhalt ze kreieëren, an d'Communautéit ze vergréisseren."
+    },
+    "sections": {
+      "methods": {
+        "title": "Wielt Är bevorzugt Method"
+      },
+      "impact": {
+        "title": "Ären Impakt",
+        "description": "All Spënd, egal déi Gréisst, hëleft eis eis Missioun weiderzemaachen. Héi ass wéi Ären Support en Ënnerscheed mëcht:"
+      },
+      "thankYou": {
+        "title": "Dankon! Merci!",
+        "message": "Är Generositéit hëleft d'Schéinheet vum Esperanto ze bewären an ze deelen mat Léierenden ronderem d'Wëlt. Zesummen bauen mir Brëcke ëwwer Kulturen a Sproochen."
+      }
+    },
+    "actions": {
+      "donateNow": "Elo Spënden"
+    },
+    "methods": {
+      "paypal": {
+        "title": "PayPal",
+        "description": "Sëcher eenmaleg oder reegelméisseg Spënden"
+      },
+      "buymeacoffee": {
+        "title": "Buy Me a Coffee",
+        "description": "Ennerstetzt mat enger Kaffispënd"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "description": "Moundlech Ennerstetzung fir kontinuierlech Entwecklung"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "title": "Server Hosting",
+        "description": "Hält d'Websäit 24/7 am Lafen fir globalen Zougang",
+        "amount": "$10/Mount"
+      },
+      "content": {
+        "title": "Inhaltserstellung",
+        "description": "Entweckelt neie Léiermaterialien a Ressourcen",
+        "amount": "$25/Mount"
+      },
+      "development": {
+        "title": "Entwecklungstools",
+        "description": "Ennerhalen an verbesseren d'Plattform Funktiounen",
+        "amount": "$15/Mount"
+      },
+      "community": {
+        "title": "Communautéitsennerstetzung",
+        "description": "Modéréieren an ennerstetzt d'Esperanto Communautéit",
+        "amount": "$20/Mount"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "welcome": "Wëllkomm bei Esperanta Skanduko",
+      "description": "Entdeckt d'Schéinheet vum Esperanto duerch eis ëmfaassend Sammlung vun Léierressourcen, Bicher, an interaktiv Tools."
+    },
+    "actions": {
+      "getStarted": "Ufänken",
+      "learnMore": "Méi Léieren"
+    },
+    "features": {
+      "title": "Funktiounen",
+      "items": {
+        "library": {
+          "title": "Ëmfaassend Bibliothéik",
+          "description": "Zougang zu Dausende vun Esperanto Bicher, Artikelen, a Léiermaterialien"
+        },
+        "interactive": {
+          "title": "Interaktivt Léieren",
+          "description": "Maacht mat bei interaktiv Tools an Ëbungen fir Är Fäegkeete ze verbesseren"
+        },
+        "community": {
+          "title": "Global Communautéit",
+          "description": "Verbënnt Äch mat Esperanto Léierenden a Spriecher vu ronderem d'Wëlt"
+        }
+      }
+    }
+  },
+  "about": {
+    "page": {
+      "title": "Iwwer Esperanta Skanduko",
+      "description": "Esperanta Skanduko ass dedicat fir Esperanto Léieren zougräiflech a spannend ze maachen fir jiddereen."
+    },
+    "sections": {
+      "mission": {
+        "title": "Eis Missioun",
+        "description": "Fir Esperanto Literatur, Léiermaterialien, a kulturell Ressourcen ze bewären an mat der Wëlt ze deelen."
+      },
+      "esperanto": {
+        "title": "Wat ass Esperanto?",
+        "description": "Esperanto ass eng international Hëllefssprooch entworf fir einfacht Léieren an international Kommunikatioun."
+      }
+    }
+  },
+  "library": {
+    "page": {
+      "title": "Bibliothéik"
+    },
+    "search": {
+      "placeholder": "Sicht Bicher..."
+    },
+    "filters": {
+      "categories": "Kategorien",
+      "allBooks": "All Bicher"
+    },
+    "results": {
+      "noResults": "Keng Bicher fonnt",
+      "booksFound": "Bicher fonnt"
+    }
+  },
+  "footer": {
+    "legal": {
+      "copyright": "All Rechter reservéiert",
+      "madeWith": "Gemaach mat",
+      "forCommunity": "fir d'Esperanto Communautéit",
+      "developedBy": "Entweck mit ❤️ vun"
+    },
+    "projects": {
+      "title": "Verbënnen Projeten",
+      "esperantoAnalyzer": {
+        "title": "Esperanto Analyzer",
+        "description": "NPM Pakéit fir Esperanto Textanalys"
+      }
+    },
+    "social": {
+      "title": "Verbënnen",
+      "links": {
+        "github": "GitHub",
+        "issues": "Problem mellen",
+        "contribute": "Mataarbechten"
+      }
+    },
+    "acknowledgments": {
+      "title": "Anerkennungen",
+      "gutenberg": "Speziellen Merci un Project Gutenberg fir gratis Esperanto Bicher zur Verfëgung ze stellen"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Säit Net Fonnt",
+      "action": "Op Doheem"
+    },
+    "general": {
+      "title": "Eppes ass schif gaang",
+      "action": "Nach emol probieren"
+    }
+  },
+  "auth": {
+    "actions": {
+      "signUp": "Umellen",
+      "logIn": "Aloggen",
+      "signOut": "Ausloggen"
+    },
+    "fields": {
+      "email": "E-Mail",
+      "password": "Passwuert",
+      "confirmPassword": "Passwuert bestätegen"
+    },
+    "links": {
+      "forgotPassword": "Passwuert vergiess?",
+      "alreadyHaveAccount": "Schonns e Kont?",
+      "noAccount": "Keen Kont?"
+    },
+    "status": {
+      "creatingAccount": "Äre Kont gëtt erstallt...",
+      "welcomeBack": "Wëllkomm Zréck",
+      "getStarted": "Ufänken"
+    },
+    "errors": {
+      "validation": {
+        "emailRequired": "E-Mail ass obligatoresch",
+        "emailInvalid": "Gëft w.e.g. eng gëlteg E-Mail Adress an",
+        "passwordRequired": "Passwuert ass obligatoresch",
+        "passwordTooShort": "Passwuert muss op d'mannst 6 Zeechen hunn",
+        "passwordsNoMatch": "Passwäerter stëmmen net iwwereen"
+      },
+      "firebase": {
+        "emailInUse": "Dës E-Mail ass schon am Gebrauch",
+        "userNotFound": "Kee Kont mat dëser E-Mail fonnt",
+        "wrongPassword": "Falscht Passwuert",
+        "tooManyAttempts": "Zevill feelgeschloene Versich. Probiert spéider wëdder",
+        "networkError": "Netzwierkfeeler. Präiwt Är Verbindung",
+        "unknownError": "En onerwaarte Feeler ass opgetrueden. Probiert wëdder"
+      }
+    },
+    "success": {
+      "accountCreated": "Kont erfollegreich erstallt!",
+      "signedIn": "Wëllkomm zréck!",
+      "signedOut": "Erfollegreich ausgeloggt"
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "Esperanto Ressourcen",
+      "subtitle": "Ëmfaassend Sammlung vu Léiermaterialien, Tools, a Communautéitsressourcen"
+    },
+    "search": {
+      "label": "Sicht Ressourcen...",
+      "placeholder": "Sicht nom Titel, Beschreiwung, oder Tags..."
+    },
+    "filters": {
+      "filterBy": "Filtere no Kategorie",
+      "clearAll": "All Filtere läschen"
+    },
+    "sections": {
+      "featured": "Featured Ressourcen",
+      "total": "Total Ressourcen",
+      "concertVideos": {
+        "title": "Esperanto Live Konzert Videoen",
+        "description": "Kuckt Optriedungen vun Esperanto Musikeren weltweit"
+      }
+    },
+    "results": {
+      "showing": "{{count}} Ressourcen ugewisen",
+      "noResults": "Keng Ressourcen fonnt",
+      "noResultsDescription": "Probiert Är Sich- oder Filterkritärien unzepassen"
+    },
+    "categories": {
+      "all": "All Ressourcen",
+      "learning": "Léierressourcen",
+      "grammar": "Grammatikguiden",
+      "tools": "Tools & Tastaturën",
+      "music": "Musek & Artistën",
+      "audio": "Audio & Podcasts",
+      "video": "Videoressourcen",
+      "community": "Communautéit & Kaarten",
+      "events": "Evenementer & Coursen",
+      "organizations": "Organisatiounen",
+      "culture": "Kultur & Geschicht",
+      "news": "Neit & Literatur",
+      "books": "Bicher & Liesen"
+    },
+    "difficulty": {
+      "beginner": "Ufänker",
+      "intermediate": "Tëschenniveau",
+      "advanced": "Fortgeschratt",
+      "allLevels": "All Niveauen"
+    },
+    "labels": {
+      "free": "Gratis",
+      "paid": "Bezuelt",
+      "freemium": "Freemium",
+      "requiresAccount": "Kont Erfuerderlech",
+      "external": "Extern Link",
+      "featured": "Featured",
+      "new": "Nei",
+      "popular": "Populär"
+    },
+    "actions": {
+      "visitSite": "Säit besichen",
+      "learnMore": "Méi Léieren",
+      "download": "Eroflueden",
+      "register": "Registréieren",
+      "viewDetails": "Detailer kucken"
+    }
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "_meta": {
+    "language": "Hrvatski",
+    "code": "hr",
+    "translationStatus": "complete",
+    "note": "Potpuni prijevod na hrvatski jezik - Hrvatska i hrvatske zajednice"
+  },
+  "common": {
+    "site": {
+      "name": "Esperanta\nSkanaduko",
+      "tagline": "Sveobuhvatna web stranica za učenje esperanta i resurse",
+      "description": "Učite esperanto kroz opsežne resurse, interaktivne alate i veze sa zajednicom. Pristupite 200+ odabranim materijalima za učenje, knjigama, muzici, videozapisima i još mnogo toga."
+    },
+    "navigation": {
+      "home": "Početna",
+      "about": "O nama",
+      "library": "Knjižnica"
+    },
+    "ui": {
+      "loading": "Učitavanje...",
+      "error": "Greška",
+      "language": "Jezik",
+      "switchLanguage": "Promijeni Jezik"
+    }
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Esperanta Skanaduko - Naučite esperanto online",
+        "description": "Vaše sveobuhvatno središte za učenje esperanta. Pristupite resursima, knjigama, muzici, vezama sa zajednicom i interaktivnim alatima za savladavanje međunarodnog jezika.",
+        "keywords": "naučiti esperanto, učenje esperanta, međunarodni jezik, konstruirani jezik, platforma za učenje jezika"
+      },
+      "resources": {
+        "title": "Esperanto resursi - Materijali za učenje i alati",
+        "description": "Otkrijte 200+ sveobuhvatnih resursa za učenje esperanta uključujući gramatičke vodiče, muziku, podkaste, videozapise, karte zajednice, tečajeve i alate. Besplatni resursi za početnike i napredne učenike.",
+        "keywords": "resursi za učenje esperanta, naučiti esperanto, esperanto gramatika, esperanto muzika, esperanto podkasti, esperanto zajednica, esperanto tečajevi, esperanto alati, učenje jezika"
+      },
+      "library": {
+        "title": "Esperanto knjižnica - Knjige i materijali za čitanje",
+        "description": "Pregledajte našu odabranu kolekciju esperanto knjiga, romana i materijala za čitanje. Savršeno za učenike svih razina.",
+        "keywords": "esperanto knjige, esperanto knjižnica, esperanto čitanje, esperanto književnost, naučiti esperanto čitanje"
+      },
+      "concerts": {
+        "title": "Esperanto koncerti uživo - Videozapisi",
+        "description": "Gledajte nastupe esperanto glazbenika iz cijelog svijeta. Otkrijte živahnu glazbenu kulturu u esperanto zajednici.",
+        "keywords": "esperanto muzika, esperanto koncerti, esperanto glazbenici, esperanto kultura, glazba uživo"
+      }
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "Početna",
+      "library": "Knjižnica",
+      "about": "O nama",
+      "resources": "Resursi"
+    },
+    "secondary": {
+      "contact": "Kontakt",
+      "donate": "Doniraj",
+      "analyzer": "Analizator"
+    }
+  },
+  "donate": {
+    "hero": {
+      "title": "Podržite Našu Misiju",
+      "subtitle": "Pomozite nam održati Esperanta Skanaduko besplatnim i dostupnim učenicima širom svijeta. Vaša podrška omogućava nam održavanje platforme, kreiranje novog sadržaja i razvoj zajednice."
+    },
+    "sections": {
+      "methods": {
+        "title": "Odaberite Preferiranu Metodu"
+      },
+      "impact": {
+        "title": "Vaš Utjecaj",
+        "description": "Svaka donacija, bez obzira na veličinu, pomaže nam nastaviti našu misiju. Evo kako vaša podrška čini razliku:"
+      },
+      "thankYou": {
+        "title": "Dankon! Hvala!",
+        "message": "Vaša velikodušnost pomaže očuvati i podijeliti ljepotu esperanta s učenicima širom svijeta. Zajedno gradimo mostove između kultura i jezika."
+      }
+    },
+    "actions": {
+      "donateNow": "Doniraj Sada"
+    },
+    "methods": {
+      "paypal": {
+        "title": "PayPal",
+        "description": "Sigurne jednokratne ili ponavljajuće donacije"
+      },
+      "buymeacoffee": {
+        "title": "Buy Me a Coffee",
+        "description": "Podržite s donacijom za kavu"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "description": "Mjesečna podrška za stalni razvoj"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "title": "Poslužitelj Hosting",
+        "description": "Održite web stranicu aktivnom 24/7 za globalni pristup",
+        "amount": "75 kn/mjesec"
+      },
+      "content": {
+        "title": "Kreiranje Sadržaja",
+        "description": "Razvijajte nove materijale za učenje i resurse",
+        "amount": "190 kn/mjesec"
+      },
+      "development": {
+        "title": "Razvojni Alati",
+        "description": "Održavajte i poboljšavajte značajke platforme",
+        "amount": "110 kn/mjesec"
+      },
+      "community": {
+        "title": "Podrška Zajednici",
+        "description": "Moderiranje i podrška esperanto zajednici",
+        "amount": "150 kn/mjesec"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "welcome": "Dobrodošli u Esperanta Skanduko",
+      "description": "Otkrijte ljepotu esperanta kroz našu sveobuhvatnu kolekciju resursa za učenje, knjiga i interaktivnih alata."
+    },
+    "actions": {
+      "getStarted": "Počni",
+      "learnMore": "Saznaj Više"
+    },
+    "features": {
+      "title": "Značajke",
+      "items": {
+        "library": {
+          "title": "Sveobuhvatna Knjižnica",
+          "description": "Pristupite tisućama esperanto knjiga, članaka i materijala za učenje"
+        },
+        "interactive": {
+          "title": "Interaktivno Učenje",
+          "description": "Koristite interaktivne alate i vježbe za poboljšanje vaših vještina"
+        },
+        "community": {
+          "title": "Globalna Zajednica",
+          "description": "Povežite se s učenicima i govornikom esperanta iz cijelog svijeta"
+        }
+      }
+    }
+  },
+  "about": {
+    "page": {
+      "title": "O Esperanta Skanduko",
+      "description": "Esperanta Skanduko je posvećen tome da učenje esperanta bude dostupno i zanimljivo za sve."
+    },
+    "sections": {
+      "mission": {
+        "title": "Naša Misija",
+        "description": "Očuvati i podijeliti esperanto književnost, materijale za učenje i kulturne resurse sa svijetom."
+      },
+      "esperanto": {
+        "title": "Što je Esperanto?",
+        "description": "Esperanto je međunarodni pomoćni jezik dizajniran za lakoću učenja i međunarodnu komunikaciju."
+      }
+    }
+  },
+  "library": {
+    "page": {
+      "title": "Knjižnica"
+    },
+    "search": {
+      "placeholder": "Traži knjige..."
+    },
+    "filters": {
+      "categories": "Kategorije",
+      "allBooks": "Sve Knjige"
+    },
+    "results": {
+      "noResults": "Nema pronađenih knjiga",
+      "booksFound": "pronađenih knjiga"
+    }
+  },
+  "footer": {
+    "legal": {
+      "copyright": "Sva prava pridržana",
+      "madeWith": "Napravljeno s",
+      "forCommunity": "za esperanto zajednicu",
+      "developedBy": "Razvijeno s ❤️ od"
+    },
+    "projects": {
+      "title": "Povezani Projekti",
+      "esperantoAnalyzer": {
+        "title": "Esperanto Analizator",
+        "description": "NPM paket za analizu esperanto teksta"
+      }
+    },
+    "social": {
+      "title": "Povežite Se",
+      "links": {
+        "github": "GitHub",
+        "issues": "Prijavi Problem",
+        "contribute": "Doprinesi"
+      }
+    },
+    "acknowledgments": {
+      "title": "Zahvale",
+      "gutenberg": "Posebne zahvale Project Gutenbergu za pružanje besplatnih esperanto knjiga"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Stranica Nije Pronađena",
+      "action": "Idi na Početnu"
+    },
+    "general": {
+      "title": "Nešto je pošlo po zlu",
+      "action": "Pokušaj Ponovno"
+    }
+  },
+  "auth": {
+    "actions": {
+      "signUp": "Registriraj Se",
+      "logIn": "Prijavi Se",
+      "signOut": "Odjavi Se"
+    },
+    "fields": {
+      "email": "E-mail",
+      "password": "Lozinka",
+      "confirmPassword": "Potvrdi Lozinku"
+    },
+    "links": {
+      "forgotPassword": "Zaboravili ste lozinku?",
+      "alreadyHaveAccount": "Već imate račun?",
+      "noAccount": "Nemate račun?"
+    },
+    "status": {
+      "creatingAccount": "Kreiranje vašeg računa...",
+      "welcomeBack": "Dobrodošli Natrag",
+      "getStarted": "Počni"
+    },
+    "errors": {
+      "validation": {
+        "emailRequired": "E-mail je obavezan",
+        "emailInvalid": "Molimo unesite ispravnu e-mail adresu",
+        "passwordRequired": "Lozinka je obavezna",
+        "passwordTooShort": "Lozinka mora imati najmanje 6 znakova",
+        "passwordsNoMatch": "Lozinke se ne podudaraju"
+      },
+      "firebase": {
+        "emailInUse": "Ovaj e-mail se već koristi",
+        "userNotFound": "Nije pronađen račun s ovim e-mailom",
+        "wrongPassword": "Netipravna lozinka",
+        "tooManyAttempts": "Previše neuspjelih pokušaja. Molimo pokušajte kasnije",
+        "networkError": "Greška mreže. Molimo provjerite vezu",
+        "unknownError": "Dogodila se neočekivana greška. Molimo pokušajte ponovno"
+      }
+    },
+    "success": {
+      "accountCreated": "Račun uspješno kreiran!",
+      "signedIn": "Dobrodošli natrag!",
+      "signedOut": "Uspješno odjavljeni"
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "Esperanto Resursi",
+      "subtitle": "Sveobuhvatna kolekcija materijala za učenje, alata i resursa zajednice"
+    },
+    "search": {
+      "label": "Traži resurse...",
+      "placeholder": "Traži po naslovu, opisu ili oznakama..."
+    },
+    "filters": {
+      "filterBy": "Filtriraj po kategoriji",
+      "clearAll": "Ukloni Sve Filtre"
+    },
+    "sections": {
+      "featured": "Istaknuti Resursi",
+      "total": "Ukupno Resursa",
+      "concertVideos": {
+        "title": "Esperanto Koncerti Uživo - Videozapisi",
+        "description": "Gledajte nastupe esperanto glazbenika iz cijelog svijeta"
+      }
+    },
+    "results": {
+      "showing": "Prikazano resursa: {{count}}",
+      "noResults": "Nema pronađenih resursa",
+      "noResultsDescription": "Pokušajte prilagoditi kriterije pretraživanja ili filtera"
+    },
+    "categories": {
+      "all": "Svi Resursi",
+      "learning": "Resursi za Učenje",
+      "grammar": "Gramatički Vodiči",
+      "tools": "Alati i Tipkovnice",
+      "music": "Muzika i Umjetnici",
+      "audio": "Audio i Podkasti",
+      "video": "Video Resursi",
+      "community": "Zajednica i Karte",
+      "events": "Događaji i Tečajevi",
+      "organizations": "Organizacije",
+      "culture": "Kultura i Povijest",
+      "news": "Vijesti i Literatura",
+      "books": "Knjige i Čitanje"
+    },
+    "difficulty": {
+      "beginner": "Početnik",
+      "intermediate": "Srednji",
+      "advanced": "Napredni",
+      "allLevels": "Sve Razine"
+    },
+    "labels": {
+      "free": "Besplatno",
+      "paid": "Plaćeno",
+      "freemium": "Freemium",
+      "requiresAccount": "Potreban Račun",
+      "external": "Vanjski Link",
+      "featured": "Istaknuto",
+      "new": "Novo",
+      "popular": "Popularno"
+    },
+    "actions": {
+      "visitSite": "Posjeti Stranicu",
+      "learnMore": "Saznaj Više",
+      "download": "Preuzmi",
+      "register": "Registriraj Se",
+      "viewDetails": "Pogledaj Detalje"
+    }
+  }
+}

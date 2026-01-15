@@ -1,0 +1,355 @@
+{
+  "_meta": {
+    "language": "Latviešu",
+    "code": "lv",
+    "translationStatus": "complete",
+    "note": "Pilnīgs tulkojums latviešu valodā - Latvija un latviešu kopienas"
+  },
+  "common": {
+    "site": {
+      "name": "Esperanta\nSkanaduko",
+      "tagline": "Visaptveroša esperanto mācību un resursu vietne",
+      "description": "Mācieties esperanto, izmantojot visaptverošus resursus, interaktīvus rīkus un kopienas savienojumus. Piekļuve vairāk nekā 200 atlasītiem mācību materiāliem, grāmatām, mūzikai, videoklipiem un daudz kam citam."
+    },
+    "navigation": {
+      "home": "Sākums",
+      "about": "Par mums",
+      "library": "Bibliotēka"
+    },
+    "ui": {
+      "loading": "Ielādē...",
+      "error": "Kļūda",
+      "language": "Valoda",
+      "switchLanguage": "Mainīt valodu"
+    }
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Esperanta Skanaduko - Mācieties esperanto tiešsaistē",
+        "description": "Jūsu visaptverošais centrs esperanto apguvei. Piekļuve resursiem, grāmatām, mūzikai, kopienas savienojumiem un interaktīviem rīkiem, lai apgūtu starptautisko valodu.",
+        "keywords": "mācīties esperanto, esperanto mācīšanās, starptautiskā valoda, konstruētā valoda, valodu mācīšanās platforma"
+      },
+      "resources": {
+        "title": "Esperanto resursi - Mācību materiāli un rīki",
+        "description": "Atklājiet vairāk nekā 200 visaptverošus esperanto mācību resursus, tostarp gramatikas ceļvežus, mūziku, aplādes, videoklipus, kopienas kartes, kursus un rīkus. Bezmaksas resursi no iesācējiem līdz pieredzējušiem studentiem.",
+        "keywords": "esperanto mācību resursi, mācīties esperanto, esperanto gramatika, esperanto mūzika, esperanto aplādes, esperanto kopiena, esperanto kursi, esperanto rīki, valodu mācīšanās"
+      },
+      "library": {
+        "title": "Esperanto bibliotēka - Grāmatas un lasāmviela",
+        "description": "Pārlūkojiet mūsu atlasīto esperanto grāmatu, romānu un lasāmvielas kolekciju. Lieliski piemērota jebkura līmeņa studentiem.",
+        "keywords": "esperanto grāmatas, esperanto bibliotēka, esperanto lasīšana, esperanto literatūra, mācīties lasīt esperanto"
+      },
+      "concerts": {
+        "title": "Esperanto tiešraides koncertu videoklipi",
+        "description": "Skatieties tiešraides uzstāšanās no esperanto mūziķiem visā pasaulē. Atklājiet dzīvo mūzikas kultūru esperanto kopienā.",
+        "keywords": "esperanto mūzika, esperanto koncerti, esperanto mūziķi, esperanto kultūra, tiešraides mūzika"
+      }
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "Sākums",
+      "library": "Bibliotēka",
+      "about": "Par mums",
+      "resources": "Resursi"
+    },
+    "secondary": {
+      "contact": "Kontakti",
+      "donate": "Ziedot",
+      "analyzer": "Analizators"
+    }
+  },
+  "donate": {
+    "page": {
+      "title": "Atbalstiet mūsu misiju",
+      "description": "Palīdziet sagādāt esperanto mācību resursus pieejamus ikvienam. Jūsu iespējotais atbalsts paliidz servera izmaksas, satura izstrādi un kopienas attīstību."
+    },
+    "tiers": {
+      "monthly": {
+        "title": "Mēneša atbalstitāji",
+        "supporter": {
+          "name": "Atbalstitājs",
+          "amount": "€5/mēnesī",
+          "description": "Palīdz segt servera izmaksas un pamata uzkopšanu"
+        },
+        "advocate": {
+          "name": "Aizstāvis",
+          "amount": "€10/mēnesī",
+          "description": "Atbalsta satura izstrādi un resursu atlasīšanu"
+        },
+        "champion": {
+          "name": "Čempions",
+          "amount": "€25/mēnesī",
+          "description": "Iespējo jaunu funkciju izstrādi un kopienas izaugsmi"
+        }
+      },
+      "oneTime": {
+        "title": "Vienreizējie iegūlījumi",
+        "coffee": {
+          "name": "Kafija",
+          "amount": "€3",
+          "description": "Paļiet mums kafiju, lai uzturētu naktī strādājumu"
+        },
+        "boost": {
+          "name": "Paaukštinājums",
+          "amount": "€10",
+          "description": "Sniedz nozīmīgu palaidziku uzturēšanai un uzlabojumam"
+        },
+        "sponsor": {
+          "name": "Sponsors",
+          "amount": "€50",
+          "description": "Padariet lielu ietekmi uz projekta attīstību"
+        }
+      },
+      "thankYou": {
+        "title": "Dankon! Paldies!",
+        "message": "Jūsu domarība palīdz saglabāt un dalīties ar esperanto skaistumo ar studentiem visā pasaulē. Kopā mēs būvējam tiltus pāri kultūrām un valodām."
+      }
+    },
+    "actions": {
+      "donateNow": "Ziedot tagad"
+    },
+    "methods": {
+      "paypal": {
+        "title": "PayPal",
+        "description": "Droši vienreizējie vai regulārie ziedojumi"
+      },
+      "buymeacoffee": {
+        "title": "Buy Me a Coffee",
+        "description": "Atbalsts ar kafijas ziedojumu"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "description": "Mēneša atbalsts pastavīgai attīstībai"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "title": "Servera mitmējums",
+        "description": "Uzturēt vietni darbojoties 24/7 globālai piekļuvei",
+        "amount": "€10/mēnesī"
+      },
+      "content": {
+        "title": "Satura izstrāde",
+        "description": "Izstrādāt jaunus mācību materiālus un resursus",
+        "amount": "€25/mēnesī"
+      },
+      "development": {
+        "title": "Attīstības rīki",
+        "description": "Uzturēt un uzlabot platformas funkcijas",
+        "amount": "€15/mēnesī"
+      },
+      "community": {
+        "title": "Kopienas atbalsts",
+        "description": "Moderēt un atbalstīt esperanto kopienu",
+        "amount": "€20/mēnesī"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "welcome": "Laipni lūdzam Esperanta Skanduko",
+      "description": "Atklajiet esperanto skaistumo caur mūsu visaptverošo mācību resursu, grāmatu un interaktīvo rīku kolekciju."
+    },
+    "actions": {
+      "getStarted": "Sākt darbu",
+      "learnMore": "Uzzināt vairāk"
+    },
+    "features": {
+      "title": "Iezīmes",
+      "items": {
+        "library": {
+          "title": "Visaptveroša bibliotēka",
+          "description": "Piekļuve tūkstošiem esperanto grāmatu, rakstu un mācību materiālu"
+        },
+        "interactive": {
+          "title": "Interaktīva mācīšanās",
+          "description": "Iesaistieties interaktīvajos rīkos un vingrinājumos, lai uzlabotu savas pras mes"
+        },
+        "community": {
+          "title": "Globālā kopiena",
+          "description": "Savērsties ar esperanto studentiem un runātājiem no visās pasaules"
+        }
+      }
+    }
+  },
+  "about": {
+    "page": {
+      "title": "Par Esperanta Skanduko",
+      "description": "Esperanta Skanduko ir veltits, lai padarītu esperanto mācīšanos pieejamu un aizraujošu ikvienam."
+    },
+    "sections": {
+      "mission": {
+        "title": "Mūsu misija",
+        "description": "Saglabāt un dalīties ar esperanto literatūru, mācību materiāliem un kultūras resursiem ar pasauli."
+      },
+      "esperanto": {
+        "title": "Kas ir esperanto?",
+        "description": "Esperanto ir starptautiska papildu valoda, kas izstrādāta vieglai mācīšanai un starptautiskai sažiņai."
+      }
+    }
+  },
+  "library": {
+    "page": {
+      "title": "Bibliotēka"
+    },
+    "search": {
+      "placeholder": "Meklēt grāmatas..."
+    },
+    "filters": {
+      "categories": "Kategorijas",
+      "allBooks": "Visas grāmatas"
+    },
+    "results": {
+      "noResults": "Grāmatas nav atrastas",
+      "booksFound": "grāmatas atrastas"
+    }
+  },
+  "footer": {
+    "legal": {
+      "copyright": "Visas tiesības aizsargātas",
+      "madeWith": "Izgatavots ar",
+      "forCommunity": "esperanto kopienai",
+      "developedBy": "Izstrādāts ar ❤️ no"
+    },
+    "projects": {
+      "title": "Saistītie projekti",
+      "esperantoAnalyzer": {
+        "title": "Esperanto Analyzer",
+        "description": "NPM pakete esperanto teksta analīzei"
+      }
+    },
+    "social": {
+      "title": "Savērsties",
+      "links": {
+        "github": "GitHub",
+        "issues": "Ziņot par problēmu",
+        "contribute": "Iesaistīties"
+      }
+    },
+    "acknowledgments": {
+      "title": "Atzīmējumi",
+      "gutenberg": "Īpašs paldies Project Gutenberg par bezmaksas esperanto grāmatu sniegšanu"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Lapa nav atrasta",
+      "action": "Doties uz sākumu"
+    },
+    "general": {
+      "title": "Kaķkas notika neparasti",
+      "action": "Mēģināt vēlreiz"
+    }
+  },
+  "auth": {
+    "actions": {
+      "signUp": "Registēties",
+      "logIn": "Pieslēgties",
+      "signOut": "Atslēgties"
+    },
+    "fields": {
+      "email": "E-pasts",
+      "password": "Parolē",
+      "confirmPassword": "Apstiprināt paroli"
+    },
+    "links": {
+      "forgotPassword": "Aizmirsi paroli?",
+      "alreadyHaveAccount": "Jau ir konts?",
+      "noAccount": "Nav konta?"
+    },
+    "status": {
+      "creatingAccount": "Izveido jūsu kontu...",
+      "welcomeBack": "Laipni lūdzam atpakaļ",
+      "getStarted": "Sākt darbu"
+    },
+    "errors": {
+      "validation": {
+        "emailRequired": "E-pasts ir nepieciešams",
+        "emailInvalid": "Lūdzu ievadiet derīgu e-pasta adresi",
+        "passwordRequired": "Parolē ir nepieciešama",
+        "passwordTooShort": "Parolē jaut ir vismaz 6 rakstzimes",
+        "passwordsNoMatch": "Paroles nesakrīt"
+      },
+      "firebase": {
+        "emailInUse": "Šis e-pasts jau tiek lietots",
+        "userNotFound": "Nav atrasts konts ar šo e-pastu",
+        "wrongPassword": "Nepareiza parolē",
+        "tooManyAttempts": "Pārāk daudz neizdevusu mēģinājumu. Lūdzu mēģiniet vēlreiz vēlāk",
+        "networkError": "Tīkla kļūda. Lūdzu pārbaudiet savu savienojumu",
+        "unknownError": "Notika negaidīta kļūda. Lūdzu mēģiniet vēlreiz"
+      }
+    },
+    "success": {
+      "accountCreated": "Konts izveidots veiksmīgi!",
+      "signedIn": "Laipni lūdzam atpakaļ!",
+      "signedOut": "Atslēgts veiksmīgi"
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "Esperanto resursi",
+      "subtitle": "Visaptveroša mācību materiālu, rīku un kopienas resursu kolekcija"
+    },
+    "search": {
+      "label": "Meklēt resursus...",
+      "placeholder": "Meklēt pēc nosaukuma, apraksta vai teģēm..."
+    },
+    "filters": {
+      "filterBy": "Filtru pēc kategorijas",
+      "clearAll": "Notīrīt visus filtrus"
+    },
+    "sections": {
+      "featured": "Izcelti resursi",
+      "total": "Kopējie resursi",
+      "concertVideos": {
+        "title": "Esperanto tiešraides koncertu videoklipi",
+        "description": "Skatieties uzstāšanās no esperanto mūziķiem visā pasaulē"
+      }
+    },
+    "results": {
+      "showing": "Rāda {{count}} resursus",
+      "noResults": "Resursi nav atrasti",
+      "noResultsDescription": "Mēģiniet pārlabojiet savu meklēšanas vai filtru kritērijus"
+    },
+    "categories": {
+      "all": "Visi resursi",
+      "learning": "Mācību resursi",
+      "grammar": "Gramatikas ceļveži",
+      "tools": "Rīki un tastatūras",
+      "music": "Mūzika un mākslinieki",
+      "audio": "Audio un aplādes",
+      "video": "Video resursi",
+      "community": "Kopiena un kartes",
+      "events": "Pasākumi un kursi",
+      "organizations": "Organizācijas",
+      "culture": "Kultūra un vēsture",
+      "news": "Ziņas un literatūra",
+      "books": "Grāmatas un lasīšana"
+    },
+    "difficulty": {
+      "beginner": "Iesācējs",
+      "intermediate": "Vidējais",
+      "advanced": "Progresīvs",
+      "allLevels": "Visi līmeņi"
+    },
+    "labels": {
+      "free": "Bezmaksas",
+      "paid": "Maksāts",
+      "freemium": "Freemium",
+      "requiresAccount": "Nepieciešams konts",
+      "external": "Ārējā saite",
+      "featured": "Izcelts",
+      "new": "Jauns",
+      "popular": "Populārs"
+    },
+    "actions": {
+      "visitSite": "Apmeklēt vietni",
+      "learnMore": "Uzzināt vairāk",
+      "download": "Lejupielādēt",
+      "register": "Reģistrēties",
+      "viewDetails": "Skatīt detaļas"
+    }
+  }
+}

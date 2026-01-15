@@ -1,4 +1,10 @@
 {
+  "_meta": {
+    "language": "Slovenčina",
+    "code": "sk",
+    "translationStatus": "needs-translation",
+    "note": "This file contains English text as placeholders. Professional translation is required."
+  },
   "common": {
     "site": {
       "name": "Esperanta\nSkanaduko",
@@ -14,10 +20,7 @@
       "loading": "Loading...",
       "error": "Error",
       "language": "Language",
-      "switchLanguage": "Switch Language",
-      "selectLanguage": "Select Language",
-      "searchLanguages": "Search languages...",
-      "noLanguagesFound": "No languages found"
+      "switchLanguage": "Switch Language"
     }
   },
   "seo": {
@@ -295,44 +298,6 @@
       "culture": "Culture & History",
       "news": "News & Literature",
       "books": "Books & Reading"
-    },
-    "pages": {
-      "learning": {
-        "description": "Comprehensive courses, lessons, and materials for learning Esperanto at all levels"
-      },
-      "grammar": {
-        "description": "Comprehensive grammar guides and references for mastering Esperanto grammar"
-      },
-      "tools": {
-        "description": "Essential tools, keyboards, dictionaries, and utilities for working with Esperanto"
-      },
-      "books": {
-        "description": "Browse our collection of Esperanto books, novels, and reading materials for all levels"
-      },
-      "music": {
-        "description": "Discover Esperanto musicians, bands, and music from around the world"
-      },
-      "audio": {
-        "description": "Listen to Esperanto podcasts, radio shows, and audio lessons"
-      },
-      "video": {
-        "description": "Watch Esperanto videos, tutorials, YouTube channels, and video lessons"
-      },
-      "community": {
-        "description": "Connect with Esperanto speakers worldwide through communities, forums, and interactive maps"
-      },
-      "events": {
-        "description": "Find Esperanto events, courses, conferences, and meetups worldwide"
-      },
-      "organizations": {
-        "description": "Explore Esperanto organizations, associations, and institutions worldwide"
-      },
-      "culture": {
-        "description": "Learn about Esperanto culture, history, traditions, and the global Esperanto movement"
-      },
-      "news": {
-        "description": "Read Esperanto news, magazines, newspapers, and literary publications"
-      }
     },
     "difficulty": {
       "beginner": "Beginner",

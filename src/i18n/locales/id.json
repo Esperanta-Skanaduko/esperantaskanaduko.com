@@ -1,0 +1,325 @@
+{
+  "_meta": {
+    "language": "Indonesia",
+    "code": "id",
+    "translationStatus": "complete",
+    "note": "Terjemahan lengkap Bahasa Indonesia - Indonesia dan komunitas berbahasa Indonesia"
+  },
+  "common": {
+    "site": {
+      "name": "Esperanta\nSkanaduko",
+      "tagline": "Situs web pembelajaran dan sumber daya Esperanto yang komprehensif",
+      "description": "Pelajari Esperanto melalui sumber daya komprehensif, alat interaktif, dan koneksi komunitas. Akses 200+ materi pembelajaran, buku, musik, video, dan lainnya yang telah dikurasi."
+    },
+    "navigation": {
+      "home": "Beranda",
+      "about": "Tentang",
+      "library": "Perpustakaan"
+    },
+    "ui": {
+      "loading": "Memuat...",
+      "error": "Kesalahan",
+      "language": "Bahasa",
+      "switchLanguage": "Ganti Bahasa"
+    }
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Esperanta Skanaduko - Belajar Esperanto Online",
+        "description": "Pusat komprehensif Anda untuk mempelajari Esperanto. Akses sumber daya, buku, musik, koneksi komunitas, dan alat interaktif untuk menguasai bahasa internasional.",
+        "keywords": "belajar Esperanto, pembelajaran Esperanto, bahasa internasional, bahasa buatan, platform pembelajaran bahasa"
+      },
+      "resources": {
+        "title": "Sumber Daya Esperanto - Materi Pembelajaran & Alat",
+        "description": "Temukan 200+ sumber daya pembelajaran Esperanto komprehensif termasuk panduan tata bahasa, musik, podcast, video, peta komunitas, kursus, dan alat. Sumber gratis untuk pemula hingga pembelajar tingkat lanjut.",
+        "keywords": "sumber daya pembelajaran Esperanto, belajar Esperanto, tata bahasa Esperanto, musik Esperanto, podcast Esperanto, komunitas Esperanto, kursus Esperanto, alat Esperanto, pembelajaran bahasa"
+      },
+      "library": {
+        "title": "Perpustakaan Esperanto - Buku & Materi Bacaan",
+        "description": "Jelajahi koleksi buku, novel, dan materi bacaan Esperanto kami yang telah dikurasi. Sempurna untuk pembelajar di semua tingkat.",
+        "keywords": "buku Esperanto, perpustakaan Esperanto, bacaan Esperanto, sastra Esperanto, belajar membaca Esperanto"
+      },
+      "concerts": {
+        "title": "Video Konser Langsung Esperanto",
+        "description": "Tonton pertunjukan langsung dari musisi Esperanto di seluruh dunia. Temukan budaya musik yang hidup di komunitas Esperanto.",
+        "keywords": "musik Esperanto, konser Esperanto, musisi Esperanto, budaya Esperanto, musik langsung"
+      }
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "Beranda",
+      "library": "Perpustakaan",
+      "about": "Tentang",
+      "resources": "Sumber Daya"
+    },
+    "secondary": {
+      "contact": "Kontak",
+      "donate": "Donasi",
+      "analyzer": "Penganalisis"
+    }
+  },
+  "donate": {
+    "page": {
+      "title": "Dukung Misi Kami",
+      "description": "Bantuan Anda membantu kami terus menyediakan sumber daya Esperanto gratis untuk pembelajar di seluruh dunia."
+    },
+    "form": {
+      "title": "Pilih Metode Donasi Anda",
+      "description": "Pilih platform yang Anda sukai untuk mendukung:",
+      "amountLabel": "Jumlah Donasi",
+      "customAmount": "Jumlah khusus",
+      "oneTime": "Sekali",
+      "monthly": "Bulanan",
+      "thankYou": {
+        "title": "Dankon! Terima Kasih!",
+        "message": "Kemurahan hati Anda membantu melestarikan dan membagikan keindahan Esperanto kepada pembelajar di seluruh dunia. Bersama-sama, kami membangun jembatan lintas budaya dan bahasa."
+      }
+    },
+    "actions": {
+      "donateNow": "Donasi Sekarang"
+    },
+    "methods": {
+      "paypal": {
+        "title": "PayPal",
+        "description": "Donasi aman sekali atau berulang"
+      },
+      "buymeacoffee": {
+        "title": "Buy Me a Coffee",
+        "description": "Dukung dengan donasi kopi"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "description": "Dukungan bulanan untuk pengembangan berkelanjutan"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "title": "Hosting Server",
+        "description": "Menjaga situs web berjalan 24/7 untuk akses global",
+        "amount": "Rp150.000/bulan"
+      },
+      "content": {
+        "title": "Pembuatan Konten",
+        "description": "Mengembangkan materi pembelajaran dan sumber daya baru",
+        "amount": "Rp375.000/bulan"
+      },
+      "development": {
+        "title": "Alat Pengembangan",
+        "description": "Memelihara dan meningkatkan fitur platform",
+        "amount": "Rp225.000/bulan"
+      },
+      "community": {
+        "title": "Dukungan Komunitas",
+        "description": "Moderasi dan dukung komunitas Esperanto",
+        "amount": "Rp300.000/bulan"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "welcome": "Selamat Datang di Esperanta Skanduko",
+      "description": "Temukan keindahan Esperanto melalui koleksi komprehensif kami berisi sumber daya pembelajaran, buku, dan alat interaktif."
+    },
+    "actions": {
+      "getStarted": "Mulai",
+      "learnMore": "Pelajari Lebih Lanjut"
+    },
+    "features": {
+      "title": "Fitur",
+      "items": {
+        "library": {
+          "title": "Perpustakaan Komprehensif",
+          "description": "Akses ribuan buku, artikel, dan materi pembelajaran Esperanto"
+        },
+        "interactive": {
+          "title": "Pembelajaran Interaktif",
+          "description": "Terlibat dengan alat dan latihan interaktif untuk meningkatkan keterampilan Anda"
+        },
+        "community": {
+          "title": "Komunitas Global",
+          "description": "Terhubung dengan pembelajar dan penutur Esperanto dari seluruh dunia"
+        }
+      }
+    }
+  },
+  "about": {
+    "page": {
+      "title": "Tentang Esperanta Skanduko",
+      "description": "Esperanta Skanduko berdedikasi untuk membuat pembelajaran Esperanto dapat diakses dan menarik bagi semua orang."
+    },
+    "sections": {
+      "mission": {
+        "title": "Misi Kami",
+        "description": "Untuk melestarikan dan membagikan sastra Esperanto, materi pembelajaran, dan sumber daya budaya kepada dunia."
+      },
+      "esperanto": {
+        "title": "Apa itu Esperanto?",
+        "description": "Esperanto adalah bahasa bantu internasional yang dirancang untuk kemudahan pembelajaran dan komunikasi internasional."
+      }
+    }
+  },
+  "library": {
+    "page": {
+      "title": "Perpustakaan"
+    },
+    "search": {
+      "placeholder": "Cari buku..."
+    },
+    "filters": {
+      "categories": "Kategori",
+      "allBooks": "Semua Buku"
+    },
+    "results": {
+      "noResults": "Tidak ada buku ditemukan",
+      "booksFound": "buku ditemukan"
+    }
+  },
+  "footer": {
+    "legal": {
+      "copyright": "Semua hak dilindungi",
+      "madeWith": "Dibuat dengan",
+      "forCommunity": "untuk komunitas Esperanto",
+      "developedBy": "Dikembangkan dengan ❤️ oleh"
+    },
+    "projects": {
+      "title": "Proyek Terkait",
+      "esperantoAnalyzer": {
+        "title": "Penganalisis Esperanto",
+        "description": "Paket NPM untuk analisis teks Esperanto"
+      }
+    },
+    "social": {
+      "title": "Hubungkan",
+      "links": {
+        "github": "GitHub",
+        "issues": "Laporkan Masalah",
+        "contribute": "Kontribusi"
+      }
+    },
+    "acknowledgments": {
+      "title": "Ucapan Terima Kasih",
+      "gutenberg": "Terima kasih khusus kepada Project Gutenberg untuk menyediakan buku-buku Esperanto gratis"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Halaman Tidak Ditemukan",
+      "action": "Kembali ke Beranda"
+    },
+    "general": {
+      "title": "Terjadi kesalahan",
+      "action": "Coba Lagi"
+    }
+  },
+  "auth": {
+    "actions": {
+      "signUp": "Daftar",
+      "logIn": "Masuk",
+      "signOut": "Keluar"
+    },
+    "fields": {
+      "email": "Email",
+      "password": "Kata Sandi",
+      "confirmPassword": "Konfirmasi Kata Sandi"
+    },
+    "links": {
+      "forgotPassword": "Lupa Kata Sandi?",
+      "alreadyHaveAccount": "Sudah punya akun?",
+      "noAccount": "Belum punya akun?"
+    },
+    "status": {
+      "creatingAccount": "Membuat akun Anda...",
+      "welcomeBack": "Selamat Datang Kembali",
+      "getStarted": "Mulai"
+    },
+    "errors": {
+      "validation": {
+        "emailRequired": "Email wajib diisi",
+        "emailInvalid": "Silakan masukkan alamat email yang valid",
+        "passwordRequired": "Kata sandi wajib diisi",
+        "passwordTooShort": "Kata sandi minimal 6 karakter",
+        "passwordsNoMatch": "Kata sandi tidak cocok"
+      },
+      "firebase": {
+        "emailInUse": "Email ini sudah digunakan",
+        "userNotFound": "Tidak ada akun ditemukan dengan email ini",
+        "wrongPassword": "Kata sandi salah",
+        "tooManyAttempts": "Terlalu banyak percobaan gagal. Silakan coba lagi nanti",
+        "networkError": "Kesalahan jaringan. Silakan periksa koneksi Anda",
+        "unknownError": "Terjadi kesalahan tak terduga. Silakan coba lagi"
+      }
+    },
+    "success": {
+      "accountCreated": "Akun berhasil dibuat!",
+      "signedIn": "Selamat datang kembali!",
+      "signedOut": "Berhasil keluar"
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "Sumber Daya Esperanto",
+      "subtitle": "Koleksi komprehensif materi pembelajaran, alat, dan sumber daya komunitas"
+    },
+    "search": {
+      "label": "Cari sumber daya...",
+      "placeholder": "Cari berdasarkan judul, deskripsi, atau tag..."
+    },
+    "filters": {
+      "filterBy": "Filter berdasarkan kategori",
+      "clearAll": "Hapus Semua Filter"
+    },
+    "sections": {
+      "featured": "Sumber Daya Unggulan",
+      "total": "Total Sumber Daya",
+      "concertVideos": {
+        "title": "Video Konser Langsung Esperanto",
+        "description": "Tonton pertunjukan dari musisi Esperanto di seluruh dunia"
+      }
+    },
+    "results": {
+      "showing": "Menampilkan {{count}} sumber daya",
+      "noResults": "Tidak ada sumber daya ditemukan",
+      "noResultsDescription": "Coba sesuaikan pencarian atau kriteria filter Anda"
+    },
+    "categories": {
+      "all": "Semua Sumber Daya",
+      "learning": "Sumber Pembelajaran",
+      "grammar": "Panduan Tata Bahasa",
+      "tools": "Alat & Keyboard",
+      "music": "Musik & Artis",
+      "audio": "Audio & Podcast",
+      "video": "Sumber Video",
+      "community": "Komunitas & Peta",
+      "events": "Acara & Kursus",
+      "organizations": "Organisasi",
+      "culture": "Budaya & Sejarah",
+      "news": "Berita & Sastra",
+      "books": "Buku & Bacaan"
+    },
+    "difficulty": {
+      "beginner": "Pemula",
+      "intermediate": "Menengah",
+      "advanced": "Lanjutan",
+      "allLevels": "Semua Tingkat"
+    },
+    "labels": {
+      "free": "Gratis",
+      "paid": "Berbayar",
+      "freemium": "Freemium",
+      "requiresAccount": "Memerlukan Akun",
+      "external": "Tautan Eksternal",
+      "featured": "Unggulan",
+      "new": "Baru",
+      "popular": "Populer"
+    },
+    "actions": {
+      "visitSite": "Kunjungi Situs",
+      "learnMore": "Pelajari Lebih Lanjut",
+      "download": "Unduh",
+      "register": "Daftar",
+      "viewDetails": "Lihat Detail"
+    }
+  }
+}

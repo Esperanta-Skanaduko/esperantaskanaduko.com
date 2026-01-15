@@ -18,6 +18,18 @@ const EsperantoLiveConcertVideosPage = React.lazy(
   () => import('../pages/library/EsperantoLiveConcertVideosPage')
 );
 const ResourcePage = React.lazy(() => import('../pages/resources/ResourcePage'));
+const LearningResourcesPage = React.lazy(() => import('../pages/resources/LearningResourcesPage'));
+const GrammarResourcesPage = React.lazy(() => import('../pages/resources/GrammarResourcesPage'));
+const ToolsResourcesPage = React.lazy(() => import('../pages/resources/ToolsResourcesPage'));
+const BooksResourcesPage = React.lazy(() => import('../pages/resources/BooksResourcesPage'));
+const MusicResourcesPage = React.lazy(() => import('../pages/resources/MusicResourcesPage'));
+const AudioResourcesPage = React.lazy(() => import('../pages/resources/AudioResourcesPage'));
+const VideoResourcesPage = React.lazy(() => import('../pages/resources/VideoResourcesPage'));
+const CommunityResourcesPage = React.lazy(() => import('../pages/resources/CommunityResourcesPage'));
+const EventsResourcesPage = React.lazy(() => import('../pages/resources/EventsResourcesPage'));
+const OrganizationsResourcesPage = React.lazy(() => import('../pages/resources/OrganizationsResourcesPage'));
+const CultureResourcesPage = React.lazy(() => import('../pages/resources/CultureResourcesPage'));
+const NewsResourcesPage = React.lazy(() => import('../pages/resources/NewsResourcesPage'));
 
 /**
  * Route Wrapper Component
@@ -68,6 +80,102 @@ const Routes = () => {
           element={
             <RouteWrapper>
               <ResourcePage />
+            </RouteWrapper>
+          }
+        />
+        <Route
+          path="/resources/learning"
+          element={
+            <RouteWrapper>
+              <LearningResourcesPage />
+            </RouteWrapper>
+          }
+        />
+        <Route
+          path="/resources/grammar"
+          element={
+            <RouteWrapper>
+              <GrammarResourcesPage />
+            </RouteWrapper>
+          }
+        />
+        <Route
+          path="/resources/tools"
+          element={
+            <RouteWrapper>
+              <ToolsResourcesPage />
+            </RouteWrapper>
+          }
+        />
+        <Route
+          path="/resources/books"
+          element={
+            <RouteWrapper>
+              <BooksResourcesPage />
+            </RouteWrapper>
+          }
+        />
+        <Route
+          path="/resources/music"
+          element={
+            <RouteWrapper>
+              <MusicResourcesPage />
+            </RouteWrapper>
+          }
+        />
+        <Route
+          path="/resources/audio"
+          element={
+            <RouteWrapper>
+              <AudioResourcesPage />
+            </RouteWrapper>
+          }
+        />
+        <Route
+          path="/resources/video"
+          element={
+            <RouteWrapper>
+              <VideoResourcesPage />
+            </RouteWrapper>
+          }
+        />
+        <Route
+          path="/resources/community"
+          element={
+            <RouteWrapper>
+              <CommunityResourcesPage />
+            </RouteWrapper>
+          }
+        />
+        <Route
+          path="/resources/events"
+          element={
+            <RouteWrapper>
+              <EventsResourcesPage />
+            </RouteWrapper>
+          }
+        />
+        <Route
+          path="/resources/organizations"
+          element={
+            <RouteWrapper>
+              <OrganizationsResourcesPage />
+            </RouteWrapper>
+          }
+        />
+        <Route
+          path="/resources/culture"
+          element={
+            <RouteWrapper>
+              <CultureResourcesPage />
+            </RouteWrapper>
+          }
+        />
+        <Route
+          path="/resources/news"
+          element={
+            <RouteWrapper>
+              <NewsResourcesPage />
             </RouteWrapper>
           }
         />

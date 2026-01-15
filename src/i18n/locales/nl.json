@@ -1,0 +1,329 @@
+{
+  "_meta": {
+    "language": "Nederlands",
+    "code": "nl",
+    "translationStatus": "human-translated",
+    "note": "Volledige Nederlandse vertaling",
+    "lastUpdated": "2025-10-11",
+    "translator": "AI Assistant",
+    "reviewStatus": "completed"
+  },
+  "common": {
+    "site": {
+      "name": "Esperanta\nSkanaduko",
+      "tagline": "Een uitgebreide website voor het leren van Esperanto en hulpbronnen",
+      "description": "Leer Esperanto via uitgebreide hulpbronnen, interactieve tools en gemeenschapsverbindingen. Krijg toegang tot meer dan 200 geselecteerde leermaterialen, boeken, muziek, video's en meer."
+    },
+    "navigation": {
+      "home": "Home",
+      "about": "Over",
+      "library": "Bibliotheek"
+    },
+    "ui": {
+      "loading": "Laden...",
+      "error": "Fout",
+      "language": "Taal",
+      "switchLanguage": "Taal Wijzigen"
+    }
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Esperanta Skanaduko - Leer Esperanto Online",
+        "description": "Jouw uitgebreide centrum voor het leren van Esperanto. Krijg toegang tot hulpbronnen, boeken, muziek, gemeenschapsverbindingen en interactieve tools om de internationale taal onder de knie te krijgen.",
+        "keywords": "Esperanto leren, Esperanto onderwijs, internationale taal, kunstmatige taal, taalenleerplatform"
+      },
+      "resources": {
+        "title": "Esperanto Hulpbronnen - Leermaterialen en Tools",
+        "description": "Ontdek meer dan 200 uitgebreide Esperanto leerhulpbronnen, waaronder grammaticagidsen, muziek, podcasts, video's, gemeenschapskaarten, cursussen en tools. Gratis hulpbronnen voor beginners tot gevorderde leerlingen.",
+        "keywords": "Esperanto leerhulpbronnen, Esperanto leren, Esperanto grammatica, Esperanto muziek, Esperanto podcasts, Esperanto gemeenschap, Esperanto cursussen, Esperanto tools, talen leren"
+      },
+      "library": {
+        "title": "Esperanto Bibliotheek - Boeken en Leesmateriaal",
+        "description": "Blader door onze geselecteerde collectie Esperanto boeken, romans en leesmateriaal. Perfect voor leerlingen van alle niveaus.",
+        "keywords": "Esperanto boeken, Esperanto bibliotheek, Esperanto lezen, Esperanto literatuur, Esperanto lezen leren"
+      },
+      "concerts": {
+        "title": "Esperanto Live Concert Video's",
+        "description": "Bekijk live optredens van Esperanto muzikanten van over de hele wereld. Ontdek de levendige muziekcultuur in de Esperanto gemeenschap.",
+        "keywords": "Esperanto muziek, Esperanto concerten, Esperanto muzikanten, Esperanto cultuur, live muziek"
+      }
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "Home",
+      "library": "Bibliotheek",
+      "about": "Over",
+      "resources": "Hulpbronnen"
+    },
+    "secondary": {
+      "contact": "Contact",
+      "donate": "Doneer",
+      "analyzer": "Analysator"
+    }
+  },
+  "donate": {
+    "hero": {
+      "title": "Steun Onze Missie",
+      "subtitle": "Help ons Esperanta Skanaduko gratis en toegankelijk te houden voor leerlingen wereldwijd. Jouw steun stelt ons in staat het platform te onderhouden, nieuwe content te maken en de gemeenschap te laten groeien."
+    },
+    "sections": {
+      "methods": {
+        "title": "Kies Jouw Voorkeursmethode"
+      },
+      "impact": {
+        "title": "Jouw Impact",
+        "description": "Elke donatie, ongeacht de grootte, helpt ons onze missie voort te zetten. Zo maakt jouw steun het verschil:"
+      },
+      "thankYou": {
+        "title": "Dankon! Dank je wel!",
+        "message": "Jouw vrijgevigheid helpt de schoonheid van Esperanto te behouden en te delen met leerlingen over de hele wereld. Samen bouwen we bruggen tussen culturen en talen."
+      }
+    },
+    "actions": {
+      "donateNow": "Doneer Nu"
+    },
+    "methods": {
+      "paypal": {
+        "title": "PayPal",
+        "description": "Veilige eenmalige of terugkerende donaties"
+      },
+      "buymeacoffee": {
+        "title": "Buy Me a Coffee",
+        "description": "Steun met een koffiedonatie"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "description": "Maandelijkse steun voor voortdurende ontwikkeling"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "title": "Server Hosting",
+        "description": "Houd de website 24/7 draaiende voor wereldwijde toegang",
+        "amount": "$10/maand"
+      },
+      "content": {
+        "title": "Content Creatie",
+        "description": "Ontwikkel nieuwe leermaterialen en hulpbronnen",
+        "amount": "$25/maand"
+      },
+      "development": {
+        "title": "Ontwikkeltools",
+        "description": "Onderhoud en verbeter de platformfuncties",
+        "amount": "$15/maand"
+      },
+      "community": {
+        "title": "Gemeenschapsondersteuning",
+        "description": "Modereer en ondersteun de Esperanto gemeenschap",
+        "amount": "$20/maand"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "welcome": "Welkom bij Esperanta Skanduko",
+      "description": "Ontdek de schoonheid van Esperanto door onze uitgebreide collectie van leerhulpbronnen, boeken en interactieve tools."
+    },
+    "actions": {
+      "getStarted": "Begin",
+      "learnMore": "Meer Informatie"
+    },
+    "features": {
+      "title": "Kenmerken",
+      "items": {
+        "library": {
+          "title": "Uitgebreide Bibliotheek",
+          "description": "Krijg toegang tot duizenden Esperanto boeken, artikelen en leermaterialen"
+        },
+        "interactive": {
+          "title": "Interactief Leren",
+          "description": "Doe mee met interactieve tools en oefeningen om je vaardigheden te verbeteren"
+        },
+        "community": {
+          "title": "Wereldwijde Gemeenschap",
+          "description": "Maak verbinding met Esperanto leerlingen en sprekers van over de hele wereld"
+        }
+      }
+    }
+  },
+  "about": {
+    "page": {
+      "title": "Over Esperanta Skanduko",
+      "description": "Esperanta Skanduko is toegewijd aan het toegankelijk en boeiend maken van het leren van Esperanto voor iedereen."
+    },
+    "sections": {
+      "mission": {
+        "title": "Onze Missie",
+        "description": "Esperanto literatuur, leermaterialen en culturele hulpbronnen behouden en delen met de wereld."
+      },
+      "esperanto": {
+        "title": "Wat is Esperanto?",
+        "description": "Esperanto is een internationale hulptaal ontworpen voor gemakkelijk leren en internationale communicatie."
+      }
+    }
+  },
+  "library": {
+    "page": {
+      "title": "Bibliotheek"
+    },
+    "search": {
+      "placeholder": "Zoek boeken..."
+    },
+    "filters": {
+      "categories": "Categorieën",
+      "allBooks": "Alle Boeken"
+    },
+    "results": {
+      "noResults": "Geen boeken gevonden",
+      "booksFound": "boeken gevonden"
+    }
+  },
+  "footer": {
+    "legal": {
+      "copyright": "Alle rechten voorbehouden",
+      "madeWith": "Gemaakt met",
+      "forCommunity": "voor de Esperanto gemeenschap",
+      "developedBy": "Ontwikkeld met ❤️ door"
+    },
+    "projects": {
+      "title": "Gerelateerde Projecten",
+      "esperantoAnalyzer": {
+        "title": "Esperanto Analyzer",
+        "description": "NPM pakket voor Esperanto tekstanalyse"
+      }
+    },
+    "social": {
+      "title": "Verbinden",
+      "links": {
+        "github": "GitHub",
+        "issues": "Probleem Melden",
+        "contribute": "Bijdragen"
+      }
+    },
+    "acknowledgments": {
+      "title": "Dankbetuigingen",
+      "gutenberg": "Speciale dank aan Project Gutenberg voor het verstrekken van gratis Esperanto boeken"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Pagina Niet Gevonden",
+      "action": "Ga Naar Home"
+    },
+    "general": {
+      "title": "Er is iets misgegaan",
+      "action": "Probeer Opnieuw"
+    }
+  },
+  "auth": {
+    "actions": {
+      "signUp": "Aanmelden",
+      "logIn": "Inloggen",
+      "signOut": "Uitloggen"
+    },
+    "fields": {
+      "email": "E-mail",
+      "password": "Wachtwoord",
+      "confirmPassword": "Bevestig Wachtwoord"
+    },
+    "links": {
+      "forgotPassword": "Wachtwoord Vergeten?",
+      "alreadyHaveAccount": "Heb je al een account?",
+      "noAccount": "Heb je geen account?"
+    },
+    "status": {
+      "creatingAccount": "Je account wordt aangemaakt...",
+      "welcomeBack": "Welkom Terug",
+      "getStarted": "Begin"
+    },
+    "errors": {
+      "validation": {
+        "emailRequired": "E-mail is verplicht",
+        "emailInvalid": "Voer een geldig e-mailadres in",
+        "passwordRequired": "Wachtwoord is verplicht",
+        "passwordTooShort": "Wachtwoord moet minimaal 6 tekens lang zijn",
+        "passwordsNoMatch": "Wachtwoorden komen niet overeen"
+      },
+      "firebase": {
+        "emailInUse": "Dit e-mailadres is al in gebruik",
+        "userNotFound": "Geen account gevonden met dit e-mailadres",
+        "wrongPassword": "Onjuist wachtwoord",
+        "tooManyAttempts": "Te veel mislukte pogingen. Probeer het later opnieuw",
+        "networkError": "Netwerkfout. Controleer je verbinding",
+        "unknownError": "Er is een onverwachte fout opgetreden. Probeer het opnieuw"
+      }
+    },
+    "success": {
+      "accountCreated": "Account succesvol aangemaakt!",
+      "signedIn": "Welkom terug!",
+      "signedOut": "Succesvol uitgelogd"
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "Esperanto Hulpbronnen",
+      "subtitle": "Uitgebreide collectie van leermaterialen, tools en gemeenschapshulpbronnen"
+    },
+    "search": {
+      "label": "Zoek hulpbronnen...",
+      "placeholder": "Zoek op titel, beschrijving of tags..."
+    },
+    "filters": {
+      "filterBy": "Filter op categorie",
+      "clearAll": "Alle Filters Wissen"
+    },
+    "sections": {
+      "featured": "Uitgelichte Hulpbronnen",
+      "total": "Totaal Aantal Hulpbronnen",
+      "concertVideos": {
+        "title": "Esperanto Live Concert Video's",
+        "description": "Bekijk optredens van Esperanto muzikanten van over de hele wereld"
+      }
+    },
+    "results": {
+      "showing": "{{count}} hulpbronnen weergegeven",
+      "noResults": "Geen hulpbronnen gevonden",
+      "noResultsDescription": "Probeer je zoek- of filtercriteria aan te passen"
+    },
+    "categories": {
+      "all": "Alle Hulpbronnen",
+      "learning": "Leerhulpbronnen",
+      "grammar": "Grammaticagidsen",
+      "tools": "Tools en Toetsenborden",
+      "music": "Muziek en Artiesten",
+      "audio": "Audio en Podcasts",
+      "video": "Video Hulpbronnen",
+      "community": "Gemeenschap en Kaarten",
+      "events": "Evenementen en Cursussen",
+      "organizations": "Organisaties",
+      "culture": "Cultuur en Geschiedenis",
+      "news": "Nieuws en Literatuur",
+      "books": "Boeken en Lezen"
+    },
+    "difficulty": {
+      "beginner": "Beginner",
+      "intermediate": "Gemiddeld",
+      "advanced": "Gevorderd",
+      "allLevels": "Alle Niveaus"
+    },
+    "labels": {
+      "free": "Gratis",
+      "paid": "Betaald",
+      "freemium": "Freemium",
+      "requiresAccount": "Account Vereist",
+      "external": "Externe Link",
+      "featured": "Uitgelicht",
+      "new": "Nieuw",
+      "popular": "Populair"
+    },
+    "actions": {
+      "visitSite": "Bezoek Site",
+      "learnMore": "Meer Informatie",
+      "download": "Download",
+      "register": "Registreer",
+      "viewDetails": "Bekijk Details"
+    }
+  }
+}

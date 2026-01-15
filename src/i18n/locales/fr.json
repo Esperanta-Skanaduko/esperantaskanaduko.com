@@ -1,0 +1,329 @@
+{
+  "_meta": {
+    "language": "Français",
+    "code": "fr",
+    "translationStatus": "human-translated",
+    "note": "Traduction complète en français",
+    "lastUpdated": "2025-10-11",
+    "translator": "AI Assistant",
+    "reviewStatus": "completed"
+  },
+  "common": {
+    "site": {
+      "name": "Esperanta\nSkanaduko",
+      "tagline": "Un site web complet d'apprentissage et de ressources en Espéranto",
+      "description": "Apprenez l'Espéranto grâce à des ressources complètes, des outils interactifs et des connexions communautaires. Accédez à plus de 200 supports d'apprentissage sélectionnés, livres, musiques, vidéos et bien plus encore."
+    },
+    "navigation": {
+      "home": "Accueil",
+      "about": "À propos",
+      "library": "Bibliothèque"
+    },
+    "ui": {
+      "loading": "Chargement...",
+      "error": "Erreur",
+      "language": "Langue",
+      "switchLanguage": "Changer de langue"
+    }
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Esperanta Skanaduko - Apprendre l'Espéranto en Ligne",
+        "description": "Votre centre complet pour apprendre l'Espéranto. Accédez aux ressources, livres, musique, connexions communautaires et outils interactifs pour maîtriser la langue internationale.",
+        "keywords": "apprendre l'Espéranto, apprentissage de l'Espéranto, langue internationale, langue construite, plateforme d'apprentissage des langues"
+      },
+      "resources": {
+        "title": "Ressources Espéranto - Supports et Outils d'Apprentissage",
+        "description": "Découvrez plus de 200 ressources complètes d'apprentissage de l'Espéranto incluant guides de grammaire, musique, podcasts, vidéos, cartes communautaires, cours et outils. Ressources gratuites pour les apprenants débutants à avancés.",
+        "keywords": "ressources d'apprentissage de l'Espéranto, apprendre l'Espéranto, grammaire de l'Espéranto, musique Espéranto, podcasts Espéranto, communauté Espéranto, cours d'Espéranto, outils Espéranto, apprentissage des langues"
+      },
+      "library": {
+        "title": "Bibliothèque Espéranto - Livres et Supports de Lecture",
+        "description": "Parcourez notre collection sélectionnée de livres, romans et supports de lecture en Espéranto. Parfait pour les apprenants de tous niveaux.",
+        "keywords": "livres Espéranto, bibliothèque Espéranto, lecture Espéranto, littérature Espéranto, apprendre la lecture en Espéranto"
+      },
+      "concerts": {
+        "title": "Vidéos de Concerts en Direct Espéranto",
+        "description": "Regardez des performances en direct de musiciens Espéranto du monde entier. Découvrez la culture musicale vibrante de la communauté Espéranto.",
+        "keywords": "musique Espéranto, concerts Espéranto, musiciens Espéranto, culture Espéranto, musique en direct"
+      }
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "Accueil",
+      "library": "Bibliothèque",
+      "about": "À propos",
+      "resources": "Ressources"
+    },
+    "secondary": {
+      "contact": "Contact",
+      "donate": "Faire un don",
+      "analyzer": "Analyseur"
+    }
+  },
+  "donate": {
+    "hero": {
+      "title": "Soutenez Notre Mission",
+      "subtitle": "Aidez-nous à maintenir Esperanta Skanaduko gratuit et accessible aux apprenants du monde entier. Votre soutien nous permet de maintenir la plateforme, créer du nouveau contenu et faire grandir la communauté."
+    },
+    "sections": {
+      "methods": {
+        "title": "Choisissez Votre Méthode Préférée"
+      },
+      "impact": {
+        "title": "Votre Impact",
+        "description": "Chaque don, quelle que soit sa taille, nous aide à continuer notre mission. Voici comment votre soutien fait la différence :"
+      },
+      "thankYou": {
+        "title": "Dankon ! Merci !",
+        "message": "Votre générosité aide à préserver et partager la beauté de l'Espéranto avec les apprenants du monde entier. Ensemble, nous construisons des ponts entre les cultures et les langues."
+      }
+    },
+    "actions": {
+      "donateNow": "Faire un Don Maintenant"
+    },
+    "methods": {
+      "paypal": {
+        "title": "PayPal",
+        "description": "Dons sécurisés ponctuels ou récurrents"
+      },
+      "buymeacoffee": {
+        "title": "Buy Me a Coffee",
+        "description": "Soutenez avec un don café"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "description": "Soutien mensuel pour le développement continu"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "title": "Hébergement Serveur",
+        "description": "Maintenir le site web en ligne 24/7 pour un accès mondial",
+        "amount": "10$/mois"
+      },
+      "content": {
+        "title": "Création de Contenu",
+        "description": "Développer de nouveaux supports d'apprentissage et ressources",
+        "amount": "25$/mois"
+      },
+      "development": {
+        "title": "Outils de Développement",
+        "description": "Maintenir et améliorer les fonctionnalités de la plateforme",
+        "amount": "15$/mois"
+      },
+      "community": {
+        "title": "Support Communautaire",
+        "description": "Modérer et soutenir la communauté Espéranto",
+        "amount": "20$/mois"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "welcome": "Bienvenue sur Esperanta Skanduko",
+      "description": "Découvrez la beauté de l'Espéranto à travers notre collection complète de ressources d'apprentissage, livres et outils interactifs."
+    },
+    "actions": {
+      "getStarted": "Commencer",
+      "learnMore": "En Savoir Plus"
+    },
+    "features": {
+      "title": "Fonctionnalités",
+      "items": {
+        "library": {
+          "title": "Bibliothèque Complète",
+          "description": "Accédez à des milliers de livres, articles et supports d'apprentissage en Espéranto"
+        },
+        "interactive": {
+          "title": "Apprentissage Interactif",
+          "description": "Engagez-vous avec des outils et exercices interactifs pour améliorer vos compétences"
+        },
+        "community": {
+          "title": "Communauté Mondiale",
+          "description": "Connectez-vous avec des apprenants et locuteurs d'Espéranto du monde entier"
+        }
+      }
+    }
+  },
+  "about": {
+    "page": {
+      "title": "À Propos d'Esperanta Skanduko",
+      "description": "Esperanta Skanduko se consacre à rendre l'apprentissage de l'Espéranto accessible et engageant pour tous."
+    },
+    "sections": {
+      "mission": {
+        "title": "Notre Mission",
+        "description": "Préserver et partager la littérature, les supports d'apprentissage et les ressources culturelles de l'Espéranto avec le monde."
+      },
+      "esperanto": {
+        "title": "Qu'est-ce que l'Espéranto ?",
+        "description": "L'Espéranto est une langue auxiliaire internationale conçue pour faciliter l'apprentissage et la communication internationale."
+      }
+    }
+  },
+  "library": {
+    "page": {
+      "title": "Bibliothèque"
+    },
+    "search": {
+      "placeholder": "Rechercher des livres..."
+    },
+    "filters": {
+      "categories": "Catégories",
+      "allBooks": "Tous les Livres"
+    },
+    "results": {
+      "noResults": "Aucun livre trouvé",
+      "booksFound": "livres trouvés"
+    }
+  },
+  "footer": {
+    "legal": {
+      "copyright": "Tous droits réservés",
+      "madeWith": "Fait avec",
+      "forCommunity": "pour la communauté Espéranto",
+      "developedBy": "Développé avec ❤️ par"
+    },
+    "projects": {
+      "title": "Projets Associés",
+      "esperantoAnalyzer": {
+        "title": "Analyseur Espéranto",
+        "description": "Package NPM pour l'analyse de texte en Espéranto"
+      }
+    },
+    "social": {
+      "title": "Se Connecter",
+      "links": {
+        "github": "GitHub",
+        "issues": "Signaler un Problème",
+        "contribute": "Contribuer"
+      }
+    },
+    "acknowledgments": {
+      "title": "Remerciements",
+      "gutenberg": "Remerciements spéciaux au Projet Gutenberg pour avoir fourni des livres Espéranto gratuits"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Page Non Trouvée",
+      "action": "Retour à l'Accueil"
+    },
+    "general": {
+      "title": "Quelque chose s'est mal passé",
+      "action": "Réessayer"
+    }
+  },
+  "auth": {
+    "actions": {
+      "signUp": "S'inscrire",
+      "logIn": "Se Connecter",
+      "signOut": "Se Déconnecter"
+    },
+    "fields": {
+      "email": "Email",
+      "password": "Mot de passe",
+      "confirmPassword": "Confirmer le Mot de passe"
+    },
+    "links": {
+      "forgotPassword": "Mot de passe oublié ?",
+      "alreadyHaveAccount": "Vous avez déjà un compte ?",
+      "noAccount": "Vous n'avez pas de compte ?"
+    },
+    "status": {
+      "creatingAccount": "Création de votre compte...",
+      "welcomeBack": "Bon Retour",
+      "getStarted": "Commencer"
+    },
+    "errors": {
+      "validation": {
+        "emailRequired": "L'email est requis",
+        "emailInvalid": "Veuillez entrer une adresse email valide",
+        "passwordRequired": "Le mot de passe est requis",
+        "passwordTooShort": "Le mot de passe doit contenir au moins 6 caractères",
+        "passwordsNoMatch": "Les mots de passe ne correspondent pas"
+      },
+      "firebase": {
+        "emailInUse": "Cet email est déjà utilisé",
+        "userNotFound": "Aucun compte trouvé avec cet email",
+        "wrongPassword": "Mot de passe incorrect",
+        "tooManyAttempts": "Trop de tentatives échouées. Veuillez réessayer plus tard",
+        "networkError": "Erreur réseau. Veuillez vérifier votre connexion",
+        "unknownError": "Une erreur inattendue s'est produite. Veuillez réessayer"
+      }
+    },
+    "success": {
+      "accountCreated": "Compte créé avec succès !",
+      "signedIn": "Bon retour !",
+      "signedOut": "Déconnexion réussie"
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "Ressources Espéranto",
+      "subtitle": "Collection complète de supports d'apprentissage, outils et ressources communautaires"
+    },
+    "search": {
+      "label": "Rechercher des ressources...",
+      "placeholder": "Rechercher par titre, description ou tags..."
+    },
+    "filters": {
+      "filterBy": "Filtrer par catégorie",
+      "clearAll": "Effacer Tous les Filtres"
+    },
+    "sections": {
+      "featured": "Ressources en Vedette",
+      "total": "Total des Ressources",
+      "concertVideos": {
+        "title": "Vidéos de Concerts en Direct Espéranto",
+        "description": "Regardez des performances de musiciens Espéranto du monde entier"
+      }
+    },
+    "results": {
+      "showing": "Affichage de {{count}} ressources",
+      "noResults": "Aucune ressource trouvée",
+      "noResultsDescription": "Essayez d'ajuster vos critères de recherche ou de filtre"
+    },
+    "categories": {
+      "all": "Toutes les Ressources",
+      "learning": "Ressources d'Apprentissage",
+      "grammar": "Guides de Grammaire",
+      "tools": "Outils et Claviers",
+      "music": "Musique et Artistes",
+      "audio": "Audio et Podcasts",
+      "video": "Ressources Vidéo",
+      "community": "Communauté et Cartes",
+      "events": "Événements et Cours",
+      "organizations": "Organisations",
+      "culture": "Culture et Histoire",
+      "news": "Actualités et Littérature",
+      "books": "Livres et Lecture"
+    },
+    "difficulty": {
+      "beginner": "Débutant",
+      "intermediate": "Intermédiaire",
+      "advanced": "Avancé",
+      "allLevels": "Tous Niveaux"
+    },
+    "labels": {
+      "free": "Gratuit",
+      "paid": "Payant",
+      "freemium": "Freemium",
+      "requiresAccount": "Compte Requis",
+      "external": "Lien Externe",
+      "featured": "En Vedette",
+      "new": "Nouveau",
+      "popular": "Populaire"
+    },
+    "actions": {
+      "visitSite": "Visiter le Site",
+      "learnMore": "En Savoir Plus",
+      "download": "Télécharger",
+      "register": "S'inscrire",
+      "viewDetails": "Voir les Détails"
+    }
+  }
+}

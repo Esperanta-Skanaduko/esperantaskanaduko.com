@@ -1,0 +1,323 @@
+{
+  "_meta": {
+    "language": "Cymraeg",
+    "code": "cy",
+    "translationStatus": "complete",
+    "note": "Cyfieithiad llawn i'r Gymraeg - Cymru a chymunedau Cymraeg"
+  },
+  "common": {
+    "site": {
+      "name": "Esperanta\nSkanaduko",
+      "tagline": "Gwefan gynhwysfawr ar gyfer dysgu ac adnoddau Esperanto",
+      "description": "Dysgwch Esperanto trwy adnoddau cynhwysfawr, offer rhyngweithiol a chysylltiadau cymunedol. Cael mynediad at 200+ o ddeunyddiau dysgu wedi'u curadu, llyfrau, cerddoriaeth, fideos, a mwy."
+    },
+    "navigation": {
+      "home": "Cartref",
+      "about": "Amdanom",
+      "library": "Llyfrgell"
+    },
+    "ui": {
+      "loading": "Yn llwytho...",
+      "error": "Gwall",
+      "language": "Iaith",
+      "switchLanguage": "Newid Iaith"
+    }
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Esperanta Skanaduko - Dysgu Esperanto Ar-lein",
+        "description": "Eich canolfan gynhwysfawr ar gyfer dysgu Esperanto. Cael mynediad at adnoddau, llyfrau, cerddoriaeth, cysylltiadau cymunedol, ac offer rhyngweithiol i feistroli'r iaith ryngwladol.",
+        "keywords": "dysgu Esperanto, dysgu iaith Esperanto, iaith ryngwladol, iaith wedi'i llunio, llwyfan dysgu iaith"
+      },
+      "resources": {
+        "title": "Adnoddau Esperanto - Deunyddiau Dysgu ac Offer",
+        "description": "Darganfod 200+ o adnoddau dysgu Esperanto cynhwysfawr gan gynnwys canllawiau gramadeg, cerddoriaeth, podlediadau, fideos, mapiau cymunedol, cyrsiau, ac offer. Adnoddau am ddim ar gyfer dysgwyr o ddechreuwyr i uwch.",
+        "keywords": "adnoddau dysgu Esperanto, dysgu Esperanto, gramadeg Esperanto, cerddoriaeth Esperanto, podlediadau Esperanto, cymuned Esperanto, cyrsiau Esperanto, offer Esperanto, dysgu iaith"
+      },
+      "library": {
+        "title": "Llyfrgell Esperanto - Llyfrau a Deunyddiau Darllen",
+        "description": "Pori trwy ein casgliad wedi'i guradu o lyfrau, nofelau, a deunyddiau darllen Esperanto. Perffaith ar gyfer dysgwyr ar bob lefel.",
+        "keywords": "llyfrau Esperanto, llyfrgell Esperanto, darllen Esperanto, llenyddiaeth Esperanto, dysgu darllen Esperanto"
+      },
+      "concerts": {
+        "title": "Fideos Cyngerdd Byw Esperanto",
+        "description": "Gwylio perfformiadau byw gan gerddorion Esperanto ledled y byd. Darganfod diwylliant cerddoriaeth bywiog yng nghymuned Esperanto.",
+        "keywords": "cerddoriaeth Esperanto, cyngherddau Esperanto, cerddorion Esperanto, diwylliant Esperanto, cerddoriaeth fyw"
+      }
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "Cartref",
+      "library": "Llyfrgell",
+      "about": "Amdanom",
+      "resources": "Adnoddau"
+    },
+    "secondary": {
+      "contact": "Cysylltu",
+      "donate": "Rhoi",
+      "analyzer": "Dadansoddwr"
+    }
+  },
+  "donate": {
+    "page": {
+      "title": "Cefnogi Esperanta Skanduko",
+      "tagline": "Helpwch Ni i Gadw Adnoddau Esperanto yn Rhad ac yn Hygyrch"
+    },
+    "intro": {
+      "title": "Pam Rhoi?",
+      "description": "Mae eich cefnogaeth yn ein helpu i gynnal ac ehangu ein llwyfan dysgu Esperanto cynhwysfawr. Mae pob cyfraniad, waeth pa mor fach, yn gwneud gwahaniaeth wrth gadw'r adnoddau hyn yn rhad ac yn hygyrch i ddysgwyr ledled y byd."
+    },
+    "cards": {
+      "thankYou": {
+        "title": "Dankon! Diolch yn fawr!",
+        "message": "Mae eich haelioni yn helpu i gadw a rhannu harddwch Esperanto gyda dysgwyr ledled y byd. Gyda'n gilydd, rydym yn adeiladu pontydd ar draws diwylliannau ac ieithoedd."
+      }
+    },
+    "actions": {
+      "donateNow": "Rhoi Nawr"
+    },
+    "methods": {
+      "paypal": {
+        "title": "PayPal",
+        "description": "Rhoddion diogel unwaith neu gyfnodol"
+      },
+      "buymeacoffee": {
+        "title": "Prynu Coffi i Mi",
+        "description": "Cefnogi gyda rhodd coffi"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "description": "Cefnogaeth fisol ar gyfer datblygiad parhaus"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "title": "Cynnal Gweinydd",
+        "description": "Cadw'r wefan yn rhedeg 24/7 ar gyfer mynediad byd-eang",
+        "amount": "£10/mis"
+      },
+      "content": {
+        "title": "Creu Cynnwys",
+        "description": "Datblygu deunyddiau dysgu ac adnoddau newydd",
+        "amount": "£25/mis"
+      },
+      "development": {
+        "title": "Offer Datblygu",
+        "description": "Cynnal a gwella nodweddion y llwyfan",
+        "amount": "£15/mis"
+      },
+      "community": {
+        "title": "Cefnogaeth Gymunedol",
+        "description": "Cymedroli a chefnogi'r gymuned Esperanto",
+        "amount": "£20/mis"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "welcome": "Croeso i Esperanta Skanduko",
+      "description": "Darganfod harddwch Esperanto trwy ein casgliad cynhwysfawr o adnoddau dysgu, llyfrau, ac offer rhyngweithiol."
+    },
+    "actions": {
+      "getStarted": "Dechrau Arni",
+      "learnMore": "Dysgu Mwy"
+    },
+    "features": {
+      "title": "Nodweddion",
+      "items": {
+        "library": {
+          "title": "Llyfrgell Gynhwysfawr",
+          "description": "Cael mynediad at filoedd o lyfrau, erthyglau, a deunyddiau dysgu Esperanto"
+        },
+        "interactive": {
+          "title": "Dysgu Rhyngweithiol",
+          "description": "Ymgysylltu ag offer ac ymarferion rhyngweithiol i wella eich sgiliau"
+        },
+        "community": {
+          "title": "Cymuned Fyd-eang",
+          "description": "Cysylltu â dysgwyr a siaradwyr Esperanto o bob cwr o'r byd"
+        }
+      }
+    }
+  },
+  "about": {
+    "page": {
+      "title": "Amdanom Esperanta Skanduko",
+      "description": "Mae Esperanta Skanduko yn ymroddedig i wneud dysgu Esperanto yn hygyrch a diddorol i bawb."
+    },
+    "sections": {
+      "mission": {
+        "title": "Ein Cenhadaeth",
+        "description": "Cadw a rhannu llenyddiaeth, deunyddiau dysgu, ac adnoddau diwylliannol Esperanto gyda'r byd."
+      },
+      "esperanto": {
+        "title": "Beth yw Esperanto?",
+        "description": "Mae Esperanto yn iaith gynorthwyol ryngwladol wedi'i dylunio ar gyfer rhwyddineb dysgu a chyfathrebu rhyngwladol."
+      }
+    }
+  },
+  "library": {
+    "page": {
+      "title": "Llyfrgell"
+    },
+    "search": {
+      "placeholder": "Chwilio llyfrau..."
+    },
+    "filters": {
+      "categories": "Categorïau",
+      "allBooks": "Pob Llyfr"
+    },
+    "results": {
+      "noResults": "Dim llyfrau wedi'u canfod",
+      "booksFound": "llyfr wedi'u canfod"
+    }
+  },
+  "footer": {
+    "legal": {
+      "copyright": "Pob hawl wedi'i gadw",
+      "madeWith": "Wedi'i wneud gyda",
+      "forCommunity": "ar gyfer y gymuned Esperanto",
+      "developedBy": "Datblygwyd gyda ❤️ gan"
+    },
+    "projects": {
+      "title": "Prosiectau Cysylltiedig",
+      "esperantoAnalyzer": {
+        "title": "Dadansoddwr Esperanto",
+        "description": "Pecyn NPM ar gyfer dadansoddi testun Esperanto"
+      }
+    },
+    "social": {
+      "title": "Cysylltu",
+      "links": {
+        "github": "GitHub",
+        "issues": "Adrodd Problem",
+        "contribute": "Cyfrannu"
+      }
+    },
+    "acknowledgments": {
+      "title": "Cydnabyddiaethau",
+      "gutenberg": "Diolch arbennig i Brosiect Gutenberg am ddarparu llyfrau Esperanto am ddim"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Ni Chanfuwyd y Dudalen",
+      "action": "Mynd Adref"
+    },
+    "general": {
+      "title": "Aeth rhywbeth o'i le",
+      "action": "Rhowch gynnig arall arni"
+    }
+  },
+  "auth": {
+    "actions": {
+      "signUp": "Cofrestru",
+      "logIn": "Mewngofnodi",
+      "signOut": "Allgofnodi"
+    },
+    "fields": {
+      "email": "E-bost",
+      "password": "Cyfrinair",
+      "confirmPassword": "Cadarnhau Cyfrinair"
+    },
+    "links": {
+      "forgotPassword": "Anghofio Cyfrinair?",
+      "alreadyHaveAccount": "Eisoes â chyfrif?",
+      "noAccount": "Dim cyfrif gennych?"
+    },
+    "status": {
+      "creatingAccount": "Yn creu eich cyfrif...",
+      "welcomeBack": "Croeso'n ôl",
+      "getStarted": "Cychwyn Arni"
+    },
+    "errors": {
+      "validation": {
+        "emailRequired": "Mae angen e-bost",
+        "emailInvalid": "Rhowch gyfeiriad e-bost dilys",
+        "passwordRequired": "Mae angen cyfrinair",
+        "passwordTooShort": "Rhaid i'r cyfrinair fod o leiaf 6 nod",
+        "passwordsNoMatch": "Nid yw'r cyfrineiriau'n cyfateb"
+      },
+      "firebase": {
+        "emailInUse": "Mae'r e-bost hwn eisoes yn cael ei ddefnyddio",
+        "userNotFound": "Ni chanfuwyd cyfrif gyda'r e-bost hwn",
+        "wrongPassword": "Cyfrinair anghywir",
+        "tooManyAttempts": "Gormod o ymdrechion aflwyddiannus. Rhowch gynnig arall arni yn nes ymlaen",
+        "networkError": "Gwall rhwydwaith. Gwiriwch eich cysylltiad",
+        "unknownError": "Digwyddodd gwall annisgwyl. Rhowch gynnig arall arni"
+      }
+    },
+    "success": {
+      "accountCreated": "Cyfrif wedi'i greu'n llwyddiannus!",
+      "signedIn": "Croeso'n ôl!",
+      "signedOut": "Wedi allgofnodi'n llwyddiannus"
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "Adnoddau Esperanto",
+      "subtitle": "Casgliad cynhwysfawr o ddeunyddiau dysgu, offer ac adnoddau cymunedol"
+    },
+    "search": {
+      "label": "Chwilio adnoddau...",
+      "placeholder": "Chwilio yn ôl teitl, disgrifiad, neu dagiau..."
+    },
+    "filters": {
+      "filterBy": "Hidlo yn ôl categori",
+      "clearAll": "Clirio Pob Hidlydd"
+    },
+    "sections": {
+      "featured": "Adnoddau Amlwg",
+      "total": "Cyfanswm yr Adnoddau",
+      "concertVideos": {
+        "title": "Fideos Cyngerdd Byw Esperanto",
+        "description": "Gwyliwch berfformiadau gan gerddorion Esperanto ledled y byd"
+      }
+    },
+    "results": {
+      "showing": "Yn dangos {{count}} adnodd",
+      "noResults": "Ni chanfuwyd adnoddau",
+      "noResultsDescription": "Rhowch gynnig ar addasu eich meini prawf chwilio neu hidlo"
+    },
+    "categories": {
+      "all": "Pob Adnodd",
+      "learning": "Adnoddau Dysgu",
+      "grammar": "Canllawiau Gramadeg",
+      "tools": "Offer a Bysellfyrddau",
+      "music": "Cerddoriaeth ac Artistiaid",
+      "audio": "Sain a Podlediadau",
+      "video": "Adnoddau Fideo",
+      "community": "Cymuned a Mapiau",
+      "events": "Digwyddiadau a Chyrsiau",
+      "organizations": "Sefydliadau",
+      "culture": "Diwylliant a Hanes",
+      "news": "Newyddion a Llenyddiaeth",
+      "books": "Llyfrau a Darllen"
+    },
+    "difficulty": {
+      "beginner": "Dechreuwyr",
+      "intermediate": "Canolradd",
+      "advanced": "Uwch",
+      "allLevels": "Pob Lefel"
+    },
+    "labels": {
+      "free": "Am Ddim",
+      "paid": "Taledig",
+      "freemium": "Rhannol Am Ddim",
+      "requiresAccount": "Angen Cyfrif",
+      "external": "Dolen Allanol",
+      "featured": "Amlwg",
+      "new": "Newydd",
+      "popular": "Poblogaidd"
+    },
+    "actions": {
+      "visitSite": "Ymweld â'r Safle",
+      "learnMore": "Dysgu Mwy",
+      "download": "Lawrlwytho",
+      "register": "Cofrestru",
+      "viewDetails": "Gweld Manylion"
+    }
+  }
+}

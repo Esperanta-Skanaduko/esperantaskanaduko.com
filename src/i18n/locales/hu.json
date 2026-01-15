@@ -1,0 +1,329 @@
+{
+  "_meta": {
+    "language": "Magyar",
+    "code": "hu",
+    "translationStatus": "human-translated",
+    "note": "Teljes magyar fordítás",
+    "lastUpdated": "2025-10-12",
+    "translator": "AI Assistant",
+    "reviewStatus": "completed"
+  },
+  "common": {
+    "site": {
+      "name": "Esperanta\nSkanaduko",
+      "tagline": "Átfogó eszperantó tanulási és forrásoldal",
+      "description": "Tanuljon eszperantóul átfogó források, interaktív eszközök és közösségi kapcsolatok révén. Hozzáférés több mint 200 válogatott tananyaghoz, könyvhöz, zenéhez, videóhoz és még sok máshoz."
+    },
+    "navigation": {
+      "home": "Főoldal",
+      "about": "Rólunk",
+      "library": "Könyvtár"
+    },
+    "ui": {
+      "loading": "Betöltés...",
+      "error": "Hiba",
+      "language": "Nyelv",
+      "switchLanguage": "Nyelvváltás"
+    }
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Esperanta Skanaduko - Tanuljon eszperantóul online",
+        "description": "Az Ön átfogó központja az eszperantó tanulásához. Hozzáférés forrásokhoz, könyvekhez, zenéhez, közösségi kapcsolatokhoz és interaktív eszközökhöz a nemzetközi nyelv elsajátításához.",
+        "keywords": "eszperantó tanulás, eszperantó oktatás, nemzetközi nyelv, mesterséges nyelv, nyelvtanulási platform"
+      },
+      "resources": {
+        "title": "Eszperantó források - Tananyagok és eszközök",
+        "description": "Fedezzen fel több mint 200 átfogó eszperantó tanulási forrást, beleértve nyelvtani útmutatókat, zenét, podcastokat, videókat, közösségi térképeket, tanfolyamokat és eszközöket. Ingyenes források kezdőktől haladókig.",
+        "keywords": "eszperantó tanulási források, eszperantó tanulás, eszperantó nyelvtan, eszperantó zene, eszperantó podcastok, eszperantó közösség, eszperantó tanfolyamok, eszperantó eszközök, nyelvtanulás"
+      },
+      "library": {
+        "title": "Eszperantó könyvtár - Könyvek és olvasmányok",
+        "description": "Böngéssze válogatott eszperantó könyv-, regény- és olvasmánygyűjteményünket. Tökéletes minden szintű tanulónak.",
+        "keywords": "eszperantó könyvek, eszperantó könyvtár, eszperantó olvasás, eszperantó irodalom, eszperantó olvasástanulás"
+      },
+      "concerts": {
+        "title": "Eszperantó élő koncertvideók",
+        "description": "Nézzen élő előadásokat eszperantó zenészektől világszerte. Fedezze fel az élénk zenei kultúrát az eszperantó közösségben.",
+        "keywords": "eszperantó zene, eszperantó koncertek, eszperantó zenészek, eszperantó kultúra, élő zene"
+      }
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "Főoldal",
+      "library": "Könyvtár",
+      "about": "Rólunk",
+      "resources": "Erőforrások"
+    },
+    "secondary": {
+      "contact": "Kapcsolat",
+      "donate": "Adományozás",
+      "analyzer": "Elemző"
+    }
+  },
+  "donate": {
+    "hero": {
+      "title": "Támogassa küldetésünket",
+      "subtitle": "Segítsen nekünk abban, hogy az Esperanta Skanaduko ingyenes és elérhető maradjon a tanulók számára világszerte. Az Ön támogatása lehetővé teszi számunkra, hogy fenntartsuk a platformot, új tartalmat hozzunk létre, és növeljük a közösséget."
+    },
+    "sections": {
+      "methods": {
+        "title": "Válassza ki az Ön által preferált módszert"
+      },
+      "impact": {
+        "title": "Az Ön hatása",
+        "description": "Minden adomány, mérettől függetlenül, segít nekünk folytatni küldetésünket. Íme, hogyan tesz különbséget az Ön támogatása:"
+      },
+      "thankYou": {
+        "title": "Dankon! Köszönjük!",
+        "message": "Az Ön nagylelkűsége segít megőrizni és megosztani az eszperantó szépségét a tanulókkal szerte a világon. Együtt hidakat építünk kultúrák és nyelvek között."
+      }
+    },
+    "actions": {
+      "donateNow": "Adományozzon most"
+    },
+    "methods": {
+      "paypal": {
+        "title": "PayPal",
+        "description": "Biztonságos egyszeri vagy ismétlődő adományok"
+      },
+      "buymeacoffee": {
+        "title": "Buy Me a Coffee",
+        "description": "Támogatás kávé-adománnyal"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "description": "Havi támogatás a folyamatos fejlesztéshez"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "title": "Szerver hosztolás",
+        "description": "A weboldal folyamatos működtetése 24/7 globális hozzáféréshez",
+        "amount": "$10/hó"
+      },
+      "content": {
+        "title": "Tartalomkészítés",
+        "description": "Új tananyagok és erőforrások fejlesztése",
+        "amount": "$25/hó"
+      },
+      "development": {
+        "title": "Fejlesztői eszközök",
+        "description": "A platform funkcióinak karbantartása és fejlesztése",
+        "amount": "$15/hó"
+      },
+      "community": {
+        "title": "Közösségi támogatás",
+        "description": "Az eszperantó közösség moderálása és támogatása",
+        "amount": "$20/hó"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "welcome": "Üdvözöljük az Esperanta Skanaduko-n",
+      "description": "Fedezze fel az eszperantó szépségét átfogó tananyag-gyűjteményünk, könyveink és interaktív eszközeink révén."
+    },
+    "actions": {
+      "getStarted": "Kezdje el",
+      "learnMore": "Tudjon meg többet"
+    },
+    "features": {
+      "title": "Funkciók",
+      "items": {
+        "library": {
+          "title": "Átfogó könyvtár",
+          "description": "Férjen hozzá több ezer eszperantó könyvhöz, cikkhez és tananyaghoz"
+        },
+        "interactive": {
+          "title": "Interaktív tanulás",
+          "description": "Vegyen részt interaktív eszközökkel és gyakorlatokkal készségeinek fejlesztéséhez"
+        },
+        "community": {
+          "title": "Globális közösség",
+          "description": "Kapcsolódjon eszperantó tanulókhoz és beszélőkhöz szerte a világon"
+        }
+      }
+    }
+  },
+  "about": {
+    "page": {
+      "title": "Az Esperanta Skanaduko-ról",
+      "description": "Az Esperanta Skanaduko elkötelezett amellett, hogy az eszperantó tanulást mindenki számára elérhetővé és vonzóvá tegye."
+    },
+    "sections": {
+      "mission": {
+        "title": "Küldetésünk",
+        "description": "Az eszperantó irodalom, tananyagok és kulturális erőforrások megőrzése és megosztása a világgal."
+      },
+      "esperanto": {
+        "title": "Mi az eszperantó?",
+        "description": "Az eszperantó egy nemzetközi segédnyelv, amelyet a könnyű tanulásra és nemzetközi kommunikációra terveztek."
+      }
+    }
+  },
+  "library": {
+    "page": {
+      "title": "Könyvtár"
+    },
+    "search": {
+      "placeholder": "Könyvek keresése..."
+    },
+    "filters": {
+      "categories": "Kategóriák",
+      "allBooks": "Minden könyv"
+    },
+    "results": {
+      "noResults": "Nem találhatók könyvek",
+      "booksFound": "könyv található"
+    }
+  },
+  "footer": {
+    "legal": {
+      "copyright": "Minden jog fenntartva",
+      "madeWith": "Készítve",
+      "forCommunity": "az eszperantó közösség számára",
+      "developedBy": "Fejlesztve ❤️-tel"
+    },
+    "projects": {
+      "title": "Kapcsolódó projektek",
+      "esperantoAnalyzer": {
+        "title": "Eszperantó Elemző",
+        "description": "NPM csomag eszperantó szövegelemzéshez"
+      }
+    },
+    "social": {
+      "title": "Kapcsolat",
+      "links": {
+        "github": "GitHub",
+        "issues": "Probléma jelentése",
+        "contribute": "Hozzájárulás"
+      }
+    },
+    "acknowledgments": {
+      "title": "Köszönetnyilvánítások",
+      "gutenberg": "Különleges köszönet a Project Gutenberg-nek az ingyenes eszperantó könyvek biztosításáért"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Az oldal nem található",
+      "action": "Ugrás a főoldalra"
+    },
+    "general": {
+      "title": "Valami hiba történt",
+      "action": "Próbálja újra"
+    }
+  },
+  "auth": {
+    "actions": {
+      "signUp": "Regisztráció",
+      "logIn": "Bejelentkezés",
+      "signOut": "Kijelentkezés"
+    },
+    "fields": {
+      "email": "E-mail",
+      "password": "Jelszó",
+      "confirmPassword": "Jelszó megerősítése"
+    },
+    "links": {
+      "forgotPassword": "Elfelejtette a jelszavát?",
+      "alreadyHaveAccount": "Már van fiókja?",
+      "noAccount": "Nincs még fiókja?"
+    },
+    "status": {
+      "creatingAccount": "Fiókja létrehozása...",
+      "welcomeBack": "Üdvözöljük újra",
+      "getStarted": "Kezdje el"
+    },
+    "errors": {
+      "validation": {
+        "emailRequired": "E-mail megadása kötelező",
+        "emailInvalid": "Kérjük, adjon meg érvényes e-mail címet",
+        "passwordRequired": "Jelszó megadása kötelező",
+        "passwordTooShort": "A jelszónak legalább 6 karakter hosszúnak kell lennie",
+        "passwordsNoMatch": "A jelszavak nem egyeznek"
+      },
+      "firebase": {
+        "emailInUse": "Ez az e-mail cím már használatban van",
+        "userNotFound": "Nem található fiók ezzel az e-mail címmel",
+        "wrongPassword": "Helytelen jelszó",
+        "tooManyAttempts": "Túl sok sikertelen próbálkozás. Kérjük, próbálja később",
+        "networkError": "Hálózati hiba. Kérjük, ellenőrizze a kapcsolatot",
+        "unknownError": "Váratlan hiba történt. Kérjük, próbálja újra"
+      }
+    },
+    "success": {
+      "accountCreated": "Fiók sikeresen létrehozva!",
+      "signedIn": "Üdvözöljük újra!",
+      "signedOut": "Sikeresen kijelentkezett"
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "Eszperantó erőforrások",
+      "subtitle": "Átfogó gyűjtemény tananyagokból, eszközökből és közösségi erőforrásokból"
+    },
+    "search": {
+      "label": "Erőforrások keresése...",
+      "placeholder": "Keresés cím, leírás vagy címkék alapján..."
+    },
+    "filters": {
+      "filterBy": "Szűrés kategória szerint",
+      "clearAll": "Minden szűrő törlése"
+    },
+    "sections": {
+      "featured": "Kiemelt erőforrások",
+      "total": "Összes erőforrás",
+      "concertVideos": {
+        "title": "Eszperantó élő koncertvideók",
+        "description": "Nézze meg eszperantó zenészek előadásait világszerte"
+      }
+    },
+    "results": {
+      "showing": "{{count}} erőforrás megjelenítése",
+      "noResults": "Nem találhatók erőforrások",
+      "noResultsDescription": "Próbálja módosítani a keresési vagy szűrési feltételeket"
+    },
+    "categories": {
+      "all": "Minden erőforrás",
+      "learning": "Tanulási erőforrások",
+      "grammar": "Nyelvtani útmutatók",
+      "tools": "Eszközök és billentyűzetek",
+      "music": "Zene és előadók",
+      "audio": "Hang és podcastok",
+      "video": "Videó erőforrások",
+      "community": "Közösség és térképek",
+      "events": "Események és tanfolyamok",
+      "organizations": "Szervezetek",
+      "culture": "Kultúra és történelem",
+      "news": "Hírek és irodalom",
+      "books": "Könyvek és olvasás"
+    },
+    "difficulty": {
+      "beginner": "Kezdő",
+      "intermediate": "Középhaladó",
+      "advanced": "Haladó",
+      "allLevels": "Minden szint"
+    },
+    "labels": {
+      "free": "Ingyenes",
+      "paid": "Fizetős",
+      "freemium": "Freemium",
+      "requiresAccount": "Fiók szükséges",
+      "external": "Külső link",
+      "featured": "Kiemelt",
+      "new": "Új",
+      "popular": "Népszerű"
+    },
+    "actions": {
+      "visitSite": "Látogasson el az oldalra",
+      "learnMore": "Tudjon meg többet",
+      "download": "Letöltés",
+      "register": "Regisztráció",
+      "viewDetails": "Részletek megtekintése"
+    }
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "_meta": {
+    "language": "Català",
+    "code": "ca",
+    "translationStatus": "human-translated",
+    "note": "Traducció completa en català",
+    "translator": "AI Assistant",
+    "reviewStatus": "completed",
+    "lastUpdated": "2025-10-11"
+  },
+  "common": {
+    "site": {
+      "name": "Esperanta\nSkanaduko",
+      "tagline": "Un lloc web complet per a l'aprenentatge de l'esperanto i recursos",
+      "description": "Apren esperanto mitjançant recursos complets, eines interactives i connexions comunitàries. Accedeix a més de 200 materials d'aprenentatge seleccionats, llibres, música, vídeos i molt més."
+    },
+    "navigation": {
+      "home": "Inici",
+      "about": "Sobre",
+      "library": "Biblioteca"
+    },
+    "ui": {
+      "loading": "Carregant...",
+      "error": "Error",
+      "language": "Idioma",
+      "switchLanguage": "Canviar Idioma"
+    }
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Esperanta Skanaduko - Aprèn Esperanto En Línia",
+        "description": "El teu centre integral per aprendre esperanto. Accedeix a recursos, llibres, música, connexions comunitàries i eines interactives per dominar la llengua internacional.",
+        "keywords": "aprendre esperanto, aprenentatge esperanto, llengua internacional, llengua construïda, plataforma d'aprenentatge d'idiomes"
+      },
+      "resources": {
+        "title": "Recursos d'Esperanto - Materials i Eines d'Aprenentatge",
+        "description": "Descobreix més de 200 recursos complets d'aprenentatge d'esperanto incloent guies gramaticals, música, podcasts, vídeos, mapes comunitaris, cursos i eines. Recursos gratuïts des de principiants fins a nivells avançats.",
+        "keywords": "recursos aprenentatge esperanto, aprendre esperanto, gramàtica esperanto, música esperanto, podcasts esperanto, comunitat esperanto, cursos esperanto, eines esperanto, aprenentatge idiomes"
+      },
+      "library": {
+        "title": "Biblioteca Esperanto - Llibres i Materials de Lectura",
+        "description": "Navega per la nostra col·lecció seleccionada de llibres, novel·les i materials de lectura en esperanto. Perfecte per a estudiants de tots els nivells.",
+        "keywords": "llibres esperanto, biblioteca esperanto, lectura esperanto, literatura esperanto, aprendre lectura esperanto"
+      },
+      "concerts": {
+        "title": "Vídeos de Concerts en Directe d'Esperanto",
+        "description": "Mira actuacions en directe de músics d'esperanto d'arreu del món. Descobreix la vibrant cultura musical a la comunitat esperanto.",
+        "keywords": "música esperanto, concerts esperanto, músics esperanto, cultura esperanto, música en directe"
+      }
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "Inici",
+      "library": "Biblioteca",
+      "about": "Sobre",
+      "resources": "Recursos"
+    },
+    "secondary": {
+      "contact": "Contacte",
+      "donate": "Dona",
+      "analyzer": "Analitzador"
+    }
+  },
+  "donate": {
+    "hero": {
+      "title": "Dona Suport a la Nostra Missió",
+      "subtitle": "Ajuda'ns a mantenir Esperanta Skanaduko gratuït i accessible per a estudiants d'arreu del món. El teu suport ens permet mantenir la plataforma, crear nou contingut i fer créixer la comunitat."
+    },
+    "sections": {
+      "methods": {
+        "title": "Escull el Teu Mètode Preferit"
+      },
+      "impact": {
+        "title": "El Teu Impacte",
+        "description": "Cada donació, independentment de la quantitat, ens ajuda a continuar la nostra missió. Així és com el teu suport marca la diferència:"
+      },
+      "thankYou": {
+        "title": "Dankon! Gràcies!",
+        "message": "La teva generositat ajuda a preservar i compartir la bellesa de l'esperanto amb estudiants d'arreu del món. Junts, estem construint ponts entre cultures i llengües."
+      }
+    },
+    "actions": {
+      "donateNow": "Dona Ara"
+    },
+    "methods": {
+      "paypal": {
+        "title": "PayPal",
+        "description": "Donacions segures úniques o recurrents"
+      },
+      "buymeacoffee": {
+        "title": "Compra'm un Cafè",
+        "description": "Dona suport amb una donació de cafè"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "description": "Suport mensual per al desenvolupament continu"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "title": "Allotjament del Servidor",
+        "description": "Mantenir el lloc web actiu 24/7 per a accés global",
+        "amount": "10 USD/mes"
+      },
+      "content": {
+        "title": "Creació de Contingut",
+        "description": "Desenvolupar nous materials i recursos d'aprenentatge",
+        "amount": "25 USD/mes"
+      },
+      "development": {
+        "title": "Eines de Desenvolupament",
+        "description": "Mantenir i millorar les funcionalitats de la plataforma",
+        "amount": "15 USD/mes"
+      },
+      "community": {
+        "title": "Suport Comunitari",
+        "description": "Moderar i donar suport a la comunitat esperanto",
+        "amount": "20 USD/mes"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "welcome": "Benvingut a Esperanta Skanduko",
+      "description": "Descobreix la bellesa de l'esperanto a través de la nostra col·lecció completa de recursos d'aprenentatge, llibres i eines interactives."
+    },
+    "actions": {
+      "getStarted": "Comença",
+      "learnMore": "Més Informació"
+    },
+    "features": {
+      "title": "Característiques",
+      "items": {
+        "library": {
+          "title": "Biblioteca Completa",
+          "description": "Accedeix a milers de llibres, articles i materials d'aprenentatge d'esperanto"
+        },
+        "interactive": {
+          "title": "Aprenentatge Interactiu",
+          "description": "Participa amb eines i exercicis interactius per millorar les teves habilitats"
+        },
+        "community": {
+          "title": "Comunitat Global",
+          "description": "Connecta amb estudiants i parlants d'esperanto d'arreu del món"
+        }
+      }
+    }
+  },
+  "about": {
+    "page": {
+      "title": "Sobre Esperanta Skanduko",
+      "description": "Esperanta Skanduko es dedica a fer l'aprenentatge de l'esperanto accessible i atractiu per a tothom."
+    },
+    "sections": {
+      "mission": {
+        "title": "La Nostra Missió",
+        "description": "Preservar i compartir literatura, materials d'aprenentatge i recursos culturals d'esperanto amb el món."
+      },
+      "esperanto": {
+        "title": "Què és l'Esperanto?",
+        "description": "L'esperanto és una llengua auxiliar internacional dissenyada per facilitar l'aprenentatge i la comunicació internacional."
+      }
+    }
+  },
+  "library": {
+    "page": {
+      "title": "Biblioteca"
+    },
+    "search": {
+      "placeholder": "Cerca llibres..."
+    },
+    "filters": {
+      "categories": "Categories",
+      "allBooks": "Tots els Llibres"
+    },
+    "results": {
+      "noResults": "No s'han trobat llibres",
+      "booksFound": "llibres trobats"
+    }
+  },
+  "footer": {
+    "legal": {
+      "copyright": "Tots els drets reservats",
+      "madeWith": "Fet amb",
+      "forCommunity": "per a la comunitat esperantista",
+      "developedBy": "Desenvolupat amb ❤️ per"
+    },
+    "projects": {
+      "title": "Projectes Relacionats",
+      "esperantoAnalyzer": {
+        "title": "Analitzador d'Esperanto",
+        "description": "Paquet NPM per a l'anàlisi de text en esperanto"
+      }
+    },
+    "social": {
+      "title": "Connecta",
+      "links": {
+        "github": "GitHub",
+        "issues": "Informar d'un Problema",
+        "contribute": "Contribuir"
+      }
+    },
+    "acknowledgments": {
+      "title": "Agraïments",
+      "gutenberg": "Agraïment especial al Projecte Gutenberg per proporcionar llibres gratuïts d'esperanto"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Pàgina No Trobada",
+      "action": "Anar a l'Inici"
+    },
+    "general": {
+      "title": "Alguna cosa ha anat malament",
+      "action": "Torna-ho a Provar"
+    }
+  },
+  "auth": {
+    "actions": {
+      "signUp": "Registra't",
+      "logIn": "Inicia Sessió",
+      "signOut": "Tanca Sessió"
+    },
+    "fields": {
+      "email": "Correu Electrònic",
+      "password": "Contrasenya",
+      "confirmPassword": "Confirma la Contrasenya"
+    },
+    "links": {
+      "forgotPassword": "Has oblidat la contrasenya?",
+      "alreadyHaveAccount": "Ja tens un compte?",
+      "noAccount": "No tens un compte?"
+    },
+    "status": {
+      "creatingAccount": "Creant el teu compte...",
+      "welcomeBack": "Benvingut de Nou",
+      "getStarted": "Comença"
+    },
+    "errors": {
+      "validation": {
+        "emailRequired": "El correu electrònic és necessari",
+        "emailInvalid": "Si us plau, introdueix una adreça de correu electrònic vàlida",
+        "passwordRequired": "La contrasenya és necessària",
+        "passwordTooShort": "La contrasenya ha de tenir almenys 6 caràcters",
+        "passwordsNoMatch": "Les contrasenyes no coincideixen"
+      },
+      "firebase": {
+        "emailInUse": "Aquest correu electrònic ja s'està utilitzant",
+        "userNotFound": "No s'ha trobat cap compte amb aquest correu electrònic",
+        "wrongPassword": "Contrasenya incorrecta",
+        "tooManyAttempts": "Massa intents fallits. Si us plau, torna-ho a provar més tard",
+        "networkError": "Error de xarxa. Si us plau, comprova la teva connexió",
+        "unknownError": "S'ha produït un error inesperat. Si us plau, torna-ho a provar"
+      }
+    },
+    "success": {
+      "accountCreated": "Compte creat amb èxit!",
+      "signedIn": "Benvingut de nou!",
+      "signedOut": "Sessió tancada amb èxit"
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "Recursos d'Esperanto",
+      "subtitle": "Col·lecció completa de materials d'aprenentatge, eines i recursos comunitaris"
+    },
+    "search": {
+      "label": "Cerca recursos...",
+      "placeholder": "Cerca per títol, descripció o etiquetes..."
+    },
+    "filters": {
+      "filterBy": "Filtrar per categoria",
+      "clearAll": "Esborrar Tots els Filtres"
+    },
+    "sections": {
+      "featured": "Recursos Destacats",
+      "total": "Total de Recursos",
+      "concertVideos": {
+        "title": "Vídeos de Concerts en Directe d'Esperanto",
+        "description": "Mira actuacions de músics d'esperanto d'arreu del món"
+      }
+    },
+    "results": {
+      "showing": "Mostrant {{count}} recursos",
+      "noResults": "No s'han trobat recursos",
+      "noResultsDescription": "Prova d'ajustar els teus criteris de cerca o filtre"
+    },
+    "categories": {
+      "all": "Tots els Recursos",
+      "learning": "Recursos d'Aprenentatge",
+      "grammar": "Guies de Gramàtica",
+      "tools": "Eines i Teclats",
+      "music": "Música i Artistes",
+      "audio": "Àudio i Podcasts",
+      "video": "Recursos de Vídeo",
+      "community": "Comunitat i Mapes",
+      "events": "Esdeveniments i Cursos",
+      "organizations": "Organitzacions",
+      "culture": "Cultura i Història",
+      "news": "Notícies i Literatura",
+      "books": "Llibres i Lectura"
+    },
+    "difficulty": {
+      "beginner": "Principiant",
+      "intermediate": "Intermediari",
+      "advanced": "Avançat",
+      "allLevels": "Tots els Nivells"
+    },
+    "labels": {
+      "free": "Gratuït",
+      "paid": "De Pagament",
+      "freemium": "Freemium",
+      "requiresAccount": "Necessita Compte",
+      "external": "Enllaç Extern",
+      "featured": "Destacat",
+      "new": "Nou",
+      "popular": "Popular"
+    },
+    "actions": {
+      "visitSite": "Visitar el Lloc",
+      "learnMore": "Més Informació",
+      "download": "Descarregar",
+      "register": "Registrar-se",
+      "viewDetails": "Veure Detalls"
+    }
+  }
+}

@@ -1,0 +1,327 @@
+{
+  "_meta": {
+    "language": "Rumantsch",
+    "code": "rm",
+    "translationStatus": "human-translated",
+    "lastUpdated": "2025-10-11",
+    "note": "Translaziun cumpletta en rumantsch"
+  },
+  "common": {
+    "site": {
+      "name": "Esperanta\nSkanaduko",
+    "tagline": "Ina website cumpletta per emprender esperanto e per resursas",
+      "description": "Emprender esperanto tras resursas cumpletas, utensils interactivs e connexiuns da la communitad. Access a passa 200 materials d'emprendissadi curads, cudeschs, musica, videos e dapli."
+    },
+    "navigation": {
+      "home": "Pagina iniziala",
+      "about": "Davart",
+      "library": "Biblioteca"
+    },
+    "ui": {
+      "loading": "Chargia...",
+      "error": "Errur",
+      "language": "Lingua",
+      "switchLanguage": "Midar la Lingua"
+    }
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Esperanta Skanaduko - Emprender Esperanto Online",
+        "description": "Tes center cumplett per emprender esperanto. Access a resursas, cudeschs, musica, connexiuns da la communitad ed utensils interactivs per mastrar la lingua internaziunala.",
+        "keywords": "emprender esperanto, emprendissadi esperanto, lingua internaziunala, lingua construida, plattafurma d'emprendissadi da linguas"
+      },
+      "resources": {
+        "title": "Resursas d'Esperanto - Materials d'Emprendissadi ed Utensils",
+        "description": "Scuvrir passa 200 resursas cumpletas d'emprendissadi d'esperanto cun managlias da grammatica, musica, podcasts, videos, mapas da la communitad, curses ed utensils. Resursas gratis per emprendedurs da principiants a avanzads.",
+        "keywords": "resursas d'emprendissadi d'esperanto, emprender esperanto, grammatica esperanto, musica esperanto, podcasts esperanto, communitad esperanto, curses esperanto, utensils esperanto, emprendissadi da linguas"
+      },
+      "library": {
+        "title": "Biblioteca d'Esperanto - Cudeschs e Materials da Lectura",
+        "description": "Navigar en nossa collecziun curada da cudeschs, romans e materials da lectura en esperanto. Perfetg per emprendedurs da tuts ils stadis.",
+        "keywords": "cudeschs esperanto, biblioteca esperanto, lectura esperanto, litteratura esperanto, emprender a leger esperanto"
+      },
+      "concerts": {
+        "title": "Videos da Concerts en Viv d'Esperanto",
+        "description": "Guardar prestaziuns en viv da musicists esperanto dal mund entir. Scuvrir la cultura vibra musicala en la communitad d'esperanto.",
+        "keywords": "musica esperanto, concerts esperanto, musicists esperanto, cultura esperanto, musica en viv"
+      }
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "Chasa",
+      "library": "Biblioteca",
+      "about": "Davart",
+      "resources": "Ressursas"
+    },
+    "secondary": {
+      "contact": "Contact",
+      "donate": "Dar",
+      "analyzer": "Analisader"
+    }
+  },
+  "donate": {
+    "hero": {
+      "title": "Sustegna Nossa Missiun",
+      "subtitle": "Gida a nus da mantegnair Esperanta Skanaduko gratuit ed accessibel a studients dal mund entir. Tes sustegn pussibilitescha a nus da mantegnair la platforma, crear nov cuntegn e crescher la communitad."
+    },
+    "sections": {
+      "methods": {
+        "title": "Tscherna Tia Metoda Preferida"
+      },
+      "impact": {
+        "title": "Tes Impact",
+        "description": "Mintga donaziun, indiferent da la grondezza, ans gida a cuntinuar nossa missiun. Quai è co tes sustegn fa ina differenza:"
+      },
+      "thankYou": {
+        "title": "Dankon! Grazia!",
+        "message": "Tia generositad gida a preservar e cundivider la bellezza da l'esperanto cun studients dal mund entir. Ensemen construin nus punts tranter culturas e linguas."
+      }
+    },
+    "actions": {
+      "donateNow": "Dar Ussa"
+    },
+    "methods": {
+      "paypal": {
+        "title": "PayPal",
+        "description": "Donaziuns segiras ina giada u periodicas"
+      },
+      "buymeacoffee": {
+        "title": "Buy Me a Coffee",
+        "description": "Sustegna cun ina donaziun da café"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "description": "Sustegn mensil per svilup continui"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "title": "Hosting dal Server",
+        "description": "Mantegnair la website activa 24/7 per access global",
+        "amount": "$10/mais"
+      },
+      "content": {
+        "title": "Creaziun da Cuntegn",
+        "description": "Sviluppar novs materials d'emprendissadi e ressursas",
+        "amount": "$25/mais"
+      },
+      "development": {
+        "title": "Utensils da Svilup",
+        "description": "Mantegnair e meglierar las funcziuns da la platforma",
+        "amount": "$15/mais"
+      },
+      "community": {
+        "title": "Sustegn dalla Communitad",
+        "description": "Moderar e sustegnair la communitad d'esperanto",
+        "amount": "$20/mais"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "welcome": "Bainvegni a Esperanta Skanduko",
+      "description": "Scuvra la bellezza da l'esperanto tras nossa collecziun cumpletta da ressursas d'emprendissadi, cudeschs ed utensils interactivs."
+    },
+    "actions": {
+      "getStarted": "Cumenzar",
+      "learnMore": "Dapli Infurmaziuns"
+    },
+    "features": {
+      "title": "Caracteristicas",
+      "items": {
+        "library": {
+          "title": "Biblioteca Cumpletta",
+          "description": "Access a milers da cudeschs, artichels e materials d'emprendissadi en esperanto"
+        },
+        "interactive": {
+          "title": "Emprendissadi Interactiv",
+          "description": "Participescha cun utensils interactivs ed exerzizis per meglierar tias abilitads"
+        },
+        "community": {
+          "title": "Communitad Globala",
+          "description": "Connectescha cun studients e pledaders d'esperanto dal mund entir"
+        }
+      }
+    }
+  },
+  "about": {
+    "page": {
+      "title": "Davart Esperanta Skanduko",
+      "description": "Esperanta Skanduko è engaschà da render l'emprendissadi da l'esperanto accessibel ed attracziun per mintgin."
+    },
+    "sections": {
+      "mission": {
+        "title": "Nossa Missiun",
+        "description": "Preservar e cundivider la litteratura esperanto, materials d'emprendissadi e ressursas culturalas cun il mund."
+      },
+      "esperanto": {
+        "title": "Co È L'Esperanto?",
+        "description": "L'esperanto è ina lingua auxiliara internaziunala concepida per facilitad d'emprendissadi e communicaziun internaziunala."
+      }
+    }
+  },
+  "library": {
+    "page": {
+      "title": "Biblioteca"
+    },
+    "search": {
+      "placeholder": "Tschertgar cudeschs..."
+    },
+    "filters": {
+      "categories": "Categorias",
+      "allBooks": "Tuts Cudeschs"
+    },
+    "results": {
+      "noResults": "Nagins cudeschs chattads",
+      "booksFound": "cudeschs chattads"
+    }
+  },
+  "footer": {
+    "legal": {
+      "copyright": "Tuts dretgs reservads",
+      "madeWith": "Fatg cun",
+      "forCommunity": "per la communitad d'esperanto",
+      "developedBy": "Sviluppà cun ❤️ da"
+    },
+    "projects": {
+      "title": "Projects Colliaids",
+      "esperantoAnalyzer": {
+        "title": "Analisader d'Esperanto",
+        "description": "Package NPM per analisar texts esperanto"
+      }
+    },
+    "social": {
+      "title": "Connectar",
+      "links": {
+        "github": "GitHub",
+        "issues": "Rapportar Problem",
+        "contribute": "Contribuir"
+      }
+    },
+    "acknowledgments": {
+      "title": "Renconuschientscha",
+      "gutenberg": "Grazia speciala a Project Gutenberg per furnir cudeschs esperanto gratuits"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Pagina Betg Chattada",
+      "action": "Turnar a Chasa"
+    },
+    "general": {
+      "title": "Insatge è ida mal",
+      "action": "Empruvar Puspè"
+    }
+  },
+  "auth": {
+    "actions": {
+      "signUp": "S'annunziar",
+      "logIn": "S'annunziar Enavos",
+      "signOut": "S'annunziar Ora"
+    },
+    "fields": {
+      "email": "E-mail",
+      "password": "Pled-clav",
+      "confirmPassword": "Confermar Pled-clav"
+    },
+    "links": {
+      "forgotPassword": "Emblidà Pled-clav?",
+      "alreadyHaveAccount": "Has gia in conto?",
+      "noAccount": "N'has anc nagin conto?"
+    },
+    "status": {
+      "creatingAccount": "Crear tes conto...",
+      "welcomeBack": "Bainvegni Enavos",
+      "getStarted": "Cumenzar"
+    },
+    "errors": {
+      "validation": {
+        "emailRequired": "L'e-mail è necessari",
+        "emailInvalid": "Endatescha per plaschair in'adressa d'e-mail valida",
+        "passwordRequired": "Il pled-clav è necessari",
+        "passwordTooShort": "Il pled-clav sto avair almain 6 caracters",
+        "passwordsNoMatch": "Las pled-clav na correspundan betg"
+      },
+      "firebase": {
+        "emailInUse": "Quest e-mail è gia en utilisaziun",
+        "userNotFound": "Nagin conto chattà cun quest e-mail",
+        "wrongPassword": "Pled-clav falsch",
+        "tooManyAttempts": "Memia bleras emprovas fallidas. Emprova puspè pli tard per plaschair",
+        "networkError": "Errur da rait. Controllescha per plaschair tia colliaziun",
+        "unknownError": "In errur nunchantà è succedì. Emprova puspè per plaschair"
+      }
+    },
+    "success": {
+      "accountCreated": "Conto creà cun success!",
+      "signedIn": "Bainvegni enavos!",
+      "signedOut": "Annunzià ora cun success"
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "Ressursas d'Esperanto",
+      "subtitle": "Collecziun cumpletta da materials d'emprendissadi, utensils e ressursas da la communitad"
+    },
+    "search": {
+      "label": "Tschertgar ressursas...",
+      "placeholder": "Tschertgar tenor titel, descripziun u tags..."
+    },
+    "filters": {
+      "filterBy": "Filtrar tenor categoria",
+      "clearAll": "Stizzar Tuts Filtrs"
+    },
+    "sections": {
+      "featured": "Ressursas Destacadas",
+      "total": "Ressursas Totalas",
+      "concertVideos": {
+        "title": "Videos da Concerts en Viv d'Esperanto",
+        "description": "Guardar prestaziuns da musicists esperanto dal mund entir"
+      }
+    },
+    "results": {
+      "showing": "Mussar {{count}} ressursas",
+      "noResults": "Naginas ressursas chattadas",
+      "noResultsDescription": "Emprova d'adattar tias criteris da tschertga u filtrs"
+    },
+    "categories": {
+      "all": "Tuttas Ressursas",
+      "learning": "Ressursas d'Emprendissadi",
+      "grammar": "Guidas da Grammatica",
+      "tools": "Utensils e Tastas",
+      "music": "Musica e Artists",
+      "audio": "Audio e Podcasts",
+      "video": "Ressursas Video",
+      "community": "Communitad e Cartas",
+      "events": "Eveniments e Curses",
+      "organizations": "Organisaziuns",
+      "culture": "Cultura e Storia",
+      "news": "Novitads e Litteratura",
+      "books": "Cudeschs e Lectura"
+    },
+    "difficulty": {
+      "beginner": "Principiant",
+      "intermediate": "Intermediar",
+      "advanced": "Avanzà",
+      "allLevels": "Tuts Nivels"
+    },
+    "labels": {
+      "free": "Gratuit",
+      "paid": "A Pajament",
+      "freemium": "Freemium",
+      "requiresAccount": "Conto Necessari",
+      "external": "Colliaziun Externa",
+      "featured": "Destacà",
+      "new": "Nov",
+      "popular": "Popular"
+    },
+    "actions": {
+      "visitSite": "Visitar la Pagina",
+      "learnMore": "Dapli Infurmaziuns",
+      "download": "Telechargiar",
+      "register": "S'annunziar",
+      "viewDetails": "Vesair Detagls"
+    }
+  }
+}

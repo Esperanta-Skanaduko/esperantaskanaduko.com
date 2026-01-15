@@ -1,143 +1,147 @@
 {
+  "_meta": {
+    "language": "Eesti",
+    "code": "et",
+    "translationStatus": "human-translated",
+    "note": "Täielik eestikeelne tõlge",
+    "lastUpdated": "2025-10-12"
+  },
   "common": {
     "site": {
       "name": "Esperanta\nSkanaduko",
-      "tagline": "A comprehensive Esperanto learning and resource website",
-      "description": "Learn Esperanto through comprehensive resources, interactive tools, and community connections. Access 200+ curated learning materials, books, music, videos, and more."
+      "tagline": "Põhjalik esperanto õppe- ja ressursiveebisait",
+      "description": "Õppige esperantot põhjalike ressursside, interaktiivsete tööriistade ja kogukonnaühenduste kaudu. Juurdepääs 200+ kureeritud õppematerjalidele, raamatutele, muusikale, videotele ja muule."
     },
     "navigation": {
-      "home": "Home",
-      "about": "About",
-      "library": "Library"
+      "home": "Avaleht",
+      "about": "Meist",
+      "library": "Raamatukogu"
     },
     "ui": {
-      "loading": "Loading...",
-      "error": "Error",
-      "language": "Language",
-      "switchLanguage": "Switch Language",
-      "selectLanguage": "Select Language",
-      "searchLanguages": "Search languages...",
-      "noLanguagesFound": "No languages found"
+      "loading": "Laadimine...",
+      "error": "Viga",
+      "language": "Keel",
+      "switchLanguage": "Vaheta keelt"
     }
   },
   "seo": {
     "pages": {
       "home": {
-        "title": "Esperanta Skanaduko - Learn Esperanto Online",
-        "description": "Your comprehensive hub for learning Esperanto. Access resources, books, music, community connections, and interactive tools to master the international language.",
-        "keywords": "learn Esperanto, Esperanto learning, international language, constructed language, language learning platform"
+        "title": "Esperanta Skanaduko - Õpi esperantot veebis",
+        "description": "Teie põhjalik keskus esperanto õppimiseks. Juurdepääs ressurssidele, raamatutele, muusikale, kogukonnaühendustele ja interaktiivsetele tööriistadele rahvusvahelise keele valdamiseks.",
+        "keywords": "õpi esperantot, esperanto õppimine, rahvusvaheline keel, konstrueeritud keel, keeleõppe platvorm"
       },
       "resources": {
-        "title": "Esperanto Resources - Learning Materials & Tools",
-        "description": "Discover 200+ comprehensive Esperanto learning resources including grammar guides, music, podcasts, videos, community maps, courses, and tools. Free resources for beginners to advanced learners.",
-        "keywords": "Esperanto learning resources, learn Esperanto, Esperanto grammar, Esperanto music, Esperanto podcasts, Esperanto community, Esperanto courses, Esperanto tools, language learning"
+        "title": "Esperanto ressursid - Õppematerjalid ja tööriistad",
+        "description": "Avasta 200+ põhjalikku esperanto õpperessurssi, sealhulgas grammatikaõpikud, muusika, taskuhäälingud, videod, kogukonna kaardid, kursused ja tööriistad. Tasuta ressursid algajatele kuni edasijõudnuteni.",
+        "keywords": "esperanto õpperessursid, õpi esperantot, esperanto grammatika, esperanto muusika, esperanto taskuhäälingud, esperanto kogukond, esperanto kursused, esperanto tööriistad, keeleõpe"
       },
       "library": {
-        "title": "Esperanto Library - Books & Reading Materials",
-        "description": "Browse our curated collection of Esperanto books, novels, and reading materials. Perfect for learners at all levels.",
-        "keywords": "Esperanto books, Esperanto library, Esperanto reading, Esperanto literature, learn Esperanto reading"
+        "title": "Esperanto raamatukogu - Raamatud ja lugemismaterjalid",
+        "description": "Sirvi meie kureeritud esperanto raamatute, romaanide ja lugemismaterjalide kogust. Ideaalne õppijatele kõigil tasemetel.",
+        "keywords": "esperanto raamatud, esperanto raamatukogu, esperanto lugemine, esperanto kirjandus, õpi esperanto lugemist"
       },
       "concerts": {
-        "title": "Esperanto Live Concert Videos",
-        "description": "Watch live performances from Esperanto musicians worldwide. Discover the vibrant music culture in the Esperanto community.",
-        "keywords": "Esperanto music, Esperanto concerts, Esperanto musicians, Esperanto culture, live music"
+        "title": "Esperanto otsekontserdivideod",
+        "description": "Vaata otseesinemisi esperanto muusikutelt üle maailma. Avasta elav muusikakultuur esperanto kogukonnas.",
+        "keywords": "esperanto muusika, esperanto kontserdid, esperanto muusikud, esperanto kultuur, otsemuusika"
       }
     }
   },
   "navigation": {
     "main": {
-      "home": "Home",
-      "library": "Library",
-      "about": "About",
-      "resources": "Resources"
+      "home": "Avaleht",
+      "library": "Raamatukogu",
+      "about": "Meist",
+      "resources": "Ressursid"
     },
     "secondary": {
-      "contact": "Contact",
-      "donate": "Donate",
-      "analyzer": "Analyzer"
+      "contact": "Kontakt",
+      "donate": "Anneta",
+      "analyzer": "Analüsaator"
     }
   },
   "donate": {
     "hero": {
-      "title": "Support Our Mission",
-      "subtitle": "Help us keep Esperanta Skanaduko free and accessible to learners worldwide. Your support enables us to maintain the platform, create new content, and grow the community."
+      "title": "Toeta meie missiooni",
+      "subtitle": "Aita meil hoida Esperanta Skanaduko tasuta ja kättesaadavana õppijatele üle maailma. Teie tugi võimaldab meil platvormi hooldada, uut sisu luua ja kogukonda kasvatada."
     },
     "sections": {
       "methods": {
-        "title": "Choose Your Preferred Method"
+        "title": "Valige oma eelistatud meetod"
       },
       "impact": {
-        "title": "Your Impact",
-        "description": "Every donation, no matter the size, helps us continue our mission. Here's how your support makes a difference:"
+        "title": "Teie mõju",
+        "description": "Iga annetus, olenemata suurusest, aitab meil jätkata meie missiooni. Siin on, kuidas teie tugi loob vahet:"
       },
       "thankYou": {
-        "title": "Dankon! Thank You!",
-        "message": "Your generosity helps preserve and share the beauty of Esperanto with learners around the world. Together, we're building bridges across cultures and languages."
+        "title": "Dankon! Täname teid!",
+        "message": "Teie heldekäelisus aitab säilitada ja jagada esperanto ilu õppijatega üle maailma. Koos ehitame sildu kultuuride ja keelte vahel."
       }
     },
     "actions": {
-      "donateNow": "Donate Now"
+      "donateNow": "Anneta kohe"
     },
     "methods": {
       "paypal": {
         "title": "PayPal",
-        "description": "Secure one-time or recurring donations"
+        "description": "Turvalised ühekordse või korduva annetused"
       },
       "buymeacoffee": {
         "title": "Buy Me a Coffee",
-        "description": "Support with a coffee donation"
+        "description": "Toeta kohviannetusega"
       },
       "patreon": {
         "title": "Patreon",
-        "description": "Monthly support for ongoing development"
+        "description": "Igakuine tugi jätkuvaks arenduseks"
       }
     },
     "impacts": {
       "hosting": {
-        "title": "Server Hosting",
-        "description": "Keep the website running 24/7 for global access",
-        "amount": "$10/month"
+        "title": "Serveri majutus",
+        "description": "Hoia veebisaiti töös 24/7 ülemaailmseks juurdepääsuks",
+        "amount": "$10/kuus"
       },
       "content": {
-        "title": "Content Creation",
-        "description": "Develop new learning materials and resources",
-        "amount": "$25/month"
+        "title": "Sisu loomine",
+        "description": "Uute õppematerjalide ja ressursside arendamine",
+        "amount": "$25/kuus"
       },
       "development": {
-        "title": "Development Tools",
-        "description": "Maintain and improve the platform features",
-        "amount": "$15/month"
+        "title": "Arendustööriistad",
+        "description": "Platvormi funktsioonide hooldamine ja parandamine",
+        "amount": "$15/kuus"
       },
       "community": {
-        "title": "Community Support",
-        "description": "Moderate and support the Esperanto community",
-        "amount": "$20/month"
+        "title": "Kogukonna tugi",
+        "description": "Esperanto kogukonna modereerimine ja toetamine",
+        "amount": "$20/kuus"
       }
     }
   },
   "home": {
     "hero": {
-      "welcome": "Welcome to Esperanta Skanduko",
-      "description": "Discover the beauty of Esperanto through our comprehensive collection of learning resources, books, and interactive tools."
+      "welcome": "Tere tulemast Esperanta Skanaduko lehele",
+      "description": "Avasta esperanto ilu meie põhjaliku õpperessursside, raamatute ja interaktiivsete tööriistade kogu kaudu."
     },
     "actions": {
-      "getStarted": "Get Started",
-      "learnMore": "Learn More"
+      "getStarted": "Alusta",
+      "learnMore": "Lisateave"
     },
     "features": {
-      "title": "Features",
+      "title": "Funktsioonid",
       "items": {
         "library": {
-          "title": "Comprehensive Library",
-          "description": "Access thousands of Esperanto books, articles, and learning materials"
+          "title": "Põhjalik raamatukogu",
+          "description": "Juurdepääs tuhandetele esperanto raamatutele, artiklitele ja õppematerjalidele"
         },
         "interactive": {
-          "title": "Interactive Learning",
-          "description": "Engage with interactive tools and exercises to improve your skills"
+          "title": "Interaktiivne õpe",
+          "description": "Tegele interaktiivsete tööriistade ja harjutustega oma oskuste parandamiseks"
         },
         "community": {
-          "title": "Global Community",
-          "description": "Connect with Esperanto learners and speakers from around the world"
+          "title": "Ülemaailmne kogukond",
+          "description": "Ühenda esperanto õppijate ja kõnelejatega üle maailma"
         }
       }
     }
@@ -295,44 +299,6 @@
       "culture": "Culture & History",
       "news": "News & Literature",
       "books": "Books & Reading"
-    },
-    "pages": {
-      "learning": {
-        "description": "Comprehensive courses, lessons, and materials for learning Esperanto at all levels"
-      },
-      "grammar": {
-        "description": "Comprehensive grammar guides and references for mastering Esperanto grammar"
-      },
-      "tools": {
-        "description": "Essential tools, keyboards, dictionaries, and utilities for working with Esperanto"
-      },
-      "books": {
-        "description": "Browse our collection of Esperanto books, novels, and reading materials for all levels"
-      },
-      "music": {
-        "description": "Discover Esperanto musicians, bands, and music from around the world"
-      },
-      "audio": {
-        "description": "Listen to Esperanto podcasts, radio shows, and audio lessons"
-      },
-      "video": {
-        "description": "Watch Esperanto videos, tutorials, YouTube channels, and video lessons"
-      },
-      "community": {
-        "description": "Connect with Esperanto speakers worldwide through communities, forums, and interactive maps"
-      },
-      "events": {
-        "description": "Find Esperanto events, courses, conferences, and meetups worldwide"
-      },
-      "organizations": {
-        "description": "Explore Esperanto organizations, associations, and institutions worldwide"
-      },
-      "culture": {
-        "description": "Learn about Esperanto culture, history, traditions, and the global Esperanto movement"
-      },
-      "news": {
-        "description": "Read Esperanto news, magazines, newspapers, and literary publications"
-      }
     },
     "difficulty": {
       "beginner": "Beginner",

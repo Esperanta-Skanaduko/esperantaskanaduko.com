@@ -1,0 +1,326 @@
+{
+  "_meta": {
+    "language": "Türkçe",
+    "code": "tr",
+    "translationStatus": "complete",
+    "note": "Tam Türkçe çeviri - Türkiye ve Türkçe konuşan topluluk"
+  },
+  "common": {
+    "site": {
+      "name": "Esperanta\nSkanaduko",
+      "tagline": "Kapsamlı Esperanto öğrenme ve kaynak web sitesi",
+      "description": "Kapsamlı kaynaklar, etkileşimli araçlar ve topluluk bağlantıları ile Esperanto öğrenin. 200'den fazla seçilmiş öğrenme materyali, kitap, müzik, video ve daha fazlasına erişin."
+    },
+    "navigation": {
+      "home": "Ana Sayfa",
+      "about": "Hakkında",
+      "library": "Kütüphane"
+    },
+    "ui": {
+      "loading": "Yükleniyor...",
+      "error": "Hata",
+      "language": "Dil",
+      "switchLanguage": "Dil Değiştir"
+    }
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Esperanta Skanaduko - Çevrimiçi Esperanto Öğrenin",
+        "description": "Esperanto öğrenmek için kapsamlı merkeziniz. Uluslararası dilde ustalaşmak için kaynaklara, kitaplara, müziğe, topluluk bağlantılarına ve etkileşimli araçlara erişin.",
+        "keywords": "Esperanto öğren, Esperanto öğrenme, uluslararası dil, yapay dil, dil öğrenme platformu"
+      },
+      "resources": {
+        "title": "Esperanto Kaynakları - Öğrenme Materyalleri ve Araçlar",
+        "description": "Dilbilgisi kılavuzları, müzik, podcast'ler, videolar, topluluk haritaları, kurslar ve araçlar dahil 200'den fazla kapsamlı Esperanto öğrenme kaynağını keşfedin. Başlangıçtan ileri seviyeye ücretsiz kaynaklar.",
+        "keywords": "Esperanto öğrenme kaynakları, Esperanto öğren, Esperanto dilbilgisi, Esperanto müzik, Esperanto podcast, Esperanto topluluğu, Esperanto kursları, Esperanto araçları, dil öğrenme"
+      },
+      "library": {
+        "title": "Esperanto Kütüphanesi - Kitaplar ve Okuma Materyalleri",
+        "description": "Özenle seçilmiş Esperanto kitapları, romanları ve okuma materyalleri koleksiyonumuza göz atın. Tüm seviyelerdeki öğrenciler için mükemmel.",
+        "keywords": "Esperanto kitapları, Esperanto kütüphanesi, Esperanto okuma, Esperanto edebiyatı, Esperanto okuma öğren"
+      },
+      "concerts": {
+        "title": "Esperanto Canlı Konser Videoları",
+        "description": "Dünya çapındaki Esperanto müzisyenlerinin canlı performanslarını izleyin. Esperanto topluluğundaki canlı müzik kültürünü keşfedin.",
+        "keywords": "Esperanto müzik, Esperanto konserleri, Esperanto müzisyenleri, Esperanto kültürü, canlı müzik"
+      }
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "Ana Sayfa",
+      "library": "Kütüphane",
+      "about": "Hakkında",
+      "resources": "Kaynaklar"
+    },
+    "secondary": {
+      "contact": "İletişim",
+      "donate": "Bağış Yap",
+      "analyzer": "Analiz Edici"
+    }
+  },
+  "donate": {
+    "hero": {
+      "title": "Misyonumuzu Destekleyin",
+      "subtitle": "Esperanta Skanaduko'yu dünya çapındaki öğrenciler için ücretsiz ve erişilebilir tutmamıza yardımcı olun. Desteğiniz platformu sürdürmemizi, yeni içerik oluşturmamızı ve topluluğu büyütmemizi sağlar."
+    },
+    "sections": {
+      "methods": {
+        "title": "Tercih Ettiğiniz Yöntemi Seçin"
+      },
+      "impact": {
+        "title": "Etkiniz",
+        "description": "Her bağış, büyüklüğüne bakılmaksızın, misyonumuzu sürdürmemize yardımcı olur. Desteğinizin nasıl fark yarattığı şöyledir:"
+      },
+      "thankYou": {
+        "title": "Dankon! Teşekkür Ederiz!",
+        "message": "Cömertliğiniz, Esperanto'nun güzelliğini dünya çapındaki öğrencilerle korumamıza ve paylaşmamıza yardımcı oluyor. Birlikte, kültürler ve diller arasında köprüler kuruyoruz."
+      }
+    },
+    "actions": {
+      "donateNow": "Şimdi Bağış Yap"
+    },
+    "methods": {
+      "paypal": {
+        "title": "PayPal",
+        "description": "Güvenli tek seferlik veya düzensiz bağışlar"
+      },
+      "buymeacoffee": {
+        "title": "Buy Me a Coffee",
+        "description": "Kahve bağışı ile destek"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "description": "Devam eden geliştirme için aylık destek"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "title": "Sunucu Hosting",
+        "description": "Küresel erişim için web sitesini 7/24 çalışır durumda tutun",
+        "amount": "$10/ay"
+      },
+      "content": {
+        "title": "İçerik Oluşturma",
+        "description": "Yeni öğrenme materyalleri ve kaynaklar geliştirin",
+        "amount": "$25/ay"
+      },
+      "development": {
+        "title": "Geliştirme Araçları",
+        "description": "Platform özelliklerini koruyun ve geliştirin",
+        "amount": "$15/ay"
+      },
+      "community": {
+        "title": "Topluluk Desteği",
+        "description": "Esperanto topluluğunu yönetin ve destekleyin",
+        "amount": "$20/ay"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "welcome": "Esperanta Skanduko'ya Hoş Geldiniz",
+      "description": "Kapsamlı öğrenme kaynakları, kitaplar ve etkileşimli araçlar koleksiyonumuz aracılığıyla Esperanto'nun güzelliğini keşfedin."
+    },
+    "actions": {
+      "getStarted": "Başlayın",
+      "learnMore": "Daha Fazla Bilgi"
+    },
+    "features": {
+      "title": "Özellikler",
+      "items": {
+        "library": {
+          "title": "Kapsamlı Kütüphane",
+          "description": "Binlerce Esperanto kitabına, makalesine ve öğrenme materyaline erişin"
+        },
+        "interactive": {
+          "title": "Etkileşimli Öğrenme",
+          "description": "Becerilerinizi geliştirmek için etkileşimli araçlar ve alıştırmalarla katılın"
+        },
+        "community": {
+          "title": "Küresel Topluluk",
+          "description": "Dünya çapındaki Esperanto öğrencileri ve konuşmacılarıyla bağlantı kurun"
+        }
+      }
+    }
+  },
+  "about": {
+    "page": {
+      "title": "Esperanta Skanduko Hakkında",
+      "description": "Esperanta Skanduko, Esperanto öğrenmeyi herkes için erişilebilir ve ilgi çekici hale getirmeye adanmıştır."
+    },
+    "sections": {
+      "mission": {
+        "title": "Misyonumuz",
+        "description": "Esperanto edebiyatını, öğrenme materyallerini ve kültürel kaynakları dünya ile korumak ve paylaşmak."
+      },
+      "esperanto": {
+        "title": "Esperanto Nedir?",
+        "description": "Esperanto, kolay öğrenme ve uluslararası iletişim için tasarlanmış uluslararası bir yardımcı dildir."
+      }
+    }
+  },
+  "library": {
+    "page": {
+      "title": "Kütüphane"
+    },
+    "search": {
+      "placeholder": "Kitap ara..."
+    },
+    "filters": {
+      "categories": "Kategoriler",
+      "allBooks": "Tüm Kitaplar"
+    },
+    "results": {
+      "noResults": "Kitap bulunamadı",
+      "booksFound": "kitap bulundu"
+    }
+  },
+  "footer": {
+    "legal": {
+      "copyright": "Tüm hakları saklıdır",
+      "madeWith": "ile yapıldı",
+      "forCommunity": "Esperanto topluluğu için",
+      "developedBy": "❤️ ile geliştirildi"
+    },
+    "projects": {
+      "title": "İlgili Projeler",
+      "esperantoAnalyzer": {
+        "title": "Esperanto Analiz Edici",
+        "description": "Esperanto metin analizi için NPM paketi"
+      }
+    },
+    "social": {
+      "title": "Bağlantı",
+      "links": {
+        "github": "GitHub",
+        "issues": "Sorun Bildir",
+        "contribute": "Katkıda Bulun"
+      }
+    },
+    "acknowledgments": {
+      "title": "Teşekkürler",
+      "gutenberg": "Ücretsiz Esperanto kitapları sağladığı için Project Gutenberg'e özel teşekkürler"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Sayfa Bulunamadı",
+      "action": "Ana Sayfaya Dön"
+    },
+    "general": {
+      "title": "Bir şeyler yanlış gitti",
+      "action": "Tekrar Deneyin"
+    }
+  },
+  "auth": {
+    "actions": {
+      "signUp": "Kaydol",
+      "logIn": "Giriş Yap",
+      "signOut": "Çıkış Yap"
+    },
+    "fields": {
+      "email": "E-posta",
+      "password": "Şifre",
+      "confirmPassword": "Şifreyi Onayla"
+    },
+    "links": {
+      "forgotPassword": "Şifremi Unuttum?",
+      "alreadyHaveAccount": "Zaten hesabınız var mı?",
+      "noAccount": "Hesabınız yok mu?"
+    },
+    "status": {
+      "creatingAccount": "Hesabınız oluşturuluyor...",
+      "welcomeBack": "Tekrar Hoş Geldiniz",
+      "getStarted": "Başlayın"
+    },
+    "errors": {
+      "validation": {
+        "emailRequired": "E-posta gereklidir",
+        "emailInvalid": "Lütfen geçerli bir e-posta adresi girin",
+        "passwordRequired": "Şifre gereklidir",
+        "passwordTooShort": "Şifre en az 6 karakter olmalıdır",
+        "passwordsNoMatch": "Şifreler eşleşmiyor"
+      },
+      "firebase": {
+        "emailInUse": "Bu e-posta zaten kullanılıyor",
+        "userNotFound": "Bu e-posta ile hiçbir hesap bulunamadı",
+        "wrongPassword": "Yanlış şifre",
+        "tooManyAttempts": "Fazla başarısız giriş denemesi. Lütfen daha sonra tekrar deneyin",
+        "networkError": "Ağ hatası. Lütfen bağlantınızı kontrol edin",
+        "unknownError": "Beklenmeyen bir hata oluştu. Lütfen tekrar deneyin"
+      }
+    },
+    "success": {
+      "accountCreated": "Hesap başarıyla oluşturuldu!",
+      "signedIn": "Tekrar hoş geldiniz!",
+      "signedOut": "Başarıyla çıkış yapıldı"
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "Esperanto Kaynakları",
+      "subtitle": "Öğrenme materyalleri, araçlar ve topluluk kaynaklarının kapsamlı koleksiyonu"
+    },
+    "search": {
+      "label": "Kaynakları ara...",
+      "placeholder": "Başlık, açıklama veya etiketlere göre ara..."
+    },
+    "filters": {
+      "filterBy": "Kategoriye göre filtrele",
+      "clearAll": "Tüm Filtreleri Temizle"
+    },
+    "sections": {
+      "featured": "Öne Çıkan Kaynaklar",
+      "total": "Toplam Kaynaklar",
+      "concertVideos": {
+        "title": "Esperanto Canlı Konser Videoları",
+        "description": "Dünya çapındaki Esperanto müzisyenlerinin performanslarını izleyin"
+      }
+    },
+    "results": {
+      "showing": "{{count}} kaynak gösteriliyor",
+      "noResults": "Kaynak bulunamadı",
+      "noResultsDescription": "Arama veya filtre kriterlerinizi ayarlamayı deneyin"
+    },
+    "categories": {
+      "all": "Tüm Kaynaklar",
+      "learning": "Öğrenme Kaynakları",
+      "grammar": "Dilbilgisi Kılavuzları",
+      "tools": "Araçlar ve Klavyeler",
+      "music": "Müzik ve Sanatçılar",
+      "audio": "Ses ve Podcast'ler",
+      "video": "Video Kaynakları",
+      "community": "Topluluk ve Haritalar",
+      "events": "Etkinlikler ve Kurslar",
+      "organizations": "Organizasyonlar",
+      "culture": "Kültür ve Tarih",
+      "news": "Haberler ve Edebiyat",
+      "books": "Kitaplar ve Okuma"
+    },
+    "difficulty": {
+      "beginner": "Başlangıç",
+      "intermediate": "Orta",
+      "advanced": "İleri",
+      "allLevels": "Tüm Seviyeler"
+    },
+    "labels": {
+      "free": "Ücretsiz",
+      "paid": "Ücretli",
+      "freemium": "Kısmen Ücretsiz",
+      "requiresAccount": "Hesap Gerekli",
+      "external": "Harici Bağlantı",
+      "featured": "Öne Çıkan",
+      "new": "Yeni",
+      "popular": "Popüler"
+    },
+    "actions": {
+      "visitSite": "Siteyi Ziyaret Et",
+      "learnMore": "Daha Fazla Bilgi",
+      "download": "İndir",
+      "register": "Kaydol",
+      "viewDetails": "Detayları Gör"
+    }
+  }
+}

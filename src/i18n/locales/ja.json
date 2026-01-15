@@ -1,0 +1,326 @@
+{
+  "_meta": {
+    "language": "日本語",
+    "code": "ja",
+    "translationStatus": "human-translated",
+    "note": "完全な日本語翻訳 - 自然な日本語表現"
+  },
+  "common": {
+    "site": {
+      "name": "Esperanta\nSkanaduko",
+      "tagline": "包括的なエスペラント学習・リソースサイト",
+      "description": "包括的なリソース、インタラクティブツール、コミュニティとのつながりを通じてエスペラントを学びましょう。厳選された200以上の学習教材、書籍、音楽、動画などにアクセスできます。"
+    },
+    "navigation": {
+      "home": "ホーム",
+      "about": "について",
+      "library": "ライブラリ"
+    },
+    "ui": {
+      "loading": "読み込み中...",
+      "error": "エラー",
+      "language": "言語",
+      "switchLanguage": "言語を切り替える"
+    }
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Esperanta Skanaduko - オンラインでエスペラントを学ぶ",
+        "description": "エスペラント学習の総合ハブ。リソース、書籍、音楽、コミュニティとのつながり、インタラクティブツールにアクセスして、国際語をマスターしましょう。",
+        "keywords": "エスペラント学習, エスペラントを学ぶ, 国際語, 人工言語, 言語学習プラットフォーム"
+      },
+      "resources": {
+        "title": "エスペラントリソース - 学習教材とツール",
+        "description": "文法ガイド、音楽、ポッドキャスト、動画、コミュニティマップ、コース、ツールを含む200以上の包括的なエスペラント学習リソースを発見しましょう。初心者から上級者まで無料のリソース。",
+        "keywords": "エスペラント学習リソース, エスペラントを学ぶ, エスペラント文法, エスペラント音楽, エスペラントポッドキャスト, エスペラントコミュニティ, エスペラントコース, エスペラントツール, 言語学習"
+      },
+      "library": {
+        "title": "エスペラント図書館 - 書籍と読書教材",
+        "description": "厳選されたエスペラントの書籍、小説、読書教材のコレクションをご覧ください。すべてのレベルの学習者に最適です。",
+        "keywords": "エスペラント書籍, エスペラント図書館, エスペラント読書, エスペラント文学, エスペラント読書を学ぶ"
+      },
+      "concerts": {
+        "title": "エスペラントライブコンサート動画",
+        "description": "世界中のエスペラント音楽家によるライブパフォーマンスをご覧ください。エスペラントコミュニティの活気ある音楽文化を発見しましょう。",
+        "keywords": "エスペラント音楽, エスペラントコンサート, エスペラント音楽家, エスペラント文化, ライブ音楽"
+      }
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "ホーム",
+      "library": "ライブラリ",
+      "about": "について",
+      "resources": "リソース"
+    },
+    "secondary": {
+      "contact": "お問い合わせ",
+      "donate": "寄付",
+      "analyzer": "分析ツール"
+    }
+  },
+  "donate": {
+    "hero": {
+      "title": "私たちのミッションをサポート",
+      "subtitle": "Esperanta Skanadukoを世界中の学習者に無料で提供し続けるために、ご支援ください。皆様のサポートにより、プラットフォームの維持、新しいコンテンツの作成、コミュニティの成長が可能になります。"
+    },
+    "sections": {
+      "methods": {
+        "title": "お好みの方法を選択"
+      },
+      "impact": {
+        "title": "あなたの影響力",
+        "description": "どのような金額であっても、すべての寄付が私たちのミッション継続に役立ちます。あなたのサポートがどのように違いを生むかをご紹介します："
+      },
+      "thankYou": {
+        "title": "Dankon! ありがとうございます！",
+        "message": "皆様の寛大な心が、世界中の学習者とエスペラントの美しさを保存し共有することを可能にします。一緒に、文化と言語を超えた架け橋を構築しています。"
+      }
+    },
+    "actions": {
+      "donateNow": "今すぐ寄付する"
+    },
+    "methods": {
+      "paypal": {
+        "title": "PayPal",
+        "description": "安全な一回限りまたは定期寄付"
+      },
+      "buymeacoffee": {
+        "title": "Buy Me a Coffee",
+        "description": "コーヒー代でサポート"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "description": "継続的な開発のための毎月のサポート"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "title": "サーバーホスティング",
+        "description": "世界中のアクセスのために24時間365日ウェブサイトを稼働",
+        "amount": "$10/月"
+      },
+      "content": {
+        "title": "コンテンツ作成",
+        "description": "新しい学習教材とリソースの開発",
+        "amount": "$25/月"
+      },
+      "development": {
+        "title": "開発ツール",
+        "description": "プラットフォーム機能の維持と改善",
+        "amount": "$15/月"
+      },
+      "community": {
+        "title": "コミュニティサポート",
+        "description": "エスペラントコミュニティのモデレートとサポート",
+        "amount": "$20/月"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "welcome": "Esperanta Skandukoへようこそ",
+      "description": "包括的な学習リソース、書籍、インタラクティブツールのコレクションを通じて、エスペラントの美しさを発見してください。"
+    },
+    "actions": {
+      "getStarted": "始める",
+      "learnMore": "詳しく知る"
+    },
+    "features": {
+      "title": "特徴",
+      "items": {
+        "library": {
+          "title": "包括的なライブラリ",
+          "description": "何千ものエスペラントの書籍、記事、学習教材にアクセス"
+        },
+        "interactive": {
+          "title": "インタラクティブ学習",
+          "description": "インタラクティブツールと練習問題でスキルを向上"
+        },
+        "community": {
+          "title": "グローバルコミュニティ",
+          "description": "世界中のエスペラント学習者や話者とつながる"
+        }
+      }
+    }
+  },
+  "about": {
+    "page": {
+      "title": "Esperanta Skandukoについて",
+      "description": "Esperanta Skandukoは、すべての人がエスペラント学習をアクセスしやすく、魅力的にすることに尽力しています。"
+    },
+    "sections": {
+      "mission": {
+        "title": "私たちの使命",
+        "description": "エスペラントの文学、学習教材、文化的リソースを世界と共有し保存すること。"
+      },
+      "esperanto": {
+        "title": "エスペラントとは？",
+        "description": "エスペラントは、学習の容易さと国際的なコミュニケーションのために設計された国際補助語です。"
+      }
+    }
+  },
+  "library": {
+    "page": {
+      "title": "ライブラリ"
+    },
+    "search": {
+      "placeholder": "書籍を検索..."
+    },
+    "filters": {
+      "categories": "カテゴリ",
+      "allBooks": "すべての書籍"
+    },
+    "results": {
+      "noResults": "書籍が見つかりません",
+      "booksFound": "冊見つかりました"
+    }
+  },
+  "footer": {
+    "legal": {
+      "copyright": "著作権所有",
+      "madeWith": "作成：",
+      "forCommunity": "エスペラントコミュニティのために",
+      "developedBy": "愛情を込めて開発："
+    },
+    "projects": {
+      "title": "関連プロジェクト",
+      "esperantoAnalyzer": {
+        "title": "Esperanto Analyzer",
+        "description": "エスペラントテキスト分析用NPMパッケージ"
+      }
+    },
+    "social": {
+      "title": "つながる",
+      "links": {
+        "github": "GitHub",
+        "issues": "問題を報告",
+        "contribute": "貢献する"
+      }
+    },
+    "acknowledgments": {
+      "title": "謝连",
+      "gutenberg": "無料のエスペラント書籍を提供してくださったプロジェクト・グーテンベルクに特別な感謝を"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "ページが見つかりません",
+      "action": "ホームに戻る"
+    },
+    "general": {
+      "title": "問題が発生しました",
+      "action": "もう一度試す"
+    }
+  },
+  "auth": {
+    "actions": {
+      "signUp": "サインアップ",
+      "logIn": "ログイン",
+      "signOut": "サインアウト"
+    },
+    "fields": {
+      "email": "メールアドレス",
+      "password": "パスワード",
+      "confirmPassword": "パスワードを確認"
+    },
+    "links": {
+      "forgotPassword": "パスワードをお忘れですか？",
+      "alreadyHaveAccount": "すでにアカウントをお持ちですか？",
+      "noAccount": "アカウントをお持ちではありませんか？"
+    },
+    "status": {
+      "creatingAccount": "アカウントを作成中...",
+      "welcomeBack": "お帰りなさい",
+      "getStarted": "始めましょう"
+    },
+    "errors": {
+      "validation": {
+        "emailRequired": "メールアドレスは必須です",
+        "emailInvalid": "有効なメールアドレスを入力してください",
+        "passwordRequired": "パスワードは必須です",
+        "passwordTooShort": "パスワードは6文字以上である必要があります",
+        "passwordsNoMatch": "パスワードが一致しません"
+      },
+      "firebase": {
+        "emailInUse": "このメールアドレスはすでに使用されています",
+        "userNotFound": "このメールアドレスのアカウントが見つかりません",
+        "wrongPassword": "パスワードが間違っています",
+        "tooManyAttempts": "試行回数が多すぎます。後で再度お試しください",
+        "networkError": "ネットワークエラー。接続を確認してください",
+        "unknownError": "予期しないエラーが発生しました。もう一度お試しください"
+      }
+    },
+    "success": {
+      "accountCreated": "アカウントが正常に作成されました！",
+      "signedIn": "お帰りなさい！",
+      "signedOut": "正常にサインアウトしました"
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "エスペラント資源",
+      "subtitle": "学習教材、ツール、コミュニティリソースの包括的なコレクション"
+    },
+    "search": {
+      "label": "リソースを検索...",
+      "placeholder": "タイトル、説明、タグで検索..."
+    },
+    "filters": {
+      "filterBy": "カテゴリでフィルター",
+      "clearAll": "すべてのフィルターをクリア"
+    },
+    "sections": {
+      "featured": "注目のリソース",
+      "total": "総リソース数",
+      "concertVideos": {
+        "title": "エスペラントライブコンサート動画",
+        "description": "世界中のエスペラントミュージシャンのパフォーマンスを視聴"
+      }
+    },
+    "results": {
+      "showing": "{{count}}件のリソースを表示",
+      "noResults": "リソースが見つかりません",
+      "noResultsDescription": "検索条件またはフィルター条件を調整してみてください"
+    },
+    "categories": {
+      "all": "すべてのリソース",
+      "learning": "学習リソース",
+      "grammar": "文法ガイド",
+      "tools": "ツールとキーボード",
+      "music": "音楽とアーティスト",
+      "audio": "音声とポッドキャスト",
+      "video": "動画リソース",
+      "community": "コミュニティと地図",
+      "events": "イベントとコース",
+      "organizations": "組織",
+      "culture": "文化と歴史",
+      "news": "ニュースと文学",
+      "books": "書籍と読書"
+    },
+    "difficulty": {
+      "beginner": "初級",
+      "intermediate": "中級",
+      "advanced": "上級",
+      "allLevels": "全レベル"
+    },
+    "labels": {
+      "free": "無料",
+      "paid": "有料",
+      "freemium": "フリーミアム",
+      "requiresAccount": "アカウント必要",
+      "external": "外部リンク",
+      "featured": "注目",
+      "new": "新着",
+      "popular": "人気"
+    },
+    "actions": {
+      "visitSite": "サイトを訪問",
+      "learnMore": "詳細を見る",
+      "download": "ダウンロード",
+      "register": "登録",
+      "viewDetails": "詳細を表示"
+    }
+  }
+}

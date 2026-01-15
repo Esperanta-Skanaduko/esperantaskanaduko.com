@@ -1,0 +1,326 @@
+{
+  "_meta": {
+    "language": "Kiswahili",
+    "code": "sw",
+    "translationStatus": "complete",
+    "note": "Tafsiri kamili ya Kiswahili - Afrika Mashariki na jamii za Kiswahili"
+  },
+  "common": {
+    "site": {
+      "name": "Esperanta\nSkanaduko",
+      "tagline": "Tovuti kamili ya kujifunza na rasilimali za Esperanto",
+      "description": "Jifunze Esperanto kupitia rasilimali kamili, zana za maingiliano, na miunganisho ya jamii. Fikia rasilimali zaidi ya 200 zilizochaguliwa, vitabu, muziki, video, na zaidi."
+    },
+    "navigation": {
+      "home": "Nyumbani",
+      "about": "Kuhusu",
+      "library": "Maktaba"
+    },
+    "ui": {
+      "loading": "Inapakia...",
+      "error": "Hitilafu",
+      "language": "Lugha",
+      "switchLanguage": "Badilisha Lugha"
+    }
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Esperanta Skanaduko - Jifunze Esperanto Mtandaoni",
+        "description": "Kituo chako kamili cha kujifunza Esperanto. Fikia rasilimali, vitabu, muziki, miunganisho ya jamii, na zana za maingiliano ili ujue lugha ya kimataifa.",
+        "keywords": "jifunza Esperanto, kujifunza Esperanto, lugha ya kimataifa, lugha iliyoundwa, jukwaa la kujifunza lugha"
+      },
+      "resources": {
+        "title": "Rasilimali za Esperanto - Vifaa vya Kujifunza na Zana",
+        "description": "Gundua rasilimali zaidi ya 200 za kujifunza Esperanto zikijumuisha miongozo ya sarufi, muziki, podikasti, video, ramani za jamii, kozi, na zana. Rasilimali za bure kwa wanafunzi wa msingi hadi wa juu.",
+        "keywords": "rasilimali za kujifunza Esperanto, jifunza Esperanto, sarufi ya Esperanto, muziki wa Esperanto, podikasti za Esperanto, jamii ya Esperanto, kozi za Esperanto, zana za Esperanto, kujifunza lugha"
+      },
+      "library": {
+        "title": "Maktaba ya Esperanto - Vitabu na Vifaa vya Kusoma",
+        "description": "Vinjari mkusanyiko wetu uliochaguliwa wa vitabu vya Esperanto, riwaya, na vifaa vya kusoma. Kamili kwa wanafunzi wa viwango vyote.",
+        "keywords": "vitabu vya Esperanto, maktaba ya Esperanto, kusoma Esperanto, fasihi ya Esperanto, jifunza kusoma Esperanto"
+      },
+      "concerts": {
+        "title": "Video za Tamasha za Moja kwa Moja za Esperanto",
+        "description": "Tazama maonyesho ya moja kwa moja kutoka kwa wanamuziki wa Esperanto duniani kote. Gundua utamaduni wa muziki wenye nguvu katika jamii ya Esperanto.",
+        "keywords": "muziki wa Esperanto, tamasha za Esperanto, wanamuziki wa Esperanto, utamaduni wa Esperanto, muziki wa moja kwa moja"
+      }
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "Nyumbani",
+      "library": "Maktaba",
+      "about": "Kuhusu",
+      "resources": "Rasilimali"
+    },
+    "secondary": {
+      "contact": "Wasiliana",
+      "donate": "Changia",
+      "analyzer": "Kichambua"
+    }
+  },
+  "donate": {
+    "hero": {
+      "title": "Unga Mkono Dhamira Yetu",
+      "subtitle": "Tusaidie kuweka Esperanta Skanaduko bila malipo na inayopatikana kwa wanafunzi duniani kote. Msaada wako unatupa uwezo wa kudumisha jukwaa, kuunda maudhui mapya, na kukuza jamii."
+    },
+    "sections": {
+      "methods": {
+        "title": "Chagua Njia Yako Unayopendelea"
+      },
+      "impact": {
+        "title": "Athari Yako",
+        "description": "Kila mchango, bila kujali ukubwa, unatusaidia kuendelea na dhamira yetu. Hapa ndipo msaada wako unavyoleta tofauti:"
+      },
+      "thankYou": {
+        "title": "Dankon! Asante!",
+        "message": "Ukarimu wako unasaidia kuhifadhi na kushiriki uzuri wa Esperanto na wanafunzi duniani kote. Pamoja, tunajenga madaraja kati ya tamaduni na lugha."
+      }
+    },
+    "actions": {
+      "donateNow": "Changia Sasa"
+    },
+    "methods": {
+      "paypal": {
+        "title": "PayPal",
+        "description": "Michango salama ya mara moja au ya kudumu"
+      },
+      "buymeacoffee": {
+        "title": "Buy Me a Coffee",
+        "description": "Unga mkono kwa mchango wa kahawa"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "description": "Msaada wa kila mwezi kwa maendeleo ya kudumu"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "title": "Upangishaji wa Seva",
+        "description": "Weka tovuti ikifanya kazi saa 24 kwa ufikiaji wa kimataifa",
+        "amount": "KSh1,300/mwezi"
+      },
+      "content": {
+        "title": "Uundaji wa Maudhui",
+        "description": "Tengeneza vifaa vipya vya kujifunza na rasilimali",
+        "amount": "KSh3,250/mwezi"
+      },
+      "development": {
+        "title": "Zana za Maendeleo",
+        "description": "Dumisha na uboresha vipengele vya jukwaa",
+        "amount": "KSh1,950/mwezi"
+      },
+      "community": {
+        "title": "Msaada wa Jamii",
+        "description": "Simamia na usaidie jamii ya Esperanto",
+        "amount": "KSh2,600/mwezi"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "welcome": "Karibu Esperanta Skanduko",
+      "description": "Gundua uzuri wa Esperanto kupitia mkusanyiko wetu kamili wa rasilimali za kujifunza, vitabu, na zana za maingiliano."
+    },
+    "actions": {
+      "getStarted": "Anza",
+      "learnMore": "Jifunze Zaidi"
+    },
+    "features": {
+      "title": "Vipengele",
+      "items": {
+        "library": {
+          "title": "Maktaba Kamili",
+          "description": "Fikia maelfu ya vitabu vya Esperanto, makala, na vifaa vya kujifunza"
+        },
+        "interactive": {
+          "title": "Kujifunza kwa Maingiliano",
+          "description": "Jiunge na zana za maingiliano na mazoezi ili kuboresha ujuzi wako"
+        },
+        "community": {
+          "title": "Jamii ya Kimataifa",
+          "description": "Unganisha na wanafunzi na wazungumzaji wa Esperanto kutoka duniani kote"
+        }
+      }
+    }
+  },
+  "about": {
+    "page": {
+      "title": "Kuhusu Esperanta Skanduko",
+      "description": "Esperanta Skanduko imejitolea kufanya kujifunza Esperanto kuwe rahisi na kuvutia kwa kila mtu."
+    },
+    "sections": {
+      "mission": {
+        "title": "Dhamira Yetu",
+        "description": "Kuhifadhi na kushiriki fasihi ya Esperanto, vifaa vya kujifunza, na rasilimali za kitamaduni na ulimwengu."
+      },
+      "esperanto": {
+        "title": "Esperanto ni Nini?",
+        "description": "Esperanto ni lugha msaidizi ya kimataifa iliyoundwa kwa ajili ya urahisi wa kujifunza na mawasiliano ya kimataifa."
+      }
+    }
+  },
+  "library": {
+    "page": {
+      "title": "Maktaba"
+    },
+    "search": {
+      "placeholder": "Tafuta vitabu..."
+    },
+    "filters": {
+      "categories": "Kategoria",
+      "allBooks": "Vitabu Vyote"
+    },
+    "results": {
+      "noResults": "Hakuna vitabu vilivyopatikana",
+      "booksFound": "vitabu vimepatikana"
+    }
+  },
+  "footer": {
+    "legal": {
+      "copyright": "Haki zote zimehifadhiwa",
+      "madeWith": "Imetengenezwa kwa",
+      "forCommunity": "kwa jamii ya Esperanto",
+      "developedBy": "Imetengenezwa kwa ❤️ na"
+    },
+    "projects": {
+      "title": "Miradi Inayohusiana",
+      "esperantoAnalyzer": {
+        "title": "Kichambua Esperanto",
+        "description": "Kifurushi cha NPM cha uchambuzi wa maandishi ya Esperanto"
+      }
+    },
+    "social": {
+      "title": "Unganisha",
+      "links": {
+        "github": "GitHub",
+        "issues": "Ripoti Tatizo",
+        "contribute": "Changia"
+      }
+    },
+    "acknowledgments": {
+      "title": "Kutambua",
+      "gutenberg": "Shukrani maalum kwa Mradi Gutenberg kwa kutoa vitabu vya bure vya Esperanto"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Ukurasa Haujapatikana",
+      "action": "Rudi Nyumbani"
+    },
+    "general": {
+      "title": "Kuna kitu kimeenda vibaya",
+      "action": "Jaribu Tena"
+    }
+  },
+  "auth": {
+    "actions": {
+      "signUp": "Jisajili",
+      "logIn": "Ingia",
+      "signOut": "Toka"
+    },
+    "fields": {
+      "email": "Barua pepe",
+      "password": "Nenosiri",
+      "confirmPassword": "Thibitisha Nenosiri"
+    },
+    "links": {
+      "forgotPassword": "Umesahau Nenosiri?",
+      "alreadyHaveAccount": "Tayari una akaunti?",
+      "noAccount": "Huna akaunti?"
+    },
+    "status": {
+      "creatingAccount": "Inaunda akaunti yako...",
+      "welcomeBack": "Karibu Tena",
+      "getStarted": "Anza"
+    },
+    "errors": {
+      "validation": {
+        "emailRequired": "Barua pepe inahitajika",
+        "emailInvalid": "Tafadhali ingiza anwani halali ya barua pepe",
+        "passwordRequired": "Nenosiri linahitajika",
+        "passwordTooShort": "Nenosiri lazima liwe na angalau herufi 6",
+        "passwordsNoMatch": "Nenosiri hazifanani"
+      },
+      "firebase": {
+        "emailInUse": "Barua pepe hii tayari inatumika",
+        "userNotFound": "Hakuna akaunti iliyopatikana na barua pepe hii",
+        "wrongPassword": "Nenosiri si sahihi",
+        "tooManyAttempts": "Majaribio mengi yameshindikana. Tafadhali jaribu tena baadaye",
+        "networkError": "Hitilafu ya mtandao. Tafadhali angalia muunganisho wako",
+        "unknownError": "Hitilafu isiyotarajiwa imetokea. Tafadhali jaribu tena"
+      }
+    },
+    "success": {
+      "accountCreated": "Akaunti imeundwa kwa mafanikio!",
+      "signedIn": "Karibu tena!",
+      "signedOut": "Umetoka kwa mafanikio"
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "Rasilimali za Esperanto",
+      "subtitle": "Mkusanyiko kamili wa vifaa vya kujifunza, zana, na rasilimali za jamii"
+    },
+    "search": {
+      "label": "Tafuta rasilimali...",
+      "placeholder": "Tafuta kwa kichwa, maelezo, au lebo..."
+    },
+    "filters": {
+      "filterBy": "Chuja kwa kategoria",
+      "clearAll": "Futa Vichujio Vyote"
+    },
+    "sections": {
+      "featured": "Rasilimali Zilizoangaziwa",
+      "total": "Jumla ya Rasilimali",
+      "concertVideos": {
+        "title": "Video za Tamasha za Moja kwa Moja za Esperanto",
+        "description": "Tazama maonyesho kutoka kwa wanamuziki wa Esperanto duniani kote"
+      }
+    },
+    "results": {
+      "showing": "Inaonyesha rasilimali {{count}}",
+      "noResults": "Hakuna rasilimali zilizopatikana",
+      "noResultsDescription": "Jaribu kurekebisha utafutaji wako au vigezo vya kuchuja"
+    },
+    "categories": {
+      "all": "Rasilimali Zote",
+      "learning": "Rasilimali za Kujifunza",
+      "grammar": "Miongozo ya Sarufi",
+      "tools": "Zana na Vibonye",
+      "music": "Muziki na Wasanii",
+      "audio": "Sauti na Podikasti",
+      "video": "Rasilimali za Video",
+      "community": "Jamii na Ramani",
+      "events": "Matukio na Kozi",
+      "organizations": "Mashirika",
+      "culture": "Utamaduni na Historia",
+      "news": "Habari na Fasihi",
+      "books": "Vitabu na Kusoma"
+    },
+    "difficulty": {
+      "beginner": "Mwanzo",
+      "intermediate": "Wa Kati",
+      "advanced": "Wa Juu",
+      "allLevels": "Viwango Vyote"
+    },
+    "labels": {
+      "free": "Bure",
+      "paid": "Imelipwa",
+      "freemium": "Freemium",
+      "requiresAccount": "Inahitaji Akaunti",
+      "external": "Kiungo cha Nje",
+      "featured": "Iliyoangaziwa",
+      "new": "Mpya",
+      "popular": "Maarufu"
+    },
+    "actions": {
+      "visitSite": "Tembelea Tovuti",
+      "learnMore": "Jifunze Zaidi",
+      "download": "Pakua",
+      "register": "Jisajili",
+      "viewDetails": "Angalia Maelezo"
+    }
+  }
+}

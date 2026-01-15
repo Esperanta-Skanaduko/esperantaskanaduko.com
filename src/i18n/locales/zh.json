@@ -1,0 +1,322 @@
+{
+  "_meta": {
+    "language": "简体中文",
+    "code": "zh",
+    "translationStatus": "human-translated",
+    "note": "简体中文完整翻译 - 标准普通话词汇"
+  },
+  "common": {
+    "site": {
+      "name": "Esperanta\nSkanaduko",
+      "tagline": "综合世界语学习与资源网站",
+      "description": "通过全面的资源、互动工具和社区联系学习世界语。访问200多种精选学习材料、书籍、音乐、视频等内容。"
+    },
+    "navigation": {
+      "home": "首页",
+      "about": "关于",
+      "library": "图书馆"
+    },
+    "ui": {
+      "loading": "加载中...",
+      "error": "错误",
+      "language": "语言",
+      "switchLanguage": "切换语言"
+    }
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Esperanta Skanaduko - 在线学习世界语",
+        "description": "您的世界语学习综合中心。访问资源、书籍、音乐、社区联系和互动工具，掌握这门国际语言。",
+        "keywords": "学习世界语, 世界语学习, 国际语言, 人造语言, 语言学习平台"
+      },
+      "resources": {
+        "title": "世界语资源 - 学习材料与工具",
+        "description": "发现200多种世界语综合学习资源，包括语法指南、音乐、播客、视频、社区地图、课程和工具。从初学者到高级学习者的免费资源。",
+        "keywords": "世界语学习资源, 学习世界语, 世界语语法, 世界语音乐, 世界语播客, 世界语社区, 世界语课程, 世界语工具, 语言学习"
+      },
+      "library": {
+        "title": "世界语图书馆 - 书籍与阅读材料",
+        "description": "浏览我们精选的世界语书籍、小说和阅读材料。适合所有等级的学习者。",
+        "keywords": "世界语书籍, 世界语图书馆, 世界语阅读, 世界语文学, 学习世界语阅读"
+      },
+      "concerts": {
+        "title": "世界语现场音乐会视频",
+        "description": "观看来自全球世界语音乐家的现场表演。发现世界语社区充满活力的音乐文化。",
+        "keywords": "世界语音乐, 世界语音乐会, 世界语音乐家, 世界语文化, 现场音乐"
+      }
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "首页",
+      "library": "图书馆",
+      "resources": "资源中心",
+      "donate": "捐赠",
+      "about": "关于我们"
+    }
+  },
+  "donate": {
+    "hero": {
+      "title": "支持我们的使命",
+      "subtitle": "帮助我们让 Esperanta Skanaduko 对全球学习者保持免费和可访问。您的支持让我们能够维护平台、创建新内容并壮大社区。"
+    },
+    "sections": {
+      "methods": {
+        "title": "选择您偏好的方式"
+      },
+      "impact": {
+        "title": "您的影响力",
+        "description": "每一笔捐赠，无论多少，都帮助我们继续我们的使命。这里是您的支持如何产生变化："
+      },
+      "thankYou": {
+        "title": "谢谢！",
+        "message": "您的慰慨帮助保存和分享世界语的美丽给全球学习者。我们一起在文化和语言之间搭建桥梁。"
+      }
+    },
+    "actions": {
+      "donateNow": "现在捐赠"
+    },
+    "methods": {
+      "paypal": {
+        "title": "PayPal",
+        "description": "安全的一次性或定期捐赠"
+      },
+      "buymeacoffee": {
+        "title": "Buy Me a Coffee",
+        "description": "以咖啡捐赠的方式支持"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "description": "月度支持持续开发"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "title": "服务器托管",
+        "description": "保持网站全天吇24小时运行，供全球访问",
+        "amount": "$10/月"
+      },
+      "content": {
+        "title": "内容创作",
+        "description": "开发新的学习材料和资源",
+        "amount": "$25/月"
+      },
+      "development": {
+        "title": "开发工具",
+        "description": "维护和改进平台功能",
+        "amount": "$15/月"
+      },
+      "community": {
+        "title": "社区支持",
+        "description": "管理和支持世界语社区",
+        "amount": "$20/月"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "welcome": "欢迎来到 Esperanta Skanduko",
+      "description": "通过我们全面的学习资源、书籍和互动工具，发现世界语的美丽。"
+    },
+    "actions": {
+      "getStarted": "开始使用",
+      "learnMore": "了解更多"
+    },
+    "features": {
+      "title": "功能特点",
+      "items": {
+        "library": {
+          "title": "综合图书馆",
+          "description": "访问数千个世界语书籍、文章和学习材料"
+        },
+        "interactive": {
+          "title": "互动学习",
+          "description": "使用互动工具和练习来提高您的技能"
+        },
+        "community": {
+          "title": "全球社区",
+          "description": "与全球世界语学习者和爱好者联系"
+        }
+      }
+    }
+  },
+  "about": {
+    "page": {
+      "title": "关于 Esperanta Skanduko",
+      "description": "Esperanta Skanduko 致力于让每个人都能轻松愉快地学习世界语。"
+    },
+    "sections": {
+      "mission": {
+        "title": "我们的使命",
+        "description": "保存和分享世界语文学、学习材料和文化资源给全世界。"
+      },
+      "esperanto": {
+        "title": "什么是世界语？",
+        "description": "世界语是一种国际辅助语言，设计目的是便于学习和国际交流。"
+      }
+    }
+  },
+  "library": {
+    "page": {
+      "title": "图书馆"
+    },
+    "search": {
+      "placeholder": "搜索书籍..."
+    },
+    "filters": {
+      "categories": "类别",
+      "allBooks": "所有书籍"
+    },
+    "results": {
+      "noResults": "未找到书籍",
+      "booksFound": "本书籍"
+    }
+  },
+  "footer": {
+    "legal": {
+      "copyright": "保留所有权利",
+      "madeWith": "用心制作",
+      "forCommunity": "为世界语社区",
+      "developedBy": "由 ❤️ 开发"
+    },
+    "projects": {
+      "title": "相关项目",
+      "esperantoAnalyzer": {
+        "title": "Esperanto Analyzer",
+        "description": "用于世界语文本分析的 NPM 包"
+      }
+    },
+    "social": {
+      "title": "联系",
+      "links": {
+        "github": "GitHub",
+        "issues": "报告问题",
+        "contribute": "贡献"
+      }
+    },
+    "acknowledgments": {
+      "title": "鸣谢",
+      "gutenberg": "特别感谢古腾堡计划提供免费的世界语书籍"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "页面未找到",
+      "action": "返回首页"
+    },
+    "general": {
+      "title": "出事了",
+      "action": "重试"
+    }
+  },
+  "auth": {
+    "actions": {
+      "signUp": "注册",
+      "logIn": "登录",
+      "signOut": "退出"
+    },
+    "fields": {
+      "email": "电子邮件",
+      "password": "密码",
+      "confirmPassword": "确认密码"
+    },
+    "links": {
+      "forgotPassword": "忘记密码？",
+      "alreadyHaveAccount": "已有账户？",
+      "noAccount": "没有账户？"
+    },
+    "status": {
+      "creatingAccount": "正在创建您的账户...",
+      "welcomeBack": "欢迎回来",
+      "getStarted": "开始使用"
+    },
+    "errors": {
+      "validation": {
+        "emailRequired": "需要电子邮件",
+        "emailInvalid": "请输入有效的电子邮件地址",
+        "passwordRequired": "需要密码",
+        "passwordTooShort": "密码必须至少为6个字符",
+        "passwordsNoMatch": "密码不匹配"
+      },
+      "firebase": {
+        "emailInUse": "该电子邮件已被使用",
+        "userNotFound": "找不到此电子邮件的账户",
+        "wrongPassword": "密码不正确",
+        "tooManyAttempts": "失败次数过多。请稍后再试",
+        "networkError": "网络错误。请检查您的连接",
+        "unknownError": "发生意外错误。请再试一次"
+      }
+    },
+    "success": {
+      "accountCreated": "账户创建成功！",
+      "signedIn": "欢迎回来！",
+      "signedOut": "退出成功"
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "世界语资源",
+      "subtitle": "学习材料、工具和社区资源的综合集合"
+    },
+    "search": {
+      "label": "搜索资源...",
+      "placeholder": "按标题、描述或标签搜索..."
+    },
+    "filters": {
+      "filterBy": "按类别筛选",
+      "clearAll": "清除所有筛选"
+    },
+    "sections": {
+      "featured": "精选资源",
+      "total": "总资源",
+      "concertVideos": {
+        "title": "世界语现场音乐会视频",
+        "description": "观看来自全球世界语音乐家的表演"
+      }
+    },
+    "results": {
+      "showing": "显示 {{count}} 个资源",
+      "noResults": "未找到资源",
+      "noResultsDescription": "请尝试调整您的搜索或筛选条件"
+    },
+    "categories": {
+      "all": "所有资源",
+      "learning": "学习资源",
+      "grammar": "语法指南",
+      "tools": "工具和键盘",
+      "music": "音乐与艺术家",
+      "audio": "音频与播客",
+      "video": "视频资源",
+      "community": "社区与地图",
+      "events": "活动与课程",
+      "organizations": "组织",
+      "culture": "文化与历史",
+      "news": "新闻与文学",
+      "books": "书籍与阅读"
+    },
+    "difficulty": {
+      "beginner": "初学者",
+      "intermediate": "中级",
+      "advanced": "高级",
+      "allLevels": "所有水平"
+    },
+    "labels": {
+      "free": "免费",
+      "paid": "付费",
+      "freemium": "部分免费",
+      "requiresAccount": "需要账户",
+      "external": "外部链接",
+      "featured": "精选",
+      "new": "新",
+      "popular": "热门"
+    },
+    "actions": {
+      "visitSite": "访问网站",
+      "learnMore": "了解更多",
+      "download": "下载",
+      "register": "注册",
+      "viewDetails": "查看详情"
+    }
+  }
+}

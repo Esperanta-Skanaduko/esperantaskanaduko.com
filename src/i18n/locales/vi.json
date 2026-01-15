@@ -1,0 +1,326 @@
+{
+  "_meta": {
+    "language": "Tiếng Việt",
+    "code": "vi",
+    "translationStatus": "complete",
+    "note": "Bản dịch Tiếng Việt hoàn chỉnh - Việt Nam"
+  },
+  "common": {
+    "site": {
+      "name": "Esperanta\nSkanaduko",
+      "tagline": "Một trang web học tập và tài nguyên Esperanto toàn diện",
+      "description": "Học Esperanto thông qua các tài nguyên toàn diện, công cụ tương tác và kết nối cộng đồng. Truy cập hơn 200 tài liệu học tập, sách, âm nhạc, video và nhiều hơn nữa."
+    },
+    "navigation": {
+      "home": "Trang chủ",
+      "about": "Giới thiệu",
+      "library": "Thư viện"
+    },
+    "ui": {
+      "loading": "Đang tải...",
+      "error": "Lỗi",
+      "language": "Ngôn ngữ",
+      "switchLanguage": "Chuyển ngôn ngữ"
+    }
+  },
+  "seo": {
+    "pages": {
+      "home": {
+        "title": "Esperanta Skanaduko - Học Esperanto Trực Tuyến",
+        "description": "Trung tâm toàn diện của bạn để học Esperanto. Truy cập tài nguyên, sách, âm nhạc, kết nối cộng đồng và công cụ tương tác để thành thạo ngôn ngữ quốc tế.",
+        "keywords": "học Esperanto, học tập Esperanto, ngôn ngữ quốc tế, ngôn ngữ nhân tạo, nền tảng học ngôn ngữ"
+      },
+      "resources": {
+        "title": "Tài nguyên Esperanto - Tài liệu & Công cụ Học tập",
+        "description": "Khám phá hơn 200 tài nguyên học Esperanto toàn diện bao gồm hướng dẫn ngữ pháp, âm nhạc, podcast, video, bản đồ cộng đồng, khóa học và công cụ. Tài nguyên miễn phí cho người học từ sơ cấp đến nâng cao.",
+        "keywords": "tài nguyên học Esperanto, học Esperanto, ngữ pháp Esperanto, âm nhạc Esperanto, podcast Esperanto, cộng đồng Esperanto, khóa học Esperanto, công cụ Esperanto, học ngôn ngữ"
+      },
+      "library": {
+        "title": "Thư viện Esperanto - Sách & Tài liệu Đọc",
+        "description": "Duyệt qua bộ sưu tập sách Esperanto, tiểu thuyết và tài liệu đọc được tuyển chọn của chúng tôi. Hoàn hảo cho người học ở tất cả các trình độ.",
+        "keywords": "sách Esperanto, thư viện Esperanto, đọc Esperanto, văn học Esperanto, học đọc Esperanto"
+      },
+      "concerts": {
+        "title": "Video Hòa nhạc Trực tiếp Esperanto",
+        "description": "Xem các buổi biểu diễn trực tiếp từ các nhạc sĩ Esperanto trên toàn thế giới. Khám phá nền văn hóa âm nhạc sôi động trong cộng đồng Esperanto.",
+        "keywords": "âm nhạc Esperanto, hòa nhạc Esperanto, nhạc sĩ Esperanto, văn hóa Esperanto, nhạc trực tiếp"
+      }
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "Trang chủ",
+      "library": "Thư viện",
+      "about": "Giới thiệu",
+      "resources": "Tài nguyên"
+    },
+    "secondary": {
+      "contact": "Liên hệ",
+      "donate": "Quyên góp",
+      "analyzer": "Trình phân tích"
+    }
+  },
+  "donate": {
+    "hero": {
+      "title": "Hỗ trợ Sứ mệnh của Chúng tôi",
+      "subtitle": "Giúp chúng tôi giữ cho Esperanta Skanaduko miễn phí và dễ tiếp cận cho người học trên toàn thế giới. Sự hỗ trợ của bạn cho phép chúng tôi duy trì nền tảng, tạo nội dung mới và phát triển cộng đồng."
+    },
+    "sections": {
+      "methods": {
+        "title": "Chọn Phương thức Ư a thích của Bạn"
+      },
+      "impact": {
+        "title": "Tác Động của Bạn",
+        "description": "Mỗi khoản quyên góp, dù là nhỏ, đều giúp chúng tôi tiếp tục sứ mệnh. Đây là cách sự hỗ trợ của bạn tạo ra sự khác biệt:"
+      },
+      "thankYou": {
+        "title": "Dankon! Cảm ơn!",
+        "message": "Sự hào phóng của bạn giúp bảo tồn và chia sẻ vẻ đẹp của Esperanto với người học trên toàn thế giới. Cùng nhau, chúng ta đang xây dựng những cây cầu kết nối giữa các nền văn hóa và ngôn ngữ."
+      }
+    },
+    "actions": {
+      "donateNow": "Quyên góp Ngay"
+    },
+    "methods": {
+      "paypal": {
+        "title": "PayPal",
+        "description": "Quyên góp một lần hoặc thường xuyên an toàn"
+      },
+      "buymeacoffee": {
+        "title": "Buy Me a Coffee",
+        "description": "Hỗ trợ bằng khoản quyên góp cà phê"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "description": "Hỗ trợ hàng tháng cho phát triển liên tục"
+      }
+    },
+    "impacts": {
+      "hosting": {
+        "title": "Lưu trữ Máy chủ",
+        "description": "Giữ cho trang web hoạt động 24/7 để truy cập toàn cầu",
+        "amount": "$10/tháng"
+      },
+      "content": {
+        "title": "Tạo Nội dung",
+        "description": "Phát triển tài liệu học tập và tài nguyên mới",
+        "amount": "$25/tháng"
+      },
+      "development": {
+        "title": "Công cụ Phát triển",
+        "description": "Duy trì và cải thiện các tính năng nền tảng",
+        "amount": "$15/tháng"
+      },
+      "community": {
+        "title": "Hỗ trợ Cộng đồng",
+        "description": "Quản lý và hỗ trợ cộng đồng Esperanto",
+        "amount": "$20/tháng"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "welcome": "Chào mừng đến với Esperanta Skanduko",
+      "description": "Khám phá vẻ đẹp của Esperanto thông qua bộ sưu tập toàn diện các tài nguyên học tập, sách và công cụ tương tác của chúng tôi."
+    },
+    "actions": {
+      "getStarted": "Bắt đầu",
+      "learnMore": "Tìm hiểu thêm"
+    },
+    "features": {
+      "title": "Tính năng",
+      "items": {
+        "library": {
+          "title": "Thư viện Toàn diện",
+          "description": "Truy cập hàng nghìn sách Esperanto, bài viết và tài liệu học tập"
+        },
+        "interactive": {
+          "title": "Học tập Tương tác",
+          "description": "Tham gia với các công cụ và bài tập tương tác để cải thiện kỹ năng của bạn"
+        },
+        "community": {
+          "title": "Cộng đồng Toàn cầu",
+          "description": "Kết nối với người học và người nói Esperanto từ khắp nơi trên thế giới"
+        }
+      }
+    }
+  },
+  "about": {
+    "page": {
+      "title": "Giới thiệu Esperanta Skanduko",
+      "description": "Esperanta Skanduko cam kết làm cho việc học Esperanto trở nên dễ tiếp cận và hấp dẫn cho mọi người."
+    },
+    "sections": {
+      "mission": {
+        "title": "Sứ mệnh của Chúng tôi",
+        "description": "Bảo tồn và chia sẻ văn học Esperanto, tài liệu học tập và tài nguyên văn hóa với thế giới."
+      },
+      "esperanto": {
+        "title": "Esperanto là gì?",
+        "description": "Esperanto là một ngôn ngữ phụ trợ quốc tế được thiết kế đễ dàng học và giao tiếp quốc tế."
+      }
+    }
+  },
+  "library": {
+    "page": {
+      "title": "Thư viện"
+    },
+    "search": {
+      "placeholder": "Tìm kiếm sách..."
+    },
+    "filters": {
+      "categories": "Danh mục",
+      "allBooks": "Tất cả Sách"
+    },
+    "results": {
+      "noResults": "Không tìm thấy sách",
+      "booksFound": "sách được tìm thấy"
+    }
+  },
+  "footer": {
+    "legal": {
+      "copyright": "Bảo lưu mọi quyền",
+      "madeWith": "Được tạo với",
+      "forCommunity": "cho cộng đồng Esperanto",
+      "developedBy": "Được phát triển với ❤️ bởi"
+    },
+    "projects": {
+      "title": "Dự án Liên quan",
+      "esperantoAnalyzer": {
+        "title": "Esperanto Analyzer",
+        "description": "Gói NPM cho phân tích văn bản Esperanto"
+      }
+    },
+    "social": {
+      "title": "Kết nối",
+      "links": {
+        "github": "GitHub",
+        "issues": "Báo cáo Vấn đề",
+        "contribute": "Đóng góp"
+      }
+    },
+    "acknowledgments": {
+      "title": "Lời cảm ơn",
+      "gutenberg": "Cảm ơn đặc biệt đến Project Gutenberg vì cung cấp sách Esperanto miễn phí"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Không tìm thấy Trang",
+      "action": "Về Trang chủ"
+    },
+    "general": {
+      "title": "Đã xảy ra lỗi",
+      "action": "Thử lại"
+    }
+  },
+  "auth": {
+    "actions": {
+      "signUp": "Đăng ký",
+      "logIn": "Đăng nhập",
+      "signOut": "Đăng xuất"
+    },
+    "fields": {
+      "email": "Email",
+      "password": "Mật khẩu",
+      "confirmPassword": "Xác nhận Mật khẩu"
+    },
+    "links": {
+      "forgotPassword": "Quên Mật khẩu?",
+      "alreadyHaveAccount": "Đã có tài khoản?",
+      "noAccount": "Chưa có tài khoản?"
+    },
+    "status": {
+      "creatingAccount": "Đang tạo tài khoản của bạn...",
+      "welcomeBack": "Chào mừng Trở lại",
+      "getStarted": "Bắt đầu"
+    },
+    "errors": {
+      "validation": {
+        "emailRequired": "Yêu cầu email",
+        "emailInvalid": "Vui lòng nhập địa chỉ email hợp lệ",
+        "passwordRequired": "Yêu cầu mật khẩu",
+        "passwordTooShort": "Mật khẩu phải có ít nhất 6 ký tự",
+        "passwordsNoMatch": "Mật khẩu không khớp"
+      },
+      "firebase": {
+        "emailInUse": "Email này đã được sử dụng",
+        "userNotFound": "Không tìm thấy tài khoản với email này",
+        "wrongPassword": "Mật khẩu không chính xác",
+        "tooManyAttempts": "Quá nhiều lần thử thất bại. Vui lòng thử lại sau",
+        "networkError": "Lỗi mạng. Vui lòng kiểm tra kết nối của bạn",
+        "unknownError": "Đã xảy ra lỗi không mong muốn. Vui lòng thử lại"
+      }
+    },
+    "success": {
+      "accountCreated": "Tạo tài khoản thành công!",
+      "signedIn": "Chào mừng trở lại!",
+      "signedOut": "Đăng xuất thành công"
+    }
+  },
+  "resources": {
+    "page": {
+      "title": "Tài nguyên Esperanto",
+      "subtitle": "Bộ sưu tập toàn diện về tài liệu học tập, công cụ và tài nguyên cộng đồng"
+    },
+    "search": {
+      "label": "Tìm kiếm tài nguyên...",
+      "placeholder": "Tìm theo tiêu đề, mô tả hoặc thẻ..."
+    },
+    "filters": {
+      "filterBy": "Lọc theo danh mục",
+      "clearAll": "Xóa Tất cả Bộ lọc"
+    },
+    "sections": {
+      "featured": "Tài nguyên Nổi bật",
+      "total": "Tổng số Tài nguyên",
+      "concertVideos": {
+        "title": "Video Hòa nhạc Trực tiếp Esperanto",
+        "description": "Xem các buổi biểu diễn từ các nhạc sĩ Esperanto trên toàn thế giới"
+      }
+    },
+    "results": {
+      "showing": "Hiển thị {{count}} tài nguyên",
+      "noResults": "Không tìm thấy tài nguyên",
+      "noResultsDescription": "Hãy thử điều chỉnh tiêu chí tìm kiếm hoặc bộ lọc của bạn"
+    },
+    "categories": {
+      "all": "Tất cả Tài nguyên",
+      "learning": "Tài nguyên Học tập",
+      "grammar": "Hướng dẫn Ngữ pháp",
+      "tools": "Công cụ & Bàn phím",
+      "music": "Âm nhạc & Nghệ sĩ",
+      "audio": "Âm thanh & Podcast",
+      "video": "Tài nguyên Video",
+      "community": "Cộng đồng & Bản đồ",
+      "events": "Sự kiện & Khóa học",
+      "organizations": "Tổ chức",
+      "culture": "Văn hóa & Lịch sử",
+      "news": "Tin tức & Văn học",
+      "books": "Sách & Đọc"
+    },
+    "difficulty": {
+      "beginner": "Người mới bắt đầu",
+      "intermediate": "Trung cấp",
+      "advanced": "Nâng cao",
+      "allLevels": "Tất cả Cấp độ"
+    },
+    "labels": {
+      "free": "Miễn phí",
+      "paid": "Trả phí",
+      "freemium": "Freemium",
+      "requiresAccount": "Yêu cầu Tài khoản",
+      "external": "Liên kết Bên ngoài",
+      "featured": "Nổi bật",
+      "new": "Mới",
+      "popular": "Phổ biến"
+    },
+    "actions": {
+      "visitSite": "Truy cập Trang",
+      "learnMore": "Tìm hiểu thêm",
+      "download": "Tải xuống",
+      "register": "Đăng ký",
+      "viewDetails": "Xem Chi tiết"
+    }
+  }
+}
