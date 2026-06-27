@@ -18,7 +18,30 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    /* Explicit type packages.
+     * When this field is set TypeScript ONLY uses what's listed (no auto-discovery).
+     * node       → process.env, NodeJS.Timeout, etc.  (@types/node)
+     * jest       → describe / it / expect globals      (@types/jest)
+     * @testing-library/jest-dom → toBeInTheDocument etc.
+     */
+    "types": ["node", "jest", "@testing-library/jest-dom"],
+
+    /* Path aliases — mirror exactly in vite.config.ts and jest.config.cjs */
+    "baseUrl": ".",
+    "paths": {
+      "@/*":           ["src/*"],
+      "@contexts/*":   ["src/contexts/*"],
+      "@components/*": ["src/components/*"],
+      "@frontend/*":   ["src/frontend/*"],
+      "@pages/*":      ["src/frontend/pages/*"],
+      "@theme/*":      ["src/theme/*"],
+      "@hooks/*":      ["src/hooks/*"],
+      "@utils/*":      ["src/utils/*"],
+      "@i18n/*":       ["src/i18n/*"],
+      "@backend/*":    ["src/backend/*"]
+    }
   },
   "include": ["src"],
   "exclude": [

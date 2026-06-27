@@ -5,15 +5,15 @@ import { ErrorBoundary } from '../../components/ErrorBoundary';
 import { Layout } from '../components/Layout';
 
 /**
- * Lazy-loaded page components with automatic code splitting
- * Each route is loaded on-demand for optimal performance
+ * Lazy-loaded page components with automatic code splitting.
+ * Each route is loaded on-demand for optimal performance.
  */
-const Homepage = React.lazy(() => import('../pages/homePage'));
-const PDFTest = React.lazy(() => import('../pages/pDFTest'));
-const AboutPage = React.lazy(() => import('../pages/about/aboutPage'));
+const Homepage = React.lazy(() => import('../pages/HomePage'));
+const AboutPage = React.lazy(() => import('../pages/about/AboutPage'));
 const AuthPage = React.lazy(() => import('../pages/AuthPage'));
 const LibraryPage = React.lazy(() => import('../pages/library/LibraryPage'));
 const DonatePage = React.lazy(() => import('../pages/DonatePage'));
+const NotFoundPage = React.lazy(() => import('../pages/NotFoundPage'));
 const EsperantoLiveConcertVideosPage = React.lazy(
   () => import('../pages/library/EsperantoLiveConcertVideosPage')
 );
@@ -33,7 +33,7 @@ const NewsResourcesPage = React.lazy(() => import('../pages/resources/NewsResour
 
 /**
  * Route Wrapper Component
- * Wraps each route with layout and error boundary for consistent experience
+ * Wraps each route with layout and error boundary for consistent experience.
  */
 const RouteWrapper: React.FC<{ children: React.ReactNode }> = ({ children }) => (
   <ErrorBoundary>
@@ -44,8 +44,24 @@ const RouteWrapper: React.FC<{ children: React.ReactNode }> = ({ children }) => 
 /**
  * Application Routes Configuration
  *
- * Defines all application routes with lazy loading and error boundaries.
- * Each route is wrapped in Suspense for loading states and ErrorBoundary for error handling.
+ * All routes are lazy-loaded with Suspense for loading states and
+ * ErrorBoundary for error handling.
+ *
+ * Protected routes: use <ProtectedRoute> from src/components/ProtectedRoute.tsx
+ * to require authentication. Example:
+ *
+ *   import { ProtectedRoute } from '../../components/ProtectedRoute';
+ *
+ *   <Route
+ *     path="/settings"
+ *     element={
+ *       <RouteWrapper>
+ *         <ProtectedRoute>
+ *           <SettingsPage />
+ *         </ProtectedRoute>
+ *       </RouteWrapper>
+ *     }
+ *   />
  */
 const Routes = () => {
   return (
@@ -180,14 +196,6 @@ const Routes = () => {
           }
         />
         <Route
-          path="/pdf"
-          element={
-            <RouteWrapper>
-              <PDFTest />
-            </RouteWrapper>
-          }
-        />
-        <Route
           path="/about"
           element={
             <RouteWrapper>
@@ -208,6 +216,15 @@ const Routes = () => {
           element={
             <RouteWrapper>
               <AuthPage />
+            </RouteWrapper>
+          }
+        />
+        {/* Catch-all 404 route — must be last */}
+        <Route
+          path="*"
+          element={
+            <RouteWrapper>
+              <NotFoundPage />
             </RouteWrapper>
           }
         />

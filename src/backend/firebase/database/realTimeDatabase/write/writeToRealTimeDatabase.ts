@@ -8,7 +8,10 @@ const WriteToRealTimeDatabase = async (args: { path: string; data: unknown }): P
     await set(reference, data);
     return true;
   } catch (error) {
-    console.error('Error writing to real-time database: ', error);
+    if (process.env.NODE_ENV !== 'production') {
+      // eslint-disable-next-line no-console
+      console.error('Error writing to real-time database: ', error);
+    }
     return false;
   }
 };

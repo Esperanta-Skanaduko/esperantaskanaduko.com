@@ -3,7 +3,10 @@ import RealTimeDatabase from '../realTimeDatabase';
 
 const PushToRealTimeDatabase = async (args: { path: string; data: unknown }) => {
   const { path, data } = args;
-  console.warn('PushToRealTimeDatabase', { path, data });
+  if (process.env.NODE_ENV !== 'production') {
+    // eslint-disable-next-line no-console
+    console.warn('PushToRealTimeDatabase', { path, data });
+  }
   const reference: DatabaseReference = ref(RealTimeDatabase, path);
   await push(reference, data);
 };

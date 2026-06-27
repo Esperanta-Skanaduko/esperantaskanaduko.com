@@ -1,4 +1,5 @@
 import { Component, ErrorInfo, ReactNode } from 'react';
+import { captureException } from '../backend/sentry/sentry';
 import { Box, Typography, Button, Paper, Container } from '@mui/material';
 import RefreshOutlined from '@mui/icons-material/RefreshOutlined';
 import HomeOutlined from '@mui/icons-material/HomeOutlined';
@@ -43,8 +44,10 @@ export class ErrorBoundary extends Component<Props, State> {
       errorInfo,
     });
 
-    // TODO: Send error to logging service (e.g., Firebase Analytics, Sentry)
-    // logErrorToService(error, errorInfo);
+    // Report to Sentry in production. captureException is a no-op in
+    // development/test because Sentry.init() is only called in main.tsx
+    // when VITE_SENTRY_DSN is configured.
+    captureException(error);
   }
 
   handleReset = (): void => {

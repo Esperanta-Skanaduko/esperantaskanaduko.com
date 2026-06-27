@@ -197,7 +197,7 @@ export const CategoryPageLayout: React.FC<CategoryPageLayoutProps> = ({
             }}
           >
             <Home sx={{ mr: 0.5 }} fontSize="small" />
-            Home
+            {t('navigation.breadcrumbs.home', 'Home')}
           </MuiLink>
           <MuiLink
             component={Link}
@@ -208,7 +208,7 @@ export const CategoryPageLayout: React.FC<CategoryPageLayoutProps> = ({
               '&:hover': { color: 'primary.main' },
             }}
           >
-            Resources
+            {t('navigation.breadcrumbs.resources', 'Resources')}
           </MuiLink>
           <Typography color="text.primary">{categoryName}</Typography>
         </Breadcrumbs>
@@ -243,7 +243,10 @@ export const CategoryPageLayout: React.FC<CategoryPageLayoutProps> = ({
         {searchTerm && (
           <Box sx={{ mb: 4 }}>
             <Typography variant="body1" color="text.secondary">
-              Showing {filteredResources.length} of {resources.length} resources
+              {t('resources.results.showingOf', {
+                count: filteredResources.length,
+                total: resources.length,
+              })}
             </Typography>
           </Box>
         )}
@@ -268,10 +271,10 @@ export const CategoryPageLayout: React.FC<CategoryPageLayoutProps> = ({
           /* Empty State */
           <Box sx={{ textAlign: 'center', py: 8 }}>
             <Typography variant="h5" color="text.secondary" gutterBottom>
-              No resources found
+              {t('resources.results.noResults', 'No resources found')}
             </Typography>
             <Typography variant="body1" color="text.secondary">
-              Try adjusting your search
+              {t('resources.results.noResultsDescription', 'Try adjusting your search or filter criteria')}
             </Typography>
           </Box>
         )}

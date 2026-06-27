@@ -12,7 +12,8 @@ import {
   InputAdornment,
   IconButton,
 } from '@mui/material';
-import { Visibility, VisibilityOff, Login as LoginIcon } from '@mui/icons-material';
+import { Visibility, VisibilityOff, Login as LoginIcon, Google as GoogleIcon } from '@mui/icons-material';
+import Divider from '@mui/material/Divider';
 import { useTranslation } from 'react-i18next';
 import { useAuth } from '../../contexts/AuthContext';
 import { Loading } from '../Loading';
@@ -29,7 +30,7 @@ interface LogInFormProps {
  */
 export const LogInForm: React.FC<LogInFormProps> = ({ onSwitchToSignUp, onSuccess }) => {
   const { t } = useTranslation();
-  const { logIn } = useAuth();
+  const { logIn, signInWithGoogle } = useAuth();
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -112,6 +113,28 @@ export const LogInForm: React.FC<LogInFormProps> = ({ onSwitchToSignUp, onSucces
         default:
           setError(t('auth.errors.firebase.unknownError'));
       }
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleGoogleSignIn = async () => {
+    setError('');
+    setSuccess('');
+    try {
+      setLoading(true);
+      await signInWithGoogle();
+      setSuccess(t('auth.status.signedIn'));
+      setTimeout(() => {
+        if (onSuccess) onSuccess();
+      }, 1500);
+    } catch (err) {
+      const firebaseError = err as { code?: string };
+      if (firebaseError.code === 'auth/popup-closed-by-user') {
+        // User dismissed — not an error worth surfacing
+        return;
+      }
+      setError(t('auth.errors.firebase.unknownError'));
     } finally {
       setLoading(false);
     }
@@ -210,6 +233,27 @@ export const LogInForm: React.FC<LogInFormProps> = ({ onSwitchToSignUp, onSucces
             </Button>
           </Stack>
         </Box>
+
+        {/* Google Sign-In */}
+        <Divider sx={{ width: '100%', my: 3 }}>
+          <Typography variant='caption' color='text.secondary'>
+            {t('auth.divider.orContinueWith', 'or continue with')}
+          </Typography>
+        </Divider>
+        <Button
+          variant='outlined'
+          size='large'
+          fullWidth
+          startIcon={<GoogleIcon />}
+          onClick={handleGoogleSignIn}
+          sx={{
+            borderColor: 'divider',
+            color: 'text.primary',
+            '&:hover': { borderColor: 'primary.main', backgroundColor: 'action.hover' },
+          }}
+        >
+          {t('auth.actions.signInWithGoogle', 'Continue with Google')}
+        </Button>
 
         <Box sx={{ mt: 3, textAlign: 'center' }}>
           <Typography variant='body2' color='text.secondary'>

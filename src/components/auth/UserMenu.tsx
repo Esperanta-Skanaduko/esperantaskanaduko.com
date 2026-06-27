@@ -45,7 +45,7 @@ export const UserMenu: React.FC = () => {
       await logOut();
       handleMenuClose();
       navigate('/');
-    } catch (error) {
+    } catch (_error) {
       // Error signing out - could show a toast/snackbar here
       handleMenuClose();
     }
@@ -85,6 +85,9 @@ export const UserMenu: React.FC = () => {
       <IconButton
         onClick={handleMenuOpen}
         size='large'
+        aria-label={t('accessibility.openUserMenu', 'Open user menu')}
+        aria-haspopup="true"
+        aria-expanded={Boolean(anchorEl)}
         sx={{
           color: 'primary.main',
           '&:hover': {

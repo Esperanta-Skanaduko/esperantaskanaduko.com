@@ -9,6 +9,7 @@ import {
   Link,
   Stack,
 } from '@mui/material';
+import { logAnalyticsEvent } from '../../backend/firebase/analytics';
 import {
   OpenInNew as ExternalLinkIcon,
   Star as StarIcon,
@@ -234,6 +235,7 @@ export const ResourceCard: React.FC<ResourceCardProps> = ({ resource }) => {
           target="_blank"
           rel="noopener noreferrer"
           underline="none"
+          onClick={() => logAnalyticsEvent('resource_click', { resource_name: resource.title, resource_url: resource.url })}
           sx={{
             display: 'flex',
             alignItems: 'center',

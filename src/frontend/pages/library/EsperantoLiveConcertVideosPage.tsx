@@ -1,7 +1,7 @@
 import { useEsperantoLiveConcertVideos } from '../../hooks/useEsperantoLiveConcertVideos';
 import { ListicleItem } from '../../../data/types';
-import Subtitle from '../../components/subtitle';
-import Title from '../../components/title';
+import Subtitle from '../../components/Subtitle';
+import Title from '../../components/Title';
 import { Loading } from '../../../components/Loading';
 import { SEO } from '../../../components/SEO';
 import { useTranslation } from 'react-i18next';

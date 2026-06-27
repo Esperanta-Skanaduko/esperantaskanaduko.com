@@ -1,15 +1,20 @@
 import React from 'react';
-import { AppBar, Toolbar, Box, useTheme, useMediaQuery } from '@mui/material';
+import { AppBar, Toolbar, Box, IconButton, Tooltip, useTheme, useMediaQuery } from '@mui/material';
+import { DarkMode as DarkModeIcon, LightMode as LightModeIcon } from '@mui/icons-material';
 import { useTranslation } from 'react-i18next';
 import { LanguageSwitcher } from '../languageSwitcher/languageSwitcher';
 import { UserMenu } from '../../../components/auth/UserMenu';
 import { DesktopNav } from './desktopNav';
 import { MobileNav } from './mobileNav';
+import { useThemeMode } from '../../../contexts/ThemeContext';
 
 export const NavBar: React.FC = () => {
   const { t } = useTranslation();
-  const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down('md'));
+  const muiTheme = useTheme();
+  const isMobile = useMediaQuery(muiTheme.breakpoints.down('md'));
+  const { mode, toggleTheme } = useThemeMode();
+
+  const isDark = mode === 'dark';
 
   const navItems = [
     { text: t('navigation.main.home'), link: '/' },
@@ -53,10 +58,14 @@ export const NavBar: React.FC = () => {
     <AppBar
       position="sticky"
       sx={{
-        background: 'rgba(0, 20, 0, 0.8)',
+        background: isDark ? 'rgba(0, 20, 0, 0.8)' : 'rgba(232, 245, 232, 0.92)',
         backdropFilter: 'blur(10px)',
-        boxShadow: '0 8px 32px 0 rgba(0, 255, 0, 0.1)',
-        borderBottom: '1px solid rgba(0, 255, 0, 0.2)',
+        boxShadow: isDark
+          ? '0 8px 32px 0 rgba(0, 255, 0, 0.1)'
+          : '0 8px 32px 0 rgba(0, 102, 0, 0.08)',
+        borderBottom: isDark
+          ? '1px solid rgba(0, 255, 0, 0.2)'
+          : '1px solid rgba(0, 102, 0, 0.15)',
       }}
     >
       <Toolbar sx={{ justifyContent: 'space-between' }}>
@@ -68,6 +77,36 @@ export const NavBar: React.FC = () => {
           )}
         </Box>
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+          <Tooltip
+            title={
+              isDark
+                ? t('theme.switchToLight', 'Switch to light mode')
+                : t('theme.switchToDark', 'Switch to dark mode')
+            }
+            arrow
+          >
+            <IconButton
+              onClick={toggleTheme}
+              size="small"
+              aria-label={
+                isDark
+                  ? t('theme.switchToLight', 'Switch to light mode')
+                  : t('theme.switchToDark', 'Switch to dark mode')
+              }
+              sx={{
+                color: 'primary.main',
+                transition: 'transform 0.3s ease, color 0.2s ease',
+                '&:hover': {
+                  transform: 'rotate(20deg) scale(1.15)',
+                  backgroundColor: isDark
+                    ? 'rgba(0, 255, 0, 0.08)'
+                    : 'rgba(0, 102, 0, 0.08)',
+                },
+              }}
+            >
+              {isDark ? <LightModeIcon fontSize="small" /> : <DarkModeIcon fontSize="small" />}
+            </IconButton>
+          </Tooltip>
           <LanguageSwitcher />
           <UserMenu />
         </Box>

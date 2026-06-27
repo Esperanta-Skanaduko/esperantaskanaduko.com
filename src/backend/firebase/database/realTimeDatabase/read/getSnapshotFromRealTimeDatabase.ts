@@ -14,7 +14,10 @@ const GetSnapshotFromRealTimeDatabase = async (path: string): Promise<DataSnapsh
       snapshot = retrievedSnapshot;
     })
     .catch(error => {
-      console.error(error);
+      if (process.env.NODE_ENV !== 'production') {
+        // eslint-disable-next-line no-console
+        console.error(error);
+      }
     });
   if (!snapshot) throw new Error('No snapshot was retrieved from the real time database');
   return snapshot;

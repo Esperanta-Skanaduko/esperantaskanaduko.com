@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Box, Button, Popover, Paper } from '@mui/material';
 import { Link, useLocation } from 'react-router-dom';
 import { ArrowDropDown, ArrowDropUp } from '@mui/icons-material';
@@ -20,9 +20,11 @@ export const DesktopNav: React.FC<DesktopNavProps> = ({ navItems }) => {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const [openMenu, setOpenMenu] = useState<null | string>(null);
   const [isNavigating, setIsNavigating] = useState(false);
-  
-  const hoverTimeoutRef = React.useRef<NodeJS.Timeout | null>(null);
-  const navigationTimeoutRef = React.useRef<NodeJS.Timeout | null>(null);
+
+  const hoverTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const navigationTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  // Track the trigger button element so we can return focus to it on close
+  const triggerRef = useRef<HTMLButtonElement | null>(null);
 
   // Cleanup all timeouts on unmount
   useEffect(() => {
@@ -34,78 +36,96 @@ export const DesktopNav: React.FC<DesktopNavProps> = ({ navItems }) => {
 
   // Close dropdown immediately when route changes
   useEffect(() => {
-    // Clear all pending timeouts
     if (hoverTimeoutRef.current) clearTimeout(hoverTimeoutRef.current);
     if (navigationTimeoutRef.current) clearTimeout(navigationTimeoutRef.current);
-    
-    // Immediately close any open menus
     setAnchorEl(null);
     setOpenMenu(null);
-    
-    // Block hover interactions during navigation
     setIsNavigating(true);
     navigationTimeoutRef.current = setTimeout(() => {
       setIsNavigating(false);
     }, 600);
   }, [location.pathname]);
 
-  const closeMenu = () => {
+  const closeMenu = (returnFocus = false) => {
     if (hoverTimeoutRef.current) clearTimeout(hoverTimeoutRef.current);
     setAnchorEl(null);
     setOpenMenu(null);
+    if (returnFocus && triggerRef.current) {
+      triggerRef.current.focus();
+    }
   };
 
   const handleMenuOpen = (event: React.MouseEvent<HTMLElement>, text: string) => {
-    // Block if currently navigating
     if (isNavigating) return;
-
-    // Clear any pending close timeout
     if (hoverTimeoutRef.current) clearTimeout(hoverTimeoutRef.current);
-    
     setAnchorEl(event.currentTarget);
     setOpenMenu(text);
   };
 
   const handleMenuClose = () => {
-    // Use timeout for smooth hover UX
     if (hoverTimeoutRef.current) clearTimeout(hoverTimeoutRef.current);
-    
     hoverTimeoutRef.current = setTimeout(() => {
       setAnchorEl(null);
       setOpenMenu(null);
     }, 150);
   };
 
+  /** Keyboard: Enter/Space toggles; Escape closes and returns focus */
+  const handleTriggerKeyDown = (
+    event: React.KeyboardEvent<HTMLButtonElement>,
+    item: NavItem,
+    buttonEl: HTMLButtonElement | null,
+  ) => {
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      if (openMenu === item.text) {
+        closeMenu(true);
+      } else {
+        if (buttonEl) {
+          triggerRef.current = buttonEl;
+          setAnchorEl(buttonEl);
+        }
+        setOpenMenu(item.text);
+      }
+    } else if (event.key === 'Escape') {
+      event.preventDefault();
+      closeMenu(true);
+    }
+  };
+
+  /** Escape inside the popover closes and returns focus to trigger */
+  const handlePopoverKeyDown = (event: React.KeyboardEvent) => {
+    if (event.key === 'Escape') {
+      event.preventDefault();
+      closeMenu(true);
+    }
+  };
+
   const prefetchData = (link: string) => {
     if (link === '/library/esperanto-live-concert-videos') {
       queryClient.prefetchQuery({
         queryKey: ['esperantoLiveConcertVideos'],
-        queryFn: () => import('../../../data/esperantoLiveConcertVideos').then(mod => mod.listicleDB),
+        queryFn: () =>
+          import('../../../data/esperantoLiveConcertVideos').then(
+            (mod) => mod.listicleDB,
+          ),
       });
     }
   };
 
   const handlePopoverEnter = () => {
-    // Cancel any pending close when entering popover
     if (hoverTimeoutRef.current) clearTimeout(hoverTimeoutRef.current);
   };
 
   const handlePopoverLeave = () => {
-    // Immediate close when leaving popover
     closeMenu();
   };
 
   const handleItemClick = (e: React.MouseEvent) => {
-    // Prevent any event bubbling
     e.stopPropagation();
-    
-    // Immediately close and block reopening
     closeMenu();
     setIsNavigating(true);
-    
-    // Clear existing navigation timeout
     if (navigationTimeoutRef.current) clearTimeout(navigationTimeoutRef.current);
-    
     navigationTimeoutRef.current = setTimeout(() => {
       setIsNavigating(false);
     }, 600);
@@ -122,16 +142,23 @@ export const DesktopNav: React.FC<DesktopNavProps> = ({ navItems }) => {
             sx={{ position: 'relative' }}
           >
             <Button
-              aria-owns={openMenu === item.text ? `menu-${item.text}` : undefined}
-              aria-haspopup="true"
-              sx={{ 
-                color: 'white', 
-                textTransform: 'none', 
+              aria-haspopup="menu"
+              aria-expanded={openMenu === item.text}
+              aria-controls={openMenu === item.text ? `menu-${item.text}` : undefined}
+              onKeyDown={(e) =>
+                handleTriggerKeyDown(e, item, e.currentTarget as HTMLButtonElement)
+              }
+              sx={{
+                color: 'white',
+                textTransform: 'none',
                 fontSize: '1rem',
-                pointerEvents: isNavigating ? 'none' : 'auto'
+                pointerEvents: isNavigating ? 'none' : 'auto',
               }}
               endIcon={openMenu === item.text ? <ArrowDropUp /> : <ArrowDropDown />}
-              onMouseEnter={() => !isNavigating && item.children?.forEach(child => prefetchData(child.link || ''))}
+              onMouseEnter={() =>
+                !isNavigating &&
+                item.children?.forEach((child) => prefetchData(child.link || ''))
+              }
             >
               {item.text}
             </Button>
@@ -139,49 +166,48 @@ export const DesktopNav: React.FC<DesktopNavProps> = ({ navItems }) => {
               id={`menu-${item.text}`}
               open={!isNavigating && openMenu === item.text}
               anchorEl={anchorEl}
-              anchorOrigin={{
-                vertical: 'bottom',
-                horizontal: 'left',
-              }}
-              transformOrigin={{
-                vertical: 'top',
-                horizontal: 'left',
-              }}
-              onClose={closeMenu}
+              anchorOrigin={{ vertical: 'bottom', horizontal: 'left' }}
+              transformOrigin={{ vertical: 'top', horizontal: 'left' }}
+              onClose={() => closeMenu()}
               disableRestoreFocus
               disableScrollLock
               slotProps={{
                 paper: {
                   onMouseEnter: handlePopoverEnter,
                   onMouseLeave: handlePopoverLeave,
-                  sx: { 
-                    pointerEvents: 'auto',
-                    mt: 0.5,
-                  }
-                }
+                  onKeyDown: handlePopoverKeyDown,
+                  sx: { pointerEvents: 'auto', mt: 0.5 },
+                },
               }}
             >
-              <Paper sx={{ 
-                background: 'rgba(0, 20, 0, 0.9)', 
-                backdropFilter: 'blur(5px)', 
-                border: '1px solid rgba(0, 255, 0, 0.2)',
-                minWidth: 200,
-              }}>
+              <Paper
+                role="menu"
+                sx={{
+                  background: 'rgba(0, 20, 0, 0.9)',
+                  backdropFilter: 'blur(5px)',
+                  border: '1px solid rgba(0, 255, 0, 0.2)',
+                  minWidth: 200,
+                }}
+              >
                 {item.children.map((child) => (
                   <Button
                     key={child.text}
                     component={Link}
                     to={child.link || '#'}
+                    role="menuitem"
                     onClick={handleItemClick}
-                    sx={{ 
-                      display: 'block', 
-                      width: '100%', 
-                      color: 'white', 
-                      textTransform: 'none', 
+                    sx={{
+                      display: 'block',
+                      width: '100%',
+                      color: 'white',
+                      textTransform: 'none',
                       padding: '10px 20px',
                       justifyContent: 'flex-start',
-                      '&:hover': {
-                        backgroundColor: 'rgba(0, 255, 0, 0.1)',
+                      '&:hover': { backgroundColor: 'rgba(0, 255, 0, 0.1)' },
+                      '&:focus-visible': {
+                        backgroundColor: 'rgba(0, 255, 0, 0.15)',
+                        outline: '2px solid #00ff00',
+                        outlineOffset: -2,
                       },
                     }}
                   >
@@ -196,17 +222,21 @@ export const DesktopNav: React.FC<DesktopNavProps> = ({ navItems }) => {
             key={item.text}
             component={Link}
             to={item.link || '#'}
-            sx={{ 
-              color: 'white', 
-              textTransform: 'none', 
+            sx={{
+              color: 'white',
+              textTransform: 'none',
               fontSize: '1rem',
-              pointerEvents: isNavigating ? 'none' : 'auto'
+              pointerEvents: isNavigating ? 'none' : 'auto',
+              '&:focus-visible': {
+                outline: '2px solid #00ff00',
+                outlineOffset: 2,
+              },
             }}
             onMouseEnter={() => !isNavigating && prefetchData(item.link || '')}
           >
             {item.text}
           </Button>
-        )
+        ),
       )}
     </Box>
   );

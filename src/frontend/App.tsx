@@ -1,35 +1,48 @@
+import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { QueryClientProvider } from '@tanstack/react-query';
-import { theme } from '../theme/theme';
+import { ThemeModeProvider, useThemeMode } from '../contexts/ThemeContext';
 import Routes from './routes/routes';
+import { RouteTracker } from './components/RouteTracker';
 import { queryClient } from '../config/queryClient';
 import { ErrorBoundary } from '../components/ErrorBoundary';
 
 /**
- * Main Application Component
- *
- * Provides global context providers and routing configuration.
- * Wrapped with necessary providers for:
- * - React Query (data fetching)
- * - Material UI theming
- * - React Router navigation
- * - Error boundaries
+ * Inner component — consumes ThemeModeProvider so that useThemeMode() is in scope.
+ * Wraps the rest of the app with the dynamically-computed MUI theme.
  */
-const App = () => {
+const ThemedApp: React.FC = () => {
+  const { theme } = useThemeMode();
   return (
-    <ErrorBoundary>
-      <QueryClientProvider client={queryClient}>
-        <ThemeProvider theme={theme}>
-          <CssBaseline enableColorScheme />
-          <BrowserRouter>
-            <Routes />
-          </BrowserRouter>
-        </ThemeProvider>
-      </QueryClientProvider>
-    </ErrorBoundary>
+    <ThemeProvider theme={theme}>
+      <CssBaseline enableColorScheme />
+      <BrowserRouter>
+        <RouteTracker />
+        <Routes />
+      </BrowserRouter>
+    </ThemeProvider>
   );
 };
+
+/**
+ * Main Application Component
+ *
+ * Provider order (outermost → innermost):
+ *   ErrorBoundary → QueryClientProvider → ThemeModeProvider → ThemedApp
+ *   (ThemedApp itself wraps ThemeProvider → BrowserRouter → Routes)
+ *
+ * Note: AuthProvider lives in main.tsx, above this component.
+ */
+const App = () => (
+  <ErrorBoundary>
+    <QueryClientProvider client={queryClient}>
+      <ThemeModeProvider>
+        <ThemedApp />
+      </ThemeModeProvider>
+    </QueryClientProvider>
+  </ErrorBoundary>
+);
 
 export default App;

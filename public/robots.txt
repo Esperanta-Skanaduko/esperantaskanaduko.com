@@ -6,7 +6,6 @@ Allow: /
 
 # Disallow auth-related pages from indexing
 Disallow: /auth
-Disallow: /pdf
 
 # Sitemap location
 Sitemap: https://esperantaskanaduko.com/sitemap.xml

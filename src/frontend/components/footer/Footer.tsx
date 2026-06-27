@@ -1,6 +1,8 @@
 import { Box, Typography, Link, Divider } from '@mui/material';
 import { useTranslation } from 'react-i18next';
-import GitHubLink from './gitHubLink/gitHubLink';
+import GitHubLink from './gitHubLink/GitHubLink';
+import { SocialLinks } from '../socialLinks/SocialLinks';
+import { logAnalyticsEvent } from '../../../backend/firebase/analytics';
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -38,32 +40,10 @@ const Footer = () => {
           >
             {t('footer.social.title')}
           </Typography>
-          <Box sx={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-            <Link
-              href="https://mangadex.org/group/18541/esperanta-skanaduko"
-              target="_blank"
-              rel="noreferrer"
-              sx={{
-                color: '#a0a0a0',
-                textDecoration: 'none',
-                transition: 'color 0.25s',
-                '&:hover': { color: '#00ff00' },
-              }}
-            >
-              MangaDex
-            </Link>
-            <Link
-              href="mailto:esperantaSkanaduko@gmail.com"
-              sx={{
-                color: '#a0a0a0',
-                textDecoration: 'none',
-                transition: 'color 0.25s',
-                '&:hover': { color: '#00ff00' },
-              }}
-            >
-              Email
-            </Link>
-          </Box>
+          <SocialLinks
+            variant="compact"
+            include={['mangadex', 'email', 'suggest']}
+          />
         </Box>
 
         {/* Related Projects Section */}
@@ -122,6 +102,7 @@ const Footer = () => {
               href="https://www.paypal.com/donate?business=FSQHDN6NA2AJA&item_name=financado+por+Esperanta+Skanaduko&currency_code=USD"
               target="_blank"
               rel="noreferrer"
+              onClick={() => logAnalyticsEvent('donate_initiated', { platform: 'paypal' })}
               sx={{
                 color: '#a0a0a0',
                 textDecoration: 'none',
@@ -135,6 +116,7 @@ const Footer = () => {
               href="https://buymeacoffee.com/Vaporjawn"
               target="_blank"
               rel="noreferrer"
+              onClick={() => logAnalyticsEvent('donate_initiated', { platform: 'buymeacoffee' })}
               sx={{
                 color: '#a0a0a0',
                 textDecoration: 'none',
@@ -148,6 +130,7 @@ const Footer = () => {
               href="https://www.patreon.com/c/u64402381"
               target="_blank"
               rel="noreferrer"
+              onClick={() => logAnalyticsEvent('donate_initiated', { platform: 'patreon' })}
               sx={{
                 color: '#a0a0a0',
                 textDecoration: 'none',

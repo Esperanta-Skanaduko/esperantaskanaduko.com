@@ -2,9 +2,60 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./src/frontend/assets/favicon/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Esperanta Skanaduko</title>
+
+    <!--
+      Content Security Policy
+      ───────────────────────
+      default-src   'self'          — deny everything not explicitly listed below
+      script-src    'self'          — all JS is bundled by Vite; no external scripts needed
+      style-src     'unsafe-inline' — required by MUI / Emotion (CSS-in-JS injects <style> tags)
+      font-src      data:           — allows base-64 inline fonts (MUI icon font)
+      img-src       https:          — YouTube thumbnails, Firebase user photos, Open Graph images
+      connect-src                   — Firebase SDK (Auth, Realtime DB, Analytics) + own origin
+        identitytoolkit / securetoken — Firebase Auth token APIs
+        *.googleapis.com            — Firebase SDKs (Firestore, Storage, etc.)
+        *.firebaseio.com (wss+https) — Firebase Realtime Database WebSocket
+        *.firebaseapp.com           — Firebase Auth redirect/popup host
+        google-analytics            — Firebase Analytics
+      frame-src                     — YouTube embed player + Firebase Auth popup
+      object-src    'none'          — block <object>/<embed> (legacy plugin vectors)
+      base-uri      'self'          — prevent <base> tag injection
+      form-action   'self'          — forms only submit to same origin
+                    accounts.google.com — Firebase Google sign-in redirect
+    -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
+        default-src 'self';
+        script-src 'self';
+        style-src 'self' 'unsafe-inline';
+        font-src 'self' data:;
+        img-src 'self' data: blob: https:;
+        connect-src
+          'self'
+          https://identitytoolkit.googleapis.com
+          https://securetoken.googleapis.com
+          https://*.googleapis.com
+          wss://*.firebaseio.com
+          https://*.firebaseio.com
+          https://*.firebaseapp.com
+          https://www.google-analytics.com
+          https://analytics.google.com;
+        frame-src
+          https://www.youtube.com
+          https://www.youtube-nocookie.com
+          https://*.firebaseapp.com;
+        object-src 'none';
+        base-uri 'self';
+        form-action 'self' https://accounts.google.com;
+      "
+    />
   </head>
   <body>
     <div id="root"></div>

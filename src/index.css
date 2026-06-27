@@ -1,10 +1,14 @@
-/* Global styles for full viewport height */
-html, body, #root {
+/* Global base styles */
+html, body {
   margin: 0;
   padding: 0;
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
   overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
 }
 
 /* Enhanced background with animated gradient */
@@ -12,7 +16,6 @@ body {
   background: linear-gradient(-45deg, #000000, #001100, #000800, #001a00);
   background-size: 400% 400%;
   animation: gradientShift 15s ease infinite;
-  overflow: hidden;
 }
 
 @keyframes gradientShift {
@@ -89,13 +92,27 @@ html {
   box-sizing: border-box;
 }
 
-/* Hide all scrollbars completely */
+/* Custom scrollbar styling */
 ::-webkit-scrollbar {
-  display: none;
+  width: 8px;
+  height: 8px;
 }
 
-/* Hide scrollbar for IE, Edge and Firefox */
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00ff00;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00cc00;
+}
+
+/* Firefox scrollbar */
 * {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: #00ff00 #000000;
 }

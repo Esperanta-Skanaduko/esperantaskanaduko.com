@@ -191,12 +191,15 @@ const ResourcePage: React.FC = () => {
     return <GrammarGuideCard key={guide.id} resource={guide} />;
   };
 
-  // Generate structured data for search engines
-  const structuredData = {
+  // Generate structured data for search engines (CollectionPage + ItemList schema)
+  const structuredData = useMemo(() => ({
     '@context': 'https://schema.org',
-    '@type': 'WebPage',
+    '@type': 'CollectionPage',
     name: t('seo.pages.resources.title', 'Esperanto Resources - Learning Materials & Tools'),
-    description: t('seo.pages.resources.description', 'Discover 200+ comprehensive Esperanto learning resources'),
+    description: t(
+      'seo.pages.resources.description',
+      'Discover 200+ comprehensive Esperanto learning resources including grammar guides, music, podcasts, videos, community maps, courses, and tools.',
+    ),
     url: 'https://esperantaskanaduko.com/resources',
     inLanguage: ['en', 'eo'],
     about: {
@@ -227,12 +230,24 @@ const ResourcePage: React.FC = () => {
       ],
     },
     mainEntity: {
-      '@type': 'CollectionPage',
+      '@type': 'ItemList',
       name: 'Esperanto Learning Resources',
       description: 'Comprehensive collection of Esperanto learning materials',
-      numberOfItems: allResources.length + filteredGrammarGuides.length,
+      numberOfItems: allResources.length + grammarGuides.length,
+      itemListElement: featuredResources.slice(0, 10).map((resource, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        url: resource.url,
+        name: resource.title,
+        item: {
+          '@type': 'WebPage',
+          name: resource.title,
+          description: resource.description,
+          url: resource.url,
+        },
+      })),
     },
-  };
+  }), [t, allResources.length, featuredResources]);
 
   return (
     <>
@@ -295,10 +310,10 @@ const ResourcePage: React.FC = () => {
             mb: 2,
           }}
         >
-          Esperanto Learning Resources
+          {t('resources.page.title', 'Esperanto Learning Resources')}
         </Typography>
         <Typography variant="h6" color="text.secondary" sx={{ mb: 4 }}>
-          A comprehensive collection of resources for learning and using Esperanto
+          {t('resources.page.subtitle', 'A comprehensive collection of resources for learning and using Esperanto')}
         </Typography>
 
         {/* Search and Filter Controls */}
@@ -322,7 +337,10 @@ const ResourcePage: React.FC = () => {
       {(searchTerm || selectedCategories.length > 0) && (
         <Box sx={{ mb: 4 }}>
           <Typography variant="body1" color="text.secondary">
-            Showing {totalFilteredCount} of {allResources.length + grammarGuides.length} resources
+            {t('resources.results.showingOf', {
+              count: totalFilteredCount,
+              total: allResources.length + grammarGuides.length,
+            })}
           </Typography>
         </Box>
       )}
@@ -336,7 +354,7 @@ const ResourcePage: React.FC = () => {
             gutterBottom
             sx={{ fontWeight: 600, mb: 3 }}
           >
-            Featured Resources
+            {t('resources.sections.featured', 'Featured Resources')}
           </Typography>
           <Box
             sx={{
@@ -376,7 +394,7 @@ const ResourcePage: React.FC = () => {
         {resourcesByCategory.learning.length > 0 && (
           <CategorySection
             category="learning"
-            title="Learning Resources"
+            title={t('resources.categories.learning', 'Learning Resources')}
             resources={resourcesByCategory.learning}
           />
         )}
@@ -390,7 +408,7 @@ const ResourcePage: React.FC = () => {
               gutterBottom
               sx={{ fontWeight: 600, mb: 2 }}
             >
-              Grammar Guides ({filteredGrammarGuides.length})
+              {t('resources.categories.grammar', 'Grammar Guides')} ({filteredGrammarGuides.length})
             </Typography>
             <Box
               sx={{
@@ -413,7 +431,7 @@ const ResourcePage: React.FC = () => {
         {resourcesByCategory.tools.length > 0 && (
           <CategorySection
             category="tools"
-            title="Tools & Keyboards"
+            title={t('resources.categories.tools', 'Tools & Keyboards')}
             resources={resourcesByCategory.tools}
           />
         )}
@@ -422,7 +440,7 @@ const ResourcePage: React.FC = () => {
         {resourcesByCategory.books.length > 0 && (
           <CategorySection
             category="books"
-            title="Books & Reading"
+            title={t('resources.categories.books', 'Books & Reading')}
             resources={resourcesByCategory.books}
           />
         )}
@@ -431,7 +449,7 @@ const ResourcePage: React.FC = () => {
         {resourcesByCategory.music.length > 0 && (
           <CategorySection
             category="music"
-            title="Music & Artists"
+            title={t('resources.categories.music', 'Music & Artists')}
             resources={resourcesByCategory.music}
           />
         )}
@@ -440,7 +458,7 @@ const ResourcePage: React.FC = () => {
         {resourcesByCategory.audio.length > 0 && (
           <CategorySection
             category="audio"
-            title="Audio & Podcasts"
+            title={t('resources.categories.audio', 'Audio & Podcasts')}
             resources={resourcesByCategory.audio}
           />
         )}
@@ -449,7 +467,7 @@ const ResourcePage: React.FC = () => {
         {resourcesByCategory.video.length > 0 && (
           <CategorySection
             category="video"
-            title="Video Resources"
+            title={t('resources.categories.video', 'Video Resources')}
             resources={resourcesByCategory.video}
           />
         )}
@@ -458,7 +476,7 @@ const ResourcePage: React.FC = () => {
         {resourcesByCategory.community.length > 0 && (
           <CategorySection
             category="community"
-            title="Community & Maps"
+            title={t('resources.categories.community', 'Community & Maps')}
             resources={resourcesByCategory.community}
           />
         )}
@@ -467,7 +485,7 @@ const ResourcePage: React.FC = () => {
         {resourcesByCategory.events.length > 0 && (
           <CategorySection
             category="events"
-            title="Events & Courses"
+            title={t('resources.categories.events', 'Events & Courses')}
             resources={resourcesByCategory.events}
           />
         )}
@@ -476,7 +494,7 @@ const ResourcePage: React.FC = () => {
         {resourcesByCategory.organizations.length > 0 && (
           <CategorySection
             category="organizations"
-            title="Organizations"
+            title={t('resources.categories.organizations', 'Organizations')}
             resources={resourcesByCategory.organizations}
           />
         )}
@@ -485,7 +503,7 @@ const ResourcePage: React.FC = () => {
         {resourcesByCategory.culture.length > 0 && (
           <CategorySection
             category="culture"
-            title="Culture & History"
+            title={t('resources.categories.culture', 'Culture & History')}
             resources={resourcesByCategory.culture}
           />
         )}
@@ -494,7 +512,7 @@ const ResourcePage: React.FC = () => {
         {resourcesByCategory.news.length > 0 && (
           <CategorySection
             category="news"
-            title="News & Literature"
+            title={t('resources.categories.news', 'News & Literature')}
             resources={resourcesByCategory.news}
           />
         )}
@@ -504,10 +522,10 @@ const ResourcePage: React.FC = () => {
       {totalFilteredCount === 0 && (
         <Box sx={{ textAlign: 'center', py: 8 }}>
           <Typography variant="h5" color="text.secondary" gutterBottom>
-            No resources found
+            {t('resources.results.noResults', 'No resources found')}
           </Typography>
           <Typography variant="body1" color="text.secondary">
-            Try adjusting your search or filters
+            {t('resources.results.noResultsDescription', 'Try adjusting your search or filter criteria')}
           </Typography>
         </Box>
       )}

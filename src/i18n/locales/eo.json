@@ -14,8 +14,21 @@
       "loading": "Ŝarĝante...",
       "error": "Eraro",
       "language": "Lingvo",
-      "switchLanguage": "Ŝanĝi Lingvon"
+      "switchLanguage": "Ŝanĝi Lingvon",
+      "selectLanguage": "Elekti Lingvon",
+      "searchLanguages": "Serĉi lingvojn...",
+      "noLanguagesFound": "Neniuj lingvoj trovitaj"
     }
+  },
+  "accessibility": {
+    "skipToContent": "Salti al ĉefa enhavo",
+    "openUserMenu": "Malfermi uzantan menuon",
+    "openNavMenu": "Malfermi navigadan menuon",
+    "closeSearch": "Forigi serĉon",
+    "switchLanguage": "Ŝanĝi lingvon",
+    "languageChanged": "Lingvo ŝanĝita al {{language}}",
+    "closeDialog": "Fermi dialogon",
+    "clearSearch": "Forigi serĉan eniron"
   },
   "seo": {
     "pages": {
@@ -52,6 +65,11 @@
       "contact": "Kontakto",
       "donate": "Donaci",
       "analyzer": "Analizilo"
+    },
+    "breadcrumbs": {
+      "home": "Hejmo",
+      "resources": "Rimedoj",
+      "library": "Biblioteko"
     }
   },
   "donate": {
@@ -121,6 +139,11 @@
       "getStarted": "Komenci",
       "learnMore": "Lerni Pli"
     },
+    "cta": {
+      "exploreResources": "Esplori Rimedojn",
+      "browseLibrary": "Foliumi Bibliotekon",
+      "startLearning": "Komenci Lernadon"
+    },
     "features": {
       "title": "Trajtoj",
       "items": {
@@ -136,6 +159,24 @@
           "title": "Tutmonda Komunumo",
           "description": "Konektiĝu kun Esperanto-lernantoj kaj parolantoj el la tuta mondo"
         }
+      },
+      "stats": {
+        "resources": {
+          "title": "200+ Rimedoj",
+          "description": "Kuracitaj lernmaterialoj, iloj kaj komunumaj rimedoj por ĉiu nivelo"
+        },
+        "library": {
+          "title": "Esperanta Biblioteko",
+          "description": "Aliru klasikajn kaj modernajn Esperantajn verkojn, ĉiuj senpagaj"
+        },
+        "music": {
+          "title": "Muziko kaj Kulturo",
+          "description": "Esploru Esperantan muzikon, koncertojn kaj kulturan enhavon"
+        },
+        "languages": {
+          "title": "66 Lingvoj",
+          "description": "Foliumu kaj lernu en via gepatra lingvo"
+        }
       }
     }
   },
@@ -145,13 +186,84 @@
       "description": "Esperanta Skanduko dediĉiĝas fari Esperanto-lernadon alirebla kaj engaĝa por ĉiuj."
     },
     "sections": {
+      "website": {
+        "title": "Pri la Retejo",
+        "body": "Bonvenon al Esperanta Skanaduko, nova reta Esperanta biblioteko. La celo de ĉi tiu projekto estas provizi bone organizitan bibliotekon de originalaj kaj tradukitaj tekstoj."
+      },
+      "license": {
+        "title": "Licencaj Demandoj",
+        "body": "Multaj tekstoj estas sufiĉe malnovaj por esti aŭtomate en la publika domajno, multaj estas en la publika domajno en kelkaj landoj dum ili estas protektitaj per aŭtorrajto en aliaj. Ĉi tiu retejo publikigas verkojn por kiuj estas plenumita la internacia minimumo de 50 jaroj post la morto de la aŭtoro. Estas la respondeco de la leganto koni la aŭtorrajtajn leĝojn de sia lando."
+      },
       "mission": {
         "title": "Nia Misio",
-        "description": "Konservi kaj dividi Esperantan literaturon, lernmaterialojn kaj kulturajn rimedojn kun la mondo."
+        "description": "Konservi kaj dividi Esperantan literaturon, lernmaterialojn kaj kulturajn rimedojn kun la mondo.",
+        "body": "Ni klopodas fari Esperanton pli alirebla por ĉiuj per provizado de senpaga kaj ampleksa kolekto de literaturo. Ĉu vi estas komencanto aŭ sperta Esperanto-parolanto, ĉi tiu biblioteko ofertas ion por ĉiuj."
       },
       "esperanto": {
         "title": "Kio estas Esperanto?",
         "description": "Esperanto estas internacia helplingvo dizajnita por facila lernado kaj internacia komunikado."
+      },
+      "team": {
+        "title": "Teamo",
+        "body": "Esperanta Skanduko estas konstruita kaj prizorgata de komunumaj volontuloj kiuj kredas en la potenco de Esperanto konekti homojn tra lingvoj kaj kulturoj. Ni bonvenigas ĉiun kiu dividas pasion por la lingvo partopreni.",
+        "founderRole": "Fondinto kaj Programisto"
+      },
+      "relatedProjects": {
+        "title": "Rilataj Projektoj",
+        "body": "Aliaj malfermkodaj projektoj en la Esperanta ekosistemo:",
+        "esperantoAnalyzer": {
+          "name": "Esperanto-Analizilo",
+          "description": "NPM-pakaĵo por morfologie analizi Esperantan tekston."
+        },
+        "mangaDex": {
+          "name": "Esperanta Mangao (MangaDex)",
+          "description": "Elektita kolekto de mangaoj tradukitaj al Esperanto, libere legeblaj en MangaDex."
+        }
+      },
+      "contribute": {
+        "title": "Kontribui",
+        "body": "Esperanta Skanduko estas malfermkoda kaj bonvenigas ĉiajn kontribuojn:",
+        "code": "Sendu kodplibonigojn, cimriparojn aŭ novajn funkciojn per GitHub-tirpetoj.",
+        "translations": "Helpu traduki la interfacon al pliaj lingvoj aŭ plibonigu ekzistantajn tradukojn.",
+        "resources": "Sugestu Esperanto-lernmaterialojn, librojn aŭ kulturenhavon.",
+        "cta": "Vidi en GitHub"
+      },
+      "techStack": {
+        "title": "Teknologiaro",
+        "body": "Konstruita per moderna malfermkoda teknologio:",
+        "items": [
+          {
+            "name": "React 18",
+            "description": "UI-biblioteko"
+          },
+          {
+            "name": "TypeScript",
+            "description": "Tipo-sekura JavaScript"
+          },
+          {
+            "name": "Vite",
+            "description": "Rapida konstruilaro"
+          },
+          {
+            "name": "Material UI v7",
+            "description": "Komponenta biblioteko"
+          },
+          {
+            "name": "Firebase",
+            "description": "Aŭtentikado kaj datumbazo"
+          },
+          {
+            "name": "i18next",
+            "description": "66 lokoj"
+          }
+        ]
+      },
+      "connect": {
+        "title": "Konekti",
+        "body": "Trovu la projekton interrete aŭ kontaktu nin:",
+        "github": "Fontkodo kaj problemoj en GitHub",
+        "mangaDex": "Esperanta mangaa kolekto en MangaDex",
+        "email": "Kontaktu la prizorganton retpoŝte"
       }
     }
   },
@@ -169,6 +281,19 @@
     "results": {
       "noResults": "Neniuj libroj trovitaj",
       "booksFound": "libroj trovitaj"
+    },
+    "pagination": {
+      "showing": "Montras {{from}}–{{to}} el {{total}} libroj",
+      "previous": "Antaŭa paĝo",
+      "next": "Sekva paĝo"
+    },
+    "book": {
+      "author": "Aŭtoro",
+      "year": "Jaro",
+      "pages": "paĝoj",
+      "readOnline": "Legi Rete",
+      "download": "Elŝuti",
+      "open": "Malfermi"
     }
   },
   "footer": {
@@ -190,7 +315,8 @@
       "links": {
         "github": "GitHub",
         "issues": "Raporti Problemon",
-        "contribute": "Kontribui"
+        "contribute": "Kontribui",
+        "suggestResource": "Proponi Rimedojn"
       }
     },
     "acknowledgments": {
@@ -201,6 +327,7 @@
   "errors": {
     "notFound": {
       "title": "Paĝo Ne Trovita",
+      "message": "La paĝo kiun vi serĉas ne ekzistas aŭ estis movita.",
       "action": "Iri Hejmen"
     },
     "general": {
@@ -208,11 +335,16 @@
       "action": "Provu Denove"
     }
   },
+  "theme": {
+    "switchToLight": "Ŝanĝi al hela reĝimo",
+    "switchToDark": "Ŝanĝi al malhela reĝimo"
+  },
   "auth": {
     "actions": {
       "signUp": "Registriĝi",
       "logIn": "Ensaluti",
-      "signOut": "Elsaluti"
+      "signOut": "Elsaluti",
+      "signInWithGoogle": "Daŭrigi per Google"
     },
     "fields": {
       "email": "Retpoŝto",
@@ -223,6 +355,9 @@
       "forgotPassword": "Ĉu vi forgesis pasvorton?",
       "alreadyHaveAccount": "Ĉu vi jam havas konton?",
       "noAccount": "Ĉu vi ne havas konton?"
+    },
+    "divider": {
+      "orContinueWith": "aŭ daŭrigi per"
     },
     "status": {
       "creatingAccount": "Kreante vian konton...",
@@ -275,9 +410,11 @@
     },
     "results": {
       "showing": "Montras {{count}} rimedojn",
+      "showingOf": "Montras {{count}} el {{total}}",
       "noResults": "Neniuj rimedoj trovitaj",
       "noResultsDescription": "Provu ĝustigi viajn serĉajn aŭ filtrajn kriteriojn"
     },
+    "loadMore": "Ŝarĝi Pli",
     "categories": {
       "all": "Ĉiuj Rimedoj",
       "learning": "Lernaj Rimedoj",
@@ -352,7 +489,9 @@
       "learnMore": "Lerni Pli",
       "download": "Elŝuti",
       "register": "Registriĝi",
-      "viewDetails": "Vidi Detalojn"
+      "viewDetails": "Vidi Detalojn",
+      "readOnline": "Legi Rete",
+      "open": "Malfermi"
     }
   }
 }

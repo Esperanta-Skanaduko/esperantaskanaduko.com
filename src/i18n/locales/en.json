@@ -20,6 +20,16 @@
       "noLanguagesFound": "No languages found"
     }
   },
+  "accessibility": {
+    "skipToContent": "Skip to main content",
+    "openUserMenu": "Open user menu",
+    "openNavMenu": "Open navigation menu",
+    "closeSearch": "Clear search",
+    "switchLanguage": "Switch language",
+    "languageChanged": "Language changed to {{language}}",
+    "closeDialog": "Close dialog",
+    "clearSearch": "Clear search input"
+  },
   "seo": {
     "pages": {
       "home": {
@@ -55,6 +65,11 @@
       "contact": "Contact",
       "donate": "Donate",
       "analyzer": "Analyzer"
+    },
+    "breadcrumbs": {
+      "home": "Home",
+      "resources": "Resources",
+      "library": "Library"
     }
   },
   "donate": {
@@ -124,6 +139,11 @@
       "getStarted": "Get Started",
       "learnMore": "Learn More"
     },
+    "cta": {
+      "exploreResources": "Explore Resources",
+      "browseLibrary": "Browse Library",
+      "startLearning": "Start Learning"
+    },
     "features": {
       "title": "Features",
       "items": {
@@ -139,6 +159,24 @@
           "title": "Global Community",
           "description": "Connect with Esperanto learners and speakers from around the world"
         }
+      },
+      "stats": {
+        "resources": {
+          "title": "200+ Resources",
+          "description": "Curated learning materials, tools, and community resources for every level"
+        },
+        "library": {
+          "title": "Esperanto Library",
+          "description": "Access classic and modern Esperanto literature, all free"
+        },
+        "music": {
+          "title": "Music & Culture",
+          "description": "Explore Esperanto music, concerts, and cultural content"
+        },
+        "languages": {
+          "title": "66 Languages",
+          "description": "Browse and learn in your native language"
+        }
       }
     }
   },
@@ -148,13 +186,84 @@
       "description": "Esperanta Skanduko is dedicated to making Esperanto learning accessible and engaging for everyone."
     },
     "sections": {
+      "website": {
+        "title": "About the Website",
+        "body": "Welcome to Esperanta Skanaduko, a new online Esperanto library. This project's goal is to provide a well-organized library of original and translated texts."
+      },
+      "license": {
+        "title": "License Issues",
+        "body": "Many texts are old enough to automatically be in the public domain, many are in the public domain in some countries while copyrighted in others. This website publishes works for which the international minimum of 50 years after the author's death is satisfied. It is the reader's responsibility to know his or her country's copyright laws."
+      },
       "mission": {
         "title": "Our Mission",
-        "description": "To preserve and share Esperanto literature, learning materials, and cultural resources with the world."
+        "description": "To preserve and share Esperanto literature, learning materials, and cultural resources with the world.",
+        "body": "We strive to make Esperanto more accessible to everyone by providing a free and comprehensive collection of literature. Whether you are a beginner or an experienced Esperanto speaker, this library offers something for everyone."
       },
       "esperanto": {
         "title": "What is Esperanto?",
         "description": "Esperanto is an international auxiliary language designed for ease of learning and international communication."
+      },
+      "team": {
+        "title": "Team",
+        "body": "Esperanta Skanduko is built and maintained by community volunteers who believe in the power of Esperanto to connect people across languages and cultures. We welcome anyone who shares a passion for the language to get involved.",
+        "founderRole": "Founder & Developer"
+      },
+      "relatedProjects": {
+        "title": "Related Projects",
+        "body": "Other open-source projects in the Esperanto ecosystem:",
+        "esperantoAnalyzer": {
+          "name": "Esperanto Analyzer",
+          "description": "An npm package for morphologically parsing and analyzing Esperanto text."
+        },
+        "mangaDex": {
+          "name": "Esperanto Manga (MangaDex)",
+          "description": "A curated collection of manga translated into Esperanto, freely readable on MangaDex."
+        }
+      },
+      "contribute": {
+        "title": "Contribute",
+        "body": "Esperanta Skanduko is open source and welcomes contributions of all kinds:",
+        "code": "Submit code improvements, bug fixes, or new features via GitHub pull requests.",
+        "translations": "Help translate the interface into more languages or improve existing translations.",
+        "resources": "Suggest Esperanto learning materials, books, or cultural content.",
+        "cta": "View on GitHub"
+      },
+      "techStack": {
+        "title": "Tech Stack",
+        "body": "Built with modern open-source technology:",
+        "items": [
+          {
+            "name": "React 18",
+            "description": "UI library"
+          },
+          {
+            "name": "TypeScript",
+            "description": "Type-safe JavaScript"
+          },
+          {
+            "name": "Vite",
+            "description": "Fast build tooling"
+          },
+          {
+            "name": "Material UI v7",
+            "description": "Component library"
+          },
+          {
+            "name": "Firebase",
+            "description": "Auth & database"
+          },
+          {
+            "name": "i18next",
+            "description": "66 locales"
+          }
+        ]
+      },
+      "connect": {
+        "title": "Connect",
+        "body": "Find the project online or get in touch:",
+        "github": "Source code and issues on GitHub",
+        "mangaDex": "Esperanto manga collection on MangaDex",
+        "email": "Contact the maintainer by email"
       }
     }
   },
@@ -172,6 +281,19 @@
     "results": {
       "noResults": "No books found",
       "booksFound": "books found"
+    },
+    "pagination": {
+      "showing": "Showing {{from}}–{{to}} of {{total}} books",
+      "previous": "Previous page",
+      "next": "Next page"
+    },
+    "book": {
+      "author": "Author",
+      "year": "Year",
+      "pages": "pages",
+      "readOnline": "Read Online",
+      "download": "Download",
+      "open": "Open"
     }
   },
   "footer": {
@@ -193,7 +315,8 @@
       "links": {
         "github": "GitHub",
         "issues": "Report Issue",
-        "contribute": "Contribute"
+        "contribute": "Contribute",
+        "suggestResource": "Suggest a Resource"
       }
     },
     "acknowledgments": {
@@ -204,6 +327,7 @@
   "errors": {
     "notFound": {
       "title": "Page Not Found",
+      "message": "The page you're looking for doesn't exist or has been moved.",
       "action": "Go Home"
     },
     "general": {
@@ -211,11 +335,16 @@
       "action": "Try Again"
     }
   },
+  "theme": {
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
+  },
   "auth": {
     "actions": {
       "signUp": "Sign Up",
       "logIn": "Log In",
-      "signOut": "Sign Out"
+      "signOut": "Sign Out",
+      "signInWithGoogle": "Continue with Google"
     },
     "fields": {
       "email": "Email",
@@ -226,6 +355,9 @@
       "forgotPassword": "Forgot Password?",
       "alreadyHaveAccount": "Already have an account?",
       "noAccount": "Don't have an account?"
+    },
+    "divider": {
+      "orContinueWith": "or continue with"
     },
     "status": {
       "creatingAccount": "Creating your account...",
@@ -278,9 +410,11 @@
     },
     "results": {
       "showing": "Showing {{count}} resources",
+      "showingOf": "Showing {{count}} of {{total}}",
       "noResults": "No resources found",
       "noResultsDescription": "Try adjusting your search or filter criteria"
     },
+    "loadMore": "Load More",
     "categories": {
       "all": "All Resources",
       "learning": "Learning Resources",
@@ -355,7 +489,9 @@
       "learnMore": "Learn More",
       "download": "Download",
       "register": "Register",
-      "viewDetails": "View Details"
+      "viewDetails": "View Details",
+      "readOnline": "Read Online",
+      "open": "Open"
     }
   }
 }

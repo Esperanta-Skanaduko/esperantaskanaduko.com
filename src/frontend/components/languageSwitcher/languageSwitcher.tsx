@@ -14,11 +14,14 @@ import LanguageIcon from '@mui/icons-material/Language';
 import SearchIcon from '@mui/icons-material/Search';
 import CloseIcon from '@mui/icons-material/Close';
 import { LANGUAGES } from '../../../i18n/config';
+import { logAnalyticsEvent } from '../../../backend/firebase/analytics';
 
 export const LanguageSwitcher = () => {
   const { i18n, t } = useTranslation();
   const [anchorEl, setAnchorEl] = useState<HTMLButtonElement | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
+  // Tracks the last selected language name for the aria-live announcement
+  const [announcement, setAnnouncement] = useState('');
 
   const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
     setAnchorEl(event.currentTarget);
@@ -30,14 +33,24 @@ export const LanguageSwitcher = () => {
   };
 
   const handleLanguageChange = (code: string) => {
+    const lang = LANGUAGES[code as keyof typeof LANGUAGES];
+    logAnalyticsEvent('language_changed', { language: code });
     i18n.changeLanguage(code);
     handleClose();
+    // Announce the change to screen readers
+    if (lang) {
+      setAnnouncement(
+        t('accessibility.languageChanged', { language: lang.nativeName }) ||
+          `Language changed to ${lang.nativeName}`,
+      );
+      // Clear after 3 s so the same message re-fires if user switches again
+      setTimeout(() => setAnnouncement(''), 3000);
+    }
   };
 
   const open = Boolean(anchorEl);
   const currentLanguage = LANGUAGES[i18n.language as keyof typeof LANGUAGES] || LANGUAGES.en;
 
-  // Filter languages based on search query
   const filteredLanguages = Object.entries(LANGUAGES).filter(([, lang]) => {
     const query = searchQuery.toLowerCase();
     return (
@@ -49,8 +62,28 @@ export const LanguageSwitcher = () => {
 
   return (
     <Box>
+      {/* Visually hidden aria-live region for language change announcements */}
+      <Box
+        aria-live="polite"
+        aria-atomic="true"
+        sx={{
+          position: 'absolute',
+          width: 1,
+          height: 1,
+          overflow: 'hidden',
+          clip: 'rect(0 0 0 0)',
+          clipPath: 'inset(50%)',
+          whiteSpace: 'nowrap',
+        }}
+      >
+        {announcement}
+      </Box>
+
       <Button
         onClick={handleClick}
+        aria-label={t('accessibility.switchLanguage', 'Switch language')}
+        aria-haspopup="dialog"
+        aria-expanded={open}
         startIcon={<LanguageIcon />}
         sx={{
           fontSize: '0.9rem',
@@ -61,6 +94,10 @@ export const LanguageSwitcher = () => {
           borderRadius: '8px',
           '&:hover': {
             backgroundColor: 'rgba(76, 175, 80, 0.08)',
+          },
+          '&:focus-visible': {
+            outline: '2px solid #00ff00',
+            outlineOffset: 2,
           },
         }}
       >
@@ -76,15 +113,11 @@ export const LanguageSwitcher = () => {
         open={open}
         anchorEl={anchorEl}
         onClose={handleClose}
-        anchorOrigin={{
-          vertical: 'bottom',
-          horizontal: 'left',
-        }}
-        transformOrigin={{
-          vertical: 'top',
-          horizontal: 'left',
-        }}
+        anchorOrigin={{ vertical: 'bottom', horizontal: 'left' }}
+        transformOrigin={{ vertical: 'top', horizontal: 'left' }}
         PaperProps={{
+          role: 'dialog',
+          'aria-label': t('common.ui.selectLanguage', 'Select Language'),
           sx: {
             mt: 1,
             maxWidth: '90vw',
@@ -97,11 +130,22 @@ export const LanguageSwitcher = () => {
       >
         <Box sx={{ p: 2 }}>
           {/* Header */}
-          <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 2 }}>
-            <Typography variant="h6" sx={{ fontWeight: 600 }}>
-              {t('common.ui.selectLanguage') || 'Select Language'}
+          <Box
+            sx={{
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              mb: 2,
+            }}
+          >
+            <Typography variant="h6" sx={{ fontWeight: 600 }} id="language-dialog-title">
+              {t('common.ui.selectLanguage', 'Select Language')}
             </Typography>
-            <IconButton onClick={handleClose} size="small">
+            <IconButton
+              onClick={handleClose}
+              size="small"
+              aria-label={t('accessibility.closeDialog', 'Close dialog')}
+            >
               <CloseIcon />
             </IconButton>
           </Box>
@@ -120,15 +164,20 @@ export const LanguageSwitcher = () => {
             }}
             elevation={0}
           >
-            <SearchIcon sx={{ color: 'text.secondary', mr: 1 }} />
+            <SearchIcon sx={{ color: 'text.secondary', mr: 1 }} aria-hidden="true" />
             <InputBase
-              placeholder={t('common.ui.searchLanguages') || 'Search languages...'}
+              placeholder={t('common.ui.searchLanguages', 'Search languages...')}
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
+              inputProps={{ 'aria-label': t('common.ui.searchLanguages', 'Search languages') }}
               sx={{ flex: 1, fontSize: '0.9rem' }}
             />
             {searchQuery && (
-              <IconButton size="small" onClick={() => setSearchQuery('')}>
+              <IconButton
+                size="small"
+                onClick={() => setSearchQuery('')}
+                aria-label={t('accessibility.clearSearch', 'Clear search input')}
+              >
                 <CloseIcon fontSize="small" />
               </IconButton>
             )}
@@ -136,6 +185,8 @@ export const LanguageSwitcher = () => {
 
           {/* Language Grid */}
           <Box
+            role="listbox"
+            aria-label={t('common.ui.selectLanguage', 'Select Language')}
             sx={{
               display: 'grid',
               gridTemplateColumns: {
@@ -147,9 +198,7 @@ export const LanguageSwitcher = () => {
               maxHeight: 'calc(70vh - 180px)',
               overflowY: 'auto',
               pr: 1,
-              '&::-webkit-scrollbar': {
-                width: '8px',
-              },
+              '&::-webkit-scrollbar': { width: '8px' },
               '&::-webkit-scrollbar-track': {
                 backgroundColor: 'rgba(0, 0, 0, 0.05)',
                 borderRadius: '4px',
@@ -157,15 +206,15 @@ export const LanguageSwitcher = () => {
               '&::-webkit-scrollbar-thumb': {
                 backgroundColor: 'rgba(76, 175, 80, 0.5)',
                 borderRadius: '4px',
-                '&:hover': {
-                  backgroundColor: 'rgba(76, 175, 80, 0.7)',
-                },
+                '&:hover': { backgroundColor: 'rgba(76, 175, 80, 0.7)' },
               },
             }}
           >
             {filteredLanguages.map(([code, lang]) => (
               <ButtonBase
                 key={code}
+                role="option"
+                aria-selected={i18n.language === code}
                 onClick={() => handleLanguageChange(code)}
                 sx={{
                   display: 'flex',
@@ -176,7 +225,8 @@ export const LanguageSwitcher = () => {
                   borderRadius: '8px',
                   border: '2px solid',
                   borderColor: i18n.language === code ? '#4CAF50' : 'divider',
-                  backgroundColor: i18n.language === code ? 'rgba(76, 175, 80, 0.08)' : 'transparent',
+                  backgroundColor:
+                    i18n.language === code ? 'rgba(76, 175, 80, 0.08)' : 'transparent',
                   transition: 'all 0.2s',
                   '&:hover': {
                     borderColor: '#4CAF50',
@@ -184,9 +234,15 @@ export const LanguageSwitcher = () => {
                     transform: 'translateY(-2px)',
                     boxShadow: '0 4px 12px rgba(76, 175, 80, 0.2)',
                   },
+                  '&:focus-visible': {
+                    outline: '2px solid #4CAF50',
+                    outlineOffset: 2,
+                  },
                 }}
               >
-                <Typography sx={{ fontSize: '1.8rem', mb: 0.5 }}>{lang.flag}</Typography>
+                <Typography sx={{ fontSize: '1.8rem', mb: 0.5 }} aria-hidden="true">
+                  {lang.flag}
+                </Typography>
                 <Typography
                   variant="body2"
                   sx={{
@@ -201,11 +257,7 @@ export const LanguageSwitcher = () => {
                 </Typography>
                 <Typography
                   variant="caption"
-                  sx={{
-                    color: 'text.secondary',
-                    fontSize: '0.7rem',
-                    mt: 0.25,
-                  }}
+                  sx={{ color: 'text.secondary', fontSize: '0.7rem', mt: 0.25 }}
                 >
                   {lang.name}
                 </Typography>
@@ -217,15 +269,21 @@ export const LanguageSwitcher = () => {
           {filteredLanguages.length === 0 && (
             <Box sx={{ textAlign: 'center', py: 4 }}>
               <Typography variant="body2" color="text.secondary">
-                {t('common.ui.noLanguagesFound') || 'No languages found'}
+                {t('common.ui.noLanguagesFound', 'No languages found')}
               </Typography>
             </Box>
           )}
 
           {/* Footer Info */}
           <Box sx={{ mt: 2, pt: 2, borderTop: '1px solid', borderColor: 'divider' }}>
-            <Typography variant="caption" color="text.secondary" sx={{ textAlign: 'center', display: 'block' }}>
-              {filteredLanguages.length} {filteredLanguages.length === 1 ? 'language' : 'languages'} available
+            <Typography
+              variant="caption"
+              color="text.secondary"
+              sx={{ textAlign: 'center', display: 'block' }}
+              aria-live="polite"
+            >
+              {filteredLanguages.length}{' '}
+              {filteredLanguages.length === 1 ? 'language' : 'languages'} available
             </Typography>
           </Box>
         </Box>

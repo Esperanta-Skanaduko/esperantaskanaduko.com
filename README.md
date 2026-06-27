@@ -17,6 +17,7 @@
 
 <div align="center">
 
+[![CI](https://github.com/Vaporjawn/esperantaskanaduko.com/actions/workflows/ci.yml/badge.svg)](https://github.com/Vaporjawn/esperantaskanaduko.com/actions/workflows/ci.yml)
 [![GitHub Forks](https://img.shields.io/github/forks/Vaporjawn/esperantaskanaduko.com?style=for-the-badge&logo=github&logoColor=white&labelColor=black&color=blue)](https://github.com/Vaporjawn/esperantaskanaduko.com/network)
 [![GitHub Stars](https://img.shields.io/github/stars/Vaporjawn/esperantaskanaduko.com?style=for-the-badge&logo=github&logoColor=white&labelColor=black&color=yellow)](https://github.com/Vaporjawn/esperantaskanaduko.com/stargazers)
 [![Contributors](https://img.shields.io/github/contributors-anon/Vaporjawn/esperantaskanaduko.com?style=for-the-badge&logo=github&logoColor=white&labelColor=black&color=green)](https://github.com/Vaporjawn/esperantaskanaduko.com/graphs/contributors)

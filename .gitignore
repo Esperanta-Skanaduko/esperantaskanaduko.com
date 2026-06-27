@@ -1,3 +1,21 @@
+# Environment variables — NEVER commit real credentials
+.env
+.env.local
+.env.*.local
+
+# Playwright visual regression — snapshots, reports, and test artifacts
+playwright-snapshots/
+playwright-report/
+test-results/
+
+# Lighthouse reports
+lighthouse-reports/
+lighthouse-report*.html
+lighthouse-report*.json
+
+# Bundle visualizer
+stats.html
+
 # Logs
 logs
 *.log

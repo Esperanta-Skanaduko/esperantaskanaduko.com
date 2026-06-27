@@ -4,6 +4,8 @@ import {
   signInWithEmailAndPassword,
   signOut,
   onAuthStateChanged,
+  signInWithPopup,
+  GoogleAuthProvider,
   User,
   Auth,
   UserCredential,
@@ -73,6 +75,35 @@ export const resetPassword = async (email: string): Promise<void> => {
  */
 export const onAuthChange = (callback: (user: User | null) => void) => {
   return onAuthStateChanged(auth, callback);
+};
+
+// ─── Google Sign-In ──────────────────────────────────────────────────────────
+
+/**
+ * Singleton Google auth provider.
+ * Requests profile and email scopes (included by default).
+ */
+const googleProvider = new GoogleAuthProvider();
+
+/**
+ * Sign in with Google via a browser popup.
+ *
+ * Suitable for web SPA flows. On mobile or restricted environments consider
+ * `signInWithRedirect` instead — both accept the same provider instance.
+ *
+ * @returns Promise<UserCredential> — resolved after the user selects an account
+ * @throws FirebaseError — e.g. auth/popup-closed-by-user if user dismisses
+ *
+ * @example
+ * try {
+ *   const credential = await signInWithGoogle();
+ *   const user = credential.user;
+ * } catch (err) {
+ *   if (err.code !== 'auth/popup-closed-by-user') throw err;
+ * }
+ */
+export const signInWithGoogle = async (): Promise<UserCredential> => {
+  return await signInWithPopup(auth, googleProvider);
 };
 
 export type { User, UserCredential };

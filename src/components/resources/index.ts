@@ -20,5 +20,8 @@ export { OrganizationCard } from './OrganizationCard';
 export { MusicCard } from './MusicCard';
 export { GrammarGuideCard } from './GrammarGuideCard';
 
+// Loading skeletons
+export { ResourceCardSkeleton } from './ResourceCardSkeleton';
+
 // Re-export types for convenience
 export type { Resource, ResourceCategory } from '../../data/types';

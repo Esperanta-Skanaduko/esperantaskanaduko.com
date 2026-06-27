@@ -6,13 +6,14 @@ import {
   signOutUser,
   onAuthChange,
   resetPassword,
+  signInWithGoogle as firebaseSignInWithGoogle,
 } from '../backend/firebase/auth';
 
 /**
  * Authentication Context Interface
  * Provides user authentication state and functions
  */
-interface AuthContextType {
+export interface AuthContextType {
   /** Current authenticated user */
   currentUser: User | null;
   /** Loading state during initial auth check */
@@ -27,6 +28,8 @@ interface AuthContextType {
   logOut: () => Promise<void>;
   /** Send a password reset email */
   sendPasswordReset: (email: string) => Promise<void>;
+  /** Sign in with Google (popup) */
+  signInWithGoogle: () => Promise<void>;
   /** Refresh user data */
   refreshUser: () => Promise<void>;
 }
@@ -140,6 +143,22 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
   }, []);
 
   /**
+   * Sign in with Google via popup
+   * @throws FirebaseError — e.g. auth/popup-closed-by-user
+   */
+  const signInWithGoogle = useCallback(async (): Promise<void> => {
+    try {
+      await firebaseSignInWithGoogle();
+    } catch (error) {
+      if (process.env.NODE_ENV === 'development') {
+        // eslint-disable-next-line no-console
+        console.error('Google sign-in error:', error);
+      }
+      throw error;
+    }
+  }, []);
+
+  /**
    * Refresh current user data
    */
   const refreshUser = useCallback(async (): Promise<void> => {
@@ -178,6 +197,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     logIn,
     logOut,
     sendPasswordReset,
+    signInWithGoogle,
     refreshUser,
   };
 
