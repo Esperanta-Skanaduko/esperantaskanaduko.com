@@ -50,7 +50,6 @@ import { ErrorBoundary } from '../components/ErrorBoundary';
 describe('ErrorBoundary', () => {
   // Suppress console.error for the intentional throw
   beforeEach(() => {
-    // eslint-disable-next-line no-console
     jest.spyOn(console, 'error').mockImplementation(() => {});
   });
   afterEach(() => {
