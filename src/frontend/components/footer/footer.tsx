@@ -93,10 +93,10 @@ const Footer = () => {
               '&:hover': { color: '#00ff00' },
             }}
           >
-            <Typography sx={{ fontWeight: 500, marginBottom: '0.25rem' }}>
+            <Typography sx={{ fontWeight: 500, marginBottom: '0.25rem', color: 'inherit' }}>
               {t('footer.projects.esperantoAnalyzer.title')}
             </Typography>
-            <Typography sx={{ fontSize: '0.85rem', fontStyle: 'italic' }}>
+            <Typography sx={{ fontSize: '0.85rem', fontStyle: 'italic', color: 'inherit' }}>
               {t('footer.projects.esperantoAnalyzer.description')}
             </Typography>
           </Link>
